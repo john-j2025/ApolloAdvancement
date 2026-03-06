@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Apollo Advancement">
+    <meta property="og:title" content="Fundraising Audit & Strategic Plan | Apollo Advancement">
+    <meta property="og:description" content="A clear-eyed assessment of your nonprofit's fundraising program - followed by an honest strategic plan your team can actually follow. Apollo Advancement serves Canada and the US.">
+    <meta property="og:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://apolloadvancement.com/fundraising-audit/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fundraising Audit & Strategic Plan | Apollo Advancement">
+    <meta name="twitter:description" content="A clear-eyed assessment of your nonprofit's fundraising program - followed by an honest strategic plan your team can actually follow. Apollo Advancement serves Canada and the US.">
+    <meta name="twitter:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
+    <meta name="description" content="A clear-eyed assessment of your nonprofit's fundraising program - followed by an honest strategic plan your team can actually follow. Apollo Advancement serves Canada and the US.">
+    <title>Fundraising Audit & Strategic Plan | Apollo Advancement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet"></noscript>
+    <style>
+        :root {
+            --color-bg: #FFFAF5;
+            --color-bg-warm: #F5EBE0;
+            --color-bg-dark: #1A1410;
+            --color-text: #1A1410;
+            --color-text-soft: #5C514A;
+            --color-accent: #C8461C;
+            --color-accent-hover: #A83610;
+            --color-accent-glow: #E86E3A;
+            --color-rule: #DDD2C6;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body: 'DM Sans', -apple-system, sans-serif;
+            --max-width: 1280px;
+            --content-width: 760px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 18px; scroll-behavior: smooth; }
+        body { font-family: var(--font-body); background-color: var(--color-bg); color: var(--color-text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+        /* NAV */
+        nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: transparent; backdrop-filter: blur(0px); -webkit-backdrop-filter: blur(0px); border-bottom: 1px solid transparent; transition: background 0.4s, border-color 0.3s, box-shadow 0.3s, backdrop-filter 0.4s; }
+        nav.scrolled { background: rgba(255,250,245,0.95); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom-color: var(--color-rule); box-shadow: 0 1px 20px rgba(26,20,16,0.04); }
+        nav.scrolled .nav-brand { color: var(--color-text); }
+        nav.scrolled .nav-links a { color: var(--color-text-soft); }
+        .nav-inner { max-width: var(--max-width); margin: 0 auto; padding: 1.4rem 2.5rem; display: flex; align-items: center; justify-content: space-between; }
+        .nav-brand { font-family: var(--font-display); font-size: 1.15rem; font-weight: 900; color: #fff; text-decoration: none; letter-spacing: -0.01em; }
+        .nav-brand span { color: var(--color-accent-glow); }
+        .nav-links { list-style: none; display: flex; align-items: center; gap: 2.5rem; }
+        .nav-links a { font-size: 0.78rem; font-weight: 600; color: rgba(255,255,255,0.7); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+        .nav-links a:hover, .nav-links a.active { color: #fff; }
+        .nav-cta { background: var(--color-accent) !important; color: #fff !important; padding: 0.55rem 1.4rem !important; border-radius: 3px; transition: background 0.2s !important; }
+        .nav-cta:hover { background: var(--color-accent-hover) !important; }
+        nav.scrolled .nav-brand { color: var(--color-text); }
+        nav.scrolled .nav-brand span { color: var(--color-accent); }
+        nav.scrolled .nav-links a { color: var(--color-text-soft); }
+        nav.scrolled .nav-links a:hover, nav.scrolled .nav-links a.active { color: var(--color-text); }
+        .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 4px; }
+        .nav-toggle span { display: block; width: 24px; height: 2px; background: #fff; margin: 5px 0; transition: all 0.3s; }
+        nav.scrolled .nav-toggle span { background: var(--color-text); }
+
+        /* PAGE HEADER */
+        .page-header { background: var(--color-bg-dark); padding: 9rem 2.5rem 5rem; text-align: left; }
+        .page-header-inner { max-width: var(--content-width); margin: 0 auto; }
+        .page-header .service-num { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent-glow); margin-bottom: 1.2rem; opacity: 0; animation: fadeUp 0.5s ease 0.1s forwards; }
+        .page-header h1 { font-family: var(--font-display); font-size: clamp(2.6rem, 6vw, 4rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; color: #fff; margin-bottom: 1.4rem; opacity: 0; animation: fadeUp 0.6s ease 0.2s forwards; }
+        .page-header .hero-sub { font-size: 1.15rem; color: rgba(255,255,255,0.72); line-height: 1.6; max-width: 600px; margin-bottom: 2.2rem; opacity: 0; animation: fadeUp 0.6s ease 0.35s forwards; }
+        .hero-cta-row { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; opacity: 0; animation: fadeUp 0.6s ease 0.45s forwards; }
+        .cta-btn { display: inline-block; font-size: 0.88rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--color-accent); padding: 1.1rem 2.8rem; text-decoration: none; border-radius: 3px; transition: background 0.25s, transform 0.2s, box-shadow 0.25s; }
+        .cta-btn:hover { background: var(--color-accent-hover); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(200,70,28,0.28); }
+        .hero-phone { font-size: 0.9rem; color: rgba(255,255,255,0.6); }
+        .hero-phone a { color: rgba(255,255,255,0.85); text-decoration: none; font-weight: 600; }
+        .hero-phone a:hover { color: #fff; }
+
+        /* CONTENT SECTIONS */
+        .content-section { padding: 5rem 2.5rem; }
+        .content-inner { max-width: var(--content-width); margin: 0 auto; }
+        .section-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 1.2rem; }
+        .content-section h2 { font-family: var(--font-display); font-size: clamp(1.6rem, 3.5vw, 2.2rem); font-weight: 800; color: var(--color-text); margin-bottom: 1.5rem; line-height: 1.2; }
+        .content-section p { font-size: 1.05rem; line-height: 1.8; color: var(--color-text-soft); margin-bottom: 1.4rem; max-width: var(--content-width); }
+        .content-section p:last-child { margin-bottom: 0; }
+        .content-section p strong { color: var(--color-text); font-weight: 600; }
+
+        /* MID-PAGE CTA BAR */
+        .cta-bar { background: var(--color-accent); padding: 3.5rem 2.5rem; text-align: center; }
+        .cta-bar h2 { font-family: var(--font-display); font-size: clamp(1.4rem, 3vw, 1.9rem); font-weight: 800; color: #fff; margin-bottom: 1.2rem; }
+        .cta-bar-actions { display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; }
+        .cta-bar .cta-btn { background: #fff; color: var(--color-accent); }
+        .cta-bar .cta-btn:hover { background: rgba(255,255,255,0.9); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.15); }
+        .cta-bar-phone { font-size: 1rem; color: rgba(255,255,255,0.85); }
+        .cta-bar-phone a { color: #fff; text-decoration: none; font-weight: 700; font-size: 1.1rem; }
+        .cta-bar-phone a:hover { text-decoration: underline; }
+
+        /* QUOTE PULLOUT */
+        .quote-section { padding: 5rem 2.5rem; background: var(--color-bg-dark); }
+        .quote-inner { max-width: var(--content-width); margin: 0 auto; }
+        .quote-section blockquote { font-family: var(--font-display); font-size: clamp(1.2rem, 2.5vw, 1.6rem); font-style: italic; font-weight: 700; color: #fff; line-height: 1.5; margin-bottom: 1.2rem; }
+        .quote-section cite { font-size: 0.85rem; color: var(--color-accent-glow); font-style: normal; font-weight: 600; letter-spacing: 0.04em; }
+
+        /* CONTACT FORM SECTION */
+        .form-section { padding: 5rem 2.5rem; }
+        .form-section-inner { max-width: var(--content-width); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+        .form-info h2 { font-family: var(--font-display); font-size: clamp(1.6rem, 3vw, 2.1rem); font-weight: 800; color: var(--color-text); margin-bottom: 1.2rem; }
+        .form-info p { font-size: 1rem; color: var(--color-text-soft); line-height: 1.75; margin-bottom: 1.5rem; }
+        .contact-detail { margin-bottom: 1rem; }
+        .contact-detail-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.25rem; }
+        .contact-detail-value { font-size: 1rem; color: var(--color-text); }
+        .contact-detail-value a { color: var(--color-text); text-decoration: none; font-weight: 600; }
+        .contact-detail-value a:hover { color: var(--color-accent); }
+        .form-box h3 { font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; color: var(--color-text); margin-bottom: 1.5rem; }
+        .form-group { margin-bottom: 1.3rem; }
+        .form-group label { display: block; font-size: 0.82rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.4rem; }
+        .form-group input, .form-group textarea { width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--color-rule); border-radius: 4px; font-family: var(--font-body); font-size: 0.95rem; background: var(--color-bg); color: var(--color-text); transition: border-color 0.2s; }
+        .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--color-accent); }
+        .form-group textarea { min-height: 110px; resize: vertical; }
+        .form-submit { display: inline-block; font-size: 0.88rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--color-accent); padding: 0.95rem 2.5rem; border: none; border-radius: 3px; cursor: pointer; transition: background 0.25s; }
+        .form-submit:hover { background: var(--color-accent-hover); }
+        .form-note { font-size: 0.82rem; color: var(--color-text-soft); margin-top: 0.8rem; }
+
+        /* BACK LINK */
+        .back-bar { padding: 1.5rem 2.5rem; border-bottom: 1px solid var(--color-rule); }
+        .back-bar-inner { max-width: var(--max-width); margin: 0 auto; }
+        .back-link { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--color-text-soft); text-decoration: none; }
+        .back-link:hover { color: var(--color-accent); }
+
+        /* FOOTER */
+        footer { background: var(--color-bg-dark); padding: 3rem 2.5rem; }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+        .footer-brand { font-family: var(--font-display); font-size: 1rem; font-weight: 900; color: #fff; }
+        .footer-links { list-style: none; display: flex; gap: 2rem; flex-wrap: wrap; }
+        .footer-links a { font-size: 0.78rem; font-weight: 600; color: rgba(255,255,255,0.55); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+        .footer-links a:hover { color: #fff; }
+        .footer-copy { font-size: 0.78rem; color: rgba(255,255,255,0.35); width: 100%; margin-top: 0.5rem; }
+
+
+        /* FAQ */
+        .faq-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-rule); }
+        .faq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .faq-q { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; color: var(--color-text); margin-bottom: 0.6rem; line-height: 1.3; }
+        .faq-a { font-size: 1rem; line-height: 1.8; color: var(--color-text-soft); margin: 0; }
+
+        /* ANIMATIONS */
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+        .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+            .form-section-inner { grid-template-columns: 1fr; gap: 3rem; }
+            .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: var(--color-bg); padding: 1.5rem 2.5rem; border-bottom: 1px solid var(--color-rule); gap: 1.2rem; }
+            .nav-links.open { display: flex; }
+            .nav-links a { color: var(--color-text-soft); }
+            .nav-toggle { display: block; }
+        }
+        @media (max-width: 600px) {
+            .page-header { padding: 7rem 1.5rem 3.5rem; }
+            .content-section { padding: 3.5rem 1.5rem; }
+            .cta-bar { padding: 2.5rem 1.5rem; }
+            .form-section { padding: 3.5rem 1.5rem; }
+            .back-bar { padding: 1.2rem 1.5rem; }
+            .hero-cta-row { flex-direction: column; align-items: flex-start; gap: 1rem; }
+            .cta-bar-actions { flex-direction: column; gap: 1rem; }
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DS2DG3WFX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6DS2DG3WFX');
+    </script>
+    <link rel="canonical" href="https://apolloadvancement.com/fundraising-audit/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Fundraising Audit & Strategic Plan",
+      "provider": {
+        "@type": "Person",
+        "name": "John Jalsevac",
+        "url": "https://apolloadvancement.com/"
+      },
+      "serviceType": "Fundraising Consulting",
+      "description": "A comprehensive review of your nonprofit's fundraising program - donor base, communications, systems, and untapped potential - followed by a written strategic plan with clear priorities.",
+      "areaServed": ["Canada", "United States"],
+      "url": "https://apolloadvancement.com/fundraising-audit/"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a nonprofit fundraising audit include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A nonprofit fundraising audit reviews every dimension of your development program: donor database health and segmentation, giving trends and lapse rates, current communications and their effectiveness, annual fund structure, board and volunteer engagement, major gift activity and pipeline, campaign history, and your overall case for support. The audit identifies what's working, what isn't, and what's missing entirely."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a fundraising audit take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A typical fundraising audit takes four to eight weeks from initial data gathering to delivery of the final strategic plan. The timeline depends on the size and complexity of your organization's fundraising program and how quickly key stakeholders can participate in interviews and review sessions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between a fundraising audit and a strategic plan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fundraising audit is the diagnostic process: examining what you have and assessing its health. A strategic development plan is the prescription: what to do next, in what order, and why. Together, they give you both an honest picture of your current program and a realistic roadmap for improving it. The audit informs the plan - you can't build a good strategy without first understanding the foundation you're building on."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should a nonprofit do a fundraising audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most common triggers for a fundraising audit are: fundraising revenue that has plateaued or declined, an executive director transition, a board that wants to professionalize the development function, or an organization preparing for a major campaign. It's also valuable when leadership suspects there's untapped potential in the donor base but isn't sure where to find it."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav id="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-brand">Apollo <span>Advancement</span></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html" class="nav-cta">Start a Conversation</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<header class="page-header">
+    <div class="page-header-inner">
+        <p class="service-num">Service 02</p>
+        <h1>Fundraising Audit &amp; Strategic Plan</h1>
+        <p class="hero-sub">An honest picture of where you stand - and a clear roadmap to where you want to go.</p>
+        <div class="hero-cta-row">
+            <a href="#contact-form" class="cta-btn">Book an Audit →</a>
+            <span class="hero-phone">Or call directly: <a href="tel:+17053131588">(705) 313-1588</a></span>
+        </div>
+    </div>
+</header>
+
+<!-- BACK LINK -->
+<div class="back-bar">
+    <div class="back-bar-inner">
+        <a href="services.html" class="back-link">← All Services</a>
+    </div>
+</div>
+
+<!-- CONTENT SECTIONS -->
+
+<section class="content-section reveal">
+<div class="content-inner">
+    <p class="section-label">What It Is</p>
+    <h2>Start with the truth.</h2>
+    <p>Before you can build a better fundraising program, you need an honest picture of the one you have. The Fundraising Audit is a comprehensive review of your donor base, your communications, your systems, your board engagement, and your untapped potential - followed by a written strategic plan with clear priorities and a roadmap your team can actually follow.</p>
+        <p>This isn't a report full of generic best practices. It's a frank, specific assessment of your organization - what's working, what isn't, and what to do next. Every recommendation is grounded in your actual situation, your actual donors, and your actual capacity.</p>
+</div>
+</section>
+
+<section class="content-section reveal" style="background:var(--color-bg-warm);">
+<div class="content-inner">
+    <p class="section-label">What We Review</p>
+    <h2>A comprehensive look at every dimension of your program.</h2>
+    <p>The audit covers: your donor database (size, health, segmentation, lapse rate), giving history and trends, current communications and their effectiveness, annual fund structure and results, board and volunteer engagement in fundraising, major gift activity and pipeline, campaign history, and your overall case for support.</p>
+        <p>We also look at what's missing entirely - the elements of a healthy fundraising program that your organization hasn't yet built. Most organizations are surprised by what they find when they look at their program this way.</p>
+</div>
+</section>
+
+<section class="content-section reveal">
+<div class="content-inner">
+    <p class="section-label">What You Get</p>
+    <h2>A written plan with honest priorities.</h2>
+    <p>At the end of the engagement, you receive a written strategic development plan covering a twelve-to-twenty-four month horizon. It includes a candid assessment of your current program, specific recommendations organized by priority, a realistic implementation timeline, and revenue projections tied to the recommended changes.</p>
+        <p>The audit is often the starting point for a longer engagement. But even as a standalone project, it gives your leadership team the clarity and direction to move forward with confidence - whether you work with me or build the program yourselves.</p>
+</div>
+</section>
+
+
+<!-- MID-PAGE CTA BAR -->
+<div class="cta-bar">
+    <h2>Ready to talk about your organization?</h2>
+    <div class="cta-bar-actions">
+        <a href="#contact-form" class="cta-btn">Send a Message →</a>
+        <span class="cta-bar-phone">Or call: <a href="tel:+17053131588">(705) 313-1588</a></span>
+    </div>
+</div>
+
+<!-- QUOTE -->
+<section class="quote-section">
+    <div class="quote-inner">
+        <blockquote>"For a small organization with limited resources, having someone who could think strategically and also execute was invaluable."</blockquote>
+        <cite>- Frank Callaghan, Former Board Chair, Wayside Academy</cite>
+    </div>
+</section>
+
+
+<!-- FAQ SECTION -->
+<section class="content-section reveal">
+<div class="content-inner">
+    <p class="section-label">Common Questions</p>
+    <h2>Frequently asked questions.</h2>
+
+    <div class="faq-item">
+        <h3 class="faq-q">What does a nonprofit fundraising audit include?</h3>
+        <p class="faq-a">A fundraising audit reviews every dimension of your development program: donor database health and segmentation, giving trends and lapse rates, current communications and their effectiveness, annual fund structure, board and volunteer engagement, major gift activity and pipeline, campaign history, and your overall case for support. The goal is to identify what's working, what isn't, and what's missing entirely.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3 class="faq-q">How long does a fundraising audit take?</h3>
+        <p class="faq-a">A typical audit takes four to eight weeks from initial data gathering to delivery of the final strategic plan - depending on the size and complexity of your program and how quickly stakeholders can participate in interviews and review sessions.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3 class="faq-q">What's the difference between a fundraising audit and a strategic plan?</h3>
+        <p class="faq-a">The audit is the diagnostic: examining what you have and assessing its health. The strategic plan is the prescription: what to do next, in what order, and why. Together they give you an honest picture of your current program and a realistic roadmap for improving it. You can't build a good strategy without first understanding the foundation you're building on.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3 class="faq-q">When should a nonprofit do a fundraising audit?</h3>
+        <p class="faq-a">The most common triggers are: fundraising revenue that has plateaued or declined, an executive director transition, a board that wants to professionalize the development function, or preparation for a major campaign. It's also valuable when leadership suspects there's untapped potential in the donor base but isn't sure where to find it.</p>
+    </div>
+</div>
+</section>
+
+<!-- CONTACT FORM -->
+<section class="form-section" id="contact-form">
+    <div class="form-section-inner">
+        <div class="form-info reveal">
+            <h2>Let's start a conversation.</h2>
+            <p>Every engagement begins the same way: with an honest discussion about your organization, your mission, and where you want to go. No pitch. No obligation.</p>
+            <div class="contact-detail">
+                <p class="contact-detail-label">Phone</p>
+                <p class="contact-detail-value"><a href="tel:+17053131588">(705) 313-1588</a></p>
+            </div>
+            <div class="contact-detail">
+                <p class="contact-detail-label">Email</p>
+                <p class="contact-detail-value"><a href="mailto:john@apolloadvancement.com">john@apolloadvancement.com</a></p>
+            </div>
+            <div class="contact-detail">
+                <p class="contact-detail-label">Location</p>
+                <p class="contact-detail-value">Kawartha Lakes, Ontario - Serving non-profits across Canada and the United States</p>
+            </div>
+        </div>
+        <div class="form-box reveal">
+            <h3>Send a Message</h3>
+            <form name="contact-audit" method="POST" netlify netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact-audit">
+                <input type="hidden" name="subject" value="Fundraising Audit Inquiry">
+                <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
+                <div class="form-group"><label for="name">Your Name</label><input type="text" id="name" name="name" required></div>
+                <div class="form-group"><label for="org">Organization</label><input type="text" id="org" name="organization"></div>
+                <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" required></div>
+                <div class="form-group"><label for="message">How can I help?</label><textarea id="message" name="message" required></textarea></div>
+                <button type="submit" class="form-submit">Send Message</button>
+                <p class="form-note">I'll get back to you within one business day.</p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand">Apollo Advancement</div>
+        <ul class="footer-links">
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="footer-copy">&copy; 2026 Apollo Advancement. Kawartha Lakes, Ontario. Serving non-profits across Canada and the United States.</p>
+    </div>
+</footer>
+
+<script>
+    // Nav scroll effect
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+        nav.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Mobile nav toggle
+    document.getElementById('navToggle').addEventListener('click', function() {
+        document.getElementById('navLinks').classList.toggle('open');
+        this.classList.toggle('open');
+    });
+
+    // Reveal on scroll
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

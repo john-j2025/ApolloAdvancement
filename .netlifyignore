@@ -1,0 +1,27 @@
+# Unused/source images — not needed in deployment
+unused-images/
+
+# Preview/backup files
+og-image-preview.jpg
+
+# Social media assets — not part of the website
+facebook-cover.jpg
+facebook-checklist-post.jpg
+facebook-profile.jpg
+facebook-profile-logo.png
+linkedin-cover.jpg
+linkedin-profile.jpg
+logo-text.jpg
+
+# Local dev tools
+preview.command
+
+# Font files — local use only (site uses Google Fonts CDN)
+PlayfairDisplay-Black.ttf
+PlayfairDisplay-BlackItalic.ttf
+PlayfairDisplay-BoldItalic.ttf
+DMSans-Bold.ttf
+DMSans-Regular.ttf
+
+# High-res favicon source (not needed in deploy)
+favicon-512.png

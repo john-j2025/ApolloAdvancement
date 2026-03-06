@@ -1,0 +1,14 @@
+# Netlify redirects
+
+# Canonical redirects: .html → pretty URLs (prevents duplicate content)
+/about.html        /about/     301!
+/services.html     /services/  301!
+/results.html      /results/   301!
+/resources.html    /resources/ 301!
+/contact.html      /contact/   301!
+/fractional-development-leadership.html    /fractional-development-leadership/    301!
+/fundraising-audit.html                    /fundraising-audit/                    301!
+/campaign-development.html                 /campaign-development/                 301!
+/board-staff-training.html                 /board-staff-training/                 301!
+/content-communications-strategy.html      /content-communications-strategy/      301!
+/website-strategy-seo.html                 /website-strategy-seo/                 301!

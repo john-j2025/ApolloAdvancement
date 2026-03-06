@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Apollo Advancement">
+    <meta property="og:title" content="Apollo Advancement | Fundraising Consulting for Nonprofits">
+    <meta property="og:description" content="John Jalsevac helps arts organizations, schools, and community nonprofits raise more money through strategic fundraising, donor development, and compelling storytelling.">
+    <meta property="og:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://apolloadvancement.com/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Apollo Advancement | Fundraising Consulting for Nonprofits">
+    <meta name="twitter:description" content="John Jalsevac helps arts organizations, schools, and community nonprofits raise more money through strategic fundraising, donor development, and compelling storytelling.">
+    <meta name="twitter:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
+    <meta name="description" content="John Jalsevac helps arts organizations, schools, and community nonprofits raise more money through strategic fundraising, donor development, and compelling storytelling.">
+    <title>Apollo Advancement | Fundraising for Humans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet"></noscript>
+    <style>
+        :root {
+            --color-bg: #FFFAF5;
+            --color-bg-warm: #F5EBE0;
+            --color-bg-dark: #1A1410;
+            --color-text: #1A1410;
+            --color-text-soft: #5C514A;
+            --color-accent: #C8461C;
+            --color-accent-hover: #A83610;
+            --color-accent-glow: #E86E3A;
+            --color-rule: #DDD2C6;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body: 'DM Sans', -apple-system, sans-serif;
+            --max-width: 1280px;
+            --content-width: 920px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 18px; scroll-behavior: smooth; }
+        body { font-family: var(--font-body); background-color: var(--color-bg); color: var(--color-text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+        /* NAV */
+        nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: transparent; backdrop-filter: blur(0px); -webkit-backdrop-filter: blur(0px); border-bottom: 1px solid transparent; transition: background 0.4s, border-color 0.3s, box-shadow 0.3s, backdrop-filter 0.4s; }
+        nav.scrolled { background: rgba(255,250,245,0.95); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom-color: var(--color-rule); box-shadow: 0 1px 20px rgba(26,20,16,0.04); }
+        nav.scrolled .nav-brand { color: var(--color-text); }
+        nav.scrolled .nav-links a { color: var(--color-text-soft); }
+        nav.scrolled .nav-links a:hover { color: var(--color-text); }
+        .nav-inner { max-width: var(--max-width); margin: 0 auto; padding: 1.1rem 2.5rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-brand { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: #fff; text-decoration: none; }
+        .nav-brand span { color: var(--color-accent); }
+        .nav-links { display: flex; gap: 2.5rem; align-items: center; list-style: none; }
+        .nav-links a { font-size: 0.78rem; font-weight: 600; color: rgba(255,255,255,0.7); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+        .nav-links a:hover { color: #fff; }
+        .nav-links a:hover { color: var(--color-accent); }
+        .nav-links .nav-cta { color: #fff; background: var(--color-accent); padding: 0.6rem 1.4rem; border-radius: 3px; transition: background 0.2s; }
+        .nav-links .nav-cta:hover { background: var(--color-accent-hover); color: #fff; }
+        .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; }
+        .nav-toggle span { display: block; width: 26px; height: 2px; background: #fff; margin: 6px 0; transition: all 0.3s; }
+        nav.scrolled .nav-toggle span { background: var(--color-text); }
+
+        /* HERO */
+        .hero { min-height: 100vh; display: flex; align-items: center; padding: 8rem 2.5rem 5rem; position: relative; overflow: hidden; background: #1C1814 url('hero-bg.webp') center center / cover no-repeat; }
+        .hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient(to right, rgba(28,24,20,0.95) 0%, rgba(28,24,20,0.88) 25%, rgba(28,24,20,0.55) 45%, rgba(28,24,20,0.15) 65%, transparent 80%); z-index: 0; }
+        .hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(28,24,20,0.6) 0%, transparent 25%); z-index: 0; pointer-events: none; }
+        .hero-inner { max-width: var(--max-width); margin: 0 auto; width: 100%; position: relative; z-index: 1; }
+        .hero-label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 1.8rem; opacity: 0; animation: fadeUp 0.6s ease 0.1s forwards; }
+        .hero-headline { font-family: var(--font-display); font-size: clamp(4rem, 10vw, 8rem); font-weight: 900; line-height: 1.08; letter-spacing: -0.03em; color: #fff; margin-bottom: 2.2rem; opacity: 0; animation: fadeUp 0.7s ease 0.2s forwards; max-width: 700px; }
+        .hero-headline em { font-style: italic; color: var(--color-accent-glow); display: block; white-space: nowrap; }
+        .hero-value { font-size: clamp(1.1rem, 2vw, 1.35rem); font-weight: 400; line-height: 1.65; color: rgba(255,255,255,0.8); max-width: 580px; margin-bottom: 3rem; opacity: 0; animation: fadeUp 0.7s ease 0.35s forwards; }
+        .hero-value strong { color: #fff; font-weight: 600; }
+        .hero-cta { display: inline-block; font-size: 0.88rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--color-accent); padding: 1.1rem 3rem; text-decoration: none; border-radius: 3px; transition: background 0.25s, transform 0.2s, box-shadow 0.25s; opacity: 0; animation: fadeUp 0.7s ease 0.5s forwards; }
+        .hero-cta:hover { background: var(--color-accent-hover); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(200,70,28,0.28); }
+
+        /* TRUST */
+        .trust { border-top: 1px solid var(--color-rule); border-bottom: 1px solid var(--color-rule); padding: 2rem 2.5rem; }
+        .trust-inner { max-width: var(--max-width); margin: 0 auto; display: flex; align-items: center; justify-content: center; gap: 2.5rem; flex-wrap: wrap; }
+        .trust-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-text-soft); }
+        .trust-sep { color: var(--color-rule); font-size: 1.2rem; }
+        .trust-client { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--color-text); }
+        .trust-logo { height: 44px; width: auto; opacity: 0.55; filter: grayscale(100%); transition: opacity 0.3s, filter 0.3s; }
+        .trust-logo:hover { opacity: 1; filter: grayscale(0%); }
+        .trust-logo { height: 44px; width: auto; opacity: 0.55; filter: grayscale(100%); transition: opacity 0.3s, filter 0.3s; }
+        .trust-logo:hover { opacity: 1; filter: grayscale(0%); }
+
+        /* SECTIONS (compact) */
+        section { padding: 6rem 2.5rem; }
+        .section-warm { background: var(--color-bg-warm); }
+        .section-inner { max-width: var(--content-width); margin: 0 auto; }
+        .section-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 1.5rem; }
+        .section-headline { font-family: var(--font-display); font-size: clamp(2.8rem, 6vw, 4.5rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; color: var(--color-text); margin-bottom: 1.5rem; }
+        .section-body { font-size: 1.1rem; color: var(--color-text-soft); line-height: 1.75; max-width: 720px; }
+        .section-body strong { color: var(--color-text); font-weight: 600; }
+
+        /* SIGNATURE */
+        .signature-line { font-family: var(--font-display); font-size: 1.4rem; font-weight: 700; font-style: italic; color: var(--color-text); margin-top: 2rem; padding-top: 2rem; border-top: 3px solid var(--color-accent); line-height: 1.4; max-width: 720px; }
+
+        /* SECTION CTA */
+        .section-cta { display: inline-block; margin-top: 2rem; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent); text-decoration: none; padding-bottom: 3px; border-bottom: 2px solid var(--color-accent); transition: color 0.2s, border-color 0.2s; }
+        .section-cta:hover { color: var(--color-accent-hover); border-color: var(--color-accent-hover); }
+
+        /* SERVICES GRID */
+        .services-preview { padding: 6rem 2.5rem; }
+        .services-preview-inner { max-width: var(--max-width); margin: 0 auto; }
+        .services-preview-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3.5rem; flex-wrap: wrap; gap: 1rem; }
+        .services-preview-headline { font-family: var(--font-display); font-size: clamp(2.4rem, 5vw, 3.5rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; color: var(--color-text); }
+        .services-preview-link { font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent); text-decoration: none; padding-bottom: 3px; border-bottom: 2px solid var(--color-accent); transition: color 0.2s, border-color 0.2s; white-space: nowrap; }
+        .services-preview-link:hover { color: var(--color-accent-hover); border-color: var(--color-accent-hover); }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1px;
+            background: var(--color-rule);
+            border: 1px solid var(--color-rule);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .service-card {
+            background: var(--color-bg);
+            padding: 2.5rem;
+            transition: background 0.2s;
+        }
+        .service-card:hover { background: var(--color-bg-warm); }
+        .service-card-number { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 1rem; }
+        .service-card-title { font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; color: var(--color-text); margin-bottom: 0.8rem; line-height: 1.25; }
+        .service-card-desc { font-size: 0.92rem; color: var(--color-text-soft); line-height: 1.7; }
+        .card-cta { display: inline-block; margin-top: 1rem; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent); text-decoration: none; transition: color 0.2s; }
+        .card-cta:hover { color: var(--color-accent-hover); }
+
+        /* ABOUT STRIP */
+        .about-strip { padding: 6rem 2.5rem; border-top: 1px solid var(--color-rule); border-bottom: 1px solid var(--color-rule); }
+        .about-strip-inner { max-width: var(--max-width); margin: 0 auto; display: grid; grid-template-columns: 300px 1fr; gap: 4rem; align-items: center; }
+        .about-photo { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: center top; border-radius: 4px; }
+        .about-name { font-family: var(--font-display); font-size: 2.2rem; font-weight: 900; color: var(--color-text); margin-bottom: 0.3rem; }
+        .about-title { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 1.5rem; }
+        .about-bio { font-size: 1.05rem; color: var(--color-text-soft); line-height: 1.85; margin-bottom: 1.2rem; }
+        .about-link { display: inline-block; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent); text-decoration: none; padding-bottom: 3px; border-bottom: 2px solid var(--color-accent); transition: color 0.2s, border-color 0.2s; }
+        .about-link:hover { color: var(--color-accent-hover); border-color: var(--color-accent-hover); }
+        .about-cta-btn { display: inline-block; margin-left: 1.5rem; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--color-accent); padding: 0.75rem 2rem; text-decoration: none; border-radius: 3px; transition: background 0.25s, transform 0.2s, box-shadow 0.25s; vertical-align: middle; }
+        .about-cta-btn:hover { background: var(--color-accent-hover); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(200,70,28,0.28); }
+
+        /* TESTIMONIAL */
+        .testimonial { padding: 6rem 2.5rem; background: var(--color-bg-dark); }
+        .testimonial-inner { max-width: var(--content-width); margin: 0 auto; }
+        .testimonial-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent-glow); margin-bottom: 2rem; }
+        .testimonial-quote { font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 400; font-style: italic; line-height: 1.55; color: rgba(255,255,255,0.92); margin-bottom: 2.5rem; padding-left: 2.5rem; border-left: 3px solid var(--color-accent); }
+        .testimonial-attribution { font-size: 0.9rem; font-weight: 600; color: var(--color-accent-glow); padding-left: 2.5rem; }
+        .testimonial-attribution span { display: block; font-weight: 400; color: rgba(255,255,255,0.45); margin-top: 0.2rem; }
+        .testimonial-cta { display: inline-block; margin-top: 2.5rem; padding-left: 2.5rem; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent-glow); text-decoration: none; padding-bottom: 3px; border-bottom: 2px solid var(--color-accent-glow); transition: color 0.2s, border-color 0.2s; }
+        .testimonial-cta:hover { color: #fff; border-color: #fff; }
+
+        /* CLOSING */
+        .closing { padding: 8rem 2.5rem; text-align: center; }
+        .closing-inner { max-width: 750px; margin: 0 auto; }
+        .closing-headline { font-family: var(--font-display); font-size: clamp(2.8rem, 6vw, 4.5rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; color: var(--color-text); margin-bottom: 1.5rem; }
+        .closing-body { font-size: 1.1rem; color: var(--color-text-soft); line-height: 1.8; margin-bottom: 2.8rem; }
+        .cta-btn { display: inline-block; font-size: 0.88rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--color-accent); padding: 1.1rem 3rem; text-decoration: none; border-radius: 3px; transition: background 0.25s, transform 0.2s, box-shadow 0.25s; }
+        .cta-btn:hover { background: var(--color-accent-hover); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(200,70,28,0.28); }
+
+        /* FOOTER */
+        footer { border-top: 1px solid var(--color-rule); padding: 2.5rem; }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        .footer-brand { font-family: var(--font-display); font-size: 1rem; font-weight: 600; color: var(--color-text-soft); }
+        .footer-links { display: flex; gap: 2rem; list-style: none; }
+        .footer-links a { font-size: 0.78rem; font-weight: 500; color: var(--color-text-soft); text-decoration: none; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--color-accent); }
+        .footer-copy { font-size: 0.72rem; color: var(--color-rule); width: 100%; text-align: center; margin-top: 1.5rem; }
+
+        /* ANIMATIONS */
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+        .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+            .about-strip-inner { grid-template-columns: 1fr; gap: 2.5rem; text-align: center; }
+            .about-photo { max-width: 260px; aspect-ratio: 1; object-position: center 15%; border-radius: 50%; margin: 0 auto; }
+            .about-cta-btn { margin-left: 0; margin-top: 1rem; display: inline-block; }
+        }
+        @media (max-width: 768px) {
+            html { font-size: 16px; }
+            .nav-inner { padding: 1rem 1.5rem; }
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--color-bg); border-bottom: 1px solid var(--color-rule); flex-direction: column; padding: 1.5rem; gap: 1.2rem; }
+            .nav-links.open { display: flex; }
+            .nav-links.open a { color: var(--color-text-soft) !important; }
+            .nav-links.open a:hover { color: var(--color-text) !important; }
+            .nav-toggle { display: block; }
+            .nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 6px); }
+            .nav-toggle.open span:nth-child(2) { opacity: 0; }
+            .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
+            .hero { min-height: 100vh; padding: 7rem 1.5rem 4rem; background-position: 65% center; }
+            .hero::before { background: rgba(28,24,20,0.82); }
+            .hero::after { background: linear-gradient(to top, rgba(28,24,20,0.9) 0%, transparent 50%); }
+            section { padding: 4.5rem 1.5rem; }
+            .services-preview { padding: 4.5rem 1.5rem; }
+            .services-grid { grid-template-columns: 1fr; }
+            .trust-inner { flex-direction: column; gap: 0.5rem; }
+            .trust-sep { display: none; }
+            .closing { padding: 5rem 1.5rem; }
+            .testimonial { padding: 4.5rem 1.5rem; }
+            .about-strip { padding: 4rem 1.5rem; }
+            .footer-inner { flex-direction: column; text-align: center; }
+            .footer-links { justify-content: center; }
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DS2DG3WFX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6DS2DG3WFX');
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["ProfessionalService", "LocalBusiness"],
+      "name": "Apollo Advancement",
+      "description": "Fundraising consulting for arts, education, and community nonprofits across Canada and the United States.",
+      "url": "https://apolloadvancement.com",
+      "logo": "https://apolloadvancement.com/og-image.jpg?v=4",
+      "image": "https://apolloadvancement.com/og-image.jpg?v=4",
+      "email": "john@apolloadvancement.com",
+      "telephone": "+17053131588",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Ontario",
+        "addressCountry": "CA",
+        "addressLocality": "Kawartha Lakes"
+      },
+      "areaServed": [
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Country", "name": "United States" }
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "John Jalsevac",
+        "jobTitle": "Fundraising Consultant",
+        "email": "john@apolloadvancement.com",
+        "telephone": "+17053131588",
+        "url": "https://apolloadvancement.com/about.html"
+      },
+      "sameAs": []
+    }
+    </script>
+    <link rel="canonical" href="https://apolloadvancement.com/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+</head>
+<body>
+
+    <nav id="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-brand">Apollo <span>Advancement</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html" class="nav-cta">Start a Conversation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-inner">
+            <p class="hero-label">Apollo Advancement</p>
+            <h1 class="hero-headline">Fundraising<br><em>for humans.</em></h1>
+            <p class="hero-value">I help arts, education, and community nonprofits <strong>raise more money</strong> for their mission - by telling stories, forging relationships, and empowering you and your staff with the tools you need to succeed.</p>
+            <a href="contact.html" class="hero-cta">Start a Conversation</a>
+        </div>
+    </header>
+
+    <!-- TRUST -->
+    <div class="trust">
+        <div class="trust-inner">
+            <span class="trust-label">Trusted by</span>
+            <img src="logo-wayside.png" alt="Our Lady of the Wayside Catholic School" class="trust-logo" style="height:58px;">
+            <img src="logo-peterborough-singers.png" alt="Peterborough Singers" class="trust-logo" style="height:36px;">
+            <img src="logo-bussey-ainsworth.png" alt="Bussey Ainsworth Barristers" class="trust-logo" style="height:60px;">
+        </div>
+    </div>
+
+    <!-- THE VISION -->
+    <section class="section-warm">
+        <div class="section-inner reveal">
+            <p class="section-label">The Vision</p>
+            <h2 class="section-headline">You have a dream that’s bigger than your budget.</h2>
+            <p class="section-body">The support is out there - people in your community who would give generously if they truly understood what you’re building and how it speaks directly to their deepest passions and interests. What you need is a fundraising program with the strength to match the scale of your dreams.</p>
+            <a href="contact.html" class="section-cta">Let’s Talk About Your Organization →</a>
+        </div>
+    </section>
+
+    <!-- THE APPROACH -->
+    <section>
+        <div class="section-inner reveal">
+            <p class="section-label">The Approach</p>
+            <h2 class="section-headline">A partner. Not a binder. Not a bot.</h2>
+            <p class="section-body">I embed with your team as a senior fundraising partner: part strategist, part builder, part storyteller. I design the development program, write the case for support, build the donor pipeline, and train your people to carry it forward. When I leave, you’re stronger than when I arrived.</p>
+            <a href="services.html" class="section-cta">See How We Work Together →</a>
+        </div>
+    </section>
+
+    <!-- THE DIFFERENCE -->
+    <section class="section-warm">
+        <div class="section-inner reveal">
+            <p class="section-label">The Difference</p>
+            <h2 class="section-headline">Every organization has a story. Most never learn to tell it.</h2>
+            <p class="section-body">Donors don’t give because an AI-powered CRM algorithm identified them as a promising prospect. They give because a real human being sat down with them and shared a story: a story of lives transformed, communities strengthened, wonder sparked, or beauty created and shared; and then (and this is the important part), invited the donor to participate in that story, as a partner.</p>
+            <p class="section-body" style="margin-top:1.2rem;">I’m a story-teller before I’m a consultant. My work begins with listening and finding the stories that connect your supporters with what you do, at the deepest level.</p>
+            <p class="signature-line">Fundraising built on relationships. Communications built on craft. Strategy built on the conviction that human beings still matter more than data points.</p>
+            <a href="results.html" class="section-cta">See the Results →</a>
+        </div>
+    </section>
+
+    <!-- SERVICES PREVIEW -->
+    <div class="services-preview reveal">
+        <div class="services-preview-inner">
+            <div class="services-preview-header">
+                <h2 class="services-preview-headline">How we work together.</h2>
+                <a href="services.html" class="services-preview-link">View All Services →</a>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <p class="service-card-number">01</p>
+                    <h3 class="service-card-title">Fractional Development Leadership</h3>
+                    <p class="service-card-desc">Senior fundraising leadership on a monthly retainer, without the cost of a full-time hire.</p>
+                    <a href="fractional-development-leadership.html" class="card-cta">Ask About Retainers →</a>
+                </div>
+                <div class="service-card">
+                    <p class="service-card-number">02</p>
+                    <h3 class="service-card-title">Fundraising Audit &amp; Strategic Plan</h3>
+                    <p class="service-card-desc">A clear-eyed assessment of where you stand, with an actionable roadmap to get where you’re going.</p>
+                    <a href="fundraising-audit.html" class="card-cta">Book an Audit →</a>
+                </div>
+                <div class="service-card">
+                    <p class="service-card-number">03</p>
+                    <h3 class="service-card-title">Campaign Development</h3>
+                    <p class="service-card-desc">Annual funds, legacy campaigns, capital campaigns.</p>
+                    <a href="campaign-development.html" class="card-cta">Discuss Your Campaign →</a>
+                </div>
+                <div class="service-card">
+                    <p class="service-card-number">04</p>
+                    <h3 class="service-card-title">Board &amp; Staff Training</h3>
+                    <p class="service-card-desc">Practical workshops that turn uncertain or reluctant board members and staff into enthusiastic and confident fundraisers.</p>
+                    <a href="board-staff-training.html" class="card-cta">Ask About Workshops →</a>
+                </div>
+                <div class="service-card">
+                    <p class="service-card-number">05</p>
+                    <h3 class="service-card-title">Content &amp; Communications</h3>
+                    <p class="service-card-desc">Cases for support, donor newsletters, digital strategy: the communications that make fundraising work.</p>
+                    <a href="content-communications-strategy.html" class="card-cta">Let’s Talk Communications →</a>
+                </div>
+                <div class="service-card">
+                    <p class="service-card-number">06</p>
+                    <h3 class="service-card-title">Website Strategy &amp; SEO</h3>
+                    <p class="service-card-desc">A website that works as hard as you do: clear positioning, compelling copy, and search visibility that brings the right people to your door.</p>
+                    <a href="website-strategy-seo.html" class="card-cta">Talk About Your Website →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT STRIP -->
+    <div class="about-strip">
+        <div class="about-strip-inner reveal">
+            <img  src="john-jalsevac-portrait.webp" loading="lazy" alt="John Jalsevac" class="about-photo">
+            <div>
+                <h3 class="about-name">John Jalsevac, PhD</h3>
+                <p class="about-title">Founder, Apollo Advancement</p>
+                <p class="about-bio">A fundraiser who tells stories. A philosopher who geeks out over systems. An executive whose passion is the arts and education. 20 years in nonprofit leadership, and a track record that includes creating and growing flourishing fundraising and marketing programs from the ground up.</p>
+                <a href="about.html" class="about-link">Read the Full Story →</a>
+                <a href="contact.html" class="about-cta-btn">Start a Conversation</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- TESTIMONIAL -->
+    <div class="testimonial">
+        <div class="testimonial-inner reveal">
+            <p class="testimonial-label">Client Testimonial</p>
+            <blockquote class="testimonial-quote">”When John came on board, we had about 50 donors and no real fundraising infrastructure. Within a year, he’d grown our donor base to over 300 and more than doubled our annual revenue - all while simultaneously serving as our headmaster, teaching classes, and building systems that led to record enrollment and 100% teacher retention. The fact that he accomplished more in fundraising as essentially a side responsibility than many full-time development professionals might in the same period says something about how he works.<br><br>Oh, and he promised to jump into our local Peterborough lake in January if we hit our campaign goal. When we did, he did - and somehow convinced me to join him. I can vouch that the water was frigid. That’s the kind of personal, skin-in-the-game commitment he brings to his clients.”</blockquote>
+            <p class="testimonial-attribution">Frank Callaghan<span>Former Board Chair, Wayside Academy</span></p>
+            <a href="results.html" class="testimonial-cta">See More Results →</a>
+        </div>
+    </div>
+
+    <!-- CLOSING -->
+    <section class="closing">
+        <div class="closing-inner reveal">
+            <h2 class="closing-headline">Every organization has a next chapter. Let’s write yours.</h2>
+            <p class="closing-body">No pitch. No pressure. Just an honest conversation about where you are, where you want to be, and what it would take to get there.</p>
+            <a href="contact.html" class="cta-btn">Start a Conversation</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">Apollo Advancement</div>
+            <ul class="footer-links">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="results.html">Results</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 2026 Apollo Advancement. Kawartha Lakes, Ontario. Serving non-profits across Canada and the United States.</p>
+        </div>
+    </footer>
+
+    <script>
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 50));
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        navToggle.addEventListener('click', () => { navToggle.classList.toggle('open'); navLinks.classList.toggle('open'); });
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); }); }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        reveals.forEach(el => observer.observe(el));
+    </script>
+
+</body>
+</html>

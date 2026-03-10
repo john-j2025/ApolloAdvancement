@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Apollo Advancement">
+    <meta property="og:title" content="Blog | Apollo Advancement">
+    <meta property="og:description" content="Insights on nonprofit fundraising, donor development, and building a culture of generosity. By John Jalsevac.">
+    <meta property="og:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://apolloadvancement.com/blog.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog | Apollo Advancement">
+    <meta name="twitter:description" content="Insights on nonprofit fundraising, donor development, and building a culture of generosity. By John Jalsevac.">
+    <meta name="twitter:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
+    <meta name="description" content="Insights on nonprofit fundraising, donor development, and building a culture of generosity. By John Jalsevac.">
+    <title>Blog | Apollo Advancement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet"></noscript>
+    <style>
+        :root {
+            --color-bg: #FFFAF5;
+            --color-bg-warm: #F5EBE0;
+            --color-bg-dark: #1A1410;
+            --color-text: #1A1410;
+            --color-text-soft: #5C514A;
+            --color-accent: #C8461C;
+            --color-accent-hover: #A83610;
+            --color-accent-glow: #E86E3A;
+            --color-rule: #DDD2C6;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body: 'DM Sans', -apple-system, sans-serif;
+            --max-width: 1280px;
+            --content-width: 920px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 18px; scroll-behavior: smooth; }
+        body { font-family: var(--font-body); background-color: var(--color-bg); color: var(--color-text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+        /* NAV */
+        nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: transparent; backdrop-filter: blur(0px); -webkit-backdrop-filter: blur(0px); border-bottom: 1px solid transparent; transition: background 0.4s, border-color 0.3s, box-shadow 0.3s, backdrop-filter 0.4s; }
+        nav.scrolled { background: rgba(255,250,245,0.95); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom-color: var(--color-rule); box-shadow: 0 1px 20px rgba(26,20,16,0.04); }
+        nav.scrolled .nav-brand { color: var(--color-text); }
+        nav.scrolled .nav-links a { color: var(--color-text-soft); }
+        nav.scrolled .nav-links a:hover { color: var(--color-text); }
+        .nav-inner { max-width: var(--max-width); margin: 0 auto; padding: 1.1rem 2.5rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-brand { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: #fff; text-decoration: none; }
+        .nav-brand span { color: var(--color-accent); }
+        .nav-links { display: flex; gap: 2.5rem; align-items: center; list-style: none; }
+        .nav-links a { font-size: 0.78rem; font-weight: 600; color: rgba(255,255,255,0.7); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--color-accent); }
+        .nav-links .nav-cta { color: #fff; background: var(--color-accent); padding: 0.6rem 1.4rem; border-radius: 3px; transition: background 0.2s; }
+        .nav-links .nav-cta:hover { background: var(--color-accent-hover); color: #fff; }
+        .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; }
+        .nav-toggle span { display: block; width: 26px; height: 2px; background: #fff; margin: 6px 0; transition: all 0.3s; }
+        nav.scrolled .nav-toggle span { background: var(--color-text); }
+
+        /* PAGE HEADER */
+        .page-header { padding: 10rem 2.5rem 4rem; background: var(--color-bg-warm); border-bottom: 1px solid var(--color-rule); }
+        .page-header-inner { max-width: var(--content-width); margin: 0 auto; }
+        .page-header h1 { font-family: var(--font-display); font-size: clamp(2.8rem, 6vw, 4.5rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; color: var(--color-text); margin-bottom: 1.5rem; }
+        .page-header p { font-size: clamp(1.05rem, 1.8vw, 1.25rem); line-height: 1.65; color: var(--color-text-soft); max-width: 640px; }
+
+        /* BLOG LISTING */
+        .blog-section { padding: 4rem 2.5rem 6rem; }
+        .blog-inner { max-width: var(--max-width); margin: 0 auto; }
+
+        /* FEATURED POST */
+        .blog-featured {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            background: #fff;
+            border: 1px solid var(--color-rule);
+            border-radius: 6px;
+            overflow: hidden;
+            transition: box-shadow 0.3s, transform 0.2s;
+            text-decoration: none;
+            color: inherit;
+            margin-bottom: 3rem;
+        }
+        .blog-featured:hover {
+            box-shadow: 0 8px 40px rgba(26,20,16,0.08);
+            transform: translateY(-3px);
+        }
+        .blog-featured-img {
+            width: 100%;
+            height: 100%;
+            min-height: 360px;
+            object-fit: cover;
+        }
+        .blog-featured-content {
+            padding: 2.5rem 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .blog-featured-meta {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .blog-tag {
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--color-accent);
+        }
+        .blog-date {
+            font-size: 0.78rem;
+            color: var(--color-text-soft);
+        }
+        .blog-featured-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 900;
+            line-height: 1.15;
+            color: var(--color-text);
+            margin-bottom: 0.5rem;
+        }
+        .blog-featured-subtitle {
+            font-size: 1rem;
+            color: var(--color-accent);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .blog-featured-excerpt {
+            font-size: 0.95rem;
+            line-height: 1.65;
+            color: var(--color-text-soft);
+            margin-bottom: 1.5rem;
+        }
+        .blog-read-more {
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--color-accent);
+        }
+
+        /* SERIES OVERVIEW */
+        .series-overview {
+            background: var(--color-bg-warm);
+            border: 1px solid var(--color-rule);
+            border-radius: 6px;
+            padding: 2.5rem 3rem;
+        }
+        .series-label {
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--color-accent);
+            margin-bottom: 0.8rem;
+        }
+        .series-title {
+            font-family: var(--font-display);
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: var(--color-text);
+            margin-bottom: 0.8rem;
+            line-height: 1.2;
+        }
+        .series-desc {
+            font-size: 0.95rem;
+            line-height: 1.65;
+            color: var(--color-text-soft);
+            margin-bottom: 1.5rem;
+            max-width: 640px;
+        }
+        .series-list {
+            list-style: none;
+            padding: 0;
+        }
+        .series-list li {
+            padding: 0.7rem 0;
+            border-bottom: 1px solid var(--color-rule);
+            display: flex;
+            align-items: baseline;
+            gap: 0.8rem;
+        }
+        .series-list li:last-child { border-bottom: none; }
+        .series-num {
+            font-family: var(--font-display);
+            font-size: 0.9rem;
+            font-weight: 900;
+            color: var(--color-accent);
+            flex-shrink: 0;
+            width: 1.6rem;
+            text-align: center;
+        }
+        .series-list-title {
+            font-size: 0.92rem;
+            color: var(--color-text);
+            font-weight: 500;
+        }
+        .series-list li a {
+            text-decoration: none;
+            color: var(--color-text);
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        .series-list li a:hover { color: var(--color-accent); }
+        .series-list .coming-soon {
+            color: var(--color-text-soft);
+            font-style: italic;
+        }
+
+        /* CLOSING CTA */
+        .closing { padding: 5rem 2.5rem; text-align: center; background: var(--color-bg-warm); border-top: 1px solid var(--color-rule); }
+        .closing-inner { max-width: 600px; margin: 0 auto; }
+        .closing-headline { font-family: var(--font-display); font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 900; line-height: 1.15; color: var(--color-text); margin-bottom: 1rem; }
+        .closing-body { font-size: 1rem; color: var(--color-text-soft); margin-bottom: 2rem; }
+        .cta-btn { display: inline-block; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--color-accent); padding: 1rem 2.5rem; text-decoration: none; border-radius: 3px; transition: background 0.25s, transform 0.2s, box-shadow 0.25s; }
+        .cta-btn:hover { background: var(--color-accent-hover); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(200,70,28,0.28); }
+
+        /* FOOTER */
+        footer { background: var(--color-bg-dark); padding: 3rem 2.5rem 2rem; }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        .footer-brand { font-family: var(--font-display); font-size: 1rem; font-weight: 600; color: var(--color-text-soft); }
+        .footer-links { display: flex; gap: 2rem; list-style: none; }
+        .footer-links a { font-size: 0.78rem; font-weight: 500; color: var(--color-text-soft); text-decoration: none; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--color-accent); }
+        .footer-copy { font-size: 0.72rem; color: var(--color-rule); width: 100%; text-align: center; margin-top: 1.5rem; }
+
+        /* ANIMATIONS */
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+        .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            html { font-size: 16px; }
+            .nav-inner { padding: 1rem 1.5rem; }
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--color-bg); border-bottom: 1px solid var(--color-rule); flex-direction: column; padding: 1.5rem; gap: 1.2rem; }
+            .nav-links.open { display: flex; }
+            .nav-links.open a { color: var(--color-text-soft) !important; }
+            .nav-links.open a:hover { color: var(--color-text) !important; }
+            .nav-toggle { display: block; }
+            .nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 6px); }
+            .nav-toggle.open span:nth-child(2) { opacity: 0; }
+            .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
+            .page-header { padding: 8rem 1.5rem 3rem; }
+            .blog-section { padding: 2.5rem 1.5rem 4rem; }
+            .blog-featured { grid-template-columns: 1fr; }
+            .blog-featured-img { min-height: 220px; }
+            .blog-featured-content { padding: 1.5rem 2rem 2rem; }
+            .series-overview { padding: 2rem 1.5rem; }
+            .closing { padding: 3rem 1.5rem; }
+            .footer-inner { flex-direction: column; text-align: center; }
+            .footer-links { justify-content: center; }
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DS2DG3WFX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6DS2DG3WFX');
+    </script>
+    <link rel="canonical" href="https://apolloadvancement.com/blog.html">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Apollo Advancement Blog",
+        "description": "Insights on nonprofit fundraising, donor development, and building a culture of generosity.",
+        "url": "https://apolloadvancement.com/blog.html",
+        "author": {
+            "@type": "Person",
+            "name": "John Jalsevac"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Apollo Advancement",
+            "url": "https://apolloadvancement.com"
+        }
+    }
+    </script>
+</head>
+<body>
+<nav id="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-brand">Apollo <span>Advancement</span></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html" class="nav-cta">Start a Conversation</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="page-header">
+<div class="page-header-inner">
+    <h1>Blog.</h1>
+    <p>Insights on nonprofit fundraising, donor development, and building a culture of generosity. Written by someone who has done it.</p>
+</div></div>
+
+<div class="blog-section">
+<div class="blog-inner">
+
+    <!-- FEATURED POST -->
+    <a href="everything-you-believe-about-fundraising-is-wrong.html" class="blog-featured reveal">
+        <img class="blog-featured-img" src="blog-fundraising-beliefs-wrong.jpg" alt="Everything You Believe About Fundraising is Wrong">
+        <div class="blog-featured-content">
+            <div class="blog-featured-meta">
+                <span class="blog-tag">Blog Series</span>
+                <span class="blog-date">March 10, 2026</span>
+            </div>
+            <h2 class="blog-featured-title">Everything You Believe About Fundraising is Wrong</h2>
+            <p class="blog-featured-subtitle">9 Mistakes That Are Killing Your Results</p>
+            <p class="blog-featured-excerpt">A few years ago, I walked into a small-town charity that was convinced it had hit its ceiling. The board was exhausted. The volunteers were burnt out. Within a year, everything changed. Not the town. Not the cause. The beliefs.</p>
+            <span class="blog-read-more">Read the Article &rarr;</span>
+        </div>
+    </a>
+
+    <!-- SERIES OVERVIEW -->
+    <div class="series-overview reveal">
+        <p class="series-label">Current Series</p>
+        <h3 class="series-title">Everything You Believe About Fundraising is Wrong: 9 Mistakes That Are Killing Your Results</h3>
+        <p class="series-desc">A nine-part series dismantling the beliefs that quietly destroy nonprofit fundraising, one at a time.</p>
+        <ul class="series-list">
+            <li>
+                <span class="series-num">0</span>
+                <a href="everything-you-believe-about-fundraising-is-wrong.html">Introduction: Everything You Believe About Fundraising is Wrong</a>
+            </li>
+            <li>
+                <span class="series-num">1</span>
+                <span class="coming-soon">"Fundraising is embarrassing / a tragic necessity."</span>
+            </li>
+            <li>
+                <span class="series-num">2</span>
+                <span class="coming-soon">"If we do good work, the money will come."</span>
+            </li>
+            <li>
+                <span class="series-num">3</span>
+                <span class="coming-soon">"We need a big event."</span>
+            </li>
+            <li>
+                <span class="series-num">4</span>
+                <span class="coming-soon">"We have to give people something in return."</span>
+            </li>
+            <li>
+                <span class="series-num">5</span>
+                <span class="coming-soon">"Fundraising is complicated."</span>
+            </li>
+            <li>
+                <span class="series-num">6</span>
+                <span class="coming-soon">"We've already asked. We can't ask again."</span>
+            </li>
+            <li>
+                <span class="series-num">7</span>
+                <span class="coming-soon">"That's the development office's job."</span>
+            </li>
+            <li>
+                <span class="series-num">8</span>
+                <span class="coming-soon">"The ED has more important things to do."</span>
+            </li>
+            <li>
+                <span class="series-num">9</span>
+                <span class="coming-soon">"The board's job is governance, not fundraising."</span>
+            </li>
+        </ul>
+    </div>
+
+</div>
+</div>
+
+<section class="closing">
+<div class="closing-inner reveal">
+    <h2 class="closing-headline">Want help putting these ideas into practice?</h2>
+    <p class="closing-body">Reading is one thing. Building a fundraising program is another. If you're ready to change what's possible for your organization, let's talk.</p>
+    <a href="contact.html" class="cta-btn">Start a Conversation</a>
+</div></section>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand">Apollo Advancement</div>
+        <ul class="footer-links">
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="footer-copy">&copy; 2026 Apollo Advancement. Kawartha Lakes, Ontario. Serving non-profits across Canada and the United States.</p>
+    </div>
+</footer>
+<script>
+    const nav = document.getElementById('nav');
+    nav.classList.add('scrolled');
+    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 50 || true));
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => { navToggle.classList.toggle('open'); navLinks.classList.toggle('open'); });
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); }); }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(el => observer.observe(el));
+</script>
+</body></html>

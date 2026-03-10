@@ -63,10 +63,14 @@
         nav.scrolled .nav-toggle span { background: var(--color-text); }
 
         /* ARTICLE HEADER */
+        .article-header-wrap {
+            background: var(--color-bg-warm);
+            padding: 10rem 2.5rem 3rem;
+            border-bottom: 1px solid var(--color-rule);
+        }
         .article-header {
             max-width: var(--content-width);
             margin: 0 auto;
-            padding: 8rem 2.5rem 2rem;
         }
         .article-meta {
             display: flex;
@@ -102,7 +106,7 @@
         .article-image {
             max-width: var(--content-width);
             margin: 0 auto;
-            padding: 0 2.5rem;
+            padding: 2.5rem 2.5rem 0;
         }
         .article-image img {
             width: 100%;
@@ -286,8 +290,8 @@
             .nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 6px); }
             .nav-toggle.open span:nth-child(2) { opacity: 0; }
             .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
-            .article-header { padding: 6rem 1.5rem 1.5rem; }
-            .article-image { padding: 0 1.5rem; }
+            .article-header-wrap { padding: 8rem 1.5rem 2.5rem; }
+            .article-image { padding: 2rem 1.5rem 0; }
             .article-body { padding: 1.5rem 1.5rem 3rem; }
             .series-nav { padding: 0 1.5rem; }
             .author-box { padding: 0 1.5rem; }
@@ -357,6 +361,7 @@
 </nav>
 
 <!-- ARTICLE HEADER -->
+<div class="article-header-wrap">
 <div class="article-header reveal">
     <div class="article-meta">
         <span class="article-series">Blog Series: Introduction</span>
@@ -364,6 +369,7 @@
     </div>
     <h1>Everything You Believe About Fundraising is Wrong</h1>
     <p class="article-subtitle">9 Mistakes That Are Killing Your Results</p>
+</div>
 </div>
 
 <!-- ARTICLE IMAGE -->
@@ -381,7 +387,7 @@
 
     <p>The prevailing assumption was simple: <strong>we're a small charity in a small town. This is just what fundraising looks like. We've maxed out what's possible here.</strong></p>
 
-    <p>Within a year, the number of active donors had grown several-fold. A loyal supporter who had been giving around $10,000 a year wrote a cheque for $100,000. And the organization's most significant donor more than tripled his donation, writing multiple six figure cheques.</p>
+    <p>Within a year the number of active donors had grown more than five-fold. A loyal supporter who had been giving around $10,000 a year wrote a cheque for $100,000. And the organization's most significant donor more than tripled his donation, writing multiple six figure cheques.</p>
 
     <p>Same town. Same cause. Same community. So, what changed?</p>
 

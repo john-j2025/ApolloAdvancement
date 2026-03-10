@@ -64,9 +64,9 @@
 
         /* ARTICLE HEADER */
         .article-header {
-            max-width: var(--article-width);
+            max-width: var(--content-width);
             margin: 0 auto;
-            padding: 7rem 2.5rem 0;
+            padding: 8rem 2.5rem 0;
         }
         .article-meta {
             display: flex;
@@ -86,26 +86,18 @@
             color: var(--color-text-soft);
         }
         .article-header h1 {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border: 0;
+            font-family: var(--font-display);
+            font-size: clamp(2.8rem, 6vw, 4.5rem);
+            font-weight: 900;
+            line-height: 1.05;
+            letter-spacing: -0.02em;
+            color: var(--color-text);
+            margin-bottom: 0.6rem;
         }
         .article-subtitle {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border: 0;
+            font-size: 1.15rem;
+            color: var(--color-text-soft);
+            margin-bottom: 0;
         }
         .article-image {
             max-width: var(--article-width);
@@ -294,7 +286,7 @@
             .nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 6px); }
             .nav-toggle.open span:nth-child(2) { opacity: 0; }
             .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
-            .article-header { padding: 6rem 1.5rem 0; }
+            .article-header { padding: 7rem 1.5rem 0; }
             .article-image { padding: 0 1.5rem; }
             .article-body { padding: 1.5rem 1.5rem 3rem; }
             .series-nav { padding: 0 1.5rem; }
@@ -447,7 +439,7 @@
     <div class="series-next">
         <div>
             <p class="series-next-label">Next in the series</p>
-            <p class="series-next-title">"If We Do Good Work, the Money Will Come" &mdash; the most comforting and most dangerous belief in the nonprofit world.</p>
+            <p class="series-next-title">"Fundraising is Embarrassing / A Tragic Necessity" &mdash; the belief that asking for money is inherently pushy or undignified.</p>
         </div>
         <span class="series-next-arrow">&rarr;</span>
     </div>

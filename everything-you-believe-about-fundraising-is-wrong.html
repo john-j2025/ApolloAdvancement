@@ -11,7 +11,7 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:url" content="https://apolloadvancement.com/everything-you-believe-about-fundraising-is-wrong.html">
-    <meta property="article:author" content="John Jalsevac">
+    <meta property="article:author" content="John Jalsevac, PhD">
     <meta property="article:published_time" content="2026-03-10">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Everything You Believe About Fundraising is Wrong | Apollo Advancement">
@@ -113,6 +113,29 @@
             height: auto;
             display: block;
             border-radius: 12px;
+        }
+
+        /* ARTICLE BYLINE */
+        .article-byline {
+            max-width: var(--article-width);
+            margin: 0 auto;
+            padding: 1.5rem 2.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+        .article-byline-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+        .article-byline-name {
+            font-family: var(--font-body);
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: var(--color-text);
         }
 
         /* ARTICLE BODY */
@@ -292,6 +315,7 @@
             .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
             .article-header-wrap { padding: 8rem 1.5rem 2.5rem; }
             .article-image { padding: 2rem 1.5rem 0; }
+            .article-byline { padding: 1.2rem 1.5rem 0; }
             .article-body { padding: 1.5rem 1.5rem 3rem; }
             .series-nav { padding: 0 1.5rem; }
             .author-box { padding: 0 1.5rem; }
@@ -325,7 +349,7 @@
         "image": "https://apolloadvancement.com/blog-fundraising-beliefs-wrong.jpg",
         "author": {
             "@type": "Person",
-            "name": "John Jalsevac",
+            "name": "John Jalsevac, PhD",
             "url": "https://apolloadvancement.com/about.html"
         },
         "publisher": {
@@ -377,6 +401,12 @@
     <img src="blog-fundraising-beliefs-wrong.jpg" alt="Everything You Believe About Fundraising is Wrong - 9 Mistakes That Are Killing Your Results">
 </div>
 
+<!-- ARTICLE BYLINE -->
+<div class="article-byline">
+    <img class="article-byline-avatar" src="john-jalsevac-portrait.webp" alt="John Jalsevac, PhD">
+    <span class="article-byline-name">John Jalsevac, PhD</span>
+</div>
+
 <!-- ARTICLE BODY -->
 <article class="article-body reveal">
     <p class="lead">This is the first post in a nine-part series on the beliefs that are quietly destroying your nonprofit's fundraising.</p>
@@ -397,13 +427,13 @@
 
     <h2>The real problem isn't money. It's what you believe about money.</h2>
 
-    <p>Here's the thing about fundraising that most nonprofits get wrong: it's not actually complicated. The basic mechanics are remarkably straightforward. You identify people who care about your mission. You build genuine relationships with them. You invite them to give. You thank them well. You keep them close. You ask again.</p>
+    <p>Here's the thing about fundraising that most nonprofits get wrong: it doesn't have to be complicated. The basic mechanics are remarkably straightforward. You identify people who care about your mission. You build genuine relationships with them. You invite them to give. You thank them well. You keep them close. You ask again.</p>
 
     <p>That's it. That's the whole thing.</p>
 
     <p>So why do so many good organizations, doing genuinely important work, struggle to raise money? Why do passionate, intelligent board members and executive directors preside over anemic fundraising programs year after year?</p>
 
-    <p>Because they hold a set of deeply ingrained beliefs about fundraising that feel true, feel obvious, feel like common sense, are so completely wrong, that they're very nearly the opposite of the truth. And these beliefs don't just limit results. They actively prevent organizations from doing the simple, human things that actually raise money.</p>
+    <p>Often, it's because they hold a set of deeply ingrained beliefs about fundraising that <em>feel</em> true, feel obvious, feel like common sense, are yet are so completely wrong, that they're very nearly the opposite of the truth. And these beliefs don't just limit results. They actively prevent organizations from doing the simple, often low-effort things that actually raise money.</p>
 
     <p>These beliefs are so common, so deeply held, and so rarely examined that most nonprofit leaders don't even recognize them as beliefs. They feel like facts. Like the way things are. Like the natural limits of what's possible.</p>
 
@@ -416,8 +446,8 @@
     <p>Here they are:</p>
 
     <ol>
-        <li><strong>"Fundraising is embarrassing or an unfortunate necessity."</strong> The belief that asking for money is inherently pushy or undignified leads organizations to avoid the ask at precisely the moments when people are most ready to give.</li>
-        <li><strong>"If we do good work, the money will come."</strong> The "Angels in the Outfield" fallacy. Nonprofit staff are so immersed in the work that their organization does that they think it should be "obvious" to donors that they should give.</li>
+        <li><strong>"Fundraising is an embarrassing, unfortunate necessity."</strong> The Original Sin of fundraising. To one degree or another, the following eight mistaken beliefs follow from this pervasive, pernicious belief.</li>
+        <li><strong>"If we do good work, the money will come."</strong> The Angels in the Outfield Fallacy. Nonprofit staff are so immersed in the work that their organization does that they think it should be "obvious" to donors that they should give.</li>
         <li><strong>"We need a big event."</strong> The belief that events are the engine of fundraising, rather than (as they often are) an enormously expensive and exhausting sideshow.</li>
         <li><strong>"We have to give people something in return."</strong> The belief that donors need a transaction, not a relationship. The root of every bake sale, car wash, and rubber chicken dinner that ever consumed a Saturday.</li>
         <li><strong>"Fundraising is complicated."</strong> The belief that you need secret knowledge, sophisticated systems, and opaque strategies to raise money.</li>
@@ -445,7 +475,7 @@
     <div class="series-next">
         <div>
             <p class="series-next-label">Next in the series</p>
-            <p class="series-next-title">"Fundraising is Embarrassing, or an Unfortunate Necessity" &mdash; the belief that asking for money is inherently pushy or undignified.</p>
+            <p class="series-next-title">"Fundraising is an Embarrassing, Unfortunate Necessity" &mdash; the Original Sin of fundraising.</p>
         </div>
         <span class="series-next-arrow">&rarr;</span>
     </div>
@@ -454,9 +484,9 @@
 <!-- AUTHOR -->
 <div class="author-box reveal">
     <div class="author-inner">
-        <img class="author-avatar" src="john-jalsevac-portrait.webp" alt="John Jalsevac">
+        <img class="author-avatar" src="john-jalsevac-portrait.webp" alt="John Jalsevac, PhD">
         <div>
-            <p class="author-name">John Jalsevac</p>
+            <p class="author-name">John Jalsevac, PhD</p>
             <p class="author-bio">John is a fundraising consultant who helps arts, education, and community nonprofits raise more money through strategic development, compelling storytelling, and genuine donor relationships. He is the founder of Apollo Advancement.</p>
         </div>
     </div>
@@ -492,7 +522,7 @@
     const navLinks = document.getElementById('navLinks');
     navToggle.addEventListener('click', () => { navToggle.classList.toggle('open'); navLinks.classList.toggle('open'); });
     const reveals = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); }); }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); }); }, { threshold: 0.01, rootMargin: '0px 0px 200px 0px' });
     reveals.forEach(el => observer.observe(el));
 </script>
 </body></html>

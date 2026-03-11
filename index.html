@@ -145,10 +145,11 @@
         .testimonial { padding: 6rem 2.5rem; background: var(--color-bg-dark); }
         .testimonial-inner { max-width: var(--content-width); margin: 0 auto; }
         .testimonial-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent-glow); margin-bottom: 2rem; }
-        .testimonial-quote { font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 400; font-style: italic; line-height: 1.55; color: rgba(255,255,255,0.92); margin-bottom: 2.5rem; padding-left: 2.5rem; border-left: 3px solid var(--color-accent); }
-        .testimonial-attribution { font-size: 0.9rem; font-weight: 600; color: var(--color-accent-glow); padding-left: 2.5rem; }
+        .testimonial-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+        .testimonial-quote { font-family: var(--font-display); font-size: clamp(1.2rem, 2.2vw, 1.55rem); font-weight: 400; font-style: italic; line-height: 1.55; color: rgba(255,255,255,0.92); margin-bottom: 1.5rem; padding-left: 2rem; border-left: 3px solid var(--color-accent); }
+        .testimonial-attribution { font-size: 0.9rem; font-weight: 600; color: var(--color-accent-glow); padding-left: 2rem; }
         .testimonial-attribution span { display: block; font-weight: 400; color: rgba(255,255,255,0.45); margin-top: 0.2rem; }
-        .testimonial-cta { display: inline-block; margin-top: 2.5rem; padding-left: 2.5rem; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent-glow); text-decoration: none; padding-bottom: 3px; border-bottom: 2px solid var(--color-accent-glow); transition: color 0.2s, border-color 0.2s; }
+        .testimonial-cta { display: inline-block; margin-top: 2.5rem; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent-glow); text-decoration: none; padding-bottom: 3px; border-bottom: 2px solid var(--color-accent-glow); transition: color 0.2s, border-color 0.2s; }
         .testimonial-cta:hover { color: #fff; border-color: #fff; }
 
         /* CLOSING */
@@ -200,6 +201,7 @@
             .trust-sep { display: none; }
             .closing { padding: 5rem 1.5rem; }
             .testimonial { padding: 4.5rem 1.5rem; }
+            .testimonial-grid { grid-template-columns: 1fr; }
             .about-strip { padding: 4rem 1.5rem; }
             .footer-inner { flex-direction: column; text-align: center; }
             .footer-links { justify-content: center; }
@@ -382,13 +384,21 @@
         </div>
     </div>
 
-    <!-- TESTIMONIAL -->
-    <div class="testimonial">
-        <div class="testimonial-inner reveal">
-            <p class="testimonial-label">Client Testimonial</p>
-            <blockquote class="testimonial-quote">”When John came on board, we had about 50 donors and no real fundraising infrastructure. Within a year, he’d grown our donor base to over 300 and more than doubled our annual revenue - all while simultaneously serving as our headmaster, teaching classes, and building systems that led to record enrollment and 100% teacher retention. The fact that he accomplished more in fundraising as essentially a side responsibility than many full-time development professionals might in the same period says something about how he works.<br><br>Oh, and he promised to jump into our local Peterborough lake in January if we hit our campaign goal. When we did, he did - and somehow convinced me to join him. I can vouch that the water was frigid. That’s the kind of personal, skin-in-the-game commitment he brings to his clients.”</blockquote>
-            <p class="testimonial-attribution">Frank Callaghan<span>Former Board Chair, Wayside Academy</span></p>
-            <a href="results.html" class="testimonial-cta">See More Results →</a>
+    <!-- TESTIMONIALS -->
+    <div class=”testimonial”>
+        <div class=”testimonial-inner reveal”>
+            <p class=”testimonial-label”>Client Testimonials</p>
+            <div class=”testimonial-grid”>
+                <div>
+                    <blockquote class=”testimonial-quote”>”When John came on board, we had about 50 donors and no real fundraising infrastructure. Within a year, he’d grown our donor base to over 300 and more than doubled our annual revenue. That’s the kind of personal, skin-in-the-game commitment he brings to his clients.”</blockquote>
+                    <p class=”testimonial-attribution”>Frank Callaghan<span>Former Board Chair, Wayside Academy</span></p>
+                </div>
+                <div>
+                    <blockquote class=”testimonial-quote”>”In five short weeks, under John’s guidance, we raised over $100,000 &mdash; more than double any campaign total we had run in the previous 35 years. His writing is extraordinary. I can wholeheartedly recommend John as the person an organization wants to run a campaign.”</blockquote>
+                    <p class=”testimonial-attribution”>Syd Birrell<span>Founder &amp; Artistic Director (retired), The Peterborough Singers</span></p>
+                </div>
+            </div>
+            <a href=”results.html” class=”testimonial-cta”>See More Results →</a>
         </div>
     </div>
 

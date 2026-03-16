@@ -6,3 +6,8 @@
 
 [build.processing.html]
   pretty_urls = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "all"

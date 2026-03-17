@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Apollo Advancement">
-    <meta property="og:title" content="Fractional Fundraising Support | Apollo Advancement">
-    <meta property="og:description" content="Senior fundraising leadership on a monthly retainer - without the cost of a full-time hire. Apollo Advancement serves nonprofits across Canada and the United States.">
+    <meta property="og:title" content="Fractional Fundraising Services for Nonprofits | Apollo Advancement">
+    <meta property="og:description" content="Senior fundraising leadership on a monthly retainer. I embed with your team to build the program, manage donors, and create the communications - without the cost of a full-time hire.">
     <meta property="og:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:url" content="https://apolloadvancement.com/services/fractional-development-leadership/">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Fractional Fundraising Support | Apollo Advancement">
-    <meta name="twitter:description" content="Senior fundraising leadership on a monthly retainer - without the cost of a full-time hire. Apollo Advancement serves nonprofits across Canada and the United States.">
+    <meta name="twitter:title" content="Fractional Fundraising Services for Nonprofits | Apollo Advancement">
+    <meta name="twitter:description" content="Senior fundraising leadership on a monthly retainer. I embed with your team to build the program, manage donors, and create the communications - without the cost of a full-time hire.">
     <meta name="twitter:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
-    <meta name="description" content="Senior fundraising leadership on a monthly retainer - without the cost of a full-time hire. Apollo Advancement serves nonprofits across Canada and the United States.">
-    <title>Fractional Fundraising Support | Apollo Advancement</title>
+    <meta name="description" content="Senior fundraising leadership on a monthly retainer. I embed with your team to build the program, manage donors, and create the communications - without the cost of a full-time hire.">
+    <title>Fractional Fundraising Services for Nonprofits | Apollo Advancement</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -54,26 +54,30 @@
         .nav-links a:hover, .nav-links a.active { color: var(--color-text); }
         .nav-cta { background: var(--color-accent) !important; color: #fff !important; padding: 0.55rem 1.4rem !important; border-radius: 3px; transition: background 0.2s !important; }
         .nav-cta:hover { background: var(--color-accent-hover) !important; }
-        nav.scrolled .nav-brand { color: var(--color-text); }
         nav.scrolled .nav-brand span { color: var(--color-accent); }
-        nav.scrolled .nav-links a { color: var(--color-text-soft); }
         nav.scrolled .nav-links a:hover, nav.scrolled .nav-links a.active { color: var(--color-text); }
         .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 4px; }
         .nav-toggle span { display: block; width: 24px; height: 2px; background: var(--color-text); margin: 5px 0; transition: all 0.3s; }
-        nav.scrolled .nav-toggle span { background: var(--color-text); }
 
-        /* PAGE HEADER */
-        .page-header { background: var(--color-bg-warm); padding: 9rem 2.5rem 5rem; text-align: left; border-bottom: 1px solid var(--color-rule); }
-        .page-header-inner { max-width: var(--content-width); margin: 0 auto; }
-        .page-header .service-num { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 1.2rem; opacity: 0; animation: fadeUp 0.5s ease 0.1s forwards; }
-        .page-header h1 { font-family: var(--font-display); font-size: clamp(2.6rem, 6vw, 4rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; color: var(--color-text); margin-bottom: 1.4rem; opacity: 0; animation: fadeUp 0.6s ease 0.2s forwards; }
-        .page-header .hero-sub { font-size: 1.15rem; color: var(--color-text-soft); line-height: 1.6; max-width: 600px; margin-bottom: 2.2rem; opacity: 0; animation: fadeUp 0.6s ease 0.35s forwards; }
-        .hero-cta-row { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; opacity: 0; animation: fadeUp 0.6s ease 0.45s forwards; }
+        /* HERO */
+        .landing-hero { background: var(--color-bg-dark); padding: 10rem 2.5rem 5rem; position: relative; overflow: hidden; }
+        .landing-hero-inner { max-width: 820px; margin: 0 auto; position: relative; z-index: 1; }
+        .landing-hero h1 { font-family: var(--font-display); font-size: clamp(2.6rem, 6vw, 4rem); font-weight: 900; line-height: 1.08; letter-spacing: -0.02em; color: #fff; margin-bottom: 1.8rem; opacity: 0; animation: fadeUp 0.7s ease 0.15s forwards; }
+        .landing-hero h1 em { font-style: italic; color: var(--color-accent-glow); }
+        .landing-hero .hero-sub { font-size: 1.15rem; color: rgba(255,255,255,0.75); line-height: 1.7; max-width: 640px; margin-bottom: 2.5rem; opacity: 0; animation: fadeUp 0.7s ease 0.3s forwards; }
+        .hero-cta-row { opacity: 0; animation: fadeUp 0.6s ease 0.45s forwards; }
         .cta-btn { display: inline-block; font-size: 0.88rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--color-accent); padding: 1.1rem 2.8rem; text-decoration: none; border-radius: 3px; transition: background 0.25s, transform 0.2s, box-shadow 0.25s; }
         .cta-btn:hover { background: var(--color-accent-hover); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(200,70,28,0.28); }
-        .hero-phone { font-size: 0.9rem; color: var(--color-text-soft); }
-        .hero-phone a { color: var(--color-text); text-decoration: none; font-weight: 600; }
-        .hero-phone a:hover { color: var(--color-accent); }
+        .stats-row { display: flex; gap: 3.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(255,255,255,0.1); flex-wrap: wrap; opacity: 0; animation: fadeUp 0.7s ease 0.55s forwards; }
+        .stat-item { text-align: left; }
+        .stat-num { font-family: var(--font-display); font-size: 2.2rem; font-weight: 800; color: var(--color-accent-glow); display: block; line-height: 1.2; }
+        .stat-label { font-size: 0.78rem; color: rgba(255,255,255,0.45); margin-top: 0.3rem; letter-spacing: 0.02em; }
+
+        /* BACK LINK */
+        .back-bar { padding: 1.5rem 2.5rem; border-bottom: 1px solid var(--color-rule); }
+        .back-bar-inner { max-width: var(--max-width); margin: 0 auto; }
+        .back-link { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--color-text-soft); text-decoration: none; }
+        .back-link:hover { color: var(--color-accent); }
 
         /* CONTENT SECTIONS */
         .content-section { padding: 5rem 2.5rem; }
@@ -83,6 +87,59 @@
         .content-section p { font-size: 1.05rem; line-height: 1.8; color: var(--color-text-soft); margin-bottom: 1.4rem; max-width: var(--content-width); }
         .content-section p:last-child { margin-bottom: 0; }
         .content-section p strong { color: var(--color-text); font-weight: 600; }
+        .content-section .lead { font-size: 1.2rem; font-style: italic; color: var(--color-text); line-height: 1.7; margin-bottom: 2rem; }
+
+        /* TIMELINE */
+        .timeline-list { list-style: none; margin: 2rem 0; }
+        .timeline-item { padding: 1.8rem 0; border-bottom: 1px solid var(--color-rule); display: flex; gap: 2rem; align-items: flex-start; }
+        .timeline-item:last-child { border-bottom: none; }
+        .timeline-month { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-accent); min-width: 110px; padding-top: 3px; flex-shrink: 0; }
+        .timeline-desc { font-size: 1.05rem; line-height: 1.8; color: var(--color-text-soft); }
+
+        /* OBJECTION CARDS */
+        .objection-grid { margin: 2.5rem 0; }
+        .objection-card { padding: 2.5rem; background: var(--color-bg); border-left: 3px solid var(--color-accent); margin-bottom: 1.5rem; }
+        .section-warm .objection-card { background: #fff; }
+        .objection-card h3 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 800; color: var(--color-text); margin-bottom: 1rem; line-height: 1.3; }
+        .objection-card .obj-problem { font-size: 1rem; line-height: 1.75; color: var(--color-text-soft); margin-bottom: 1.2rem; }
+        .objection-card .obj-solution { font-size: 1rem; line-height: 1.75; color: var(--color-text); }
+        .objection-card .obj-solution strong { color: var(--color-accent); }
+
+        /* INCLUDES LIST */
+        .includes-list { list-style: none; margin: 1.5rem 0 2.5rem; }
+        .includes-list li { padding: 0.65rem 0; border-bottom: 1px solid var(--color-rule); font-size: 1.05rem; color: var(--color-text-soft); padding-left: 1.5rem; position: relative; }
+        .includes-list li::before { content: ''; position: absolute; left: 0; top: 1rem; width: 7px; height: 7px; background: var(--color-accent); border-radius: 50%; }
+
+        /* FIT GRID */
+        .fit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; margin: 2rem 0; }
+        .fit-col h3 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; color: var(--color-text); margin-bottom: 1.2rem; }
+        .fit-col ul { list-style: none; }
+        .fit-col ul li { padding: 0.6rem 0; font-size: 1rem; color: var(--color-text-soft); border-bottom: 1px solid var(--color-rule); padding-left: 1.8rem; position: relative; line-height: 1.6; }
+        .fit-col ul li:last-child { border-bottom: none; }
+        .fit-col.yes li::before { content: '\2713'; position: absolute; left: 0; top: 0.6rem; color: #4a8a3a; font-weight: bold; font-size: 1rem; }
+        .fit-col.no li::before { content: '\2717'; position: absolute; left: 0; top: 0.6rem; color: #a04040; font-weight: bold; font-size: 1rem; }
+        .fit-col .alt-link { color: var(--color-accent); text-decoration: none; font-weight: 600; font-size: 0.92rem; }
+        .fit-col .alt-link:hover { color: var(--color-accent-hover); }
+
+        /* QUOTE / TESTIMONIAL */
+        .quote-section { padding: 5rem 2.5rem; background: var(--color-bg-dark); }
+        .quote-inner { max-width: var(--content-width); margin: 0 auto; }
+        .quote-section blockquote { font-family: var(--font-display); font-size: clamp(1.2rem, 2.5vw, 1.6rem); font-style: italic; font-weight: 700; color: #fff; line-height: 1.5; margin-bottom: 1.2rem; padding-left: 2rem; border-left: 3px solid var(--color-accent); }
+        .quote-section cite { font-size: 0.85rem; color: var(--color-accent-glow); font-style: normal; font-weight: 600; letter-spacing: 0.04em; padding-left: 2rem; display: block; }
+        .quote-section cite span { display: block; font-weight: 400; color: rgba(255,255,255,0.45); margin-top: 0.2rem; }
+
+        /* ALT PATHS */
+        .alt-path { padding: 1.5rem 0; border-bottom: 1px solid var(--color-rule); }
+        .alt-path:last-child { border-bottom: none; }
+        .alt-path p { margin-bottom: 0; }
+        .alt-path a { color: var(--color-accent); text-decoration: none; font-weight: 600; }
+        .alt-path a:hover { color: var(--color-accent-hover); }
+
+        /* CLOSING CTA */
+        .closing { padding: 8rem 2.5rem; text-align: center; }
+        .closing-inner { max-width: 750px; margin: 0 auto; }
+        .closing-headline { font-family: var(--font-display); font-size: clamp(2.8rem, 6vw, 4.5rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; color: var(--color-text); margin-bottom: 1.5rem; }
+        .closing-body { font-size: 1.1rem; color: var(--color-text-soft); line-height: 1.8; margin-bottom: 2.8rem; }
 
         /* MID-PAGE CTA BAR */
         .cta-bar { background: var(--color-accent); padding: 3.5rem 2.5rem; text-align: center; }
@@ -94,11 +151,16 @@
         .cta-bar-phone a { color: #fff; text-decoration: none; font-weight: 700; font-size: 1.1rem; }
         .cta-bar-phone a:hover { text-decoration: underline; }
 
-        /* QUOTE PULLOUT */
-        .quote-section { padding: 5rem 2.5rem; background: var(--color-bg-dark); }
-        .quote-inner { max-width: var(--content-width); margin: 0 auto; }
-        .quote-section blockquote { font-family: var(--font-display); font-size: clamp(1.2rem, 2.5vw, 1.6rem); font-style: italic; font-weight: 700; color: #fff; line-height: 1.5; margin-bottom: 1.2rem; }
-        .quote-section cite { font-size: 0.85rem; color: var(--color-accent-glow); font-style: normal; font-weight: 600; letter-spacing: 0.04em; }
+        /* SECTION HELPERS */
+        .section-warm { background: var(--color-bg-warm); }
+        .section-cta { display: inline-block; margin-top: 2rem; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent); text-decoration: none; padding-bottom: 3px; border-bottom: 2px solid var(--color-accent); transition: color 0.2s, border-color 0.2s; }
+        .section-cta:hover { color: var(--color-accent-hover); border-color: var(--color-accent-hover); }
+
+        /* FAQ */
+        .faq-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-rule); }
+        .faq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .faq-q { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; color: var(--color-text); margin-bottom: 0.6rem; line-height: 1.3; }
+        .faq-a { font-size: 1rem; line-height: 1.8; color: var(--color-text-soft); margin: 0; }
 
         /* CONTACT FORM SECTION */
         .form-section { padding: 5rem 2.5rem; }
@@ -120,12 +182,6 @@
         .form-submit:hover { background: var(--color-accent-hover); }
         .form-note { font-size: 0.82rem; color: var(--color-text-soft); margin-top: 0.8rem; }
 
-        /* BACK LINK */
-        .back-bar { padding: 1.5rem 2.5rem; border-bottom: 1px solid var(--color-rule); }
-        .back-bar-inner { max-width: var(--max-width); margin: 0 auto; }
-        .back-link { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--color-text-soft); text-decoration: none; }
-        .back-link:hover { color: var(--color-accent); }
-
         /* FOOTER */
         footer { background: var(--color-bg-dark); padding: 3rem 2.5rem; }
         .footer-inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
@@ -135,13 +191,6 @@
         .footer-links a:hover { color: #fff; }
         .footer-copy { font-size: 0.78rem; color: rgba(255,255,255,0.35); width: 100%; margin-top: 0.5rem; }
 
-
-        /* FAQ */
-        .faq-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-rule); }
-        .faq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-        .faq-q { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; color: var(--color-text); margin-bottom: 0.6rem; line-height: 1.3; }
-        .faq-a { font-size: 1rem; line-height: 1.8; color: var(--color-text-soft); margin: 0; }
-
         /* ANIMATIONS */
         @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
         .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
@@ -150,18 +199,22 @@
         /* RESPONSIVE */
         @media (max-width: 900px) {
             .form-section-inner { grid-template-columns: 1fr; gap: 3rem; }
+            .fit-grid { grid-template-columns: 1fr; gap: 2rem; }
             .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: var(--color-bg); padding: 1.5rem 2.5rem; border-bottom: 1px solid var(--color-rule); gap: 1.2rem; }
             .nav-links.open { display: flex; }
             .nav-links a { color: var(--color-text-soft); }
             .nav-toggle { display: block; }
         }
         @media (max-width: 600px) {
-            .page-header { padding: 7rem 1.5rem 3.5rem; }
+            .landing-hero { padding: 7rem 1.5rem 3.5rem; }
             .content-section { padding: 3.5rem 1.5rem; }
             .cta-bar { padding: 2.5rem 1.5rem; }
             .form-section { padding: 3.5rem 1.5rem; }
             .back-bar { padding: 1.2rem 1.5rem; }
-            .hero-cta-row { flex-direction: column; align-items: flex-start; gap: 1rem; }
+            .closing { padding: 5rem 1.5rem; }
+            .quote-section { padding: 3.5rem 1.5rem; }
+            .stats-row { gap: 2rem; }
+            .timeline-item { flex-direction: column; gap: 0.5rem; }
             .cta-bar-actions { flex-direction: column; gap: 1rem; }
         }
     </style>
@@ -184,7 +237,7 @@
   "@graph": [
     {
       "@type": "Service",
-      "name": "Fractional Fundraising Support",
+      "name": "Fractional Fundraising Services",
       "provider": {
         "@type": "Person",
         "name": "John Jalsevac",
@@ -211,7 +264,7 @@
           "name": "What size of nonprofit benefits most from a fractional development director?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Fractional development leadership works best for nonprofits with annual revenues between $500K and $5M - organizations that have outgrown a volunteer-driven fundraising model but aren't yet ready to hire a full-time development director. It's especially valuable when the executive director is doing too much of the fundraising themselves."
+            "text": "Fractional development leadership works best for nonprofits with annual revenues between $500K and $3M - organizations that have outgrown a volunteer-driven fundraising model but aren't yet ready to hire a full-time development director."
           }
         },
         {
@@ -227,7 +280,7 @@
           "name": "How long does a fractional development engagement typically last?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Most fractional development retainers run six to twelve months. The goal is to build systems, grow the donor base, and develop your team's capacity so the organization is stronger at the end of the engagement than at the beginning. Some clients continue on a longer-term basis after the initial engagement."
+            "text": "Most fractional development retainers run six to twelve months. The goal is to build systems, grow the donor base, and develop your team's capacity so the organization is stronger at the end of the engagement than at the beginning."
           }
         }
       ]
@@ -253,15 +306,27 @@
     </div>
 </nav>
 
-<!-- PAGE HEADER -->
-<header class="page-header">
-    <div class="page-header-inner">
-        <p class="service-num">Service 01</p>
-        <h1>Fractional Fundraising Support</h1>
-        <p class="hero-sub">Senior fundraising leadership on a monthly retainer - without the cost of a full-time hire.</p>
+<!-- HERO -->
+<header class="landing-hero">
+    <div class="landing-hero-inner">
+        <h1>You don't need a full-time hire. You need <em>the right partner.</em></h1>
+        <p class="hero-sub">Senior fundraising leadership, embedded with your team on a monthly retainer. I build the program, manage the donor relationships, write the communications, and train your people to carry it forward. You get an experienced development director without the $120K salary.</p>
         <div class="hero-cta-row">
-            <a href="#contact-form" class="cta-btn">Ask About Retainers →</a>
-            <span class="hero-phone">Or call directly: <a href="tel:+17053131588">(705) 313-1588</a></span>
+            <a href="#contact-form" class="cta-btn">Start a Conversation &rarr;</a>
+        </div>
+        <div class="stats-row">
+            <div class="stat-item">
+                <span class="stat-num">300+</span>
+                <span class="stat-label">donors built from 50</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">$600K+</span>
+                <span class="stat-label">annual revenue (from $250K)</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">$100K</span>
+                <span class="stat-label">raised in 5 weeks</span>
+            </div>
         </div>
     </div>
 </header>
@@ -269,61 +334,190 @@
 <!-- BACK LINK -->
 <div class="back-bar">
     <div class="back-bar-inner">
-        <a href="../services.html" class="back-link">← All Services</a>
+        <a href="../services.html" class="back-link">&larr; All Services</a>
     </div>
 </div>
 
-<!-- CONTENT SECTIONS -->
-
+<!-- THE PROBLEM -->
 <section class="content-section reveal">
 <div class="content-inner">
-    <p class="section-label">What It Is</p>
-    <h2>Your senior fundraising partner, embedded in your team.</h2>
-    <p>Most small and mid-sized nonprofits can't afford a full-time Director of Development. But they still need someone who can build the program, steward major donors, oversee campaigns, and write the communications that keep supporters engaged year-round.</p>
-        <p>That's what fractional development leadership provides. On a monthly retainer, I embed with your team as your senior fundraising partner - building what needs to be built, managing what needs to be managed, and showing up the way a full-time hire would, at a fraction of the cost.</p>
-        <p>This isn't a quarterly check-in. It's ongoing, hands-on partnership. I attend your meetings, join your donor calls, write your appeals, and help your board understand their role in fundraising. When something needs doing, it gets done.</p>
+    <p class="lead">You know you need fundraising help. What you're not sure about is what kind.</p>
+    <p>Your organization has a compelling mission, a strong case, and supporters who believe in what you do. But fundraising keeps falling to whoever has bandwidth this month. The board chair sends a few emails. A volunteer updates the spreadsheet. Someone writes an appeal letter that reads like a tax receipt.</p>
+    <p>You've thought about hiring a development director, but the math is hard to justify: $90,000 to $140,000 in salary and benefits for a role you're not sure how to manage, in a field where turnover averages 16 months. You've thought about hiring a consultant, but you've heard the stories: a nice binder, an impressive strategy deck, and then silence.</p>
+    <p>What you actually need is someone who shows up. Who learns your organization from the inside. Who builds the systems, writes the case for support, manages the campaigns, meets with the donors, and trains your board to carry it forward. Someone who does the work alongside you.</p>
+    <p><strong>That's what fractional fundraising support is. And that's what I do.</strong></p>
 </div>
 </section>
 
-<section class="content-section reveal" style="background:var(--color-bg-warm);">
+<!-- HOW IT WORKS -->
+<section class="content-section section-warm reveal">
 <div class="content-inner">
-    <p class="section-label">Who It's For</p>
-    <h2>Organizations ready to build something that lasts.</h2>
-    <p>This service is for you if your organization has outgrown a volunteer-driven fundraising model but isn't ready to hire a full-time development director. It's for executive directors who are doing too much of the fundraising themselves and need an experienced partner to take the wheel. It's for boards that want to support fundraising but don't know how to organize it.</p>
-        <p>It works especially well for arts, education, and community organizations with annual revenues between $500K and $5M - organizations at the inflection point where a serious fundraising program would change everything.</p>
+    <p class="section-label">How It Works</p>
+    <h2>Here's what it looks like to work together.</h2>
+    <p>Every engagement is different, but here's the shape of a typical retainer:</p>
+
+    <ul class="timeline-list">
+        <li class="timeline-item">
+            <span class="timeline-month">Month 1</span>
+            <span class="timeline-desc">I learn everything. I review your donor data, your communications, your systems, and your history. I meet with your team and board. I listen more than I talk. By the end of the month, I know your organization inside out.</span>
+        </li>
+        <li class="timeline-item">
+            <span class="timeline-month">Month 2</span>
+            <span class="timeline-desc">I build the foundation. The development plan takes shape. I write the case for support, set up or clean up your donor database, design the communications calendar, and begin identifying your strongest cultivation and solicitation opportunities.</span>
+        </li>
+        <li class="timeline-item">
+            <span class="timeline-month">Months 3&ndash;6</span>
+            <span class="timeline-desc">The real work. Donor meetings, campaign launches, appeal letters, newsletters, board coaching, event strategy. I'm embedded with your team as a working partner. You're not waiting for deliverables. You're watching the program take shape in real time.</span>
+        </li>
+        <li class="timeline-item">
+            <span class="timeline-month">Months 6&ndash;12</span>
+            <span class="timeline-desc">Momentum builds. Your donor base is growing. Your board is engaged. Your communications have a voice. The systems are in place and your team knows how to use them. I'm still here, still building, but the program is becoming yours.</span>
+        </li>
+        <li class="timeline-item">
+            <span class="timeline-month">When I leave</span>
+            <span class="timeline-desc">You're stronger than when I arrived. That's the measure. Not how long I stay, but what you can sustain when I'm gone.</span>
+        </li>
+    </ul>
 </div>
 </section>
 
+<!-- OBJECTION HANDLING -->
 <section class="content-section reveal">
 <div class="content-inner">
-    <p class="section-label">What You Get</p>
-    <h2>Hands-on, end-to-end development support.</h2>
-    <p>Retainer engagements are customized to your needs, but typically include: donor pipeline development and management, major gift cultivation and solicitation support, annual fund oversight, donor communications (newsletters, appeals, stewardship letters), board training and engagement, campaign strategy, and regular reporting on fundraising progress.</p>
-        <p>Engagements typically run six to twelve months. The goal is always to leave you stronger than when we started - with systems, relationships, and a team that can carry the program forward.</p>
+    <p class="section-label">Why This Is Different</p>
+    <h2>You've tried to solve this before. This is different.</h2>
+
+    <div class="objection-grid">
+        <div class="objection-card">
+            <h3>Doing it internally</h3>
+            <p class="obj-problem"><strong>The problem:</strong> The executive director took on fundraising. Or a board member volunteered. It takes over their schedule, the results are inconsistent, and nobody has the expertise to know what's actually working.</p>
+            <p class="obj-solution"><strong>The difference:</strong> I bring 20 years of development experience and a track record of building programs from the ground up. I have systems that I've tested over two decades that bring clarity and transparency. We know exactly what to do next, and what is or isn't working. You focus on running your organization. I focus on raising money for it.</p>
+        </div>
+
+        <div class="objection-card">
+            <h3>Hiring a development director</h3>
+            <p class="obj-problem"><strong>The problem:</strong> The salary is $90K to $140K for a competent mid-to-senior-level fundraiser. The average tenure is 16 months. And if you've never had a development professional on staff, you may not know how to manage one or whether the role is even scoped correctly.</p>
+            <p class="obj-solution"><strong>The difference:</strong> On a monthly retainer, you get senior-level leadership at a fraction of the cost. And because I've built multiple programs from scratch, I don't need someone to manage me. All I ask is for availability from the executive director and the board for when I have questions (and I will have lots of those!).</p>
+        </div>
+
+        <div class="objection-card">
+            <h3>Hiring a consultant who handed you a plan</h3>
+            <p class="obj-problem"><strong>The problem:</strong> The strategic plan was thorough. The binder was beautiful. But six months later, it's sitting on a shelf because nobody had the time, skill, or confidence to execute it.</p>
+            <p class="obj-solution"><strong>The difference:</strong> I don't hand you a binder. I embed with your team and do the work alongside you. Strategy and execution are not separate steps. They happen together.</p>
+        </div>
+
+        <div class="objection-card">
+            <h3>Piecing it together from webinars and templates</h3>
+            <p class="obj-problem"><strong>The problem:</strong> Every expert contradicts the last one. This fundraising blog says one thing, the conference speaker says another, and none of it accounts for the fact that you're a 5-person arts organization, not a hospital.</p>
+            <p class="obj-solution"><strong>The difference:</strong> I build a strategy for your organization, your donors, your community, and your capacity. Not a template. Not a framework. A program that fits the way you actually work.</p>
+        </div>
+    </div>
 </div>
 </section>
-
 
 <!-- MID-PAGE CTA BAR -->
 <div class="cta-bar">
     <h2>Ready to talk about your organization?</h2>
     <div class="cta-bar-actions">
-        <a href="#contact-form" class="cta-btn">Send a Message →</a>
+        <a href="#contact-form" class="cta-btn">Send a Message &rarr;</a>
         <span class="cta-bar-phone">Or call: <a href="tel:+17053131588">(705) 313-1588</a></span>
     </div>
 </div>
 
-<!-- QUOTE -->
+<!-- WHAT'S INCLUDED -->
+<section class="content-section reveal">
+<div class="content-inner">
+    <p class="section-label">What's Included</p>
+    <h2>What a retainer includes.</h2>
+    <p>Every engagement is tailored, but most retainers involve a combination of the following:</p>
+
+    <ul class="includes-list">
+        <li>Development strategy and planning</li>
+        <li>Donor research, cultivation, and solicitation</li>
+        <li>Case for support, appeal letters, and donor communications</li>
+        <li>Donor database management and reporting</li>
+        <li>Campaign design and execution (annual fund, capital, legacy)</li>
+        <li>Board and staff fundraising training</li>
+        <li>Grant identification and writing</li>
+        <li>Event strategy and donor stewardship</li>
+        <li>Regular reporting and progress reviews</li>
+        <li>A partner who actually answers the phone</li>
+    </ul>
+
+    <p><em>Retainers are structured on a monthly basis. Scope, hours, and investment vary based on the size of your organization and the work required. Let's talk about what makes sense for you.</em></p>
+</div>
+</section>
+
+<!-- TESTIMONIAL 1 -->
 <section class="quote-section">
-    <div class="quote-inner">
-        <blockquote>"When John came on board, we had about 50 donors and no real fundraising infrastructure. Within a year, he'd grown our donor base to over 300 and more than doubled our annual revenue."</blockquote>
-        <cite>- Frank Callaghan, Former Board Chair, Wayside Academy</cite>
+    <div class="quote-inner reveal">
+        <blockquote>"When John came on board, we had about 50 donors and no real fundraising infrastructure. Within a year, he'd grown our donor base to over 300 and more than doubled our annual revenue. That's the kind of personal, skin-in-the-game commitment he brings to his clients."</blockquote>
+        <cite>Frank Callaghan <span>Former Board Chair, Wayside Academy</span></cite>
     </div>
 </section>
 
+<!-- IS THIS THE RIGHT FIT? -->
+<section class="content-section section-warm reveal">
+<div class="content-inner">
+    <p class="section-label">Is This Right For You?</p>
+    <h2>Is this the right fit?</h2>
+    <p>Fractional fundraising isn't for everyone. That's not a sales tactic. Some organizations need a different kind of help. Here's how to tell.</p>
+
+    <div class="fit-grid">
+        <div class="fit-col yes">
+            <h3>This is probably right for you if:</h3>
+            <ul>
+                <li>You're an arts, education, or community nonprofit with a budget between $500K and $3M</li>
+                <li>You have a strong mission but no dedicated fundraising leadership</li>
+                <li>You're ready to invest in building a real development program, not just running a campaign</li>
+                <li>You want a partner who does the work with you, not someone who tells you what to do and leaves</li>
+                <li>You value relationships and storytelling over transactional fundraising tactics</li>
+                <li>You want your team to be stronger when the engagement ends</li>
+            </ul>
+        </div>
+        <div class="fit-col no">
+            <h3>This probably isn't the right fit if:</h3>
+            <ul>
+                <li>You need a one-time strategic plan, not an ongoing partner. <a href="fundraising-audit.html" class="alt-link">Consider a Fundraising Audit instead.</a></li>
+                <li>You have a specific campaign that needs management but not a full program build. <a href="campaign-development.html" class="alt-link">Consider Campaign Development.</a></li>
+                <li>You need someone to train your board for a single session. <a href="board-staff-training.html" class="alt-link">Consider a Board Training Workshop.</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- TESTIMONIAL 2 -->
+<section class="quote-section">
+    <div class="quote-inner reveal">
+        <blockquote>"In five short weeks, under John's guidance, we raised over $100,000 &mdash; more than double any campaign total we had run in the previous 35 years. His writing is extraordinary. I can wholeheartedly recommend John as the person an organization wants to run a campaign."</blockquote>
+        <cite>Syd Birrell <span>Founder &amp; Artistic Director (retired), The Peterborough Singers</span></cite>
+    </div>
+</section>
+
+<!-- NOT READY -->
+<section class="content-section reveal">
+<div class="content-inner">
+    <h2>Not ready for a retainer?</h2>
+    <p>That's fine. Here are some other ways to start:</p>
+
+    <div class="alt-path">
+        <p><strong>If you need clarity before commitment:</strong> A <a href="fundraising-audit.html">Fundraising Audit &amp; Strategic Plan</a> gives you a clear-eyed assessment of where you stand and a roadmap your team can follow. It's often the best starting point.</p>
+    </div>
+    <div class="alt-path">
+        <p><strong>If you have a specific campaign to run:</strong> I design and manage <a href="campaign-development.html">campaigns</a> from strategy through execution, including annual funds, capital campaigns, and legacy giving programs.</p>
+    </div>
+    <div class="alt-path">
+        <p><strong>If your website isn't pulling its weight:</strong> I offer <a href="website-strategy-seo.html">Website Strategy &amp; SEO</a> to help the people who are already looking for what you do actually find you.</p>
+    </div>
+    <div class="alt-path">
+        <p><strong>If you just want to talk:</strong> Every engagement starts with a conversation. No pitch, no pressure. <a href="../contact.html">Let's talk</a> about where you are and what you need.</p>
+    </div>
+</div>
+</section>
 
 <!-- FAQ SECTION -->
-<section class="content-section reveal">
+<section class="content-section section-warm reveal">
 <div class="content-inner">
     <p class="section-label">Common Questions</p>
     <h2>Frequently asked questions.</h2>
@@ -335,7 +529,7 @@
 
     <div class="faq-item">
         <h3 class="faq-q">What size of nonprofit benefits most from a fractional development director?</h3>
-        <p class="faq-a">Fractional development leadership works best for nonprofits with annual revenues between $500K and $5M - organizations that have outgrown a volunteer-driven model but aren't ready to hire a full-time development director. It's especially valuable when the executive director is carrying too much of the fundraising themselves.</p>
+        <p class="faq-a">Fractional development leadership works best for nonprofits with annual revenues between $500K and $3M - organizations that have outgrown a volunteer-driven model but aren't ready to hire a full-time development director. It's especially valuable when the executive director is carrying too much of the fundraising themselves.</p>
     </div>
 
     <div class="faq-item">
@@ -350,8 +544,17 @@
 </div>
 </section>
 
+<!-- CLOSING CTA -->
+<section class="closing">
+    <div class="closing-inner reveal">
+        <h2 class="closing-headline">Every organization has a next chapter.</h2>
+        <p class="closing-body">No pitch. No pressure. Just an honest conversation about where you are, where you want to be, and what it would take to get there.</p>
+        <a href="#contact-form" class="cta-btn">Start a Conversation &rarr;</a>
+    </div>
+</section>
+
 <!-- CONTACT FORM -->
-<section class="form-section" id="contact-form">
+<section class="form-section section-warm" id="contact-form">
     <div class="form-section-inner">
         <div class="form-info reveal">
             <h2>Let's start a conversation.</h2>
@@ -371,9 +574,9 @@
         </div>
         <div class="form-box reveal">
             <h3>Send a Message</h3>
-            <form name="contact-fractional" method="POST" netlify netlify-honeypot="bot-field">
+            <form name="contact-fractional" method="POST" action="/api/contact">
                 <input type="hidden" name="form-name" value="contact-fractional">
-                <input type="hidden" name="subject" value="Fractional Fundraising Support Inquiry">
+                <input type="hidden" name="subject" value="Fractional Fundraising Services Inquiry">
                 <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
                 <div class="form-group"><label for="name">Your Name</label><input type="text" id="name" name="name" required></div>
                 <div class="form-group"><label for="org">Organization</label><input type="text" id="org" name="organization"></div>
@@ -401,19 +604,14 @@
 </footer>
 
 <script>
-    // Nav scroll effect
     const nav = document.getElementById('nav');
     window.addEventListener('scroll', () => {
         nav.classList.toggle('scrolled', window.scrollY > 40);
     });
-
-    // Mobile nav toggle
     document.getElementById('navToggle').addEventListener('click', function() {
         document.getElementById('navLinks').classList.toggle('open');
         this.classList.toggle('open');
     });
-
-    // Reveal on scroll
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
     }, { threshold: 0.1 });

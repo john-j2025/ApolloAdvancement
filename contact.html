@@ -386,9 +386,10 @@
     </div>
     <div class="contact-form">
         <h2>Send a Message</h2>
-        <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
+        <form name="contact" method="POST" action="/api/contact">
             <input type="hidden" name="form-name" value="contact">
-            <p class="bot-field" style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
+            <input type="hidden" name="subject" value="New Contact Form Submission">
+            <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
             <div class="form-group"><label for="name">Your Name</label><input type="text" id="name" name="name" required></div>
             <div class="form-group"><label for="org">Organization</label><input type="text" id="org" name="organization"></div>
             <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" required></div>

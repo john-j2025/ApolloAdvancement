@@ -1,0 +1,31 @@
+# Redirects
+
+# Canonical redirects: .html → pretty URLs (prevents duplicate content)
+/about.html        /about/     301
+/services.html     /services/  301
+/results.html      /results/   301
+/resources.html    /resources/ 301
+/contact.html      /contact/   301
+
+# Blog: old root-level URLs → new /blog/ URLs
+/everything-you-believe-about-fundraising-is-wrong/      /blog/everything-you-believe-about-fundraising-is-wrong/  301
+/everything-you-believe-about-fundraising-is-wrong.html  /blog/everything-you-believe-about-fundraising-is-wrong/  301
+/fundraising-is-embarrassing/      /blog/fundraising-is-embarrassing/  301
+/fundraising-is-embarrassing.html  /blog/fundraising-is-embarrassing/  301
+/if-we-build-it/                   /blog/if-we-build-it/               301
+/if-we-build-it.html               /blog/if-we-build-it/               301
+/blog.html                         /blog/                              301
+
+# Services: old root-level URLs → new /services/ URLs
+/fractional-development-leadership/      /services/fractional-development-leadership/    301
+/fractional-development-leadership.html  /services/fractional-development-leadership/    301
+/fundraising-audit/                      /services/fundraising-audit/                    301
+/fundraising-audit.html                  /services/fundraising-audit/                    301
+/campaign-development/                   /services/campaign-development/                 301
+/campaign-development.html               /services/campaign-development/                 301
+/board-staff-training/                   /services/board-staff-training/                 301
+/board-staff-training.html               /services/board-staff-training/                 301
+/content-communications-strategy/        /services/content-communications-strategy/      301
+/content-communications-strategy.html    /services/content-communications-strategy/      301
+/website-strategy-seo/                   /services/website-strategy-seo/                 301
+/website-strategy-seo.html               /services/website-strategy-seo/                 301

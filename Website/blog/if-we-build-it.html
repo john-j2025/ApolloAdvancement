@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Apollo Advancement">
+    <meta property="og:title" content="If We Build It, They Will Come: The Comforting Lie That Keeps Good Organizations Broke">
+    <meta property="og:description" content="Good work alone doesn't generate donations. Why the 'if we build it' mindset is quietly starving your nonprofit, and what actually works instead.">
+    <meta property="og:image" content="https://apolloadvancement.com/blog/blog-if-we-build-it.jpg">
+    <meta property="og:image:width" content="1840">
+    <meta property="og:image:height" content="966">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:alt" content="Fallacy #2: If We Build It, They Will Come — blog post from the series Everything You Believe About Fundraising is Wrong">
+    <meta property="og:url" content="https://apolloadvancement.com/blog/if-we-build-it/">
+    <meta property="article:author" content="John Jalsevac, PhD">
+    <meta property="article:published_time" content="2026-03-18T00:00:00Z">
+    <meta property="article:section" content="Fundraising">
+    <meta property="article:tag" content="nonprofit fundraising">
+    <meta property="article:tag" content="fundraising strategy">
+    <meta property="article:tag" content="donor cultivation">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="If We Build It, They Will Come: The Comforting Lie That Keeps Good Organizations Broke">
+    <meta name="twitter:description" content="Good work alone doesn't generate donations. Why the 'if we build it' mindset is quietly starving your nonprofit, and what actually works instead.">
+    <meta name="twitter:image" content="https://apolloadvancement.com/blog/blog-if-we-build-it.jpg">
+    <meta name="twitter:image:alt" content="Fallacy #2: If We Build It, They Will Come — blog post from the series Everything You Believe About Fundraising is Wrong">
+    <meta name="description" content="Good work alone doesn't generate donations. Why the 'if we build it' mindset is quietly starving your nonprofit, and what actually works instead.">
+    <link rel="canonical" href="https://apolloadvancement.com/blog/if-we-build-it/">
+    <title>Fallacy #2: If We Build It, They Will Come | Apollo Advancement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet"></noscript>
+    <style>
+        :root {
+            --color-bg: #FFFAF5;
+            --color-bg-warm: #F5EBE0;
+            --color-bg-dark: #1A1410;
+            --color-text: #1A1410;
+            --color-text-soft: #5C514A;
+            --color-accent: #C8461C;
+            --color-accent-hover: #A83610;
+            --color-accent-glow: #E86E3A;
+            --color-rule: #DDD2C6;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body: 'DM Sans', -apple-system, sans-serif;
+            --max-width: 1280px;
+            --content-width: 920px;
+            --article-width: 720px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 18px; scroll-behavior: smooth; }
+        body { font-family: var(--font-body); background-color: var(--color-bg); color: var(--color-text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+        /* NAV */
+        nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: transparent; backdrop-filter: blur(0px); -webkit-backdrop-filter: blur(0px); border-bottom: 1px solid transparent; transition: background 0.4s, border-color 0.3s, box-shadow 0.3s, backdrop-filter 0.4s; }
+        nav.scrolled { background: rgba(255,250,245,0.95); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom-color: var(--color-rule); box-shadow: 0 1px 20px rgba(26,20,16,0.04); }
+        nav.scrolled .nav-brand { color: var(--color-text); }
+        nav.scrolled .nav-links a { color: var(--color-text-soft); }
+        nav.scrolled .nav-links a:hover { color: var(--color-text); }
+        .nav-inner { max-width: var(--max-width); margin: 0 auto; padding: 1.1rem 2.5rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-brand { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: #fff; text-decoration: none; }
+        .nav-brand span { color: var(--color-accent); }
+        .nav-links { display: flex; gap: 2.5rem; align-items: center; list-style: none; }
+        .nav-links a { font-size: 0.78rem; font-weight: 600; color: rgba(255,255,255,0.7); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--color-accent); }
+        .nav-links .nav-cta { color: #fff; background: var(--color-accent); padding: 0.6rem 1.4rem; border-radius: 3px; transition: background 0.2s; }
+        .nav-links .nav-cta:hover { background: var(--color-accent-hover); color: #fff; }
+        .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; }
+        .nav-toggle span { display: block; width: 26px; height: 2px; background: #fff; margin: 6px 0; transition: all 0.3s; }
+        nav.scrolled .nav-toggle span { background: var(--color-text); }
+
+        /* ARTICLE HEADER */
+        .article-header-wrap {
+            background: var(--color-bg-warm);
+            padding: 10rem 2.5rem 3rem;
+            border-bottom: 1px solid var(--color-rule);
+        }
+        .article-header {
+            max-width: var(--content-width);
+            margin: 0 auto;
+        }
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .article-series {
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--color-accent);
+        }
+        .article-series a {
+            color: var(--color-accent);
+            text-decoration: none;
+        }
+        .article-series a:hover {
+            text-decoration: underline;
+        }
+        .article-date {
+            font-size: 0.78rem;
+            color: var(--color-text-soft);
+        }
+        .article-header h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.8rem, 6vw, 4.5rem);
+            font-weight: 900;
+            line-height: 1.05;
+            letter-spacing: -0.02em;
+            color: var(--color-text);
+            margin-bottom: 0.6rem;
+        }
+        .article-subtitle {
+            font-size: 1.15rem;
+            color: var(--color-text-soft);
+            margin-bottom: 0;
+        }
+        .article-image {
+            max-width: var(--content-width);
+            margin: 0 auto;
+            padding: 2.5rem 2.5rem 0;
+        }
+        .article-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 12px;
+        }
+
+        /* ARTICLE BYLINE */
+        .article-byline {
+            max-width: var(--article-width);
+            margin: 0 auto;
+            padding: 1.5rem 2.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+        .article-byline-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+        .article-byline-name {
+            font-family: var(--font-body);
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: var(--color-text);
+        }
+
+        /* ARTICLE BODY */
+        .article-body {
+            max-width: var(--article-width);
+            margin: 0 auto;
+            padding: 2rem 2.5rem 4rem;
+        }
+        .article-body p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--color-text-soft);
+            margin-bottom: 1.6rem;
+        }
+        .article-body p.lead {
+            font-size: 1.15rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--color-text);
+            margin-bottom: 2.2rem;
+        }
+        .article-body h2 {
+            font-family: var(--font-display);
+            font-size: 1.6rem;
+            font-weight: 800;
+            line-height: 1.2;
+            color: var(--color-text);
+            margin: 2.5rem 0 1rem;
+        }
+        .article-body strong {
+            color: var(--color-text);
+            font-weight: 600;
+        }
+        .article-body blockquote {
+            border-left: 3px solid var(--color-accent);
+            padding-left: 1.2rem;
+            margin: 1.8rem 0;
+            font-style: italic;
+        }
+        .article-body blockquote p {
+            color: var(--color-text);
+            font-size: 1.08rem;
+        }
+        .article-body a {
+            color: var(--color-accent);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+        .article-body a:hover {
+            color: var(--color-accent-hover);
+        }
+
+        /* SERIES NAV */
+        .series-nav {
+            max-width: var(--article-width);
+            margin: 0 auto 3rem;
+            padding: 0 2.5rem;
+        }
+        .series-nav-links {
+            display: flex;
+            gap: 1rem;
+        }
+        .series-prev, .series-next {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            background: var(--color-bg-warm);
+            border: 1px solid var(--color-rule);
+            border-radius: 6px;
+            padding: 1.5rem 2rem;
+            text-decoration: none;
+            transition: box-shadow 0.3s, transform 0.2s;
+        }
+        .series-prev:hover, .series-next:hover {
+            box-shadow: 0 4px 20px rgba(26,20,16,0.06);
+            transform: translateY(-2px);
+        }
+        .series-next-label, .series-prev-label {
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--color-accent);
+            margin-bottom: 0.3rem;
+        }
+        .series-next-title, .series-prev-title {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: var(--color-text);
+            line-height: 1.3;
+        }
+        .series-next-arrow, .series-prev-arrow {
+            margin-left: auto;
+            font-size: 1.5rem;
+            color: var(--color-accent);
+            flex-shrink: 0;
+        }
+        .series-prev-arrow {
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        /* AUTHOR BOX */
+        .author-box {
+            max-width: var(--article-width);
+            margin: 0 auto 3rem;
+            padding: 0 2.5rem;
+        }
+        .author-inner {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            border-top: 1px solid var(--color-rule);
+            padding-top: 2rem;
+        }
+        .author-avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+        .author-name {
+            font-family: var(--font-display);
+            font-size: 1rem;
+            font-weight: 800;
+            color: var(--color-text);
+            margin-bottom: 0.3rem;
+        }
+        .author-bio {
+            font-size: 0.88rem;
+            line-height: 1.6;
+            color: var(--color-text-soft);
+        }
+
+        /* CLOSING CTA */
+        .closing { padding: 5rem 2.5rem; text-align: center; background: var(--color-bg-warm); border-top: 1px solid var(--color-rule); }
+        .closing-inner { max-width: 600px; margin: 0 auto; }
+        .closing-headline { font-family: var(--font-display); font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 900; line-height: 1.15; color: var(--color-text); margin-bottom: 1rem; }
+        .closing-body { font-size: 1rem; color: var(--color-text-soft); margin-bottom: 2rem; }
+        .cta-btn { display: inline-block; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--color-accent); padding: 1rem 2.5rem; text-decoration: none; border-radius: 3px; transition: background 0.25s, transform 0.2s, box-shadow 0.25s; }
+        .cta-btn:hover { background: var(--color-accent-hover); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(200,70,28,0.28); }
+
+        /* FOOTER */
+        footer { background: var(--color-bg-dark); padding: 3rem 2.5rem 2rem; }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        .footer-brand { font-family: var(--font-display); font-size: 1rem; font-weight: 600; color: var(--color-text-soft); }
+        .footer-links { display: flex; gap: 2rem; list-style: none; }
+        .footer-links a { font-size: 0.78rem; font-weight: 500; color: var(--color-text-soft); text-decoration: none; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--color-accent); }
+        .footer-copy { font-size: 0.72rem; color: var(--color-rule); width: 100%; text-align: center; margin-top: 1.5rem; }
+
+        /* ANIMATIONS */
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+        .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            html { font-size: 16px; }
+            .nav-inner { padding: 1rem 1.5rem; }
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--color-bg); border-bottom: 1px solid var(--color-rule); flex-direction: column; padding: 1.5rem; gap: 1.2rem; }
+            .nav-links.open { display: flex; }
+            .nav-links.open a { color: var(--color-text-soft) !important; }
+            .nav-links.open a:hover { color: var(--color-text) !important; }
+            .nav-toggle { display: block; }
+            .nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 6px); }
+            .nav-toggle.open span:nth-child(2) { opacity: 0; }
+            .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
+            .article-header-wrap { padding: 8rem 1.5rem 2.5rem; }
+            .article-image { padding: 2rem 1.5rem 0; }
+            .article-byline { padding: 1.2rem 1.5rem 0; }
+            .article-body { padding: 1.5rem 1.5rem 3rem; }
+            .series-nav { padding: 0 1.5rem; }
+            .series-nav-links { flex-direction: column; }
+            .author-box { padding: 0 1.5rem; }
+            .author-inner { flex-direction: column; align-items: center; text-align: center; }
+            .closing { padding: 3rem 1.5rem; }
+            .footer-inner { flex-direction: column; text-align: center; }
+            .footer-links { justify-content: center; }
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DS2DG3WFX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6DS2DG3WFX');
+    </script>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+
+    <!-- Article Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "If We Build It, They Will Come: The Comforting Lie That Keeps Good Organizations Broke",
+        "description": "Good work alone doesn't generate donations. Why the 'if we build it' mindset is quietly starving your nonprofit, and what actually works instead.",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://apolloadvancement.com/blog/blog-if-we-build-it.jpg",
+            "width": 1840,
+            "height": 966
+        },
+        "author": {
+            "@type": "Person",
+            "name": "John Jalsevac, PhD",
+            "url": "https://apolloadvancement.com/about",
+            "jobTitle": "Founder",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Apollo Advancement"
+            }
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Apollo Advancement",
+            "url": "https://apolloadvancement.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://apolloadvancement.com/apollo.webp"
+            }
+        },
+        "datePublished": "2026-03-18",
+        "dateModified": "2026-03-18",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://apolloadvancement.com/blog/if-we-build-it/"
+        },
+        "articleSection": "Fundraising",
+        "wordCount": 2100,
+        "isPartOf": [
+            {
+                "@type": "Blog",
+                "name": "Apollo Advancement Blog",
+                "url": "https://apolloadvancement.com/blog/"
+            },
+            {
+                "@type": "CreativeWorkSeries",
+                "name": "Everything You Believe About Fundraising is Wrong",
+                "url": "https://apolloadvancement.com/blog/everything-you-believe-about-fundraising-is-wrong/",
+                "position": 2
+            }
+        ],
+        "keywords": ["nonprofit fundraising", "fundraising strategy", "donor cultivation", "fundraising mistakes", "nonprofit leadership", "arts fundraising", "bystander effect"]
+    }
+    </script>
+</head>
+<body>
+<nav id="nav">
+    <div class="nav-inner">
+        <a href="../index.html" class="nav-brand">Apollo <span>Advancement</span></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../results.html">Results</a></li>
+            <li><a href="index.html" class="active">Blog</a></li>
+            <li><a href="../resources.html">Resources</a></li>
+            <li><a href="../contact.html" class="nav-cta">Start a Conversation</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- ARTICLE HEADER -->
+<div class="article-header-wrap">
+<div class="article-header reveal">
+    <div class="article-meta">
+        <span class="article-series"><a href="everything-you-believe-about-fundraising-is-wrong.html">Fallacy #2</a></span>
+        <span class="article-date">March 18, 2026</span>
+    </div>
+    <h1>If We Build It, They Will Come</h1>
+    <p class="article-subtitle">The Comforting Lie That Keeps Good Organizations Broke</p>
+</div>
+</div>
+
+<!-- ARTICLE IMAGE -->
+<div class="article-image reveal">
+    <img src="blog-if-we-build-it.jpg" alt="If We Build It, They Will Come - The Comforting Lie That Keeps Good Organizations Broke">
+</div>
+
+<!-- ARTICLE BYLINE -->
+<div class="article-byline">
+    <img class="article-byline-avatar" src="john-jalsevac-portrait.webp" alt="John Jalsevac, PhD">
+    <span class="article-byline-name">John Jalsevac, PhD</span>
+</div>
+
+<!-- ARTICLE BODY -->
+<article class="article-body reveal">
+    <p class="lead">Part 2 of <a href="everything-you-believe-about-fundraising-is-wrong.html">Everything You Believe About Fundraising is Wrong</a>: 9 Mistakes That Are Killing Your Results</p>
+
+    <p>In the 1989 film <em>Field of Dreams</em>, Kevin Costner's character hears a mysterious voice whispering from his Iowa cornfield: "If you build it, they will come." He tears up his crops, builds a baseball diamond, and sure enough, the ghosts of disgraced ballplayers appear to play under the lights.</p>
+
+    <p>It's a beautiful movie. It's also, unfortunately, the misguided fundraising strategy of far too many nonprofits.</p>
+
+    <p>The logic goes like this: if we do excellent work, if our programs are strong, if our mission is clear, if we're improving people's lives, if we're making a difference, then people will see the value and <em>they will give</em>. All we have to do is focus on the work. The money will follow.</p>
+
+    <p>The brutal reality? It won't. It almost never does. Because something else is needed, the thing that too many nonprofit leaders hate doing, and would do almost anything to avoid doing: they have to ask for money.</p>
+
+    <h2>Somebody Else's Problem</h2>
+
+    <p>You might be wondering: Why is asking necessary? Why don't people just give when they see good work being done? Shouldn't they feel <em>compelled</em> to give?</p>
+
+    <p>Well, no. And one of my favourite scenes from <em>The Hitchhiker's Guide to the Galaxy</em> helps explain why.</p>
+
+    <p>In it, Douglas Adams describes an invisibility technology called the "Somebody Else's Problem field," or SEP field for short. This SEP field works by exploiting a quirk of human psychology: if something is somebody else's problem, people simply don't see it. The SEP field doesn't <em>actually</em> make an object invisible. It just makes the brain conclude that whatever it's looking at is not its concern, and therefore not worth noticing. And so people don't see it.</p>
+
+    <p>Creating an SEP field, Adams writes, is "much simpler and more effective" than actual invisibility, and "can be run for over a hundred years on a single torch battery."</p>
+
+    <p>Adams meant it as satire. But he described something that psychologists had already documented. In the late 1960s, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6099971/" target="_blank" rel="noopener">John Darley and Bibb Latane conducted a series of experiments</a> at Columbia University that revealed what they called "diffusion of responsibility." Their most famous study simulated an emergency: participants heard someone having a seizure over an intercom. When a participant believed they were the only one listening, 85% rushed to help. When they believed four others were also listening, only 31% responded.</p>
+
+    <p>The participants who didn't respond weren't indifferent. They showed visible signs of distress and concern. They just assumed someone else would handle it.</p>
+
+    <p>This is a fundamental axiom of human psychology. When there's a problem and many potential people who could address it, we stand back and let somebody else take care of it. Not because we don't care. Not because we wouldn't help. But because we assume it's handled. The need is, in Adams' terms, surrounded by an SEP field.</p>
+
+    <p>This is exactly what happens with nonprofit funding. When no one <em>asks</em> a specific person for a specific gift, that person assumes the organization is fine. Someone else must be taking care of it. The budget must be covered. The need must not be that urgent.</p>
+
+    <p>But here's the other side of the Darley and Latane research, the side that nonprofits almost never talk about: when people were singled out, when they understood the need was real and that their help specifically was being requested, they responded readily. Often willingly. Sometimes even eagerly.</p>
+
+    <p><strong>It's hard to overstate how important that finding is.</strong></p>
+
+    <p>People who are asked to help <em>don't</em> actually view being asked as a burden. Rather, they experience it as a compliment. The act of asking says: I know you care about this. I know you have the capacity to make a difference. I trust you enough to be direct with you. That's not an imposition. That's an expression of respect.</p>
+
+    <p><strong>But you do have to ask.</strong> The asking is the thing that breaks through the SEP field. Without it, your need is invisible.</p>
+
+    <h2>The arts problem</h2>
+
+    <p>Nowhere is the "if we build it" fallacy more deeply entrenched than in the arts.</p>
+
+    <p>Orchestras, theatres, choirs, dance companies, and galleries tend to attract leaders who are passionate about artistic excellence, and profoundly uncomfortable with fundraising. Many of them genuinely believe that a great performance or a stunning exhibition should, by itself, generate the financial support needed to keep the doors open.</p>
+
+    <p>Their audience members may share this assumption. A patron who hasn't been informed about the economic realities of their favourite arts group, and who pays $40 for a concert ticket, may be tempted to feel they've done their part. They showed up. They paid. They clapped.</p>
+
+    <p>Here's the reality: ticket sales at most performing arts organizations cover between 30% and 60% of operating costs. The <a href="https://startupfinancialprojection.com/blogs/capex/performing-arts" target="_blank" rel="noopener">Theatre Communications Group</a> reports that its member theatres derive roughly half their income from the box office. For many smaller organizations, the number is closer to a third. The rest has to come from somewhere: individual donations, grants, corporate sponsorships. Without that contributed revenue, the organization simply cannot survive.</p>
+
+    <p>Seattle's Book-It Repertory, which <a href="https://www.theatermania.com/news/story-of-the-week-americas-not-for-profit-theaters-are-in-trouble_1707266/" target="_blank" rel="noopener">closed its doors in 2023</a> after 33 years, put it plainly in their final press statement: "Ticket sales make up just 30% of Book-It's budget, with the remaining costs subsidized by individual giving and grants."</p>
+
+    <p>They're hardly alone. In 2023 alone, Oregon Shakespeare Festival scrambled for emergency funding, the Center Theatre Group in Los Angeles suspended performances, and Greensboro's Triad Stage shut down entirely. In every case, the story was the same: ticket revenue wasn't enough, and the donated revenue wasn't there to fill the gap.</p>
+
+    <p>The lesson is stark. No arts group survives on tickets alone. And yet many arts organizations behave as if asking their audiences for donations on top of ticket purchases is somehow inappropriate, as if the audience has already given enough by showing up. As a consequence, they don't invest in fundraising. And they don't ask their supporters to help.</p>
+
+    <p>The irony is that many of their biggest fans are, in fact, quite wealthy, and would more than happily donate beyond purchasing tickets. They've just never been told that the need is there. And they've never been asked.</p>
+
+    <p>This is the "if we build it" fallacy wearing its most elegant clothes. And it is killing arts organizations across North America.</p>
+
+    <h2>The anger trap</h2>
+
+    <p>Here's where this belief becomes not just ineffective but corrosive.</p>
+
+    <p>I've watched it happen: an organization does excellent work, doesn't ask for money, and then becomes frustrated, even resentful, when its community doesn't spontaneously give.</p>
+
+    <p>Board members grumble that the community "doesn't value what we do." Executive directors feel bitter that supporters who attend every event can't seem to figure out that the organization needs money. There's a quiet, festering anger directed at the very people the organization should be cultivating.</p>
+
+    <p>But the fault doesn't lie with the community. It lies with the organization. If you haven't clearly explained the need, if you haven't told people what their money will accomplish, if you haven't looked someone in the eye and asked them to give, then you have no right to be frustrated when they don't.</p>
+
+    <p>This is where Belief #2 connects directly back to <a href="fundraising-is-embarrassing.html">Belief #1 in this series</a>. Because fundraising feels embarrassing (Belief #1), organizations don't ask. Because they don't ask, they assume the work should speak for itself (Belief #2). And because the work doesn't speak for itself, because it never does, they end up blaming the very people who would have given gladly if only someone had asked.</p>
+
+    <p>It's the organization that has created its own SEP field. And it's the organization that has to be the one to break through it.</p>
+
+    <h2>What the work actually does</h2>
+
+    <p>Let me be clear: doing good work matters. It matters enormously. An organization that does mediocre work will struggle to raise money no matter how good its fundraising operation is.</p>
+
+    <p>But good work is the foundation, not the building. It gives you something worth talking about, worth inviting people into, worth asking them to support. It produces the stories of impact that make donors feel their gifts are worthwhile. It creates the credibility that makes the ask feel genuine rather than desperate.</p>
+
+    <p>The work creates the raw material. Fundraising is the act of sharing that material with the people who need to hear it, and then inviting them to be part of what comes next.</p>
+
+    <p>If you build it, they will not come. Not on their own. Not without being asked.</p>
+
+    <p>But if you build it and then go out and tell people about it with conviction and clarity and ask them to join you, they will come. Many of them will come gladly. Some of them will come with gifts far larger than you ever imagined. And a few of them will thank you for asking.</p>
+
+    <p><em>Next in the series: <strong>"We Have to Give People Something in Return"</strong> &mdash; why the bake sale mentality is quietly destroying your fundraising potential.</em></p>
+</article>
+
+<!-- SERIES NAVIGATION -->
+<div class="series-nav reveal">
+    <div class="series-nav-links">
+        <a href="fundraising-is-embarrassing.html" class="series-prev">
+            <span class="series-prev-arrow">&larr;</span>
+            <div>
+                <p class="series-prev-label">Previous in the series</p>
+                <p class="series-prev-title">Fallacy #1: Fundraising is Embarrassing</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- AUTHOR -->
+<div class="author-box reveal">
+    <div class="author-inner">
+        <img class="author-avatar" src="john-jalsevac-portrait.webp" alt="John Jalsevac, PhD">
+        <div>
+            <p class="author-name">John Jalsevac, PhD</p>
+            <p class="author-bio">John is a fundraising consultant who helps arts, education, and community nonprofits raise more money through strategic development, compelling storytelling, and genuine donor relationships. He is the founder of Apollo Advancement.</p>
+        </div>
+    </div>
+</div>
+
+<!-- CLOSING CTA -->
+<section class="closing">
+<div class="closing-inner reveal">
+    <h2 class="closing-headline">Ready to change what your organization believes about fundraising?</h2>
+    <p class="closing-body">Every engagement starts with an honest conversation about where you are and where you want to go. No pitch. No obligation.</p>
+    <a href="../contact.html" class="cta-btn">Start a Conversation</a>
+</div></section>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand">Apollo Advancement</div>
+        <ul class="footer-links">
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../results.html">Results</a></li>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="../resources.html">Resources</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <p class="footer-copy">&copy; 2026 Apollo Advancement. Kawartha Lakes, Ontario. Serving non-profits across Canada and the United States.</p>
+    </div>
+</footer>
+<script>
+    const nav = document.getElementById('nav');
+    nav.classList.add('scrolled');
+    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 50 || true));
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => { navToggle.classList.toggle('open'); navLinks.classList.toggle('open'); });
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); }); }, { threshold: 0.01, rootMargin: '0px 0px 200px 0px' });
+    reveals.forEach(el => observer.observe(el));
+</script>
+</body></html>

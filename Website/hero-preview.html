@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hero Preview - Textured Sienna</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+:root {
+    --color-accent: #C8461C;
+    --color-accent-glow: #E86E3A;
+    --color-accent-hover: #A83610;
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-body: 'DM Sans', -apple-system, sans-serif;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 18px; }
+body { font-family: var(--font-body); }
+
+.landing-hero {
+    background: #4A1A0A;
+    padding: 10rem 2.5rem 5rem;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.landing-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse 120% 80% at 30% 20%, rgba(200,70,28,0.25) 0%, transparent 60%),
+        radial-gradient(ellipse 80% 100% at 80% 70%, rgba(168,54,16,0.2) 0%, transparent 55%),
+        radial-gradient(ellipse 60% 50% at 60% 10%, rgba(232,110,58,0.12) 0%, transparent 50%);
+    z-index: 0;
+}
+.landing-hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.08'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    opacity: 0.5;
+    z-index: 0;
+}
+.landing-hero-inner { max-width: 820px; margin: 0 auto; position: relative; z-index: 1; width: 100%; }
+.landing-hero h1 { font-family: var(--font-display); font-size: clamp(2.6rem, 6vw, 4rem); font-weight: 900; line-height: 1.08; letter-spacing: -0.02em; color: #fff; margin-bottom: 1.8rem; }
+.landing-hero h1 em { font-style: italic; color: var(--color-accent-glow); }
+.hero-sub { font-size: 1.15rem; color: rgba(255,255,255,0.75); line-height: 1.7; max-width: 640px; margin-bottom: 2.5rem; }
+.cta-btn { display: inline-block; font-size: 0.88rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--color-accent); padding: 1.1rem 2.8rem; text-decoration: none; border-radius: 3px; }
+.stats-row { display: flex; gap: 3.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(255,255,255,0.1); flex-wrap: wrap; }
+.stat-num { font-family: var(--font-display); font-size: 2.2rem; font-weight: 800; color: var(--color-accent-glow); display: block; line-height: 1.2; }
+.stat-label { font-size: 0.78rem; color: rgba(255,255,255,0.45); margin-top: 0.3rem; letter-spacing: 0.02em; }
+
+.note { text-align: center; padding: 2rem; background: #FFFAF5; font-size: 0.9rem; color: #5C514A; }
+</style>
+</head>
+<body>
+<div class="landing-hero">
+    <div class="landing-hero-inner">
+        <h1>Stop Losing Donors to<br><em>Development Director Turnover</em></h1>
+        <p class="hero-sub">Senior fundraising leadership on a monthly retainer. I embed with your team to build the program, manage donors, and create the communications - without the cost of a full-time hire.</p>
+        <div class="hero-cta-row">
+            <a href="#" class="cta-btn">Book a Discovery Call</a>
+        </div>
+        <div class="stats-row">
+            <div class="stat-item"><span class="stat-num">16 years</span><span class="stat-label">nonprofit fundraising experience</span></div>
+            <div class="stat-item"><span class="stat-num">$30M+</span><span class="stat-label">raised for mission-driven organizations</span></div>
+            <div class="stat-item"><span class="stat-num">3 months</span><span class="stat-label">average time to first major gift</span></div>
+        </div>
+    </div>
+</div>
+<p class="note">This is a preview of the textured dark sienna hero. Open this file in your browser to see the effect.</p>
+</body>
+</html>

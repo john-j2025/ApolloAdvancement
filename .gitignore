@@ -1,30 +1,24 @@
 # macOS
 .DS_Store
 
-# Unused/source images
-unused-images/
+# Non-website folders (business documents, not part of the deployed site)
+Business Operations/
+Blog Drafts/
+Lead Magnets/
+Social Media Assets/
+Fonts/
+
+# Unused/source images within website folder
+Website/unused-images/
 
 # Preview/backup files
-og-image-preview.jpg
-
-# Social media assets (not part of the website)
-facebook-cover.jpg
-facebook-checklist-post.jpg
-facebook-profile.jpg
-facebook-profile-logo.png
-linkedin-cover.jpg
-linkedin-profile.jpg
-logo-text.jpg
+Website/og-image-preview.jpg
 
 # Local dev tools
-preview.command
+Website/preview.command
 
-# Font files (site uses Google Fonts CDN; these are for local image generation only)
-PlayfairDisplay-Black.ttf
-PlayfairDisplay-BlackItalic.ttf
-PlayfairDisplay-BoldItalic.ttf
-DMSans-Bold.ttf
-DMSans-Regular.ttf
+# High-res favicon source (not needed in deploy)
+Website/favicon-512.png
 
-# High-res favicon source
-favicon-512.png
+# LibreOffice lock files
+.~lock.*

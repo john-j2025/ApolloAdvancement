@@ -17,8 +17,10 @@
 /blog.html                         /blog/                              301
 
 # Services: old root-level URLs → new /services/ URLs
-/fractional-development-leadership/      /services/fractional-development-leadership/    301
-/fractional-development-leadership.html  /services/fractional-development-leadership/    301
+/fractional-development-leadership/      /services/fractional-fundraising    301
+/fractional-development-leadership.html  /services/fractional-fundraising    301
+/services/fractional-development-leadership  /services/fractional-fundraising    301
+/services/fractional-development-leadership/  /services/fractional-fundraising    301
 /fundraising-audit/                      /services/fundraising-audit/                    301
 /fundraising-audit.html                  /services/fundraising-audit/                    301
 /campaign-development/                   /services/campaign-development/                 301

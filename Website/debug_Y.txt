@@ -1,0 +1,684 @@
+Debug log for: /Volumes/server/ADDR/Y
+Files found: 35
+
+===== ADDR.Y01.docx =====
+  P  1: [FILE_NUM] (Y-1)
+  P  4: [DIRECTORY]
+  P  5: [CROSS_REF]
+  P  6: [UNKNOWN] (len=12, words=2)
+  P  9: [NAME] (deceased, has_nickname, commas=1, name#1, ->CONTACT_INFO)
+  P 10: [ADDRESS]
+  P 11: [ADDRESS] (apt/unit)
+  P 12: [CITY_PROVINCE]
+  P 13: [POSTAL_CODE]
+  P 16: [PHONE_LABEL(has_num)] (label=home)
+  P 17: [PHONE_LABEL(empty)] (label=work)
+  P 19: [BOX_NUM]
+  P 22: [MATTER] (words=7, ->MATTERS)
+  P 24: [MATTER] (words=8, ->MATTERS)
+  P 26: [ESTATE]
+  P 27: [DATE_OF_DEATH]
+  P 28: [UNKNOWN] (len=12, words=2)
+  P 39: [FILE_PATH]
+  --- 41 paragraphs, 1 name lines ---
+
+===== ADDR.Y02.docx =====
+  P  0: [FILE_NUM] (Y-2)
+  P  2: [DIRECTORY]
+  P  4: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  5: [ADDRESS]
+  P  6: [CITY_PROVINCE]
+  P  7: [POSTAL_CODE]
+  P  9: [PHONE_BARE] (label=phone)
+  P 11: [BOX_NUM]
+  P 13: [MATTER] (words=6, ->MATTERS)
+  P 14: [UNKNOWN] (len=18, words=3)
+  P 43: [FILE_PATH]
+  --- 47 paragraphs, 1 name lines ---
+
+===== ADDR.Y03.docx =====
+  P  0: [FILE_NUM] (Y-3)
+  P  3: [DIRECTORY]
+  P  4: [CROSS_REF]
+  P  6: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  7: [ADDRESS]
+  P  8: [CITY_PROVINCE]
+  P  9: [POSTAL_CODE]
+  P 11: [PHONE_LABEL(has_num)] (label=home)
+  P 13: [NAME] (commas=1, name#2)
+  P 14: [ADDRESS]
+  P 15: [CITY_PROVINCE]
+  P 16: [POSTAL_CODE]
+  P 18: [PHONE_LABEL(has_num)] (label=home)
+  P 23: [BOX_NUM]
+  P 25: [UNKNOWN] (len=32, words=5)
+  P 26: [ADDRESS]
+  P 28: [ESTATE]
+  P 30: [UNKNOWN] (len=39, words=8)
+  P 32: [UNKNOWN] (len=52, words=9)
+  P 33: [DATE]
+  P 42: [FILE_PATH]
+  --- 43 paragraphs, 2 name lines ---
+
+===== ADDR.Y04.docx =====
+  P  0: [FILE_NUM] (Y-4)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  7: [NAME] (multi-person, commas=1, name#1, ->CONTACT_INFO)
+  P  8: [ADDRESS]
+  P  9: [CITY_PROVINCE]
+  P 10: [POSTAL_CODE]
+  P 13: [PHONE_LABEL(has_num)] (label=home)
+  P 14: [PHONE_LABEL(has_num)] (label=cell)
+  P 16: [BOX_NUM]
+  P 18: [MATTER] (words=10, ->MATTERS)
+  P 19: [UNKNOWN] (len=17, words=2)
+  P 21: [UNKNOWN] (len=18, words=3)
+  P 23: [MATTER] (has_date, words=9, ->MATTERS)
+  P 25: [MATTER] (words=4, ->MATTERS)
+  P 27: [MATTER] (words=8, ->MATTERS)
+  P 29: [MATTER] (words=6, ->MATTERS)
+  P 31: [MATTER] (words=7, ->MATTERS)
+  P 33: [MATTER] (words=9, ->MATTERS)
+  P 44: [FILE_PATH]
+  --- 46 paragraphs, 1 name lines ---
+
+===== ADDR.Y05.docx =====
+  P  0: [FILE_NUM] (Y-5)
+  P  3: [DIRECTORY]
+  P  5: [NAME] (has_nickname, commas=1, name#1, ->CONTACT_INFO)
+  P  6: [BOX_NUM]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(has_num)] (label=home)
+  P 11: [PHONE_LABEL(empty)] (label=work)
+  P 13: [BOX_NUM]
+  P 15: [MATTER] (words=6, ->MATTERS)
+  P 16: [UNKNOWN] (len=22, words=3)
+  P 17: [UNKNOWN] (len=18, words=3)
+  P 41: [FILE_PATH]
+  --- 44 paragraphs, 1 name lines ---
+
+===== ADDR.Y06.docx =====
+  P  0: [FILE_NUM] (Y-6)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  7: [ORG_NAME] (->CONTACT_INFO)
+  P  8: [UNKNOWN] (len=25, words=4)
+  P  9: [ADDRESS]
+  P 10: [CITY_PROVINCE]
+  P 11: [POSTAL_CODE]
+  P 14: [PHONE_LABEL(has_num)] (label=phone)
+  P 16: [UNKNOWN] (len=22, words=4)
+  P 17: [UNKNOWN] (len=20, words=4)
+  P 18: [UNKNOWN] (len=30, words=5)
+  P 20: [PHONE_LABEL(empty)] (label=home)
+  P 21: [CITY_PROVINCE]
+  P 22: [POSTAL_CODE]
+  P 24: [PHONE_LABEL(has_num)] (label=phone)
+  P 25: [BOX_NUM]
+  P 27: [MATTER] (words=5, ->MATTERS)
+  P 29: [MATTER] (words=3, ->MATTERS)
+  P 31: [UNKNOWN] (len=32, words=6)
+  P 33: [UNKNOWN] (len=27, words=3)
+  P 35: [UNKNOWN] (len=26, words=3)
+  P 36: [UNKNOWN] (len=19, words=3)
+  P 38: [UNKNOWN] (len=19, words=4)
+  P 40: [UNKNOWN] (len=26, words=3)
+  P 41: [UNKNOWN] (len=32, words=5)
+  P 43: [MATTER] (words=6, ->MATTERS)
+  P 44: [UNKNOWN] (len=20, words=3)
+  P 47: [FILE_PATH]
+  --- 48 paragraphs, 0 name lines ---
+
+===== ADDR.Y07.docx =====
+  P  0: [FILE_NUM] (Y-7)
+  P  3: [DIRECTORY]
+  P  5: [NAME] (multi-person, commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(has_num)] (label=home)
+  P 13: [BOX_NUM]
+  P 15: [MATTER] (words=4, ->MATTERS)
+  P 16: [UNKNOWN] (len=34, words=5)
+  P 18: [MATTER] (words=7, ->MATTERS)
+  P 19: [ADDRESS]
+  P 20: [DATE]
+  P 53: [FILE_PATH]
+  --- 59 paragraphs, 1 name lines ---
+
+===== ADDR.Y08.docx =====
+  P  0: [FILE_NUM] (Y-8)
+  P  3: [DIRECTORY]
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(has_num)] (label=home)
+  P 14: [BOX_NUM]
+  P 16: [MATTER] (words=9, ->MATTERS)
+  P 50: [FILE_PATH]
+  --- 51 paragraphs, 1 name lines ---
+
+===== ADDR.Y09.docx =====
+  P  0: [FILE_NUM] (Y-9)
+  P  3: [DIRECTORY]
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(has_num)] (label=home)
+  P 11: [PHONE_LABEL(empty)] (label=work)
+  P 14: [BOX_NUM]
+  P 16: [MATTER] (words=8, ->MATTERS)
+  P 18: [MATTER] (words=4, ->MATTERS)
+  P 38: [FILE_PATH]
+  --- 39 paragraphs, 1 name lines ---
+
+===== ADDR.Y10.docx =====
+  P  0: [FILE_NUM] (Y-10)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  4: [UNKNOWN] (len=24, words=3)
+  P  5: [UNKNOWN] (len=31, words=5)
+  P  6: [DECEASED_NAME]
+  P  7: [DECEASED_NAME]
+  P  8: [ADDRESS] (c/o)
+  P  9: [ADDRESS]
+  P 10: [ADDRESS]
+  P 11: [CITY_PROVINCE]
+  P 12: [POSTAL_CODE]
+  P 14: [PHONE_LABEL(has_num)] (label=home)
+  P 15: [BOX_NUM]
+  P 16: [UNKNOWN] (len=30, words=6)
+  P 18: [ESTATE]
+  P 20: [UNKNOWN] (len=29, words=6)
+  P 22: [UNKNOWN] (len=16, words=3)
+  P 23: [UNKNOWN] (len=26, words=5)
+  P 24: [UNKNOWN] (len=23, words=4)
+  P 26: [UNKNOWN] (len=27, words=4)
+  P 28: [UNKNOWN] (len=32, words=6)
+  P 29: [DATE]
+  P 30: [UNKNOWN] (len=22, words=4)
+  P 31: [ADDRESS]
+  P 32: [DATE]
+  P 34: [UNKNOWN] (len=21, words=4)
+  P 35: [DATE]
+  P 37: [UNKNOWN] (len=31, words=6)
+  P 38: [UNKNOWN] (len=10, words=2)
+  P 40: [UNKNOWN] (len=27, words=5)
+  P 41: [UNKNOWN] (len=32, words=5)
+  P 42: [UNKNOWN] (len=20, words=3)
+  P 44: [MATTER] (words=7, ->MATTERS)
+  P 46: [FILE_PATH]
+  --- 47 paragraphs, 0 name lines ---
+
+===== ADDR.Y11.docx =====
+  P  1: [FILE_NUM] (Y-11)
+  P  3: [DIRECTORY]
+  P  6: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  7: [ADDRESS]
+  P  8: [CITY_PROVINCE]
+  P  9: [POSTAL_CODE]
+  P 11: [NAME] (commas=1, name#2)
+  P 12: [ADDRESS]
+  P 13: [CITY_PROVINCE]
+  P 14: [POSTAL_CODE]
+  P 16: [PHONE_LABEL(empty)] (label=home)
+  P 17: [PHONE_LABEL(empty)] (label=work)
+  P 19: [BOX_NUM]
+  P 21: [MATTER] (words=4, ->MATTERS)
+  P 42: [FILE_PATH]
+  --- 43 paragraphs, 2 name lines ---
+
+===== ADDR.Y12.docx =====
+  P  1: [FILE_NUM] (Y-12)
+  P  3: [ORG_NAME] (->CONTACT_INFO)
+  P  6: [NAME] (commas=1, name#1)
+  P  7: [ADDRESS]
+  P  8: [UNKNOWN] (len=21, words=4)
+  P  9: [POSTAL_CODE]
+  P 11: [PHONE_LABEL(has_num)] (label=home)
+  P 12: [EMAIL]
+  P 14: [BOX_NUM]
+  P 16: [MATTER] (words=4, ->MATTERS)
+  P 17: [ADDRESS]
+  P 18: [UNKNOWN] (len=16, words=4)
+  P 19: [DATE]
+  P 21: [UNKNOWN] (len=30, words=5)
+  P 22: [DATE]
+  P 24: [UNKNOWN] (len=38, words=8)
+  P 26: [UNKNOWN] (len=24, words=5)
+  P 27: [DATE]
+  P 29: [UNKNOWN] (len=33, words=7)
+  P 31: [UNKNOWN] (len=43, words=8)
+  P 33: [UNKNOWN] (len=29, words=5)
+  P 34: [UNKNOWN] (len=18, words=5)
+  P 46: [FILE_PATH]
+  --- 47 paragraphs, 1 name lines ---
+
+===== ADDR.Y13.docx =====
+  P  0: [FILE_NUM] (Y-13)
+  P  2: [DIRECTORY]
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(empty)] (label=home)
+  P 11: [PHONE_LABEL(has_num)] (label=work)
+  P 12: [PHONE_LABEL(empty)] (label=cell)
+  P 15: [BOX_NUM]
+  P 17: [MATTER] (words=6, ->MATTERS)
+  P 18: [UNKNOWN] (len=19, words=2)
+  P 19: [DATE]
+  P 21: [UNKNOWN] (len=33, words=7)
+  P 23: [UNKNOWN] (len=27, words=5)
+  P 24: [DATE]
+  P 25: [MATTER] (words=4, ->MATTERS)
+  P 27: [MATTER] (words=7, ->MATTERS)
+  P 29: [MATTER] (words=6, ->MATTERS)
+  P 30: [DATE]
+  P 32: [MATTER] (words=6, ->MATTERS)
+  P 33: [DATE]
+  P 45: [FILE_PATH]
+  --- 46 paragraphs, 1 name lines ---
+
+===== ADDR.Y14.docx =====
+  P  0: [FILE_NUM] (Y-14)
+  P  1: [DIRECTORY]
+  P  2: [CROSS_REF]
+  P  3: [UNKNOWN] (len=22, words=3)
+  P  4: [UNKNOWN] (len=38, words=4)
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(empty)] (label=home)
+  P 11: [PHONE_LABEL(empty)] (label=cell)
+  P 12: [PHONE_LABEL(empty)] (label=work)
+  P 13: [BOX_NUM]
+  P 14: [MATTER] (words=13, ->MATTERS)
+  P 16: [UNKNOWN] (len=41, words=7)
+  P 18: [UNKNOWN] (len=35, words=7)
+  P 20: [UNKNOWN] (len=22, words=3)
+  P 22: [UNKNOWN] (len=27, words=6)
+  P 24: [UNKNOWN] (len=18, words=3)
+  P 26: [UNKNOWN] (len=15, words=3)
+  P 28: [UNKNOWN] (len=14, words=2)
+  P 30: [ESTATE]
+  P 32: [ESTATE]
+  P 34: [ESTATE]
+  P 36: [MATTER] (words=8, ->MATTERS)
+  P 38: [MATTER] (words=11, ->MATTERS)
+  P 40: [MATTER] (words=10, ->MATTERS)
+  P 42: [MATTER] (words=3, ->MATTERS)
+  P 44: [MATTER] (words=6, ->MATTERS)
+  P 49: [MATTER] (words=7, ->MATTERS)
+  P 51: [MATTER] (words=12, ->MATTERS)
+  P 52: [UNKNOWN] (len=35, words=6)
+  P 53: [DATE]
+  P 55: [MATTER] (words=9, ->MATTERS)
+  P 56: [FILE_PATH]
+  --- 57 paragraphs, 1 name lines ---
+
+===== ADDR.Y15.docx =====
+  P  0: [FILE_NUM] (Y-15)
+  P  2: [DIRECTORY]
+  P  4: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  5: [ADDRESS]
+  P  6: [CITY_PROVINCE]
+  P  9: [PHONE_LABEL(empty)] (label=home)
+  P 12: [BOX_NUM]
+  P 14: [MATTER] (words=3, ->MATTERS)
+  P 36: [FILE_PATH]
+  --- 37 paragraphs, 1 name lines ---
+
+===== ADDR.Y16.docx =====
+  P  0: [FILE_NUM] (Y-16)
+  P  2: [DIRECTORY]
+  P  4: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  5: [ADDRESS]
+  P  6: [CITY_PROVINCE]
+  P  7: [POSTAL_CODE]
+  P  9: [PHONE_LABEL(empty)] (label=home)
+  P 12: [BOX_NUM]
+  P 14: [MATTER] (words=4, ->MATTERS)
+  P 36: [FILE_PATH]
+  --- 37 paragraphs, 1 name lines ---
+
+===== ADDR.Y17.docx =====
+  P  0: [FILE_NUM] (Y-17)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  4: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  5: [ADDRESS]
+  P  6: [CITY_PROVINCE]
+  P  7: [POSTAL_CODE]
+  P  9: [PHONE_LABEL(empty)] (label=home)
+  P 12: [BOX_NUM]
+  P 14: [MATTER] (words=3, ->MATTERS)
+  P 15: [UNKNOWN] (len=35, words=5)
+  P 37: [FILE_PATH]
+  --- 38 paragraphs, 1 name lines ---
+
+===== ADDR.Y18.docx =====
+  P  0: [FILE_NUM] (Y-18)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  4: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  5: [ADDRESS]
+  P  6: [CITY_PROVINCE]
+  P  7: [POSTAL_CODE]
+  P  9: [PHONE_LABEL(has_num)] (label=home)
+  P 10: [PHONE_LABEL(has_num)] (label=cell)
+  P 13: [BOX_NUM]
+  P 15: [UNKNOWN] (len=34, words=7)
+  P 17: [UNKNOWN] (len=21, words=4)
+  P 19: [MATTER] (words=9, ->MATTERS)
+  P 32: [FILE_PATH]
+  --- 33 paragraphs, 1 name lines ---
+
+===== ADDR.Y19.docx =====
+  P  0: [FILE_NUM] (Y-19)
+  P  2: [DIRECTORY]
+  P  4: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  5: [UNKNOWN] (len=19, words=3)
+  P  6: [CITY_PROVINCE]
+  P  7: [POSTAL_CODE]
+  P  9: [PHONE_LABEL(empty)] (label=home)
+  P 12: [BOX_NUM]
+  P 14: [MATTER] (words=8, ->MATTERS)
+  P 16: [MATTER] (words=7, ->MATTERS)
+  P 17: [CITY_PROVINCE]
+  P 19: [MATTER] (words=5, ->MATTERS)
+  P 20: [DATE]
+  P 42: [FILE_PATH]
+  --- 43 paragraphs, 1 name lines ---
+
+===== ADDR.Y20.docx =====
+  P  0: [FILE_NUM] (Y-20)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(has_num)] (label=home, annotated)
+  P 11: [PHONE_LABEL(has_num)] (label=cell, annotated)
+  P 12: [EMAIL]
+  P 13: [EMAIL]
+  P 16: [BOX_NUM]
+  P 18: [MATTER] (words=5, ->MATTERS)
+  P 19: [UNKNOWN] (len=30, words=6)
+  P 21: [MATTER] (words=4, ->MATTERS)
+  P 24: [MATTER] (words=6, ->MATTERS)
+  P 43: [FILE_PATH]
+  --- 44 paragraphs, 1 name lines ---
+
+===== ADDR.Y21.docx =====
+  P  0: [FILE_NUM] (Y-21)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(empty)] (label=home)
+  P 14: [BOX_NUM]
+  P 16: [MATTER] (words=6, ->MATTERS)
+  P 17: [DATE]
+  P 39: [FILE_PATH]
+  --- 40 paragraphs, 1 name lines ---
+
+===== ADDR.Y22.docx =====
+  P  0: [FILE_NUM] (Y-22)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(has_num)] (label=home)
+  P 11: [PHONE_BARE] (label=unknown)
+  P 15: [BOX_NUM]
+  P 17: [MATTER] (words=6, ->MATTERS)
+  P 18: [DATE]
+  P 19: [UNKNOWN] (len=7, words=1)
+  P 40: [FILE_PATH]
+  --- 41 paragraphs, 1 name lines ---
+
+===== ADDR.Y23.docx =====
+  P  0: [FILE_NUM] (Y-23)
+  P  3: [DIRECTORY]
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(has_num)] (label=home)
+  P 11: [EMAIL]
+  P 17: [BOX_NUM]
+  P 19: [MATTER] (words=3, ->MATTERS)
+  P 29: [FILE_PATH]
+  --- 30 paragraphs, 1 name lines ---
+
+===== ADDR.Y24.docx =====
+  P  0: [UNKNOWN] (len=6, words=1)
+  P  3: [DIRECTORY]
+  P  4: [CROSS_REF]
+  P  7: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  8: [ADDRESS]
+  P  9: [CITY_PROVINCE]
+  P 10: [POSTAL_CODE]
+  P 12: [PHONE_LABEL(has_num)] (label=cell)
+  P 13: [EMAIL]
+  P 15: [BOX_NUM]
+  P 17: [MATTER] (words=6, ->MATTERS)
+  P 18: [DATE]
+  P 20: [MATTER] (words=8, ->MATTERS)
+  P 22: [MATTER] (words=7, ->MATTERS)
+  P 24: [MATTER] (words=6, ->MATTERS)
+  P 26: [MATTER] (words=6, ->MATTERS)
+  P 35: [FILE_PATH]
+  --- 36 paragraphs, 1 name lines ---
+
+===== ADDR.Y25.docx =====
+  P  0: [FILE_NUM] (Y-25)
+  P  3: [DIRECTORY]
+  P  4: [CROSS_REF]
+  P  7: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  8: [ADDRESS]
+  P  9: [CITY_PROVINCE]
+  P 10: [POSTAL_CODE]
+  P 12: [PHONE_LABEL(has_num)] (label=cell)
+  P 13: [PHONE_LABEL(has_num)] (label=work)
+  P 14: [EMAIL]
+  P 20: [BOX_NUM]
+  P 22: [MATTER] (words=2, ->MATTERS)
+  P 35: [FILE_PATH]
+  --- 36 paragraphs, 1 name lines ---
+
+===== ADDR.Y26.docx =====
+  P  0: [FILE_NUM] (Y-26)
+  P  3: [DIRECTORY]
+  P  4: [CROSS_REF]
+  P  7: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  8: [ADDRESS]
+  P  9: [CITY_PROVINCE]
+  P 10: [POSTAL_CODE]
+  P 12: [PHONE_LABEL(has_num)] (label=phone)
+  P 13: [PHONE_BARE] (label=unknown)
+  P 14: [EMAIL]
+  P 15: [EMAIL]
+  P 22: [BOX_NUM]
+  P 24: [MATTER] (words=6, ->MATTERS)
+  P 25: [CITY_PROVINCE]
+  P 26: [UNKNOWN] (len=21, words=4)
+  P 27: [DATE]
+  P 29: [MATTER] (words=9, ->MATTERS)
+  P 30: [DATE]
+  P 32: [MATTER] (words=7, ->MATTERS)
+  P 33: [UNKNOWN] (len=13, words=2)
+  P 35: [MATTER] (words=8, ->MATTERS)
+  P 43: [FILE_PATH]
+  --- 44 paragraphs, 1 name lines ---
+
+===== ADDR.Y27.docx =====
+  P  0: [FILE_NUM] (Y-27)
+  P  3: [DIRECTORY]
+  P  4: [CROSS_REF]
+  P  8: [NAME] (multi-person, commas=2, name#1, ->CONTACT_INFO)
+  P  9: [ADDRESS]
+  P 10: [CITY_PROVINCE]
+  P 11: [POSTAL_CODE]
+  P 13: [PHONE_LABEL(has_num)] (label=home)
+  P 14: [PHONE_LABEL(has_num)] (label=cell)
+  P 15: [EMAIL]
+  P 20: [BOX_NUM]
+  P 22: [MATTER] (words=3, ->MATTERS)
+  P 33: [FILE_PATH]
+  --- 34 paragraphs, 1 name lines ---
+
+===== ADDR.Y28.docx =====
+  P  0: [FILE_NUM] (Y-28)
+  P  3: [DIRECTORY]
+  P  4: [CROSS_REF]
+  P  8: [NAME] (has_nickname, commas=1, name#1, ->CONTACT_INFO)
+  P  9: [ADDRESS]
+  P 10: [CITY_PROVINCE]
+  P 11: [POSTAL_CODE]
+  P 13: [PHONE_LABEL(has_num)] (label=cell)
+  P 14: [EMAIL]
+  P 17: [BOX_NUM]
+  P 19: [MATTER] (words=3, ->MATTERS)
+  P 30: [FILE_PATH]
+  --- 31 paragraphs, 1 name lines ---
+
+===== ADDR.Y29.docx =====
+  P  0: [FILE_NUM] (Y-29)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  5: [NAME] (has_nickname, commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(has_num)] (label=cell)
+  P 11: [EMAIL]
+  P 15: [BOX_NUM]
+  P 17: [MATTER] (words=7, ->MATTERS)
+  P 38: [FILE_PATH]
+  --- 39 paragraphs, 1 name lines ---
+
+===== ADDR.Y30.docx =====
+  P  0: [FILE_NUM] (Y-30)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  5: [ORG_NAME] (->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(has_num)] (label=phone)
+  P 11: [PHONE_LABEL(has_num)] (label=fax)
+  P 12: [EMAIL]
+  P 14: [UNKNOWN] (len=28, words=4)
+  P 15: [UNKNOWN] (len=8, words=2)
+  P 16: [PHONE_LABEL(has_num)] (label=cell)
+  P 17: [EMAIL]
+  P 21: [BOX_NUM]
+  P 23: [MATTER] (words=3, ->MATTERS)
+  P 44: [FILE_PATH]
+  --- 45 paragraphs, 0 name lines ---
+
+===== ADDR.Y31.docx =====
+  P  0: [FILE_NUM] (Y-31)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  5: [NAME] (has_nickname, commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS] (c/o)
+  P  7: [ADDRESS]
+  P  8: [ADDRESS]
+  P  9: [CITY_PROVINCE]
+  P 10: [POSTAL_CODE]
+  P 12: [PHONE_LABEL(has_num)] (label=home)
+  P 13: [PHONE_LABEL(has_num)] (label=cell)
+  P 15: [BOX_NUM]
+  P 17: [MATTER] (words=5, ->MATTERS)
+  P 18: [UNKNOWN] (len=18, words=3)
+  P 19: [DATE]
+  P 21: [MATTER] (words=4, ->MATTERS)
+  P 22: [UNKNOWN] (len=27, words=4)
+  P 24: [MATTER] (words=8, ->MATTERS)
+  P 26: [MATTER] (words=5, ->MATTERS)
+  P 27: [DATE]
+  P 29: [MATTER] (words=8, ->MATTERS)
+  P 30: [UNKNOWN] (len=27, words=6)
+  P 31: [UNKNOWN] (len=64, words=10)
+  P 33: [MATTER] (words=7, ->MATTERS)
+  P 34: [UNKNOWN] (len=37, words=7)
+  P 40: [FILE_PATH]
+  --- 41 paragraphs, 1 name lines ---
+
+===== ADDR.Y32.docx =====
+  P  0: [FILE_NUM] (Y-32)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(has_num)] (label=cell)
+  P 11: [EMAIL]
+  P 13: [BOX_NUM]
+  P 15: [MATTER] (words=3, ->MATTERS)
+  P 22: [FILE_PATH]
+  --- 23 paragraphs, 1 name lines ---
+
+===== ADDR.Y33.docx =====
+  P  0: [FILE_NUM] (Y-33)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [CITY_PROVINCE]
+  P  8: [POSTAL_CODE]
+  P 10: [PHONE_LABEL(has_num)] (label=cell)
+  P 11: [UNKNOWN] (len=6, words=1)
+  P 13: [BOX_NUM]
+  P 15: [MATTER] (words=5, ->MATTERS)
+  P 16: [DATE_OF_DEATH]
+  P 23: [FILE_PATH]
+  --- 24 paragraphs, 1 name lines ---
+
+===== ADDR.Y34.docx =====
+  P  0: [FILE_NUM] (Y-34)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS] (c/o)
+  P  7: [ADDRESS]
+  P  8: [CITY_PROVINCE]
+  P  9: [POSTAL_CODE]
+  P 11: [PHONE_LABEL(has_num)] (label=cell)
+  P 12: [UNKNOWN] (len=6, words=1)
+  P 14: [BOX_NUM]
+  P 16: [MATTER] (words=6, ->MATTERS)
+  P 17: [UNKNOWN] (len=12, words=2)
+  P 18: [DATE]
+  P 25: [FILE_PATH]
+  --- 26 paragraphs, 1 name lines ---
+
+===== ADDR.Y35.docx =====
+  P  0: [UNKNOWN] (len=6, words=1)
+  P  2: [DIRECTORY]
+  P  3: [CROSS_REF]
+  P  5: [NAME] (commas=1, name#1, ->CONTACT_INFO)
+  P  6: [ADDRESS]
+  P  7: [ADDRESS] (apt/unit)
+  P  8: [CITY_PROVINCE]
+  P  9: [POSTAL_CODE]
+  P 11: [PHONE_LABEL(has_num)] (label=cell)
+  P 12: [EMAIL]
+  P 14: [BOX_NUM]
+  P 16: [MATTER] (words=3, ->MATTERS)
+  P 23: [FILE_PATH]
+  --- 24 paragraphs, 1 name lines ---

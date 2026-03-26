@@ -1,0 +1,1643 @@
+2026-03-19 14:48:47,111 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/Z
+2026-03-19 14:48:47,155 - INFO - Found 12 files.
+2026-03-19 14:48:47,155 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z01.docx
+2026-03-19 14:48:47,234 - INFO -   -> Z-1: ZAGRODNEY-ENGLISH, Kathryn
+2026-03-19 14:48:47,234 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z02.docx
+2026-03-19 14:48:47,309 - INFO -   -> Z-2: NEWTON, Robert
+2026-03-19 14:48:47,309 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z03.docx
+2026-03-19 14:48:47,383 - INFO -   -> Z-3: ZIMNICKI, Susan and Mark
+2026-03-19 14:48:47,383 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z04.docx
+2026-03-19 14:48:47,452 - INFO -   -> Z-4: WRIGHT, Rose
+2026-03-19 14:48:47,452 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z05.docx
+2026-03-19 14:48:47,525 - INFO -   -> Z-5: ZANG, Feng & SU, Changyu
+2026-03-19 14:48:47,525 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z10.docx
+2026-03-19 14:48:47,597 - INFO -   -> L-175: ZIMMER, Kristen
+2026-03-19 14:48:47,597 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z11.docx
+2026-03-19 14:48:47,680 - INFO -   -> Z-11: , 
+2026-03-19 14:48:47,680 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z12.docx
+2026-03-19 14:48:47,756 - INFO -   -> Z-12: ZADOW, Margaret Jeanette
+2026-03-19 14:48:47,756 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z6.docx
+2026-03-19 14:48:47,841 - INFO -   -> Z-6: ZEITOUN, Andrew
+2026-03-19 14:48:47,841 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z7.docx
+2026-03-19 14:48:47,897 - INFO -   -> Z-7: ZMOZYNSKI, Carl Chester
+2026-03-19 14:48:47,897 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z8.docx
+2026-03-19 14:48:47,957 - INFO -   -> Z-8: ZUBIS, Vivian
+2026-03-19 14:48:47,957 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z9.docx
+2026-03-19 14:48:48,025 - INFO -   -> Z-9: ZAMORA, Mariana
+2026-03-19 14:48:48,029 - INFO - Done. 12 records, 0 errors.
+2026-03-19 15:12:46,086 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/Z
+2026-03-19 15:12:46,098 - INFO - Found 12 files.
+2026-03-19 15:12:46,098 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z01.docx
+2026-03-19 15:12:46,151 - INFO -   -> Z-1: ZAGRODNEY-ENGLISH, Kathryn
+2026-03-19 15:12:46,151 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z02.docx
+2026-03-19 15:12:46,203 - INFO -   -> Z-2: NEWTON, Robert
+2026-03-19 15:12:46,203 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z03.docx
+2026-03-19 15:12:46,255 - INFO -   -> Z-3: ZIMNICKI, Susan and Mark
+2026-03-19 15:12:46,255 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z04.docx
+2026-03-19 15:12:46,330 - INFO -   -> Z-4: ZATORSKI, Mary Alexandra
+2026-03-19 15:12:46,330 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z05.docx
+2026-03-19 15:12:46,390 - INFO -   -> Z-5: ZANG, Feng
+2026-03-19 15:12:46,390 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z10.docx
+2026-03-19 15:12:46,451 - INFO -   -> Z-10: ZIMMER, Kristen
+2026-03-19 15:12:46,451 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z11.docx
+2026-03-19 15:12:46,515 - INFO -   -> Z-11: ZION CHRISTIAN REFORMED CHURCH OF OSHAWA, 
+2026-03-19 15:12:46,515 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z12.docx
+2026-03-19 15:12:46,566 - INFO -   -> Z-12: ZADOW, Margaret Jeanette
+2026-03-19 15:12:46,566 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z6.docx
+2026-03-19 15:12:46,623 - INFO -   -> Z-6: ZEITOUN, Andrew
+2026-03-19 15:12:46,623 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z7.docx
+2026-03-19 15:12:46,684 - INFO -   -> Z-7: ZMOZYNSKI, Carl Chester
+2026-03-19 15:12:46,684 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z8.docx
+2026-03-19 15:12:46,765 - INFO -   -> Z-8: ZUBIS, Vivian
+2026-03-19 15:12:46,765 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z9.docx
+2026-03-19 15:12:46,827 - INFO -   -> Z-9: ZAMORA, Mariana
+2026-03-19 15:12:46,830 - INFO - Done. 12 records, 0 errors.
+2026-03-19 15:16:50,428 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/Y
+2026-03-19 15:16:50,443 - INFO - Found 35 files.
+2026-03-19 15:16:50,443 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y01.docx
+2026-03-19 15:16:50,498 - INFO -   -> Y-1: YASINSKI, Gladys Lillian
+2026-03-19 15:16:50,498 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y02.docx
+2026-03-19 15:16:50,570 - INFO -   -> Y-2: YOUNG, Raymond
+2026-03-19 15:16:50,570 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y03.docx
+2026-03-19 15:16:50,628 - INFO -   -> Y-3: YATEMAN, Jacqueline
+2026-03-19 15:16:50,628 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y04.docx
+2026-03-19 15:16:50,709 - INFO -   -> Y-4: YATEMAN, Clark & Evelyn
+2026-03-19 15:16:50,713 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y05.docx
+2026-03-19 15:16:50,789 - INFO -   -> Y-5: YOUNG, Gordon
+2026-03-19 15:16:50,789 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y06.docx
+2026-03-19 15:16:50,859 - INFO -   -> Y-6: YOUTH FOR CHRIST, 
+2026-03-19 15:16:50,859 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y07.docx
+2026-03-19 15:16:50,921 - INFO -   -> Y-7: YE, YIYU & LING ZHANG
+2026-03-19 15:16:50,922 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y08.docx
+2026-03-19 15:16:50,986 - INFO -   -> Y-8: YULE, Tammy
+2026-03-19 15:16:50,986 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y09.docx
+2026-03-19 15:16:51,076 - INFO -   -> Y-9: YOUMANS, Brent and Cindy
+2026-03-19 15:16:51,076 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y10.docx
+2026-03-19 15:16:51,140 - INFO -   -> Y-10: HOME: (705) 748-2287, 
+2026-03-19 15:16:51,141 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y11.docx
+2026-03-19 15:16:51,208 - INFO -   -> Y-11: YOUNG, Bruna
+2026-03-19 15:16:51,208 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y12.docx
+2026-03-19 15:16:51,270 - INFO -   -> Y-12: DDIRECTORY: F:\CLIENTS2\CLIENTS\YUILLE, 
+2026-03-19 15:16:51,270 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y13.docx
+2026-03-19 15:16:51,324 - INFO -   -> Y-13: YORKE, John and Donna
+2026-03-19 15:16:51,324 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y14.docx
+2026-03-19 15:16:51,390 - INFO -   -> Y-14: YOUNG, Morley Dail
+2026-03-19 15:16:51,390 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y15.docx
+2026-03-19 15:16:51,459 - INFO -   -> Y-15: YEO, Bill
+2026-03-19 15:16:51,460 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y16.docx
+2026-03-19 15:16:51,534 - INFO -   -> Y-16: YOUNG, Fred
+2026-03-19 15:16:51,534 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y17.docx
+2026-03-19 15:16:51,587 - INFO -   -> Y-17: YOUNG, Kristen
+2026-03-19 15:16:51,587 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y18.docx
+2026-03-19 15:16:51,668 - INFO -   -> Y-18: YATEMAN, Jackie
+2026-03-19 15:16:51,669 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y19.docx
+2026-03-19 15:16:51,735 - INFO -   -> Y-19: YOUNG, Peter and Patricia
+2026-03-19 15:16:51,735 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y20.docx
+2026-03-19 15:16:51,793 - INFO -   -> Y-20: YORK, Paul and Eileen
+2026-03-19 15:16:51,794 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y21.docx
+2026-03-19 15:16:51,846 - INFO -   -> Y-21: YORK, Kyle
+2026-03-19 15:16:51,846 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y22.docx
+2026-03-19 15:16:51,899 - INFO -   -> Y-22: YORK, Dustin
+2026-03-19 15:16:51,899 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y23.docx
+2026-03-19 15:16:51,957 - INFO -   -> Y-23: YOUNG, David
+2026-03-19 15:16:51,957 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y24.docx
+2026-03-19 15:16:52,012 - INFO -   -> : YORK, Brandon and Tressa
+2026-03-19 15:16:52,012 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y25.docx
+2026-03-19 15:16:52,068 - INFO -   -> Y-25: YOUNG, Grant
+2026-03-19 15:16:52,068 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y26.docx
+2026-03-19 15:16:52,145 - INFO -   -> Y-26: YORK, Connor
+2026-03-19 15:16:52,146 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y27.docx
+2026-03-19 15:16:52,208 - INFO -   -> Y-27: LISS, Robert
+2026-03-19 15:16:52,208 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y28.docx
+2026-03-19 15:16:52,269 - INFO -   -> Y-28: YANG, Jianhui
+2026-03-19 15:16:52,269 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y29.docx
+2026-03-19 15:16:52,335 - INFO -   -> Y-29: YEOMANS, Edward Brook
+2026-03-19 15:16:52,335 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y30.docx
+2026-03-19 15:16:52,411 - INFO -   -> Y-30: YOUTH FOR CHRIST CANADA, 
+2026-03-19 15:16:52,411 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y31.docx
+2026-03-19 15:16:52,484 - INFO -   -> Y-31: YOUNG, Fergus
+2026-03-19 15:16:52,484 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y32.docx
+2026-03-19 15:16:52,537 - INFO -   -> Y-32: YU, Jingya
+2026-03-19 15:16:52,537 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y33.docx
+2026-03-19 15:16:52,616 - INFO -   -> Y-33: YOUNG, Vince
+2026-03-19 15:16:52,616 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y34.docx
+2026-03-19 15:16:52,694 - INFO -   -> Y-34: YASYSZCUK, Paul
+2026-03-19 15:16:52,694 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y35.docx
+2026-03-19 15:16:52,802 - INFO -   -> : YEUNG, Margaret
+2026-03-19 15:16:52,805 - INFO - Done. 35 records, 0 errors.
+2026-03-19 15:33:39,158 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/Y
+2026-03-19 15:33:39,166 - INFO - Found 35 files.
+2026-03-19 15:33:39,166 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y01.docx
+2026-03-19 15:33:39,201 - INFO -   -> Y-1: YASINSKI, Gladys Lillian
+2026-03-19 15:33:39,201 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y02.docx
+2026-03-19 15:33:39,238 - INFO -   -> Y-2: YOUNG, Raymond
+2026-03-19 15:33:39,238 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y03.docx
+2026-03-19 15:33:39,276 - INFO -   -> Y-3: YATEMAN, Jacqueline
+2026-03-19 15:33:39,276 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y04.docx
+2026-03-19 15:33:39,313 - INFO -   -> Y-4: YATEMAN, Clark & Evelyn
+2026-03-19 15:33:39,313 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y05.docx
+2026-03-19 15:33:39,353 - INFO -   -> Y-5: YOUNG, Gordon
+2026-03-19 15:33:39,354 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y06.docx
+2026-03-19 15:33:39,397 - INFO -   -> Y-6: YOUTH FOR CHRIST, 
+2026-03-19 15:33:39,397 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y07.docx
+2026-03-19 15:33:39,439 - INFO -   -> Y-7: YE, YIYU & LING ZHANG
+2026-03-19 15:33:39,439 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y08.docx
+2026-03-19 15:33:39,483 - INFO -   -> Y-8: YULE, Tammy
+2026-03-19 15:33:39,484 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y09.docx
+2026-03-19 15:33:39,528 - INFO -   -> Y-9: YOUMANS, Brent and Cindy
+2026-03-19 15:33:39,528 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y10.docx
+2026-03-19 15:33:39,570 - INFO -   -> Y-10: Young, Orval Melville
+2026-03-19 15:33:39,570 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y11.docx
+2026-03-19 15:33:39,614 - INFO -   -> Y-11: YOUNG, Bruna
+2026-03-19 15:33:39,614 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y12.docx
+2026-03-19 15:33:39,654 - INFO -   -> Y-12: YUILLE, Stephen
+2026-03-19 15:33:39,654 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y13.docx
+2026-03-19 15:33:39,700 - INFO -   -> Y-13: YORKE, John and Donna
+2026-03-19 15:33:39,700 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y14.docx
+2026-03-19 15:33:39,749 - INFO -   -> Y-14: YOUNG, Morley Dail
+2026-03-19 15:33:39,749 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y15.docx
+2026-03-19 15:33:39,787 - INFO -   -> Y-15: YEO, Bill
+2026-03-19 15:33:39,787 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y16.docx
+2026-03-19 15:33:39,827 - INFO -   -> Y-16: YOUNG, Fred
+2026-03-19 15:33:39,827 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y17.docx
+2026-03-19 15:33:39,866 - INFO -   -> Y-17: YOUNG, Kristen
+2026-03-19 15:33:39,866 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y18.docx
+2026-03-19 15:33:39,903 - INFO -   -> Y-18: YATEMAN, Jackie
+2026-03-19 15:33:39,903 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y19.docx
+2026-03-19 15:33:39,946 - INFO -   -> Y-19: YOUNG, Peter and Patricia
+2026-03-19 15:33:39,946 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y20.docx
+2026-03-19 15:33:39,987 - INFO -   -> Y-20: YORK, Paul and Eileen
+2026-03-19 15:33:39,987 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y21.docx
+2026-03-19 15:33:40,031 - INFO -   -> Y-21: YORK, Kyle
+2026-03-19 15:33:40,031 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y22.docx
+2026-03-19 15:33:40,074 - INFO -   -> Y-22: YORK, Dustin
+2026-03-19 15:33:40,074 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y23.docx
+2026-03-19 15:33:40,113 - INFO -   -> Y-23: YOUNG, David
+2026-03-19 15:33:40,113 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y24.docx
+2026-03-19 15:33:40,155 - INFO -   -> : YORK, Brandon and Tressa
+2026-03-19 15:33:40,155 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y25.docx
+2026-03-19 15:33:40,196 - INFO -   -> Y-25: YOUNG, Grant
+2026-03-19 15:33:40,196 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y26.docx
+2026-03-19 15:33:40,241 - INFO -   -> Y-26: YORK, Connor
+2026-03-19 15:33:40,241 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y27.docx
+2026-03-19 15:33:40,284 - INFO -   -> Y-27: LISS, Robert
+2026-03-19 15:33:40,285 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y28.docx
+2026-03-19 15:33:40,324 - INFO -   -> Y-28: YANG, Jianhui
+2026-03-19 15:33:40,324 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y29.docx
+2026-03-19 15:33:40,368 - INFO -   -> Y-29: YEOMANS, Edward Brook
+2026-03-19 15:33:40,368 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y30.docx
+2026-03-19 15:33:40,410 - INFO -   -> Y-30: YOUTH FOR CHRIST CANADA, 
+2026-03-19 15:33:40,410 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y31.docx
+2026-03-19 15:33:40,456 - INFO -   -> Y-31: YOUNG, Fergus
+2026-03-19 15:33:40,456 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y32.docx
+2026-03-19 15:33:40,496 - INFO -   -> Y-32: YU, Jingya
+2026-03-19 15:33:40,496 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y33.docx
+2026-03-19 15:33:40,536 - INFO -   -> Y-33: YOUNG, Vince
+2026-03-19 15:33:40,536 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y34.docx
+2026-03-19 15:33:40,580 - INFO -   -> Y-34: YASYSZCUK, Paul
+2026-03-19 15:33:40,580 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y35.docx
+2026-03-19 15:33:40,618 - INFO -   -> : YEUNG, Margaret
+2026-03-19 15:33:40,620 - INFO - Done. 35 records, 0 errors.
+2026-03-19 15:35:10,184 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/Y
+2026-03-19 15:35:10,206 - INFO - Found 35 files.
+2026-03-19 15:35:10,206 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y01.docx
+2026-03-19 15:35:10,265 - INFO -   -> Y-1: YASINSKI, Gladys Lillian
+2026-03-19 15:35:10,265 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y02.docx
+2026-03-19 15:35:10,322 - INFO -   -> Y-2: YOUNG, Raymond
+2026-03-19 15:35:10,322 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y03.docx
+2026-03-19 15:35:10,383 - INFO -   -> Y-3: YATEMAN, Jacqueline
+2026-03-19 15:35:10,383 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y04.docx
+2026-03-19 15:35:10,468 - INFO -   -> Y-4: YATEMAN, Clark & Evelyn
+2026-03-19 15:35:10,468 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y05.docx
+2026-03-19 15:35:10,520 - INFO -   -> Y-5: YOUNG, Gordon
+2026-03-19 15:35:10,520 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y06.docx
+2026-03-19 15:35:10,572 - INFO -   -> Y-6: YOUTH FOR CHRIST, 
+2026-03-19 15:35:10,572 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y07.docx
+2026-03-19 15:35:10,633 - INFO -   -> Y-7: YE, YIYU & LING ZHANG
+2026-03-19 15:35:10,633 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y08.docx
+2026-03-19 15:35:10,696 - INFO -   -> Y-8: YULE, Tammy
+2026-03-19 15:35:10,696 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y09.docx
+2026-03-19 15:35:10,760 - INFO -   -> Y-9: YOUMANS, Brent and Cindy
+2026-03-19 15:35:10,760 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y10.docx
+2026-03-19 15:35:10,845 - INFO -   -> Y-10: Young, Orval Melville
+2026-03-19 15:35:10,845 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y11.docx
+2026-03-19 15:35:10,917 - INFO -   -> Y-11: YOUNG, Bruna
+2026-03-19 15:35:10,917 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y12.docx
+2026-03-19 15:35:10,973 - INFO -   -> Y-12: YUILLE, Stephen
+2026-03-19 15:35:10,973 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y13.docx
+2026-03-19 15:35:11,027 - INFO -   -> Y-13: YORKE, John and Donna
+2026-03-19 15:35:11,028 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y14.docx
+2026-03-19 15:35:11,082 - INFO -   -> Y-14: YOUNG, Morley Dail
+2026-03-19 15:35:11,082 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y15.docx
+2026-03-19 15:35:11,135 - INFO -   -> Y-15: YEO, Bill
+2026-03-19 15:35:11,135 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y16.docx
+2026-03-19 15:35:11,188 - INFO -   -> Y-16: YOUNG, Fred
+2026-03-19 15:35:11,188 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y17.docx
+2026-03-19 15:35:11,247 - INFO -   -> Y-17: YOUNG, Kristen
+2026-03-19 15:35:11,247 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y18.docx
+2026-03-19 15:35:11,300 - INFO -   -> Y-18: YATEMAN, Jackie
+2026-03-19 15:35:11,300 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y19.docx
+2026-03-19 15:35:11,360 - INFO -   -> Y-19: YOUNG, Peter and Patricia
+2026-03-19 15:35:11,360 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y20.docx
+2026-03-19 15:35:11,416 - INFO -   -> Y-20: YORK, Paul and Eileen
+2026-03-19 15:35:11,416 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y21.docx
+2026-03-19 15:35:11,474 - INFO -   -> Y-21: YORK, Kyle
+2026-03-19 15:35:11,474 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y22.docx
+2026-03-19 15:35:11,529 - INFO -   -> Y-22: YORK, Dustin
+2026-03-19 15:35:11,530 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y23.docx
+2026-03-19 15:35:11,586 - INFO -   -> Y-23: YOUNG, David
+2026-03-19 15:35:11,587 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y24.docx
+2026-03-19 15:35:11,646 - INFO -   -> : YORK, Brandon and Tressa
+2026-03-19 15:35:11,646 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y25.docx
+2026-03-19 15:35:11,701 - INFO -   -> Y-25: YOUNG, Grant
+2026-03-19 15:35:11,701 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y26.docx
+2026-03-19 15:35:11,761 - INFO -   -> Y-26: YORK, Connor
+2026-03-19 15:35:11,762 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y27.docx
+2026-03-19 15:35:11,820 - INFO -   -> Y-27: LISS, Robert
+2026-03-19 15:35:11,821 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y28.docx
+2026-03-19 15:35:11,896 - INFO -   -> Y-28: YANG, Jianhui
+2026-03-19 15:35:11,896 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y29.docx
+2026-03-19 15:35:11,951 - INFO -   -> Y-29: YEOMANS, Edward Brook
+2026-03-19 15:35:11,951 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y30.docx
+2026-03-19 15:35:12,006 - INFO -   -> Y-30: YOUTH FOR CHRIST CANADA, 
+2026-03-19 15:35:12,007 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y31.docx
+2026-03-19 15:35:12,062 - INFO -   -> Y-31: YOUNG, Fergus
+2026-03-19 15:35:12,062 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y32.docx
+2026-03-19 15:35:12,118 - INFO -   -> Y-32: YU, Jingya
+2026-03-19 15:35:12,118 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y33.docx
+2026-03-19 15:35:12,177 - INFO -   -> Y-33: YOUNG, Vince
+2026-03-19 15:35:12,177 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y34.docx
+2026-03-19 15:35:12,237 - INFO -   -> Y-34: YASYSZCUK, Paul
+2026-03-19 15:35:12,238 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y35.docx
+2026-03-19 15:35:12,304 - INFO -   -> : YEUNG, Margaret
+2026-03-19 15:35:12,307 - INFO - Done. 35 records, 0 errors.
+2026-03-19 15:36:09,476 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/Y
+2026-03-19 15:36:09,482 - INFO - Found 35 files.
+2026-03-19 15:36:09,482 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y01.docx
+2026-03-19 15:36:09,555 - INFO -   -> Y-1: YASINSKI, Gladys Lillian
+2026-03-19 15:36:09,555 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y02.docx
+2026-03-19 15:36:09,612 - INFO -   -> Y-2: YOUNG, Raymond
+2026-03-19 15:36:09,612 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y03.docx
+2026-03-19 15:36:09,671 - INFO -   -> Y-3: YATEMAN, Jacqueline
+2026-03-19 15:36:09,671 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y04.docx
+2026-03-19 15:36:09,727 - INFO -   -> Y-4: YATEMAN, Clark & Evelyn
+2026-03-19 15:36:09,727 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y05.docx
+2026-03-19 15:36:09,780 - INFO -   -> Y-5: YOUNG, Gordon
+2026-03-19 15:36:09,780 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y06.docx
+2026-03-19 15:36:09,829 - INFO -   -> Y-6: YOUTH FOR CHRIST, 
+2026-03-19 15:36:09,829 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y07.docx
+2026-03-19 15:36:09,894 - INFO -   -> Y-7: YE, YIYU & LING ZHANG
+2026-03-19 15:36:09,894 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y08.docx
+2026-03-19 15:36:09,959 - INFO -   -> Y-8: YULE, Tammy
+2026-03-19 15:36:09,959 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y09.docx
+2026-03-19 15:36:10,017 - INFO -   -> Y-9: YOUMANS, Brent and Cindy
+2026-03-19 15:36:10,017 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y10.docx
+2026-03-19 15:36:10,074 - INFO -   -> Y-10: Young, Orval Melville
+2026-03-19 15:36:10,074 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y11.docx
+2026-03-19 15:36:10,143 - INFO -   -> Y-11: YOUNG, Bruna
+2026-03-19 15:36:10,144 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y12.docx
+2026-03-19 15:36:10,199 - INFO -   -> Y-12: YUILLE, Stephen
+2026-03-19 15:36:10,199 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y13.docx
+2026-03-19 15:36:10,257 - INFO -   -> Y-13: YORKE, John and Donna
+2026-03-19 15:36:10,257 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y14.docx
+2026-03-19 15:36:10,317 - INFO -   -> Y-14: YOUNG, Morley Dail
+2026-03-19 15:36:10,317 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y15.docx
+2026-03-19 15:36:10,370 - INFO -   -> Y-15: YEO, Bill
+2026-03-19 15:36:10,370 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y16.docx
+2026-03-19 15:36:10,426 - INFO -   -> Y-16: YOUNG, Fred
+2026-03-19 15:36:10,426 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y17.docx
+2026-03-19 15:36:10,478 - INFO -   -> Y-17: YOUNG, Kristen
+2026-03-19 15:36:10,478 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y18.docx
+2026-03-19 15:36:10,535 - INFO -   -> Y-18: YATEMAN, Jackie
+2026-03-19 15:36:10,535 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y19.docx
+2026-03-19 15:36:10,597 - INFO -   -> Y-19: YOUNG, Peter and Patricia
+2026-03-19 15:36:10,598 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y20.docx
+2026-03-19 15:36:10,653 - INFO -   -> Y-20: YORK, Paul and Eileen
+2026-03-19 15:36:10,654 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y21.docx
+2026-03-19 15:36:10,710 - INFO -   -> Y-21: YORK, Kyle
+2026-03-19 15:36:10,711 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y22.docx
+2026-03-19 15:36:10,765 - INFO -   -> Y-22: YORK, Dustin
+2026-03-19 15:36:10,765 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y23.docx
+2026-03-19 15:36:10,822 - INFO -   -> Y-23: YOUNG, David
+2026-03-19 15:36:10,822 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y24.docx
+2026-03-19 15:36:10,877 - INFO -   -> : YORK, Brandon and Tressa
+2026-03-19 15:36:10,877 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y25.docx
+2026-03-19 15:36:10,929 - INFO -   -> Y-25: YOUNG, Grant
+2026-03-19 15:36:10,930 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y26.docx
+2026-03-19 15:36:10,986 - INFO -   -> Y-26: YORK, Connor
+2026-03-19 15:36:10,986 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y27.docx
+2026-03-19 15:36:11,041 - INFO -   -> Y-27: LISS, Robert
+2026-03-19 15:36:11,041 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y28.docx
+2026-03-19 15:36:11,101 - INFO -   -> Y-28: YANG, Jianhui
+2026-03-19 15:36:11,101 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y29.docx
+2026-03-19 15:36:11,156 - INFO -   -> Y-29: YEOMANS, Edward Brook
+2026-03-19 15:36:11,156 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y30.docx
+2026-03-19 15:36:11,211 - INFO -   -> Y-30: YOUTH FOR CHRIST CANADA, 
+2026-03-19 15:36:11,212 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y31.docx
+2026-03-19 15:36:11,273 - INFO -   -> Y-31: YOUNG, Fergus
+2026-03-19 15:36:11,273 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y32.docx
+2026-03-19 15:36:11,333 - INFO -   -> Y-32: YU, Jingya
+2026-03-19 15:36:11,333 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y33.docx
+2026-03-19 15:36:11,390 - INFO -   -> Y-33: YOUNG, Vince
+2026-03-19 15:36:11,390 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y34.docx
+2026-03-19 15:36:11,444 - INFO -   -> Y-34: YASYSZCUK, Paul
+2026-03-19 15:36:11,444 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y35.docx
+2026-03-19 15:36:11,503 - INFO -   -> : YEUNG, Margaret
+2026-03-19 15:36:11,506 - INFO - Done. 35 records, 0 errors.
+2026-03-19 15:46:16,317 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/Y
+2026-03-19 15:46:16,339 - INFO - Found 35 files.
+2026-03-19 15:46:16,339 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y01.docx
+2026-03-19 15:46:16,400 - INFO -   -> Y-1: YASINSKI, Gladys Lillian
+2026-03-19 15:46:16,400 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y02.docx
+2026-03-19 15:46:16,457 - INFO -   -> Y-2: YOUNG, Raymond
+2026-03-19 15:46:16,457 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y03.docx
+2026-03-19 15:46:16,519 - INFO -   -> Y-3: YATEMAN, Jacqueline
+2026-03-19 15:46:16,519 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y04.docx
+2026-03-19 15:46:16,577 - INFO -   -> Y-4: YATEMAN, Clark & Evelyn
+2026-03-19 15:46:16,577 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y05.docx
+2026-03-19 15:46:16,635 - INFO -   -> Y-5: YOUNG, Gordon
+2026-03-19 15:46:16,636 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y06.docx
+2026-03-19 15:46:16,690 - INFO -   -> Y-6: , 
+2026-03-19 15:46:16,690 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y07.docx
+2026-03-19 15:46:16,749 - INFO -   -> Y-7: YE, YIYU & LING ZHANG
+2026-03-19 15:46:16,749 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y08.docx
+2026-03-19 15:46:16,811 - INFO -   -> Y-8: YULE, Tammy
+2026-03-19 15:46:16,812 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y09.docx
+2026-03-19 15:46:16,875 - INFO -   -> Y-9: YOUMANS, Brent and Cindy
+2026-03-19 15:46:16,875 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y10.docx
+2026-03-19 15:46:16,932 - INFO -   -> Y-10: Young, Orval Melville
+2026-03-19 15:46:16,933 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y11.docx
+2026-03-19 15:46:16,998 - INFO -   -> Y-11: YOUNG, Bruna
+2026-03-19 15:46:16,998 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y12.docx
+2026-03-19 15:46:17,056 - INFO -   -> Y-12: YUILLE, Stephen
+2026-03-19 15:46:17,056 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y13.docx
+2026-03-19 15:46:17,111 - INFO -   -> Y-13: YORKE, John and Donna
+2026-03-19 15:46:17,111 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y14.docx
+2026-03-19 15:46:17,170 - INFO -   -> Y-14: YOUNG, Morley Dail
+2026-03-19 15:46:17,170 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y15.docx
+2026-03-19 15:46:17,247 - INFO -   -> Y-15: YEO, Bill
+2026-03-19 15:46:17,247 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y16.docx
+2026-03-19 15:46:17,305 - INFO -   -> Y-16: YOUNG, Fred
+2026-03-19 15:46:17,305 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y17.docx
+2026-03-19 15:46:17,363 - INFO -   -> Y-17: YOUNG, Kristen
+2026-03-19 15:46:17,363 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y18.docx
+2026-03-19 15:46:17,417 - INFO -   -> Y-18: YATEMAN, Jackie
+2026-03-19 15:46:17,418 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y19.docx
+2026-03-19 15:46:17,480 - INFO -   -> Y-19: YOUNG, Peter and Patricia
+2026-03-19 15:46:17,481 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y20.docx
+2026-03-19 15:46:17,538 - INFO -   -> Y-20: YORK, Paul and Eileen
+2026-03-19 15:46:17,538 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y21.docx
+2026-03-19 15:46:17,597 - INFO -   -> Y-21: YORK, Kyle
+2026-03-19 15:46:17,597 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y22.docx
+2026-03-19 15:46:17,658 - INFO -   -> Y-22: YORK, Dustin
+2026-03-19 15:46:17,658 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y23.docx
+2026-03-19 15:46:17,723 - INFO -   -> Y-23: YOUNG, David
+2026-03-19 15:46:17,723 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y24.docx
+2026-03-19 15:46:17,781 - INFO -   -> : YORK, Brandon and Tressa
+2026-03-19 15:46:17,781 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y25.docx
+2026-03-19 15:46:17,837 - INFO -   -> Y-25: YOUNG, Grant
+2026-03-19 15:46:17,837 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y26.docx
+2026-03-19 15:46:17,893 - INFO -   -> Y-26: YORK, Connor
+2026-03-19 15:46:17,893 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y27.docx
+2026-03-19 15:46:17,949 - INFO -   -> Y-27: LISS, Robert
+2026-03-19 15:46:17,949 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y28.docx
+2026-03-19 15:46:18,012 - INFO -   -> Y-28: YANG, Jianhui
+2026-03-19 15:46:18,012 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y29.docx
+2026-03-19 15:46:18,067 - INFO -   -> Y-29: YEOMANS, Edward Brook
+2026-03-19 15:46:18,067 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y30.docx
+2026-03-19 15:46:18,118 - INFO -   -> Y-30: , 
+2026-03-19 15:46:18,119 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y31.docx
+2026-03-19 15:46:18,181 - INFO -   -> Y-31: YOUNG, Fergus
+2026-03-19 15:46:18,182 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y32.docx
+2026-03-19 15:46:18,240 - INFO -   -> Y-32: YU, Jingya
+2026-03-19 15:46:18,240 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y33.docx
+2026-03-19 15:46:18,301 - INFO -   -> Y-33: YOUNG, Vince
+2026-03-19 15:46:18,301 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y34.docx
+2026-03-19 15:46:18,361 - INFO -   -> Y-34: YASYSZCUK, Paul
+2026-03-19 15:46:18,361 - INFO - Parsing: /Volumes/server/ADDR/Y/ADDR.Y35.docx
+2026-03-19 15:46:18,426 - INFO -   -> : YEUNG, Margaret
+2026-03-19 15:46:18,430 - INFO - Done. 35 records, 0 errors.
+2026-03-19 15:48:22,603 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/Z
+2026-03-19 15:48:22,615 - INFO - Found 12 files.
+2026-03-19 15:48:22,615 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z01.docx
+2026-03-19 15:48:22,668 - INFO -   -> Z-1: ZAGRODNEY-ENGLISH, Kathryn
+2026-03-19 15:48:22,668 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z02.docx
+2026-03-19 15:48:22,724 - INFO -   -> Z-2: NEWTON, Robert
+2026-03-19 15:48:22,724 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z03.docx
+2026-03-19 15:48:22,771 - INFO -   -> Z-3: ZIMNICKI, Susan and Mark
+2026-03-19 15:48:22,771 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z04.docx
+2026-03-19 15:48:22,832 - INFO -   -> Z-4: ZATORSKI, Mary Alexandra
+2026-03-19 15:48:22,832 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z05.docx
+2026-03-19 15:48:22,889 - INFO -   -> Z-5: ZANG, Feng
+2026-03-19 15:48:22,889 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z10.docx
+2026-03-19 15:48:22,954 - INFO -   -> Z-10: ZIMMER, Kristen
+2026-03-19 15:48:22,954 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z11.docx
+2026-03-19 15:48:23,015 - INFO -   -> Z-11: , 
+2026-03-19 15:48:23,015 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z12.docx
+2026-03-19 15:48:23,068 - INFO -   -> Z-12: ZADOW, Margaret Jeanette
+2026-03-19 15:48:23,068 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z6.docx
+2026-03-19 15:48:23,132 - INFO -   -> Z-6: ZEITOUN, Andrew
+2026-03-19 15:48:23,132 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z7.docx
+2026-03-19 15:48:23,188 - INFO -   -> Z-7: ZMOZYNSKI, Carl Chester
+2026-03-19 15:48:23,188 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z8.docx
+2026-03-19 15:48:23,238 - INFO -   -> Z-8: ZUBIS, Vivian
+2026-03-19 15:48:23,238 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z9.docx
+2026-03-19 15:48:23,293 - INFO -   -> Z-9: ZAMORA, Mariana
+2026-03-19 15:48:23,295 - INFO - Done. 12 records, 0 errors.
+2026-03-19 15:51:06,396 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/X
+2026-03-19 15:51:06,409 - INFO - Found 2 files.
+2026-03-19 15:51:06,409 - INFO - Parsing: /Volumes/server/ADDR/X/ADDR.X01.docx
+2026-03-19 15:51:06,538 - INFO -   -> X-1: , 
+2026-03-19 15:51:06,538 - INFO - Parsing: /Volumes/server/ADDR/X/ADDR.X02.docx
+2026-03-19 15:51:06,609 - INFO -   -> : XU, Cheng
+2026-03-19 15:51:06,611 - INFO - Done. 2 records, 0 errors.
+2026-03-19 15:52:48,593 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/W
+2026-03-19 15:52:48,600 - INFO - Found 296 files.
+2026-03-19 15:52:48,600 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W01.docx
+2026-03-19 15:52:48,694 - INFO -   -> W-1: WALTERS, Timothy George & Elaine Ulva
+2026-03-19 15:52:48,694 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W02.docx
+2026-03-19 15:52:48,770 - INFO -   -> W-2: , 
+2026-03-19 15:52:48,770 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W03.docx
+2026-03-19 15:52:48,857 - INFO -   -> W-3: WARNER, Greg & Margaret
+2026-03-19 15:52:48,857 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W04.docx
+2026-03-19 15:52:48,932 - INFO -   -> W-4: WARREN, Garry & Catherine
+2026-03-19 15:52:48,932 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W05.docx
+2026-03-19 15:52:48,985 - INFO -   -> W-5: WELSH, Ernest & Helen
+2026-03-19 15:52:48,985 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W06.docx
+2026-03-19 15:52:49,065 - INFO -   -> W-6: WHITE, Howard & Bonnie
+2026-03-19 15:52:49,066 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W07.docx
+2026-03-19 15:52:49,128 - INFO -   -> W-7: WHITNELL, Craig
+2026-03-19 15:52:49,129 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W08.docx
+2026-03-19 15:52:49,210 - INFO -   -> W-8: WOOD, Jeffery & Jennifer
+2026-03-19 15:52:49,210 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W09.docx
+2026-03-19 15:52:49,285 - INFO -   -> W-9: WOOD, Robert & Doreen
+2026-03-19 15:52:49,285 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W11.docx
+2026-03-19 15:52:49,330 - INFO -   -> W-11: WRIGHT, Bill
+2026-03-19 15:52:49,330 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W12.docx
+2026-03-19 15:52:49,388 - INFO -   -> W-12: WRIGHT, Robert & LeeAnne
+2026-03-19 15:52:49,388 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W13.docx
+2026-03-19 15:52:49,465 - INFO -   -> W-13: WAGNER, Randy & Nancy
+2026-03-19 15:52:49,465 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W14.docx
+2026-03-19 15:52:49,517 - INFO -   -> W-14: WALSH, James
+2026-03-19 15:52:49,517 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W15.docx
+2026-03-19 15:52:49,572 - INFO -   -> W-15: WARNER, Patricia & Richard
+2026-03-19 15:52:49,572 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W16.docx
+2026-03-19 15:52:49,654 - INFO -   -> W-16: WARREN, Brent & Evelyn
+2026-03-19 15:52:49,654 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W17.docx
+2026-03-19 15:52:49,708 - INFO -   -> W-17: WATRICH, Stan
+2026-03-19 15:52:49,709 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W18.docx
+2026-03-19 15:52:49,784 - INFO -   -> W-18: WATERWORTH, Ronald Stanley
+2026-03-19 15:52:49,785 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W19.docx
+2026-03-19 15:52:49,852 - INFO -   -> W-19: WATSON, Jane
+2026-03-19 15:52:49,853 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W20.docx
+2026-03-19 15:52:49,916 - INFO -   -> W-20: WATTS, Gordon & Mary
+2026-03-19 15:52:49,916 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W21.docx
+2026-03-19 15:52:49,987 - INFO -   -> W-21: WEBB, James Marvin John
+2026-03-19 15:52:49,987 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W22.docx
+2026-03-19 15:52:50,063 - INFO -   -> W-22: WELLBOURN, Steve & Laurie
+2026-03-19 15:52:50,064 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W23.docx
+2026-03-19 15:52:50,148 - INFO -   -> W-23: WILKES, Robert
+2026-03-19 15:52:50,148 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W24.docx
+2026-03-19 15:52:50,223 - INFO -   -> W-24: WINGETT, Duane
+2026-03-19 15:52:50,223 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W25.docx
+2026-03-19 15:52:50,304 - INFO -   -> W-25: WADE, Rick & Janette
+2026-03-19 15:52:50,304 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W26.docx
+2026-03-19 15:52:50,361 - INFO -   -> W-26: WATRICH, Leslie & Nida
+2026-03-19 15:52:50,361 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W27.docx
+2026-03-19 15:52:50,433 - INFO -   -> W-27: WELSH, Barbara/JOHNSTON
+2026-03-19 15:52:50,433 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W28.docx
+2026-03-19 15:52:50,507 - INFO -   -> W-28: WILLIS, Ted & Lori
+2026-03-19 15:52:50,507 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W29.docx
+2026-03-19 15:52:50,624 - INFO -   -> W-29: WEST, Rev. James
+2026-03-19 15:52:50,624 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W30.docx
+2026-03-19 15:52:50,683 - INFO -   -> W-30: WIGGINS, Mark & Deborah
+2026-03-19 15:52:50,683 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W31.docx
+2026-03-19 15:52:50,733 - INFO -   -> W-31: WAUDBY, Robert Paul & Mary-Ellen Elizabeth
+2026-03-19 15:52:50,734 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W32.docx
+2026-03-19 15:52:50,795 - INFO -   -> W-32: WESTINGTON, David John & Janet Mary
+2026-03-19 15:52:50,795 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W33.docx
+2026-03-19 15:52:50,859 - INFO -   -> W-33: WEBSTER, David
+2026-03-19 15:52:50,859 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W34.docx
+2026-03-19 15:52:50,935 - INFO -   -> W-34: WATSON, Andy & Debbie
+2026-03-19 15:52:50,935 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W35.docx
+2026-03-19 15:52:51,000 - INFO -   -> W-35: WARRICK, Dennis & Madeline
+2026-03-19 15:52:51,000 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W36.docx
+2026-03-19 15:52:51,083 - INFO -   -> W-36: WEIHING, Waldemar & Brigitte
+2026-03-19 15:52:51,084 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W37.docx
+2026-03-19 15:52:51,136 - INFO -   -> W-37: , 
+2026-03-19 15:52:51,136 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W38.docx
+2026-03-19 15:52:51,186 - INFO -   -> W-38: WRIGHT, John David & Julie Ann
+2026-03-19 15:52:51,186 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W39.docx
+2026-03-19 15:52:51,249 - INFO -   -> W-39: WENSLEY, Christopher Eric and Terrie Peacock
+2026-03-19 15:52:51,249 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W40.docx
+2026-03-19 15:52:51,320 - INFO -   -> W-40: WITKO, Mikolaj
+2026-03-19 15:52:51,320 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W41.docx
+2026-03-19 15:52:51,398 - INFO -   -> W-41: WINSOR, Alvin and Patricia
+2026-03-19 15:52:51,398 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W42.docx
+2026-03-19 15:52:51,449 - INFO -   -> W-42: WHEELER, Paul & Suzanne
+2026-03-19 15:52:51,449 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W43.docx
+2026-03-19 15:52:51,528 - INFO -   -> W-43: WOOD, Susan
+2026-03-19 15:52:51,529 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W44.docx
+2026-03-19 15:52:51,589 - INFO -   -> W-44: WEIR, Margaret & John
+2026-03-19 15:52:51,590 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W45.docx
+2026-03-19 15:52:51,659 - INFO -   -> W-45: WILKINS, Dave
+2026-03-19 15:52:51,659 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W46.docx
+2026-03-19 15:52:51,713 - INFO -   -> W-46: WARNER, Paul
+2026-03-19 15:52:51,714 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W47.docx
+2026-03-19 15:52:51,789 - INFO -   -> W-47: , 
+2026-03-19 15:52:51,789 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W48.docx
+2026-03-19 15:52:51,832 - INFO -   -> W-48: WARD, Larry and Catherine
+2026-03-19 15:52:51,832 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W49.docx
+2026-03-19 15:52:51,888 - INFO -   -> W-49: WERTHRUP, Larry & Karen
+2026-03-19 15:52:51,888 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W50.docx
+2026-03-19 15:52:51,935 - INFO -   -> W-50: WARREN, Ernest & Mary Pearl
+2026-03-19 15:52:51,935 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W52.docx
+2026-03-19 15:52:51,993 - INFO -   -> W-52: WEISS, Peter and Cynthia
+2026-03-19 15:52:51,993 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W53.docx
+2026-03-19 15:52:52,088 - INFO -   -> W-53: WALKER, Stephen John
+2026-03-19 15:52:52,088 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W54.docx
+2026-03-19 15:52:52,154 - INFO -   -> W-54: WHITFIELD, June
+2026-03-19 15:52:52,154 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W55.docx
+2026-03-19 15:52:52,205 - INFO -   -> W-55: WILSON, Stephen Frank & Sandra Fearne
+2026-03-19 15:52:52,205 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W56.docx
+2026-03-19 15:52:52,259 - INFO -   -> W-56: WEST, Martin Barry
+2026-03-19 15:52:52,260 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W57.docx
+2026-03-19 15:52:52,312 - INFO -   -> W-57: WEST, Alan Murray
+2026-03-19 15:52:52,313 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W58.docx
+2026-03-19 15:52:52,364 - INFO -   -> W-58: WATSON, Thomas Arthur & Nadine
+2026-03-19 15:52:52,364 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W59.docx
+2026-03-19 15:52:52,420 - INFO -   -> W-59: WAUGH, Sharron
+2026-03-19 15:52:52,420 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W60.docx
+2026-03-19 15:52:52,496 - INFO -   -> W-60: WEIMERT, Frieda Elsa TUMMON, Gregory
+2026-03-19 15:52:52,497 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W61.docx
+2026-03-19 15:52:52,563 - INFO -   -> W-61: WILLIAMSON, Thomas Bartley Dr. & Angela Boam Purver
+2026-03-19 15:52:52,563 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W62.docx
+2026-03-19 15:52:52,637 - INFO -   -> W-62: WHITNEY, Anne
+2026-03-19 15:52:52,637 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W63.docx
+2026-03-19 15:52:52,694 - INFO -   -> W-63: WILLIAMS, Christine
+2026-03-19 15:52:52,694 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W64.docx
+2026-03-19 15:52:52,762 - INFO -   -> W-64: WAUDBY, Gary Daniel and HEMPSTEAD, Janice Gaye
+2026-03-19 15:52:52,762 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W65.docx
+2026-03-19 15:52:52,823 - INFO -   -> W-65: WILKS, Richard Robert & Dana Mary
+2026-03-19 15:52:52,823 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W66.docx
+2026-03-19 15:52:52,906 - INFO -   -> W-66: WALL, Gregory & Sherry
+2026-03-19 15:52:52,906 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W67.docx
+2026-03-19 15:52:52,983 - INFO -   -> W-67: , 
+2026-03-19 15:52:52,984 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W68.docx
+2026-03-19 15:52:53,050 - INFO -   -> W-68: WEESE, George& Verena
+2026-03-19 15:52:53,050 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W69.docx
+2026-03-19 15:52:53,102 - INFO -   -> W-69: WEESE, Mark George
+2026-03-19 15:52:53,102 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W70.docx
+2026-03-19 15:52:53,156 - INFO -   -> W-70: WEST, William Alfred
+2026-03-19 15:52:53,156 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W71.docx
+2026-03-19 15:52:53,212 - INFO -   -> W-71: WOODARD, Mel& Barb
+2026-03-19 15:52:53,212 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W72.docx
+2026-03-19 15:52:53,271 - INFO -   -> W-72: WINDER, David & Marilyn
+2026-03-19 15:52:53,277 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W73.docx
+2026-03-19 15:52:53,338 - INFO -   -> W-73: WHITESIDE, Brian & Ellen Whiteside
+2026-03-19 15:52:53,339 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W74.docx
+2026-03-19 15:52:53,413 - INFO -   -> W-74: , 
+2026-03-19 15:52:53,413 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W75.docx
+2026-03-19 15:52:53,496 - INFO -   -> W-75: WRIGHT, Mike
+2026-03-19 15:52:53,496 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W76.docx
+2026-03-19 15:52:53,572 - INFO -   -> W-76: WRIGHT, Rose and Wayne
+2026-03-19 15:52:53,572 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W77.docx
+2026-03-19 15:52:53,637 - INFO -   -> W-77: WALLACE, Grant
+2026-03-19 15:52:53,637 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W78.docx
+2026-03-19 15:52:53,695 - INFO -   -> W-78: WILSON, Brian
+2026-03-19 15:52:53,695 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W79.docx
+2026-03-19 15:52:53,783 - INFO -   -> W-79: WATSON, Marlene Frances RICHARDS, Mark
+2026-03-19 15:52:53,783 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W80.docx
+2026-03-19 15:52:53,833 - INFO -   -> W-80: WHITE, Lyndsay Mark [C.A.W.]
+2026-03-19 15:52:53,833 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W81.docx
+2026-03-19 15:52:53,905 - INFO -   -> W-81: WARD, Patricia
+2026-03-19 15:52:53,905 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W82.docx
+2026-03-19 15:52:53,954 - INFO -   -> W-82: WARNER, Wilma Jean
+2026-03-19 15:52:53,954 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W83.docx
+2026-03-19 15:52:54,010 - INFO -   -> W-83: WELSH, James & Jo
+2026-03-19 15:52:54,010 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W84.docx
+2026-03-19 15:52:54,094 - INFO -   -> W-84: WALROTH, Clark
+2026-03-19 15:52:54,094 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W85.docx
+2026-03-19 15:52:54,140 - INFO -   -> W-85: , 
+2026-03-19 15:52:54,141 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W86.docx
+2026-03-19 15:52:54,223 - INFO -   -> W-86: , 
+2026-03-19 15:52:54,223 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W87.docx
+2026-03-19 15:52:54,284 - INFO -   -> W-87: , 
+2026-03-19 15:52:54,284 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W88.docx
+2026-03-19 15:52:54,359 - INFO -   -> W-88: WHITNEY, Mable H
+2026-03-19 15:52:54,359 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W89.docx
+2026-03-19 15:52:54,413 - INFO -   -> W-89: , 
+2026-03-19 15:52:54,413 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W90.docx
+2026-03-19 15:52:54,486 - INFO -   -> W-90: WOOD, Gary and Lucy
+2026-03-19 15:52:54,486 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W91.docx
+2026-03-19 15:52:54,540 - INFO -   -> W-91: WILSON, Grant & Linda
+2026-03-19 15:52:54,540 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W92A.docx
+2026-03-19 15:52:54,618 - INFO -   -> : WARD, Don
+2026-03-19 15:52:54,618 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W92B.docx
+2026-03-19 15:52:54,670 - INFO -   -> : WAIT, William Kempt & Aurora
+2026-03-19 15:52:54,670 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W93.docx
+2026-03-19 15:52:54,719 - INFO -   -> W-93: WICKS, Donna and Ella
+2026-03-19 15:52:54,719 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W94.docx
+2026-03-19 15:52:54,808 - INFO -   -> W-94: WHITE, Paul and Donna
+2026-03-19 15:52:54,808 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W95.docx
+2026-03-19 15:52:54,853 - INFO -   -> W-95: WESTERN, 
+2026-03-19 15:52:54,853 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W96.docx
+2026-03-19 15:52:54,905 - INFO -   -> W-96: , 
+2026-03-19 15:52:54,905 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W97.docx
+2026-03-19 15:52:54,954 - INFO -   -> W-97: WAGAR, James and Michelle
+2026-03-19 15:52:54,954 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W98.docx
+2026-03-19 15:52:55,004 - INFO -   -> : WRIGHT, Wayne Clark
+2026-03-19 15:52:55,004 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W99.docx
+2026-03-19 15:52:55,114 - INFO -   -> W-99: WAGAR, Norma & Randy
+2026-03-19 15:52:55,115 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.100.docx
+2026-03-19 15:52:55,177 - INFO -   -> W-100: WRIGHT, John
+2026-03-19 15:52:55,178 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.101.docx
+2026-03-19 15:52:55,229 - INFO -   -> W-101: WANAMAKER, Rob
+2026-03-19 15:52:55,229 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.102.docx
+2026-03-19 15:52:55,280 - INFO -   -> W-102: WEISNER, Jean and Harold Hal
+2026-03-19 15:52:55,280 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.103.docx
+2026-03-19 15:52:55,344 - INFO -   -> W-103: WOODS, Myrtle Grace
+2026-03-19 15:52:55,344 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.104.docx
+2026-03-19 15:52:55,392 - INFO -   -> W-104: WILKINSON, Edward and Linda
+2026-03-19 15:52:55,392 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.105.docx
+2026-03-19 15:52:55,447 - INFO -   -> W-105: WOOD, Donald and Lori
+2026-03-19 15:52:55,447 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.106.docx
+2026-03-19 15:52:55,501 - INFO -   -> W-106: WINK, John and PREVEREAULT, Julie
+2026-03-19 15:52:55,501 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.107.docx
+2026-03-19 15:52:55,559 - INFO -   -> W-107: WESTINGTON, Donna and SUGGITT, Bryan
+2026-03-19 15:52:55,560 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.108.docx
+2026-03-19 15:52:55,607 - INFO -   -> W-108: WRIGHT, Christopher and BURKE, Christine
+2026-03-19 15:52:55,607 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.109.docx
+2026-03-19 15:52:55,661 - INFO -   -> W-109: WILLIAMS, Vera Mae
+2026-03-19 15:52:55,661 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.110.docx
+2026-03-19 15:52:55,722 - INFO -   -> W-110: WHALEY, Thelma Mary
+2026-03-19 15:52:55,722 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.111.docx
+2026-03-19 15:52:55,767 - INFO -   -> W-111: WATT, Mary and Henry
+2026-03-19 15:52:55,767 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.112.docx
+2026-03-19 15:52:55,818 - INFO -   -> W-112: WINCH, Howard I.
+2026-03-19 15:52:55,818 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.113.docx
+2026-03-19 15:52:55,883 - INFO -   -> W-113: WHEELER, Nicholas Bartholomew Roy
+2026-03-19 15:52:55,883 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.114.docx
+2026-03-19 15:52:55,933 - INFO -   -> W-114: W-107, W-115, S-203
+2026-03-19 15:52:55,933 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.115.docx
+2026-03-19 15:52:56,003 - INFO -   -> W-115: WESTINGTON, Carole
+2026-03-19 15:52:56,003 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.116.docx
+2026-03-19 15:52:56,083 - INFO -   -> W-116: WILEMAN, Iris Joan
+2026-03-19 15:52:56,083 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.117.docx
+2026-03-19 15:52:56,144 - INFO -   -> W-117: WHITE, Bill and Sharon
+2026-03-19 15:52:56,144 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.118.docx
+2026-03-19 15:52:56,228 - INFO -   -> W-118: WATSON, Billie Jean
+2026-03-19 15:52:56,229 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.119.docx
+2026-03-19 15:52:56,322 - INFO -   -> W-119: WILSON, Bruce and Darlene
+2026-03-19 15:52:56,323 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.120.docx
+2026-03-19 15:52:56,391 - INFO -   -> W-120: WATERWORTH, Michelle
+2026-03-19 15:52:56,391 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.121.docx
+2026-03-19 15:52:56,456 - INFO -   -> W-121: WOJTOWICZ, Elizabeth and Robert
+2026-03-19 15:52:56,456 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.122.docx
+2026-03-19 15:52:56,509 - INFO -   -> W-122: WHITE, Hilda
+2026-03-19 15:52:56,509 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.123.docx
+2026-03-19 15:52:56,574 - INFO -   -> W-123: WILSON, William
+2026-03-19 15:52:56,575 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.124.docx
+2026-03-19 15:52:56,625 - INFO -   -> W-124: WATSON, Chris, George and Victoria
+2026-03-19 15:52:56,625 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.125.docx
+2026-03-19 15:52:56,678 - INFO -   -> W-125: WELLS, Ruth
+2026-03-19 15:52:56,678 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.126.docx
+2026-03-19 15:52:56,725 - INFO -   -> W-126: WOUDSTRA, Donald and Geri
+2026-03-19 15:52:56,726 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.127.docx
+2026-03-19 15:52:56,773 - INFO -   -> W-127: WILLIAMS, Dorinka
+2026-03-19 15:52:56,774 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.128.docx
+2026-03-19 15:52:56,855 - INFO -   -> W-128: WILLIAMETT, John Brindle
+2026-03-19 15:52:56,855 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.129.docx
+2026-03-19 15:52:56,902 - INFO -   -> W-129: WASYLYK, Carol
+2026-03-19 15:52:56,902 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.130.docx
+2026-03-19 15:52:56,971 - INFO -   -> W-130: WICKS, Christopher and Carol-Anne
+2026-03-19 15:52:56,971 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.131.docx
+2026-03-19 15:52:57,025 - INFO -   -> W-131: WEBSTER, Doug and Lynne
+2026-03-19 15:52:57,025 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.132.docx
+2026-03-19 15:52:57,079 - INFO -   -> W-132: WIPPER, Kirk and Anne
+2026-03-19 15:52:57,079 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.133.docx
+2026-03-19 15:52:57,154 - INFO -   -> W-133: WALKER, Douglas F.
+2026-03-19 15:52:57,154 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.134.docx
+2026-03-19 15:52:57,219 - INFO -   -> W-134: WILLIAMSON, Peter and Shirley
+2026-03-19 15:52:57,219 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.135.docx
+2026-03-19 15:52:57,265 - INFO -   -> W-135: WARNE, Lawrence Allyn
+2026-03-19 15:52:57,265 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.136.docx
+2026-03-19 15:52:57,317 - INFO -   -> W-136: WILSON, Julie
+2026-03-19 15:52:57,318 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.137.docx
+2026-03-19 15:52:57,380 - INFO -   -> W-137: WILLIS, Albert and Mary
+2026-03-19 15:52:57,380 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.138.docx
+2026-03-19 15:52:57,438 - INFO -   -> W-138: WATTS, Don
+2026-03-19 15:52:57,438 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.139.docx
+2026-03-19 15:52:57,491 - INFO -   -> W-139: WOOD, Randall and Audrey
+2026-03-19 15:52:57,491 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.140.docx
+2026-03-19 15:52:57,542 - INFO -   -> W-140: WHIT, William
+2026-03-19 15:52:57,543 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.141.docx
+2026-03-19 15:52:57,619 - INFO -   -> W-141: WALKER, Ewan and Dinval
+2026-03-19 15:52:57,619 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.142.docx
+2026-03-19 15:52:57,674 - INFO -   -> W-142: WESTLAKE, Gary and Lynne
+2026-03-19 15:52:57,674 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.143.docx
+2026-03-19 15:52:57,743 - INFO -   -> W-143: WILSON, Kelly
+2026-03-19 15:52:57,743 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.144.docx
+2026-03-19 15:52:57,797 - INFO -   -> W-144: WILSON, Greg and Sheila
+2026-03-19 15:52:57,797 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.145.docx
+2026-03-19 15:52:57,851 - INFO -   -> W-145: MURPHY, Stacey
+2026-03-19 15:52:57,851 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.146.docx
+2026-03-19 15:52:57,901 - INFO -   -> W-146: WOOD, Madeline
+2026-03-19 15:52:57,901 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.147.docx
+2026-03-19 15:52:57,960 - INFO -   -> W-147: WOLNIEWICZ, Hanna
+2026-03-19 15:52:57,960 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.148.docx
+2026-03-19 15:52:58,006 - INFO -   -> W-148: WALKER, Karen
+2026-03-19 15:52:58,006 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.149.docx
+2026-03-19 15:52:58,065 - INFO -   -> W-149: WAGNER, Lisa
+2026-03-19 15:52:58,066 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.150.docx
+2026-03-19 15:52:58,112 - INFO -   -> W-150: WAGNER, Lisa
+2026-03-19 15:52:58,113 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.151.docx
+2026-03-19 15:52:58,173 - INFO -   -> W-151: WHYTE, Barry
+2026-03-19 15:52:58,173 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.152.docx
+2026-03-19 15:52:58,232 - INFO -   -> W-152: WHITNEY, Bart and Eileen
+2026-03-19 15:52:58,232 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.153.docx
+2026-03-19 15:52:58,283 - INFO -   -> W-153: WONG, Niccolo and Julianna
+2026-03-19 15:52:58,284 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.154.docx
+2026-03-19 15:52:58,335 - INFO -   -> W-154: WALKER, David
+2026-03-19 15:52:58,335 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.155.docx
+2026-03-19 15:52:58,385 - INFO -   -> W-155: WEBB, John Bradford and Elva Jean
+2026-03-19 15:52:58,385 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.156.docx
+2026-03-19 15:52:58,437 - INFO -   -> W-156: WINSHIP, Bob and Alex
+2026-03-19 15:52:58,438 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.157.docx
+2026-03-19 15:52:58,486 - INFO -   -> W-157: BREAKSPEAR, Susan
+2026-03-19 15:52:58,486 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.158.docx
+2026-03-19 15:52:58,529 - INFO -   -> W-158: WEAVER, Caitlin
+2026-03-19 15:52:58,529 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.159.docx
+2026-03-19 15:52:58,594 - INFO -   -> W-159: WEASE, Maureen
+2026-03-19 15:52:58,595 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.160.docx
+2026-03-19 15:52:58,644 - INFO -   -> W-160: WOOD, Cara
+2026-03-19 15:52:58,644 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.161.docx
+2026-03-19 15:52:58,732 - INFO -   -> W-161: WICKS, Lloyd and Barbara
+2026-03-19 15:52:58,732 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.162.docx
+2026-03-19 15:52:58,781 - INFO -   -> W-162: WOODS, Ernest and Ruth
+2026-03-19 15:52:58,781 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.163.docx
+2026-03-19 15:52:58,859 - INFO -   -> W-163: WICKS, Shawna
+2026-03-19 15:52:58,859 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.164.docx
+2026-03-19 15:52:58,938 - INFO -   -> W-164: WARD, Richard
+2026-03-19 15:52:58,938 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.165.docx
+2026-03-19 15:52:58,988 - INFO -   -> W-165: WAGHORN, Josephine
+2026-03-19 15:52:58,988 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.166.docx
+2026-03-19 15:52:59,050 - INFO -   -> W-166: WORR, Tom and Lynn
+2026-03-19 15:52:59,050 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.167.docx
+2026-03-19 15:52:59,116 - INFO -   -> W-167: WOODCOCK, Christine
+2026-03-19 15:52:59,116 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.168.docx
+2026-03-19 15:52:59,178 - INFO -   -> W-168: WELCH, Roger and Judith
+2026-03-19 15:52:59,178 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.169.docx
+2026-03-19 15:52:59,247 - INFO -   -> W-169: WESTLAKE, Wayne and Carol
+2026-03-19 15:52:59,247 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.170.docx
+2026-03-19 15:52:59,306 - INFO -   -> W-170: WILLIAMSON, Carrie
+2026-03-19 15:52:59,306 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.171.docx
+2026-03-19 15:52:59,422 - INFO -   -> W-171: WANG, Chun Joseph
+2026-03-19 15:52:59,422 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.172.docx
+2026-03-19 15:52:59,475 - INFO -   -> W-172: , 
+2026-03-19 15:52:59,475 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.173.docx
+2026-03-19 15:52:59,520 - INFO -   -> : , 
+2026-03-19 15:52:59,521 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.174.docx
+2026-03-19 15:52:59,588 - INFO -   -> W-174: WICKS, Holly
+2026-03-19 15:52:59,588 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.175.docx
+2026-03-19 15:52:59,639 - INFO -   -> W-175: WOODBECK, Rod and Laurie
+2026-03-19 15:52:59,639 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.176.docx
+2026-03-19 15:52:59,688 - INFO -   -> W-176: WOUTERS, Sharolyn Amy
+2026-03-19 15:52:59,688 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.177.docx
+2026-03-19 15:52:59,754 - INFO -   -> W-177: HECHT, Christopher
+2026-03-19 15:52:59,754 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.178.docx
+2026-03-19 15:52:59,815 - INFO -   -> W-178: WAGHORN, Glenn
+2026-03-19 15:52:59,815 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.179.docx
+2026-03-19 15:52:59,890 - INFO -   -> W-179: WILLIAMS, Linda and Rob
+2026-03-19 15:52:59,890 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.180.docx
+2026-03-19 15:52:59,960 - INFO -   -> W-180: SULLIVAN, Laura
+2026-03-19 15:52:59,960 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.181.docx
+2026-03-19 15:53:00,023 - INFO -   -> W-181: WEBSTER, Barbara
+2026-03-19 15:53:00,023 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.182.docx
+2026-03-19 15:53:00,083 - INFO -   -> W-182: WAGAR, Donna
+2026-03-19 15:53:00,083 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.183.docx
+2026-03-19 15:53:00,138 - INFO -   -> W-183: WALSH, Larry and Jennifer
+2026-03-19 15:53:00,138 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.184.docx
+2026-03-19 15:53:00,218 - INFO -   -> W-184: WILLIAMS, Richard and Kimberley
+2026-03-19 15:53:00,218 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.185.docx
+2026-03-19 15:53:00,307 - INFO -   -> W-185: RAND, Elizabeth
+2026-03-19 15:53:00,307 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.186.docx
+2026-03-19 15:53:00,392 - INFO -   -> W-186: WILSON, Neil
+2026-03-19 15:53:00,393 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.187.docx
+2026-03-19 15:53:00,462 - INFO -   -> W-187: WAGHORN, Karen
+2026-03-19 15:53:00,463 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.188.docx
+2026-03-19 15:53:00,524 - INFO -   -> W-188: WEIDENFELDER, Christopher and Sarah
+2026-03-19 15:53:00,524 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.189.docx
+2026-03-19 15:53:00,580 - INFO -   -> W-189: WILLIAMS, Jim
+2026-03-19 15:53:00,580 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.190.docx
+2026-03-19 15:53:00,637 - INFO -   -> W-190: WILLIAMS, Gail
+2026-03-19 15:53:00,637 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.191.docx
+2026-03-19 15:53:00,701 - INFO -   -> W-191: , 
+2026-03-19 15:53:00,702 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.192.docx
+2026-03-19 15:53:00,777 - INFO -   -> W-192: WASHINGTON, Joan
+2026-03-19 15:53:00,777 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.193.docx
+2026-03-19 15:53:00,843 - INFO -   -> W-193: WEIHER, Richard Peter Lorenz
+2026-03-19 15:53:00,843 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.194.docx
+2026-03-19 15:53:00,898 - INFO -   -> W-194: WARNER, Hilary
+2026-03-19 15:53:00,898 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.195.docx
+2026-03-19 15:53:00,955 - INFO -   -> W-195: WEST, Robert and Bernadette
+2026-03-19 15:53:00,956 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.196.docx
+2026-03-19 15:53:01,004 - INFO -   -> W-196: WALTERS, Bradley
+2026-03-19 15:53:01,005 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.197.docx
+2026-03-19 15:53:01,071 - INFO -   -> W-197: WEBB, Jason
+2026-03-19 15:53:01,071 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.198.docx
+2026-03-19 15:53:01,129 - INFO -   -> W-198: WILSON, Peter and Jo-Anne
+2026-03-19 15:53:01,129 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.199.docx
+2026-03-19 15:53:01,183 - INFO -   -> W-199: WALLING, Linda
+2026-03-19 15:53:01,183 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.200.docx
+2026-03-19 15:53:01,247 - INFO -   -> W-200: WOOD, Margaret
+2026-03-19 15:53:01,247 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.201.docx
+2026-03-19 15:53:01,306 - INFO -   -> W-201: WALKER, Ruth
+2026-03-19 15:53:01,306 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.202.docx
+2026-03-19 15:53:01,366 - INFO -   -> W-202: WHITELEY, Katherine
+2026-03-19 15:53:01,367 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.203.docx
+2026-03-19 15:53:01,428 - INFO -   -> W-203: WRIGHT, Everett
+2026-03-19 15:53:01,428 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.204.docx
+2026-03-19 15:53:01,475 - INFO -   -> W-204: WORR, John and Patricia
+2026-03-19 15:53:01,475 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.205.docx
+2026-03-19 15:53:01,523 - INFO -   -> W-205: WEIR, Steve
+2026-03-19 15:53:01,524 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.206.docx
+2026-03-19 15:53:01,573 - INFO -   -> W-206: WHITE, Josh
+2026-03-19 15:53:01,573 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.207.docx
+2026-03-19 15:53:01,625 - INFO -   -> W-207: ANDERSON, Kristan
+2026-03-19 15:53:01,625 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.208.docx
+2026-03-19 15:53:01,695 - INFO -   -> W-208: WEBB, Carolyn
+2026-03-19 15:53:01,696 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.209.docx
+2026-03-19 15:53:01,750 - INFO -   -> W-209: WELCH, James
+2026-03-19 15:53:01,750 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.210.docx
+2026-03-19 15:53:01,799 - INFO -   -> W-210: WARRINGTON, John
+2026-03-19 15:53:01,800 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.211.docx
+2026-03-19 15:53:01,853 - INFO -   -> W-211: WHITE, MARGARET ELIZABETH
+2026-03-19 15:53:01,853 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.212.docx
+2026-03-19 15:53:01,914 - INFO -   -> W-212: WILKIE, Ian
+2026-03-19 15:53:01,914 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.213.docx
+2026-03-19 15:53:01,980 - INFO -   -> W-213: WAGG, Heidi
+2026-03-19 15:53:01,980 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.214.docx
+2026-03-19 15:53:02,033 - INFO -   -> W-214: WOLF, Rheannan
+2026-03-19 15:53:02,034 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.215.docx
+2026-03-19 15:53:02,096 - INFO -   -> W-215: WADSWORTH, Andrew and Beth
+2026-03-19 15:53:02,096 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.216.docx
+2026-03-19 15:53:02,156 - INFO -   -> W-216: WHITE, Barbara
+2026-03-19 15:53:02,156 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.217.docx
+2026-03-19 15:53:02,205 - INFO -   -> W-217: WILLIAMS, Ernest
+2026-03-19 15:53:02,205 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.218.docx
+2026-03-19 15:53:02,283 - INFO -   -> W-218: WESTLAKE, Richard & Kelly
+2026-03-19 15:53:02,284 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.219.docx
+2026-03-19 15:53:02,330 - INFO -   -> W-219: WESTFALL, Len
+2026-03-19 15:53:02,330 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.220.docx
+2026-03-19 15:53:02,394 - INFO -   -> W-220: WINDSOR, Arnold
+2026-03-19 15:53:02,394 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.221.docx
+2026-03-19 15:53:02,474 - INFO -   -> W-221: WARRINGTON, John and SALTER, Carol
+2026-03-19 15:53:02,474 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.222.docx
+2026-03-19 15:53:02,530 - INFO -   -> W-222: WIEBE, Joel and Heather
+2026-03-19 15:53:02,531 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.223.docx
+2026-03-19 15:53:02,589 - INFO -   -> W-223: WINGER, Michael
+2026-03-19 15:53:02,589 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.224.docx
+2026-03-19 15:53:02,646 - INFO -   -> W-224: WATERS, David
+2026-03-19 15:53:02,646 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.225.docx
+2026-03-19 15:53:02,712 - INFO -   -> W-225: WALKER, Eric
+2026-03-19 15:53:02,712 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.226.docx
+2026-03-19 15:53:02,782 - INFO -   -> W-226: WHITE, Ashley
+2026-03-19 15:53:02,783 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.227.docx
+2026-03-19 15:53:02,847 - INFO -   -> W-227: WARDEN, Dorothy Emma
+2026-03-19 15:53:02,847 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.228.docx
+2026-03-19 15:53:02,909 - INFO -   -> W-228: WRIGHTLY, Marvin and Delores
+2026-03-19 15:53:02,910 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.229.docx
+2026-03-19 15:53:02,972 - INFO -   -> : WILSON, John and Linda
+2026-03-19 15:53:02,972 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.230.docx
+2026-03-19 15:53:03,038 - INFO -   -> : FENN, Janet
+2026-03-19 15:53:03,039 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.231.docx
+2026-03-19 15:53:03,086 - INFO -   -> W-231: , 
+2026-03-19 15:53:03,087 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.232.docx
+2026-03-19 15:53:03,150 - INFO -   -> W-232: WOODS, Kathleen May
+2026-03-19 15:53:03,151 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.233.docx
+2026-03-19 15:53:03,215 - INFO -   -> W-233: WILSON, Richard
+2026-03-19 15:53:03,215 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.234.docx
+2026-03-19 15:53:03,264 - INFO -   -> W-234: WILSON, Sandra
+2026-03-19 15:53:03,264 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.235.docx
+2026-03-19 15:53:03,325 - INFO -   -> W-235: WRIGHT, Dennis
+2026-03-19 15:53:03,325 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.236.docx
+2026-03-19 15:53:03,388 - INFO -   -> W-236: WILSON, Christopher and Helen
+2026-03-19 15:53:03,388 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.237.docx
+2026-03-19 15:53:03,457 - INFO -   -> W-237: WILLIAMS, Terry and Michelle
+2026-03-19 15:53:03,457 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.238.docx
+2026-03-19 15:53:03,510 - INFO -   -> W-238: WILLIAMS, Robert & Beth
+2026-03-19 15:53:03,510 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.239.docx
+2026-03-19 15:53:03,556 - INFO -   -> W-239: WALDEN, John and Marlene
+2026-03-19 15:53:03,557 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.240.docx
+2026-03-19 15:53:03,629 - INFO -   -> W-240: WHITE, Ruth
+2026-03-19 15:53:03,629 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.241.docx
+2026-03-19 15:53:03,683 - INFO -   -> W-241: WILSON, Melvin and Rosemary
+2026-03-19 15:53:03,683 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.242.docx
+2026-03-19 15:53:03,732 - INFO -   -> W-242: WATSON, Paul and Theresa
+2026-03-19 15:53:03,732 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.243.docx
+2026-03-19 15:53:03,784 - INFO -   -> W-243: WRIGHT, Karen
+2026-03-19 15:53:03,784 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.244.docx
+2026-03-19 15:53:03,853 - INFO -   -> W-244: WILSON, Valerie
+2026-03-19 15:53:03,854 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.245.docx
+2026-03-19 15:53:03,903 - INFO -   -> W-245: WALLACE, Elizabeth Ann
+2026-03-19 15:53:03,904 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.246.docx
+2026-03-19 15:53:03,954 - INFO -   -> : , 
+2026-03-19 15:53:03,954 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.247.docx
+2026-03-19 15:53:04,021 - INFO -   -> W-247: WHITEWOLF, Lynn
+2026-03-19 15:53:04,022 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.248.docx
+2026-03-19 15:53:04,081 - INFO -   -> W-248: , 
+2026-03-19 15:53:04,081 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.249.docx
+2026-03-19 15:53:04,132 - INFO -   -> W-249: WEASE, Leon and Catherine
+2026-03-19 15:53:04,133 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.250.docx
+2026-03-19 15:53:04,188 - INFO -   -> W-250: WALSH, Peter and Catherine
+2026-03-19 15:53:04,189 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.251.docx
+2026-03-19 15:53:04,261 - INFO -   -> W-251: WINGROVE, Joanne
+2026-03-19 15:53:04,261 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.252.docx
+2026-03-19 15:53:04,311 - INFO -   -> W-252: WOODWARD, Dan and Lynn
+2026-03-19 15:53:04,312 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.253.docx
+2026-03-19 15:53:04,384 - INFO -   -> W-253: WATSON, Jason and Jennifer
+2026-03-19 15:53:04,384 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.254.docx
+2026-03-19 15:53:04,462 - INFO -   -> W-254: WOOD, Robert and Colleen
+2026-03-19 15:53:04,462 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.255.docx
+2026-03-19 15:53:04,546 - INFO -   -> W-255: WICKS, Emily
+2026-03-19 15:53:04,546 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.256.docx
+2026-03-19 15:53:04,606 - INFO -   -> W-256: WEASE, Mark and Debra
+2026-03-19 15:53:04,608 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.257.docx
+2026-03-19 15:53:04,676 - INFO -   -> W-257: WAKEFORD, Thelma Joyce
+2026-03-19 15:53:04,676 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.258.docx
+2026-03-19 15:53:04,740 - INFO -   -> W-258: WILLIAMSON, Gordon and Deborah
+2026-03-19 15:53:04,740 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.259.docx
+2026-03-19 15:53:04,790 - INFO -   -> W-259: WHITTY, Graciela Anne
+2026-03-19 15:53:04,790 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.260.docx
+2026-03-19 15:53:04,859 - INFO -   -> : WAUDBY, Douglas
+2026-03-19 15:53:04,859 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.261.docx
+2026-03-19 15:53:04,935 - INFO -   -> : QI, Zhen Hua
+2026-03-19 15:53:04,935 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.262.docx
+2026-03-19 15:53:05,005 - INFO -   -> W-262: WELLER, Sharon
+2026-03-19 15:53:05,006 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.263.docx
+2026-03-19 15:53:05,082 - INFO -   -> W-263: WALSER, Derrick and Sara
+2026-03-19 15:53:05,082 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.264.docx
+2026-03-19 15:53:05,152 - INFO -   -> W-264: WAKELIN, Larry and Ann
+2026-03-19 15:53:05,153 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.265.docx
+2026-03-19 15:53:05,220 - INFO -   -> W-265: WOODS, Scott
+2026-03-19 15:53:05,220 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.266.docx
+2026-03-19 15:53:05,310 - INFO -   -> W-266: WATSON, Eric and Natalia
+2026-03-19 15:53:05,310 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.267.docx
+2026-03-19 15:53:05,378 - INFO -   -> W-267: WALKER, Darla
+2026-03-19 15:53:05,379 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.268.docx
+2026-03-19 15:53:05,441 - INFO -   -> W-268: WATSON, Cheryl
+2026-03-19 15:53:05,441 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.269.docx
+2026-03-19 15:53:05,511 - INFO -   -> W-269: MANN, Meaghan
+2026-03-19 15:53:05,511 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.270.docx
+2026-03-19 15:53:05,585 - INFO -   -> W-270: WALKER, James & Linda
+2026-03-19 15:53:05,586 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.271.docx
+2026-03-19 15:53:05,650 - INFO -   -> W-271: WEASE, David
+2026-03-19 15:53:05,650 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.272.docx
+2026-03-19 15:53:05,719 - INFO -   -> W-272: WATTS, Dwight
+2026-03-19 15:53:05,720 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.273.docx
+2026-03-19 15:53:05,784 - INFO -   -> W-273: WHITE, Blaine
+2026-03-19 15:53:05,785 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.274.docx
+2026-03-19 15:53:05,851 - INFO -   -> W-274: WIERBICKI, Marvin
+2026-03-19 15:53:05,851 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.275.docx
+2026-03-19 15:53:05,914 - INFO -   -> W-275: WIERBICKI, Wendy
+2026-03-19 15:53:05,914 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.276.docx
+2026-03-19 15:53:06,049 - INFO -   -> W-276: WOODFORD, Martha
+2026-03-19 15:53:06,049 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.277.docx
+2026-03-19 15:53:06,113 - INFO -   -> W-277: WRIGHT, Shawn
+2026-03-19 15:53:06,113 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.278.docx
+2026-03-19 15:53:06,173 - INFO -   -> W-278: WHITTLE, Lydon and Claudia
+2026-03-19 15:53:06,174 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.279.docx
+2026-03-19 15:53:06,271 - INFO -   -> W-279: WESLEY, William
+2026-03-19 15:53:06,271 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.280.docx
+2026-03-19 15:53:06,366 - INFO -   -> W-280: WHITE, Graham
+2026-03-19 15:53:06,371 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.281.docx
+2026-03-19 15:53:06,431 - INFO -   -> W-281: WILSON, Dennis and Bonnie
+2026-03-19 15:53:06,432 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.282.docx
+2026-03-19 15:53:06,484 - INFO -   -> W-282: WEENING, Adrian
+2026-03-19 15:53:06,484 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.283.docx
+2026-03-19 15:53:06,598 - INFO -   -> W-283: WOOLINGS, Cherese
+2026-03-19 15:53:06,598 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.284.docx
+2026-03-19 15:53:06,669 - INFO -   -> W-284: , 
+2026-03-19 15:53:06,669 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.285.docx
+2026-03-19 15:53:06,734 - INFO -   -> W-285: WILSON, Carol
+2026-03-19 15:53:06,734 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.286.docx
+2026-03-19 15:53:06,811 - INFO -   -> W-286: WESLEY, Steven
+2026-03-19 15:53:06,812 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.287.docx
+2026-03-19 15:53:06,885 - INFO -   -> W-287: , 
+2026-03-19 15:53:06,885 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.288.docx
+2026-03-19 15:53:06,955 - INFO -   -> W-288: REYNO, Ruth
+2026-03-19 15:53:06,955 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.289.docx
+2026-03-19 15:53:07,023 - INFO -   -> W-289: WEENING, Adrian
+2026-03-19 15:53:07,023 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.290.docx
+2026-03-19 15:53:07,090 - INFO -   -> W-290: WILFORD, Bruce
+2026-03-19 15:53:07,091 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.291.docx
+2026-03-19 15:53:07,153 - INFO -   -> W-291: WILD, Dale and Melissa
+2026-03-19 15:53:07,153 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.292.docx
+2026-03-19 15:53:07,228 - INFO -   -> W-292: WALLWORK, Breanne
+2026-03-19 15:53:07,228 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.293.docx
+2026-03-19 15:53:07,310 - INFO -   -> W-293: WANG, Wei
+2026-03-19 15:53:07,310 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.294.docx
+2026-03-19 15:53:07,383 - INFO -   -> W-294: WEASE, Allison
+2026-03-19 15:53:07,383 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.295.docx
+2026-03-19 15:53:07,438 - INFO -   -> W-295: WERONSKI, John and Bonnie
+2026-03-19 15:53:07,438 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.296.docx
+2026-03-19 15:53:07,526 - INFO -   -> W-296: WOODCOCK, Scott and Karen
+2026-03-19 15:53:07,526 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.297.docx
+2026-03-19 15:53:07,588 - INFO -   -> W-297: WEBB, Leanna
+2026-03-19 15:53:07,596 - INFO - Done. 296 records, 0 errors.
+2026-03-19 16:05:49,234 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/W
+2026-03-19 16:05:49,349 - INFO - Found 296 files.
+2026-03-19 16:05:49,349 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W01.docx
+2026-03-19 16:05:49,421 - INFO -   -> W-1: WALTERS, Timothy George & Elaine Ulva
+2026-03-19 16:05:49,421 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W02.docx
+2026-03-19 16:05:49,484 - INFO -   -> W-2: WARDEN, Eric and Patricia
+2026-03-19 16:05:49,484 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W03.docx
+2026-03-19 16:05:49,543 - INFO -   -> W-3: WARNER, Greg & Margaret
+2026-03-19 16:05:49,543 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W04.docx
+2026-03-19 16:05:49,593 - INFO -   -> W-4: WARREN, Garry & Catherine
+2026-03-19 16:05:49,593 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W05.docx
+2026-03-19 16:05:49,649 - INFO -   -> W-5: WELSH, Ernest & Helen
+2026-03-19 16:05:49,650 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W06.docx
+2026-03-19 16:05:49,713 - INFO -   -> W-6: WHITE, Howard & Bonnie
+2026-03-19 16:05:49,713 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W07.docx
+2026-03-19 16:05:49,774 - INFO -   -> W-7: WHITNELL, Craig
+2026-03-19 16:05:49,775 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W08.docx
+2026-03-19 16:05:49,838 - INFO -   -> W-8: WOOD, Jeffery & Jennifer
+2026-03-19 16:05:49,838 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W09.docx
+2026-03-19 16:05:49,905 - INFO -   -> W-9: WOOD, Robert & Doreen
+2026-03-19 16:05:49,905 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W11.docx
+2026-03-19 16:05:49,962 - INFO -   -> W-11: WRIGHT, Bill
+2026-03-19 16:05:49,963 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W12.docx
+2026-03-19 16:05:50,027 - INFO -   -> W-12: WRIGHT, Robert & LeeAnne
+2026-03-19 16:05:50,027 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W13.docx
+2026-03-19 16:05:50,090 - INFO -   -> W-13: WAGNER, Randy & Nancy
+2026-03-19 16:05:50,090 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W14.docx
+2026-03-19 16:05:50,145 - INFO -   -> W-14: WALSH, James
+2026-03-19 16:05:50,145 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W15.docx
+2026-03-19 16:05:50,197 - INFO -   -> W-15: WARNER, Patricia & Richard
+2026-03-19 16:05:50,197 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W16.docx
+2026-03-19 16:05:50,257 - INFO -   -> W-16: WARREN, Brent & Evelyn
+2026-03-19 16:05:50,257 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W17.docx
+2026-03-19 16:05:50,310 - INFO -   -> W-17: WATRICH, Stan
+2026-03-19 16:05:50,310 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W18.docx
+2026-03-19 16:05:50,364 - INFO -   -> W-18: WATERWORTH, Ronald Stanley
+2026-03-19 16:05:50,364 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W19.docx
+2026-03-19 16:05:50,417 - INFO -   -> W-19: WATSON, Jane
+2026-03-19 16:05:50,418 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W20.docx
+2026-03-19 16:05:50,476 - INFO -   -> W-20: WATTS, Gordon & Mary
+2026-03-19 16:05:50,476 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W21.docx
+2026-03-19 16:05:50,534 - INFO -   -> W-21: WEBB, James Marvin John
+2026-03-19 16:05:50,535 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W22.docx
+2026-03-19 16:05:50,595 - INFO -   -> W-22: WELLBOURN, Steve & Laurie
+2026-03-19 16:05:50,595 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W23.docx
+2026-03-19 16:05:50,648 - INFO -   -> W-23: WILKES, Robert
+2026-03-19 16:05:50,648 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W24.docx
+2026-03-19 16:05:50,706 - INFO -   -> W-24: WINGETT, Duane
+2026-03-19 16:05:50,707 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W25.docx
+2026-03-19 16:05:50,766 - INFO -   -> W-25: WADE, Rick & Janette
+2026-03-19 16:05:50,767 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W26.docx
+2026-03-19 16:05:50,812 - INFO -   -> W-26: WATRICH, Leslie & Nida
+2026-03-19 16:05:50,812 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W27.docx
+2026-03-19 16:05:50,869 - INFO -   -> W-27: WELSH, Barbara/JOHNSTON
+2026-03-19 16:05:50,869 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W28.docx
+2026-03-19 16:05:50,931 - INFO -   -> W-28: WILLIS, Ted & Lori
+2026-03-19 16:05:50,931 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W29.docx
+2026-03-19 16:05:50,989 - INFO -   -> W-29: WEST, Rev. James
+2026-03-19 16:05:50,989 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W30.docx
+2026-03-19 16:05:51,056 - INFO -   -> W-30: WIGGINS, Mark & Deborah
+2026-03-19 16:05:51,056 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W31.docx
+2026-03-19 16:05:51,103 - INFO -   -> W-31: WAUDBY, Robert Paul & Mary-Ellen Elizabeth
+2026-03-19 16:05:51,103 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W32.docx
+2026-03-19 16:05:51,152 - INFO -   -> W-32: WESTINGTON, David John & Janet Mary
+2026-03-19 16:05:51,152 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W33.docx
+2026-03-19 16:05:51,198 - INFO -   -> W-33: WEBSTER, David
+2026-03-19 16:05:51,199 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W34.docx
+2026-03-19 16:05:51,254 - INFO -   -> W-34: WATSON, Andy & Debbie
+2026-03-19 16:05:51,254 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W35.docx
+2026-03-19 16:05:51,314 - INFO -   -> W-35: WARRICK, Dennis & Madeline
+2026-03-19 16:05:51,314 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W36.docx
+2026-03-19 16:05:51,370 - INFO -   -> W-36: WEIHING, Waldemar & Brigitte
+2026-03-19 16:05:51,370 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W37.docx
+2026-03-19 16:05:51,428 - INFO -   -> W-37: Williamson, Dennis and Isobel
+2026-03-19 16:05:51,428 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W38.docx
+2026-03-19 16:05:51,482 - INFO -   -> W-38: WRIGHT, John David & Julie Ann
+2026-03-19 16:05:51,482 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W39.docx
+2026-03-19 16:05:51,544 - INFO -   -> W-39: WENSLEY, Christopher Eric and Terrie Peacock
+2026-03-19 16:05:51,544 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W40.docx
+2026-03-19 16:05:51,606 - INFO -   -> W-40: WITKO, Mikolaj
+2026-03-19 16:05:51,606 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W41.docx
+2026-03-19 16:05:51,664 - INFO -   -> W-41: WINSOR, Alvin and Patricia
+2026-03-19 16:05:51,665 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W42.docx
+2026-03-19 16:05:51,723 - INFO -   -> W-42: WHEELER, Paul & Suzanne
+2026-03-19 16:05:51,723 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W43.docx
+2026-03-19 16:05:51,781 - INFO -   -> W-43: WOOD, Susan
+2026-03-19 16:05:51,781 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W44.docx
+2026-03-19 16:05:51,839 - INFO -   -> W-44: WEIR, Margaret & John
+2026-03-19 16:05:51,839 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W45.docx
+2026-03-19 16:05:51,896 - INFO -   -> W-45: WILKINS, Dave
+2026-03-19 16:05:51,896 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W46.docx
+2026-03-19 16:05:51,955 - INFO -   -> W-46: WARNER, Paul
+2026-03-19 16:05:51,955 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W47.docx
+2026-03-19 16:05:52,003 - INFO -   -> W-47: Miles, Gerald
+2026-03-19 16:05:52,003 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W48.docx
+2026-03-19 16:05:52,059 - INFO -   -> W-48: WARD, Larry and Catherine
+2026-03-19 16:05:52,059 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W49.docx
+2026-03-19 16:05:52,119 - INFO -   -> W-49: WERTHRUP, Larry & Karen
+2026-03-19 16:05:52,119 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W50.docx
+2026-03-19 16:05:52,176 - INFO -   -> W-50: WARREN, Ernest & Mary Pearl
+2026-03-19 16:05:52,176 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W52.docx
+2026-03-19 16:05:52,232 - INFO -   -> W-52: WEISS, Peter and Cynthia
+2026-03-19 16:05:52,233 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W53.docx
+2026-03-19 16:05:52,288 - INFO -   -> W-53: WALKER, Stephen John
+2026-03-19 16:05:52,288 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W54.docx
+2026-03-19 16:05:52,340 - INFO -   -> W-54: WHITFIELD, June
+2026-03-19 16:05:52,340 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W55.docx
+2026-03-19 16:05:52,394 - INFO -   -> W-55: WILSON, Stephen Frank & Sandra Fearne
+2026-03-19 16:05:52,394 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W56.docx
+2026-03-19 16:05:52,452 - INFO -   -> W-56: WEST, Martin Barry
+2026-03-19 16:05:52,452 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W57.docx
+2026-03-19 16:05:52,509 - INFO -   -> W-57: WEST, Alan Murray
+2026-03-19 16:05:52,510 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W58.docx
+2026-03-19 16:05:52,574 - INFO -   -> W-58: WATSON, Thomas Arthur & Nadine
+2026-03-19 16:05:52,574 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W59.docx
+2026-03-19 16:05:52,638 - INFO -   -> W-59: WAUGH, Sharron
+2026-03-19 16:05:52,639 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W60.docx
+2026-03-19 16:05:52,701 - INFO -   -> W-60: WEIMERT, Frieda Elsa TUMMON, Gregory
+2026-03-19 16:05:52,701 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W61.docx
+2026-03-19 16:05:52,758 - INFO -   -> W-61: WILLIAMSON, Thomas Bartley Dr. & Angela Boam Purver
+2026-03-19 16:05:52,758 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W62.docx
+2026-03-19 16:05:52,820 - INFO -   -> W-62: WHITNEY, Anne
+2026-03-19 16:05:52,821 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W63.docx
+2026-03-19 16:05:52,883 - INFO -   -> W-63: WILLIAMS, Christine
+2026-03-19 16:05:52,883 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W64.docx
+2026-03-19 16:05:52,948 - INFO -   -> W-64: WAUDBY, Gary Daniel and HEMPSTEAD, Janice Gaye
+2026-03-19 16:05:52,948 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W65.docx
+2026-03-19 16:05:53,015 - INFO -   -> W-65: WILKS, Richard Robert & Dana Mary
+2026-03-19 16:05:53,015 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W66.docx
+2026-03-19 16:05:53,075 - INFO -   -> W-66: WALL, Gregory & Sherry
+2026-03-19 16:05:53,076 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W67.docx
+2026-03-19 16:05:53,151 - INFO -   -> W-67: Wlassow, Shirley Alice
+2026-03-19 16:05:53,151 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W68.docx
+2026-03-19 16:05:53,266 - INFO -   -> W-68: WEESE, George& Verena
+2026-03-19 16:05:53,266 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W69.docx
+2026-03-19 16:05:53,323 - INFO -   -> W-69: WEESE, Mark George
+2026-03-19 16:05:53,323 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W70.docx
+2026-03-19 16:05:53,374 - INFO -   -> W-70: WEST, William Alfred
+2026-03-19 16:05:53,374 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W71.docx
+2026-03-19 16:05:53,435 - INFO -   -> W-71: WOODARD, Mel& Barb
+2026-03-19 16:05:53,435 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W72.docx
+2026-03-19 16:05:53,497 - INFO -   -> W-72: WINDER, David & Marilyn
+2026-03-19 16:05:53,497 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W73.docx
+2026-03-19 16:05:53,552 - INFO -   -> W-73: WHITESIDE, Brian & Ellen Whiteside
+2026-03-19 16:05:53,552 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W74.docx
+2026-03-19 16:05:53,607 - INFO -   -> W-74: , 
+2026-03-19 16:05:53,607 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W75.docx
+2026-03-19 16:05:53,667 - INFO -   -> W-75: WRIGHT, Mike
+2026-03-19 16:05:53,668 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W76.docx
+2026-03-19 16:05:53,731 - INFO -   -> W-76: WRIGHT, Rose and Wayne
+2026-03-19 16:05:53,731 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W77.docx
+2026-03-19 16:05:53,792 - INFO -   -> W-77: WALLACE, Grant
+2026-03-19 16:05:53,792 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W78.docx
+2026-03-19 16:05:53,851 - INFO -   -> W-78: WILSON, Brian
+2026-03-19 16:05:53,851 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W79.docx
+2026-03-19 16:05:53,916 - INFO -   -> W-79: WATSON, Marlene Frances RICHARDS, Mark
+2026-03-19 16:05:53,916 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W80.docx
+2026-03-19 16:05:53,982 - INFO -   -> W-80: WHITE, Lyndsay Mark [C.A.W.]
+2026-03-19 16:05:53,982 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W81.docx
+2026-03-19 16:05:54,044 - INFO -   -> W-81: WARD, Patricia
+2026-03-19 16:05:54,044 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W82.docx
+2026-03-19 16:05:54,098 - INFO -   -> W-82: WARNER, Wilma Jean
+2026-03-19 16:05:54,098 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W83.docx
+2026-03-19 16:05:54,163 - INFO -   -> W-83: WELSH, James & Jo
+2026-03-19 16:05:54,163 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W84.docx
+2026-03-19 16:05:54,285 - INFO -   -> W-84: WALROTH, Clark
+2026-03-19 16:05:54,285 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W85.docx
+2026-03-19 16:05:54,343 - INFO -   -> W-85: Whiticar, Irene
+2026-03-19 16:05:54,343 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W86.docx
+2026-03-19 16:05:54,406 - INFO -   -> W-86: , 
+2026-03-19 16:05:54,406 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W87.docx
+2026-03-19 16:05:54,465 - INFO -   -> W-87: Wales, David
+2026-03-19 16:05:54,465 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W88.docx
+2026-03-19 16:05:54,531 - INFO -   -> W-88: WHITNEY, Mable H
+2026-03-19 16:05:54,531 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W89.docx
+2026-03-19 16:05:54,591 - INFO -   -> W-89: , 
+2026-03-19 16:05:54,591 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W90.docx
+2026-03-19 16:05:54,647 - INFO -   -> W-90: WOOD, Gary and Lucy
+2026-03-19 16:05:54,648 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W91.docx
+2026-03-19 16:05:54,714 - INFO -   -> W-91: WILSON, Grant & Linda
+2026-03-19 16:05:54,714 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W92A.docx
+2026-03-19 16:05:54,770 - INFO -   -> : WARD, Don
+2026-03-19 16:05:54,770 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W92B.docx
+2026-03-19 16:05:54,822 - INFO -   -> : WAIT, William Kempt & Aurora
+2026-03-19 16:05:54,822 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W93.docx
+2026-03-19 16:05:54,876 - INFO -   -> W-93: WICKS, Donna and Ella
+2026-03-19 16:05:54,876 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W94.docx
+2026-03-19 16:05:54,940 - INFO -   -> W-94: WHITE, Paul and Donna
+2026-03-19 16:05:54,941 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W95.docx
+2026-03-19 16:05:54,993 - INFO -   -> W-95: WESTERN, 
+2026-03-19 16:05:54,993 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W96.docx
+2026-03-19 16:05:55,058 - INFO -   -> W-96: , 
+2026-03-19 16:05:55,058 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W97.docx
+2026-03-19 16:05:55,113 - INFO -   -> W-97: WAGAR, James and Michelle
+2026-03-19 16:05:55,113 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W98.docx
+2026-03-19 16:05:55,176 - INFO -   -> : WRIGHT, Wayne Clark
+2026-03-19 16:05:55,176 - INFO - Parsing: /Volumes/server/ADDR/W/ADDR.W99.docx
+2026-03-19 16:05:55,236 - INFO -   -> W-99: WAGAR, Norma & Randy
+2026-03-19 16:05:55,236 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.100.docx
+2026-03-19 16:05:55,296 - INFO -   -> W-100: WRIGHT, John
+2026-03-19 16:05:55,296 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.101.docx
+2026-03-19 16:05:55,351 - INFO -   -> W-101: WANAMAKER, Rob
+2026-03-19 16:05:55,351 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.102.docx
+2026-03-19 16:05:55,410 - INFO -   -> W-102: WEISNER, Jean and Harold Hal
+2026-03-19 16:05:55,410 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.103.docx
+2026-03-19 16:05:55,466 - INFO -   -> W-103: WOODS, Myrtle Grace
+2026-03-19 16:05:55,466 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.104.docx
+2026-03-19 16:05:55,522 - INFO -   -> W-104: WILKINSON, Edward and Linda
+2026-03-19 16:05:55,526 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.105.docx
+2026-03-19 16:05:55,587 - INFO -   -> W-105: WOOD, Donald and Lori
+2026-03-19 16:05:55,588 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.106.docx
+2026-03-19 16:05:55,646 - INFO -   -> W-106: WINK, John and PREVEREAULT, Julie
+2026-03-19 16:05:55,646 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.107.docx
+2026-03-19 16:05:55,707 - INFO -   -> W-107: WESTINGTON, Donna and SUGGITT, Bryan
+2026-03-19 16:05:55,707 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.108.docx
+2026-03-19 16:05:55,762 - INFO -   -> W-108: WRIGHT, Christopher and BURKE, Christine
+2026-03-19 16:05:55,762 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.109.docx
+2026-03-19 16:05:55,815 - INFO -   -> W-109: WILLIAMS, Vera Mae
+2026-03-19 16:05:55,815 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.110.docx
+2026-03-19 16:05:55,869 - INFO -   -> W-110: WHALEY, Thelma Mary
+2026-03-19 16:05:55,870 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.111.docx
+2026-03-19 16:05:55,926 - INFO -   -> W-111: WATT, Mary and Henry
+2026-03-19 16:05:55,926 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.112.docx
+2026-03-19 16:05:55,977 - INFO -   -> W-112: WINCH, Howard I.
+2026-03-19 16:05:55,978 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.113.docx
+2026-03-19 16:05:56,044 - INFO -   -> W-113: WHEELER, Nicholas Bartholomew Roy
+2026-03-19 16:05:56,044 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.114.docx
+2026-03-19 16:05:56,116 - INFO -   -> W-114: W-107, W-115, S-203
+2026-03-19 16:05:56,116 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.115.docx
+2026-03-19 16:05:56,183 - INFO -   -> W-115: WESTINGTON, Carole
+2026-03-19 16:05:56,183 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.116.docx
+2026-03-19 16:05:56,259 - INFO -   -> W-116: WILEMAN, Iris Joan
+2026-03-19 16:05:56,259 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.117.docx
+2026-03-19 16:05:56,338 - INFO -   -> W-117: WHITE, Bill and Sharon
+2026-03-19 16:05:56,338 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.118.docx
+2026-03-19 16:05:56,404 - INFO -   -> W-118: WATSON, Billie Jean
+2026-03-19 16:05:56,404 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.119.docx
+2026-03-19 16:05:56,465 - INFO -   -> W-119: WILSON, Bruce and Darlene
+2026-03-19 16:05:56,465 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.120.docx
+2026-03-19 16:05:56,519 - INFO -   -> W-120: WATERWORTH, Michelle
+2026-03-19 16:05:56,519 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.121.docx
+2026-03-19 16:05:56,571 - INFO -   -> W-121: WOJTOWICZ, Elizabeth and Robert
+2026-03-19 16:05:56,571 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.122.docx
+2026-03-19 16:05:56,629 - INFO -   -> W-122: WHITE, Hilda
+2026-03-19 16:05:56,629 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.123.docx
+2026-03-19 16:05:56,685 - INFO -   -> W-123: WILSON, William
+2026-03-19 16:05:56,685 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.124.docx
+2026-03-19 16:05:56,741 - INFO -   -> W-124: CROSS: REF: KULATHUNGAM, Lilani
+2026-03-19 16:05:56,741 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.125.docx
+2026-03-19 16:05:56,793 - INFO -   -> W-125: WELLS, Ruth
+2026-03-19 16:05:56,793 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.126.docx
+2026-03-19 16:05:56,845 - INFO -   -> W-126: WOUDSTRA, Donald and Geri
+2026-03-19 16:05:56,845 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.127.docx
+2026-03-19 16:05:56,900 - INFO -   -> W-127: WILLIAMS, Dorinka
+2026-03-19 16:05:56,900 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.128.docx
+2026-03-19 16:05:56,956 - INFO -   -> W-128: WILLIAMETT, John Brindle
+2026-03-19 16:05:56,956 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.129.docx
+2026-03-19 16:05:57,015 - INFO -   -> W-129: WASYLYK, Carol
+2026-03-19 16:05:57,015 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.130.docx
+2026-03-19 16:05:57,075 - INFO -   -> W-130: WICKS, Christopher and Carol-Anne
+2026-03-19 16:05:57,075 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.131.docx
+2026-03-19 16:05:57,134 - INFO -   -> W-131: WEBSTER, Doug and Lynne
+2026-03-19 16:05:57,134 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.132.docx
+2026-03-19 16:05:57,194 - INFO -   -> W-132: WIPPER, Kirk and Anne
+2026-03-19 16:05:57,194 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.133.docx
+2026-03-19 16:05:57,247 - INFO -   -> W-133: WALKER, Douglas F.
+2026-03-19 16:05:57,247 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.134.docx
+2026-03-19 16:05:57,301 - INFO -   -> W-134: WILLIAMSON, Peter and Shirley
+2026-03-19 16:05:57,301 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.135.docx
+2026-03-19 16:05:57,357 - INFO -   -> W-135: WARNE, Lawrence Allyn
+2026-03-19 16:05:57,357 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.136.docx
+2026-03-19 16:05:57,415 - INFO -   -> W-136: WILSON, Julie
+2026-03-19 16:05:57,415 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.137.docx
+2026-03-19 16:05:57,477 - INFO -   -> W-137: WILLIS, Albert and Mary
+2026-03-19 16:05:57,478 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.138.docx
+2026-03-19 16:05:57,534 - INFO -   -> W-138: WATTS, Don
+2026-03-19 16:05:57,534 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.139.docx
+2026-03-19 16:05:57,590 - INFO -   -> W-139: WOOD, Randall and Audrey
+2026-03-19 16:05:57,590 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.140.docx
+2026-03-19 16:05:57,645 - INFO -   -> W-140: WHIT, William
+2026-03-19 16:05:57,645 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.141.docx
+2026-03-19 16:05:57,702 - INFO -   -> W-141: WALKER, Ewan and Dinval
+2026-03-19 16:05:57,702 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.142.docx
+2026-03-19 16:05:57,761 - INFO -   -> W-142: WESTLAKE, Gary and Lynne
+2026-03-19 16:05:57,761 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.143.docx
+2026-03-19 16:05:57,818 - INFO -   -> W-143: WILSON, Kelly
+2026-03-19 16:05:57,818 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.144.docx
+2026-03-19 16:05:57,877 - INFO -   -> W-144: WILSON, Greg and Sheila
+2026-03-19 16:05:57,877 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.145.docx
+2026-03-19 16:05:57,938 - INFO -   -> W-145: MURPHY, Stacey
+2026-03-19 16:05:57,938 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.146.docx
+2026-03-19 16:05:57,993 - INFO -   -> W-146: WOOD, Madeline
+2026-03-19 16:05:57,994 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.147.docx
+2026-03-19 16:05:58,051 - INFO -   -> W-147: WOLNIEWICZ, Hanna
+2026-03-19 16:05:58,051 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.148.docx
+2026-03-19 16:05:58,109 - INFO -   -> W-148: WALKER, Karen
+2026-03-19 16:05:58,110 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.149.docx
+2026-03-19 16:05:58,163 - INFO -   -> W-149: WAGNER, Lisa
+2026-03-19 16:05:58,163 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.150.docx
+2026-03-19 16:05:58,219 - INFO -   -> W-150: WAGNER, Lisa
+2026-03-19 16:05:58,219 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.151.docx
+2026-03-19 16:05:58,275 - INFO -   -> W-151: WHYTE, Barry
+2026-03-19 16:05:58,275 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.152.docx
+2026-03-19 16:05:58,328 - INFO -   -> W-152: WHITNEY, Bart and Eileen
+2026-03-19 16:05:58,328 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.153.docx
+2026-03-19 16:05:58,380 - INFO -   -> W-153: WONG, Niccolo and Julianna
+2026-03-19 16:05:58,380 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.154.docx
+2026-03-19 16:05:58,433 - INFO -   -> W-154: WALKER, David
+2026-03-19 16:05:58,433 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.155.docx
+2026-03-19 16:05:58,489 - INFO -   -> W-155: WEBB, John Bradford and Elva Jean
+2026-03-19 16:05:58,489 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.156.docx
+2026-03-19 16:05:58,544 - INFO -   -> W-156: WINSHIP, Bob and Alex
+2026-03-19 16:05:58,545 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.157.docx
+2026-03-19 16:05:58,597 - INFO -   -> W-157: BREAKSPEAR, Susan
+2026-03-19 16:05:58,597 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.158.docx
+2026-03-19 16:05:58,651 - INFO -   -> W-158: WEAVER, Caitlin
+2026-03-19 16:05:58,651 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.159.docx
+2026-03-19 16:05:58,709 - INFO -   -> W-159: WEASE, Maureen
+2026-03-19 16:05:58,710 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.160.docx
+2026-03-19 16:05:58,763 - INFO -   -> W-160: WOOD, Cara
+2026-03-19 16:05:58,763 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.161.docx
+2026-03-19 16:05:58,826 - INFO -   -> W-161: WICKS, Lloyd and Barbara
+2026-03-19 16:05:58,826 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.162.docx
+2026-03-19 16:05:58,883 - INFO -   -> W-162: WOODS, Ernest and Ruth
+2026-03-19 16:05:58,883 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.163.docx
+2026-03-19 16:05:58,942 - INFO -   -> W-163: WICKS, Shawna
+2026-03-19 16:05:58,942 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.164.docx
+2026-03-19 16:05:59,000 - INFO -   -> W-164: WARD, Richard
+2026-03-19 16:05:59,000 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.165.docx
+2026-03-19 16:05:59,055 - INFO -   -> W-165: WAGHORN, Josephine
+2026-03-19 16:05:59,055 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.166.docx
+2026-03-19 16:05:59,117 - INFO -   -> W-166: WORR, Tom and Lynn
+2026-03-19 16:05:59,118 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.167.docx
+2026-03-19 16:05:59,173 - INFO -   -> W-167: WOODCOCK, Christine
+2026-03-19 16:05:59,173 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.168.docx
+2026-03-19 16:05:59,232 - INFO -   -> W-168: WELCH, Roger and Judith
+2026-03-19 16:05:59,232 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.169.docx
+2026-03-19 16:05:59,290 - INFO -   -> W-169: WESTLAKE, Wayne and Carol
+2026-03-19 16:05:59,291 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.170.docx
+2026-03-19 16:05:59,345 - INFO -   -> W-170: WILLIAMSON, Carrie
+2026-03-19 16:05:59,345 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.171.docx
+2026-03-19 16:05:59,402 - INFO -   -> W-171: WANG, Chun Joseph
+2026-03-19 16:05:59,403 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.172.docx
+2026-03-19 16:05:59,456 - INFO -   -> W-172: Wease, Amanda
+2026-03-19 16:05:59,456 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.173.docx
+2026-03-19 16:05:59,510 - INFO -   -> : Whitehouse, Catherine Louise
+2026-03-19 16:05:59,510 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.174.docx
+2026-03-19 16:05:59,571 - INFO -   -> W-174: WICKS, Holly
+2026-03-19 16:05:59,571 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.175.docx
+2026-03-19 16:05:59,627 - INFO -   -> W-175: WOODBECK, Rod and Laurie
+2026-03-19 16:05:59,628 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.176.docx
+2026-03-19 16:05:59,686 - INFO -   -> W-176: WOUTERS, Sharolyn Amy
+2026-03-19 16:05:59,686 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.177.docx
+2026-03-19 16:05:59,739 - INFO -   -> W-177: HECHT, Christopher
+2026-03-19 16:05:59,739 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.178.docx
+2026-03-19 16:05:59,791 - INFO -   -> W-178: WAGHORN, Glenn
+2026-03-19 16:05:59,792 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.179.docx
+2026-03-19 16:05:59,853 - INFO -   -> W-179: WILLIAMS, Linda and Rob
+2026-03-19 16:05:59,854 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.180.docx
+2026-03-19 16:05:59,911 - INFO -   -> W-180: SULLIVAN, Laura
+2026-03-19 16:05:59,912 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.181.docx
+2026-03-19 16:05:59,971 - INFO -   -> W-181: WEBSTER, Barbara
+2026-03-19 16:05:59,971 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.182.docx
+2026-03-19 16:06:00,029 - INFO -   -> W-182: WAGAR, Donna
+2026-03-19 16:06:00,030 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.183.docx
+2026-03-19 16:06:00,091 - INFO -   -> W-183: WALSH, Larry and Jennifer
+2026-03-19 16:06:00,091 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.184.docx
+2026-03-19 16:06:00,151 - INFO -   -> W-184: WILLIAMS, Richard and Kimberley
+2026-03-19 16:06:00,151 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.185.docx
+2026-03-19 16:06:00,205 - INFO -   -> W-185: RAND, Elizabeth
+2026-03-19 16:06:00,205 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.186.docx
+2026-03-19 16:06:00,261 - INFO -   -> W-186: WILSON, Neil
+2026-03-19 16:06:00,261 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.187.docx
+2026-03-19 16:06:00,313 - INFO -   -> W-187: WAGHORN, Karen
+2026-03-19 16:06:00,313 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.188.docx
+2026-03-19 16:06:00,372 - INFO -   -> W-188: WEIDENFELDER, Christopher and Sarah
+2026-03-19 16:06:00,372 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.189.docx
+2026-03-19 16:06:00,428 - INFO -   -> W-189: WILLIAMS, Jim
+2026-03-19 16:06:00,428 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.190.docx
+2026-03-19 16:06:00,487 - INFO -   -> W-190: WILLIAMS, Gail
+2026-03-19 16:06:00,487 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.191.docx
+2026-03-19 16:06:00,538 - INFO -   -> W-191: , 
+2026-03-19 16:06:00,538 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.192.docx
+2026-03-19 16:06:00,601 - INFO -   -> W-192: WASHINGTON, Joan
+2026-03-19 16:06:00,601 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.193.docx
+2026-03-19 16:06:00,658 - INFO -   -> W-193: WEIHER, Richard Peter Lorenz
+2026-03-19 16:06:00,658 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.194.docx
+2026-03-19 16:06:00,719 - INFO -   -> W-194: WARNER, Hilary
+2026-03-19 16:06:00,719 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.195.docx
+2026-03-19 16:06:00,781 - INFO -   -> W-195: WEST, Robert and Bernadette
+2026-03-19 16:06:00,781 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.196.docx
+2026-03-19 16:06:00,844 - INFO -   -> W-196: WALTERS, Bradley
+2026-03-19 16:06:00,845 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.197.docx
+2026-03-19 16:06:00,901 - INFO -   -> W-197: WEBB, Jason
+2026-03-19 16:06:00,901 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.198.docx
+2026-03-19 16:06:00,958 - INFO -   -> W-198: WILSON, Peter and Jo-Anne
+2026-03-19 16:06:00,958 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.199.docx
+2026-03-19 16:06:01,018 - INFO -   -> W-199: WALLING, Linda
+2026-03-19 16:06:01,018 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.200.docx
+2026-03-19 16:06:01,071 - INFO -   -> W-200: WOOD, Margaret
+2026-03-19 16:06:01,071 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.201.docx
+2026-03-19 16:06:01,137 - INFO -   -> W-201: WALKER, Ruth
+2026-03-19 16:06:01,137 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.202.docx
+2026-03-19 16:06:01,217 - INFO -   -> W-202: WHITELEY, Katherine
+2026-03-19 16:06:01,217 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.203.docx
+2026-03-19 16:06:01,542 - INFO -   -> W-203: WRIGHT, Everett
+2026-03-19 16:06:01,543 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.204.docx
+2026-03-19 16:06:01,625 - INFO -   -> W-204: WORR, John and Patricia
+2026-03-19 16:06:01,625 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.205.docx
+2026-03-19 16:06:01,756 - INFO -   -> W-205: WEIR, Steve
+2026-03-19 16:06:01,757 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.206.docx
+2026-03-19 16:06:01,866 - INFO -   -> W-206: WHITE, Josh
+2026-03-19 16:06:01,866 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.207.docx
+2026-03-19 16:06:01,948 - INFO -   -> W-207: ANDERSON, Kristan
+2026-03-19 16:06:01,949 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.208.docx
+2026-03-19 16:06:02,025 - INFO -   -> W-208: WEBB, Carolyn
+2026-03-19 16:06:02,026 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.209.docx
+2026-03-19 16:06:02,106 - INFO -   -> W-209: WELCH, James
+2026-03-19 16:06:02,106 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.210.docx
+2026-03-19 16:06:02,236 - INFO -   -> W-210: WARRINGTON, John
+2026-03-19 16:06:02,236 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.211.docx
+2026-03-19 16:06:02,336 - INFO -   -> W-211: WHITE, MARGARET ELIZABETH
+2026-03-19 16:06:02,336 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.212.docx
+2026-03-19 16:06:02,445 - INFO -   -> W-212: WILKIE, Ian
+2026-03-19 16:06:02,446 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.213.docx
+2026-03-19 16:06:02,520 - INFO -   -> W-213: WAGG, Heidi
+2026-03-19 16:06:02,521 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.214.docx
+2026-03-19 16:06:02,593 - INFO -   -> W-214: WOLF, Rheannan
+2026-03-19 16:06:02,593 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.215.docx
+2026-03-19 16:06:02,684 - INFO -   -> W-215: WADSWORTH, Andrew and Beth
+2026-03-19 16:06:02,684 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.216.docx
+2026-03-19 16:06:02,759 - INFO -   -> W-216: WHITE, Barbara
+2026-03-19 16:06:02,759 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.217.docx
+2026-03-19 16:06:02,887 - INFO -   -> W-217: WILLIAMS, Ernest
+2026-03-19 16:06:02,887 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.218.docx
+2026-03-19 16:06:02,967 - INFO -   -> W-218: WESTLAKE, Richard & Kelly
+2026-03-19 16:06:02,967 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.219.docx
+2026-03-19 16:06:03,062 - INFO -   -> W-219: WESTFALL, Len
+2026-03-19 16:06:03,062 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.220.docx
+2026-03-19 16:06:03,219 - INFO -   -> W-220: WINDSOR, Arnold
+2026-03-19 16:06:03,219 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.221.docx
+2026-03-19 16:06:03,316 - INFO -   -> W-221: WARRINGTON, John and SALTER, Carol
+2026-03-19 16:06:03,316 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.222.docx
+2026-03-19 16:06:04,063 - INFO -   -> W-222: WIEBE, Joel and Heather
+2026-03-19 16:06:04,064 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.223.docx
+2026-03-19 16:06:04,160 - INFO -   -> W-223: WINGER, Michael
+2026-03-19 16:06:04,161 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.224.docx
+2026-03-19 16:06:04,372 - INFO -   -> W-224: WATERS, David
+2026-03-19 16:06:04,373 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.225.docx
+2026-03-19 16:06:04,680 - INFO -   -> W-225: WALKER, Eric
+2026-03-19 16:06:04,680 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.226.docx
+2026-03-19 16:06:04,759 - INFO -   -> W-226: WHITE, Ashley
+2026-03-19 16:06:04,760 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.227.docx
+2026-03-19 16:06:04,827 - INFO -   -> W-227: WARDEN, Dorothy Emma
+2026-03-19 16:06:04,827 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.228.docx
+2026-03-19 16:06:04,894 - INFO -   -> W-228: WRIGHTLY, Marvin and Delores
+2026-03-19 16:06:04,894 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.229.docx
+2026-03-19 16:06:04,965 - INFO -   -> : WILSON, John and Linda
+2026-03-19 16:06:04,965 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.230.docx
+2026-03-19 16:06:05,033 - INFO -   -> : FENN, Janet
+2026-03-19 16:06:05,033 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.231.docx
+2026-03-19 16:06:05,098 - INFO -   -> W-231: Waite, Evelyn
+2026-03-19 16:06:05,098 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.232.docx
+2026-03-19 16:06:05,163 - INFO -   -> W-232: WOODS, Kathleen May
+2026-03-19 16:06:05,164 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.233.docx
+2026-03-19 16:06:05,229 - INFO -   -> W-233: WILSON, Richard
+2026-03-19 16:06:05,230 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.234.docx
+2026-03-19 16:06:05,299 - INFO -   -> W-234: WILSON, Sandra
+2026-03-19 16:06:05,300 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.235.docx
+2026-03-19 16:06:05,371 - INFO -   -> W-235: WRIGHT, Dennis
+2026-03-19 16:06:05,371 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.236.docx
+2026-03-19 16:06:05,445 - INFO -   -> W-236: WILSON, Christopher and Helen
+2026-03-19 16:06:05,446 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.237.docx
+2026-03-19 16:06:05,521 - INFO -   -> W-237: WILLIAMS, Terry and Michelle
+2026-03-19 16:06:05,522 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.238.docx
+2026-03-19 16:06:05,588 - INFO -   -> W-238: WILLIAMS, Robert & Beth
+2026-03-19 16:06:05,589 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.239.docx
+2026-03-19 16:06:05,657 - INFO -   -> W-239: WALDEN, John and Marlene
+2026-03-19 16:06:05,657 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.240.docx
+2026-03-19 16:06:05,725 - INFO -   -> W-240: WHITE, Ruth
+2026-03-19 16:06:05,727 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.241.docx
+2026-03-19 16:06:05,789 - INFO -   -> W-241: WILSON, Melvin and Rosemary
+2026-03-19 16:06:05,789 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.242.docx
+2026-03-19 16:06:05,859 - INFO -   -> W-242: WATSON, Paul and Theresa
+2026-03-19 16:06:05,860 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.243.docx
+2026-03-19 16:06:05,930 - INFO -   -> W-243: WRIGHT, Karen
+2026-03-19 16:06:05,930 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.244.docx
+2026-03-19 16:06:06,003 - INFO -   -> W-244: WILSON, Valerie
+2026-03-19 16:06:06,003 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.245.docx
+2026-03-19 16:06:06,070 - INFO -   -> W-245: WALLACE, Elizabeth Ann
+2026-03-19 16:06:06,070 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.246.docx
+2026-03-19 16:06:06,136 - INFO -   -> : , 
+2026-03-19 16:06:06,136 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.247.docx
+2026-03-19 16:06:06,204 - INFO -   -> W-247: WHITEWOLF, Lynn
+2026-03-19 16:06:06,205 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.248.docx
+2026-03-19 16:06:06,279 - INFO -   -> W-248: , 
+2026-03-19 16:06:06,279 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.249.docx
+2026-03-19 16:06:06,399 - INFO -   -> W-249: WEASE, Leon and Catherine
+2026-03-19 16:06:06,399 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.250.docx
+2026-03-19 16:06:06,513 - INFO -   -> W-250: WALSH, Peter and Catherine
+2026-03-19 16:06:06,513 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.251.docx
+2026-03-19 16:06:06,603 - INFO -   -> W-251: WINGROVE, Joanne
+2026-03-19 16:06:06,603 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.252.docx
+2026-03-19 16:06:06,674 - INFO -   -> W-252: WOODWARD, Dan and Lynn
+2026-03-19 16:06:06,675 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.253.docx
+2026-03-19 16:06:06,768 - INFO -   -> W-253: WATSON, Jason and Jennifer
+2026-03-19 16:06:06,768 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.254.docx
+2026-03-19 16:06:06,870 - INFO -   -> W-254: WOOD, Robert and Colleen
+2026-03-19 16:06:06,871 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.255.docx
+2026-03-19 16:06:06,941 - INFO -   -> W-255: WICKS, Emily
+2026-03-19 16:06:06,942 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.256.docx
+2026-03-19 16:06:07,013 - INFO -   -> W-256: WEASE, Mark and Debra
+2026-03-19 16:06:07,013 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.257.docx
+2026-03-19 16:06:07,096 - INFO -   -> W-257: WAKEFORD, Thelma Joyce
+2026-03-19 16:06:07,099 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.258.docx
+2026-03-19 16:06:07,211 - INFO -   -> W-258: WILLIAMSON, Gordon and Deborah
+2026-03-19 16:06:07,211 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.259.docx
+2026-03-19 16:06:07,291 - INFO -   -> W-259: WHITTY, Graciela Anne
+2026-03-19 16:06:07,292 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.260.docx
+2026-03-19 16:06:07,372 - INFO -   -> : WAUDBY, Douglas
+2026-03-19 16:06:07,372 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.261.docx
+2026-03-19 16:06:07,621 - INFO -   -> : QI, Zhen Hua
+2026-03-19 16:06:07,622 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.262.docx
+2026-03-19 16:06:07,711 - INFO -   -> W-262: WELLER, Sharon
+2026-03-19 16:06:07,713 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.263.docx
+2026-03-19 16:06:07,787 - INFO -   -> W-263: WALSER, Derrick and Sara
+2026-03-19 16:06:07,787 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.264.docx
+2026-03-19 16:06:07,858 - INFO -   -> W-264: WAKELIN, Larry and Ann
+2026-03-19 16:06:07,858 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.265.docx
+2026-03-19 16:06:07,947 - INFO -   -> W-265: WOODS, Scott
+2026-03-19 16:06:07,947 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.266.docx
+2026-03-19 16:06:08,032 - INFO -   -> W-266: WATSON, Eric and Natalia
+2026-03-19 16:06:08,032 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.267.docx
+2026-03-19 16:06:08,105 - INFO -   -> W-267: WALKER, Darla
+2026-03-19 16:06:08,105 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.268.docx
+2026-03-19 16:06:08,184 - INFO -   -> W-268: WATSON, Cheryl
+2026-03-19 16:06:08,185 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.269.docx
+2026-03-19 16:06:08,273 - INFO -   -> W-269: MANN, Meaghan
+2026-03-19 16:06:08,273 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.270.docx
+2026-03-19 16:06:08,345 - INFO -   -> W-270: WALKER, James & Linda
+2026-03-19 16:06:08,345 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.271.docx
+2026-03-19 16:06:08,416 - INFO -   -> W-271: WEASE, David
+2026-03-19 16:06:08,416 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.272.docx
+2026-03-19 16:06:08,498 - INFO -   -> W-272: WATTS, Dwight
+2026-03-19 16:06:08,498 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.273.docx
+2026-03-19 16:06:08,570 - INFO -   -> W-273: WHITE, Blaine
+2026-03-19 16:06:08,571 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.274.docx
+2026-03-19 16:06:08,642 - INFO -   -> W-274: WIERBICKI, Marvin
+2026-03-19 16:06:08,642 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.275.docx
+2026-03-19 16:06:09,062 - INFO -   -> W-275: WIERBICKI, Wendy
+2026-03-19 16:06:09,063 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.276.docx
+2026-03-19 16:06:09,146 - INFO -   -> W-276: WOODFORD, Martha
+2026-03-19 16:06:09,147 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.277.docx
+2026-03-19 16:06:09,227 - INFO -   -> W-277: WRIGHT, Shawn
+2026-03-19 16:06:09,228 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.278.docx
+2026-03-19 16:06:09,304 - INFO -   -> W-278: WHITTLE, Lydon and Claudia
+2026-03-19 16:06:09,304 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.279.docx
+2026-03-19 16:06:09,398 - INFO -   -> W-279: WESLEY, William
+2026-03-19 16:06:09,398 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.280.docx
+2026-03-19 16:06:09,474 - INFO -   -> W-280: WHITE, Graham
+2026-03-19 16:06:09,475 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.281.docx
+2026-03-19 16:06:09,548 - INFO -   -> W-281: WILSON, Dennis and Bonnie
+2026-03-19 16:06:09,548 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.282.docx
+2026-03-19 16:06:09,615 - INFO -   -> W-282: WEENING, Adrian
+2026-03-19 16:06:09,616 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.283.docx
+2026-03-19 16:06:09,689 - INFO -   -> W-283: WOOLINGS, Cherese
+2026-03-19 16:06:09,689 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.284.docx
+2026-03-19 16:06:09,755 - INFO -   -> W-284: , 
+2026-03-19 16:06:09,755 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.285.docx
+2026-03-19 16:06:09,820 - INFO -   -> W-285: WILSON, Carol
+2026-03-19 16:06:09,820 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.286.docx
+2026-03-19 16:06:09,899 - INFO -   -> W-286: WESLEY, Steven
+2026-03-19 16:06:09,899 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.287.docx
+2026-03-19 16:06:09,972 - INFO -   -> W-287: , 
+2026-03-19 16:06:09,972 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.288.docx
+2026-03-19 16:06:10,042 - INFO -   -> W-288: REYNO, Ruth
+2026-03-19 16:06:10,042 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.289.docx
+2026-03-19 16:06:10,106 - INFO -   -> W-289: WEENING, Adrian
+2026-03-19 16:06:10,106 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.290.docx
+2026-03-19 16:06:10,556 - INFO -   -> W-290: WILFORD, Bruce
+2026-03-19 16:06:10,557 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.291.docx
+2026-03-19 16:06:10,765 - INFO -   -> W-291: WILD, Dale and Melissa
+2026-03-19 16:06:10,765 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.292.docx
+2026-03-19 16:06:10,833 - INFO -   -> W-292: WALLWORK, Breanne
+2026-03-19 16:06:10,833 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.293.docx
+2026-03-19 16:06:10,918 - INFO -   -> W-293: WANG, Wei
+2026-03-19 16:06:10,918 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.294.docx
+2026-03-19 16:06:11,057 - INFO -   -> W-294: WEASE, Allison
+2026-03-19 16:06:11,058 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.295.docx
+2026-03-19 16:06:11,136 - INFO -   -> W-295: WERONSKI, John and Bonnie
+2026-03-19 16:06:11,136 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.296.docx
+2026-03-19 16:06:11,219 - INFO -   -> W-296: WOODCOCK, Scott and Karen
+2026-03-19 16:06:11,219 - INFO - Parsing: /Volumes/server/ADDR/W/ADDRW.297.docx
+2026-03-19 16:06:11,296 - INFO -   -> W-297: WEBB, Leanna
+2026-03-19 16:06:23,473 - INFO - Done. 296 records, 0 errors.

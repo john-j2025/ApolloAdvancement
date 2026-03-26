@@ -1,0 +1,871 @@
+2026-03-20 13:39:13,167 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/A
+2026-03-20 13:39:13,168 - INFO - Found 169 files.
+2026-03-20 13:39:13,168 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A01.docx
+2026-03-20 13:39:13,229 - INFO -   -> A-1: split into 2 contacts
+2026-03-20 13:39:13,229 - INFO -   -> A-1: AINSWORTH, Gary Edison
+2026-03-20 13:39:13,229 - INFO -   -> A-1: AINSWORTH, Anne Patricia
+2026-03-20 13:39:13,229 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A02.docx
+2026-03-20 13:39:13,297 - INFO -   -> A-2: split into 2 contacts
+2026-03-20 13:39:13,297 - INFO -   -> A-2: AINSWORTH, Richard Paul
+2026-03-20 13:39:13,297 - INFO -   -> A-2: AINSWORTH, Linda Ann
+2026-03-20 13:39:13,297 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A12.docx
+2026-03-20 13:39:13,346 - INFO -   -> A-12: ARMSTRONG, Jeffery
+2026-03-20 13:39:13,346 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A13.docx
+2026-03-20 13:39:13,396 - INFO -   -> A-13: ANDERSON, Dorothy & Stewart
+2026-03-20 13:39:13,396 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A14.docx
+2026-03-20 13:39:13,442 - INFO -   -> A-14: ADLAM, Richard
+2026-03-20 13:39:13,442 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A15.docx
+2026-03-20 13:39:13,497 - INFO -   -> A-15: AINSWORTH James & RADBURN, Ann
+2026-03-20 13:39:13,497 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A16.docx
+2026-03-20 13:39:13,554 - INFO -   -> A-16: ATYEO, Murle
+2026-03-20 13:39:13,554 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A17.docx
+2026-03-20 13:39:13,614 - INFO -   -> A-17: split into 2 contacts
+2026-03-20 13:39:13,614 - INFO -   -> A-17: Solomon, Rudy
+2026-03-20 13:39:13,614 - INFO -   -> A-17: ADAIR, Stephen
+2026-03-20 13:39:13,614 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A18.docx
+2026-03-20 13:39:13,665 - INFO -   -> A-18: ANDREWS, Deborah Lynn
+2026-03-20 13:39:13,665 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A19.docx
+2026-03-20 13:39:13,722 - INFO -   -> A-19: ALLAN, Lloyd
+2026-03-20 13:39:13,722 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A20.docx
+2026-03-20 13:39:13,773 - INFO -   -> A-20: ALLAN, Daniel
+2026-03-20 13:39:13,773 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A21.docx
+2026-03-20 13:39:13,824 - INFO -   -> A-21: , 
+2026-03-20 13:39:13,824 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A22.docx
+2026-03-20 13:39:13,878 - INFO -   -> A-22: AINSWORTH, Paul & Margaret
+2026-03-20 13:39:13,878 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A23.docx
+2026-03-20 13:39:13,929 - INFO -   -> A-23: split into 2 contacts
+2026-03-20 13:39:13,929 - INFO -   -> A-23: ANDERSON, Douglas Paul
+2026-03-20 13:39:13,929 - INFO -   -> A-23: ANDERSON, Brenda Jean
+2026-03-20 13:39:13,929 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A24.docx
+2026-03-20 13:39:13,980 - INFO -   -> A-24: split into 2 contacts
+2026-03-20 13:39:13,980 - INFO -   -> A-24: ATWOOD, Peter Arnold
+2026-03-20 13:39:13,980 - INFO -   -> A-24: WHYTE, Debra Lee
+2026-03-20 13:39:13,980 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A25.docx
+2026-03-20 13:39:14,028 - INFO -   -> A-25: ANDERSON, Janice & Peter
+2026-03-20 13:39:14,028 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A26.docx
+2026-03-20 13:39:14,081 - INFO -   -> A-26: ALLEN, Daniel & Elizabeth Ann Marguerite
+2026-03-20 13:39:14,081 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A27.docx
+2026-03-20 13:39:14,131 - INFO -   -> A-27: AVIS, William
+2026-03-20 13:39:14,131 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A28.docx
+2026-03-20 13:39:14,186 - INFO -   -> A-28: AINSWORTH, Eric
+2026-03-20 13:39:14,186 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A29.docx
+2026-03-20 13:39:14,239 - INFO -   -> A-29: AINSWORTH, Ivan
+2026-03-20 13:39:14,239 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A30.docx
+2026-03-20 13:39:14,288 - INFO -   -> A-30: AINSWORTH, John William & Bonnie Lou
+2026-03-20 13:39:14,288 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A31.docx
+2026-03-20 13:39:14,337 - INFO -   -> A-31: , 
+2026-03-20 13:39:14,337 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A32.docx
+2026-03-20 13:39:14,406 - INFO -   -> A-32: ARMSTRONG, Eileen Dawn
+2026-03-20 13:39:14,407 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A33.docx
+2026-03-20 13:39:14,445 - INFO -   -> A-33: ARDRON, Stanley -
+2026-03-20 13:39:14,445 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A34.docx
+2026-03-20 13:39:14,489 - INFO -   -> A-34: ARDRON, MARY - ESTATE OF
+2026-03-20 13:39:14,489 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A35.docx
+2026-03-20 13:39:14,528 - INFO -   -> A-35: ANDERSON, Christopher Ernest –
+2026-03-20 13:39:14,528 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A36.docx
+2026-03-20 13:39:14,574 - INFO -   -> A-36: ABRAM, Micheal & Irene
+2026-03-20 13:39:14,574 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A37.docx
+2026-03-20 13:39:14,620 - INFO -   -> A-37: Anderson, Sharron Bell
+2026-03-20 13:39:14,620 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A38.docx
+2026-03-20 13:39:14,662 - INFO -   -> A-38: split into 2 contacts
+2026-03-20 13:39:14,662 - INFO -   -> A-38: AINSWORTH, Gary Alan
+2026-03-20 13:39:14,662 - INFO -   -> A-38: AINSWORTH, Glenda Pearl
+2026-03-20 13:39:14,663 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A39.docx
+2026-03-20 13:39:14,705 - INFO -   -> A-39: AYRES, John Wayne
+2026-03-20 13:39:14,705 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A40.docx
+2026-03-20 13:39:14,751 - INFO -   -> : split into 2 contacts
+2026-03-20 13:39:14,751 - INFO -   -> : AIKIN, Ralph Willard
+2026-03-20 13:39:14,751 - INFO -   -> : AIKEN, Margaret Ann
+2026-03-20 13:39:14,751 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A41.docx
+2026-03-20 13:39:14,792 - INFO -   -> A-41: ARCHER, W. Alex and Marjorie Gertrude – BOTH
+2026-03-20 13:39:14,793 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A42.docx
+2026-03-20 13:39:14,836 - INFO -   -> A-42: ANDERSON, Margaret -
+2026-03-20 13:39:14,836 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A43.docx
+2026-03-20 13:39:14,889 - INFO -   -> A-43: split into 2 contacts
+2026-03-20 13:39:14,889 - INFO -   -> A-43: ACCHIONE, Danny C\O ACCHIONE, Linda
+2026-03-20 13:39:14,889 - INFO -   -> A-43: Sandy, 
+2026-03-20 13:39:14,889 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A44.docx
+2026-03-20 13:39:14,936 - INFO -   -> A-44: ALLEN, William G.
+2026-03-20 13:39:14,936 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A45.docx
+2026-03-20 13:39:14,981 - INFO -   -> A-45: split into 2 contacts
+2026-03-20 13:39:14,981 - INFO -   -> A-45: NORTHEY, William
+2026-03-20 13:39:14,981 - INFO -   -> A-45: AIKIN, Ralph and Ann (A-40
+2026-03-20 13:39:14,981 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A46.docx
+2026-03-20 13:39:15,032 - INFO -   -> A-46: ANTHONY, PATRICIA
+2026-03-20 13:39:15,033 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A47.docx
+2026-03-20 13:39:15,080 - INFO -   -> A-47: ABRAMS, Sheila Marie
+2026-03-20 13:39:15,081 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A48.docx
+2026-03-20 13:39:15,128 - INFO -   -> A-48: ALDERTON, Keith and Edna [C.A.W]
+2026-03-20 13:39:15,128 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A49.docx
+2026-03-20 13:39:15,173 - INFO -   -> A-49: ATKINSON, Albert Sydney & Constance Gloria
+2026-03-20 13:39:15,173 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A50.docx
+2026-03-20 13:39:15,219 - INFO -   -> A-50: ANDERSON, John & Doreen
+2026-03-20 13:39:15,219 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A51.docx
+2026-03-20 13:39:15,260 - INFO -   -> A-51: AITKENHEAD, Ronald Archibald & Iris Elene
+2026-03-20 13:39:15,260 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A52.docx
+2026-03-20 13:39:15,303 - INFO -   -> A-52: ADAMSON, Curtis & Laura
+2026-03-20 13:39:15,303 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A53.docx
+2026-03-20 13:39:15,347 - INFO -   -> A-53: AINSWORTH, Betty Anne
+2026-03-20 13:39:15,347 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A54.docx
+2026-03-20 13:39:15,386 - INFO -   -> A-54: ARBOGAST, Vera
+2026-03-20 13:39:15,386 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A55.docx
+2026-03-20 13:39:15,426 - INFO -   -> A-55: ADAMSON, Martin and Sue
+2026-03-20 13:39:15,426 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A56.docx
+2026-03-20 13:39:15,470 - INFO -   -> A-56: ARBUTHNOT, Anne-Louise
+2026-03-20 13:39:15,470 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A57.docx
+2026-03-20 13:39:15,517 - INFO -   -> A-57: AINSWORTH, Erica Renata
+2026-03-20 13:39:15,517 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A58.docx
+2026-03-20 13:39:15,557 - INFO -   -> A-58: Anderson, Eric & Susan Dale
+2026-03-20 13:39:15,558 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A59.docx
+2026-03-20 13:39:15,608 - INFO -   -> A-59: split into 2 contacts
+2026-03-20 13:39:15,608 - INFO -   -> A-59: ALLEN, James Raymond
+2026-03-20 13:39:15,608 - INFO -   -> A-59: USHER, Karen
+2026-03-20 13:39:15,608 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A60.docx
+2026-03-20 13:39:15,647 - INFO -   -> A-60: split into 2 contacts
+2026-03-20 13:39:15,647 - INFO -   -> A-60: ANDERSON, Gerald Maurice
+2026-03-20 13:39:15,647 - INFO -   -> A-60: ANDERSON, Annette Mae (d)
+2026-03-20 13:39:15,647 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A61.docx
+2026-03-20 13:39:15,694 - INFO -   -> A-61: ABRAHAM, Kim and Steve
+2026-03-20 13:39:15,694 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A62.docx
+2026-03-20 13:39:15,746 - INFO -   -> A-62: ALLEN, Audrice Gertrude
+2026-03-20 13:39:15,747 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A63.docx
+2026-03-20 13:39:15,790 - INFO -   -> A-63: ANDREWS, Christopher and Linda
+2026-03-20 13:39:15,790 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A64.docx
+2026-03-20 13:39:15,836 - INFO -   -> A-64: ARCHER, Aldona and Robert
+2026-03-20 13:39:15,837 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A65.docx
+2026-03-20 13:39:15,882 - INFO -   -> A-65: ARMSTRONG, Ann
+2026-03-20 13:39:15,882 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A66.docx
+2026-03-20 13:39:15,924 - INFO -   -> A-66: ARMSTRONG, Gerald
+2026-03-20 13:39:15,925 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A67.docx
+2026-03-20 13:39:15,968 - INFO -   -> A-67: ALLISON, Margaret
+2026-03-20 13:39:15,968 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A68.docx
+2026-03-20 13:39:16,015 - INFO -   -> : ACKERMAN, Lois
+2026-03-20 13:39:16,015 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A69.docx
+2026-03-20 13:39:16,061 - INFO -   -> A-69: ARMSTRONG, Wayne and Cheryl
+2026-03-20 13:39:16,061 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A70.docx
+2026-03-20 13:39:16,109 - INFO -   -> A-70: AUDENAERT, Jennifer
+2026-03-20 13:39:16,109 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A71.docx
+2026-03-20 13:39:16,156 - INFO -   -> A-71: ALLEN, David and Kate
+2026-03-20 13:39:16,157 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A72.docx
+2026-03-20 13:39:16,205 - INFO -   -> A-72: AYOTTE, John and Linda
+2026-03-20 13:39:16,205 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A73.docx
+2026-03-20 13:39:16,257 - INFO -   -> A-73: split into 2 contacts
+2026-03-20 13:39:16,258 - INFO -   -> A-73: ANDREWS, Mark William
+2026-03-20 13:39:16,258 - INFO -   -> A-73: SANGWINE, Geoffrey Nigel
+2026-03-20 13:39:16,258 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A74.docx
+2026-03-20 13:39:16,304 - INFO -   -> A-74: split into 2 contacts
+2026-03-20 13:39:16,304 - INFO -   -> A-74: ADAMS, Michael and Karen
+2026-03-20 13:39:16,304 - INFO -   -> A-74: Adams, Patricia
+2026-03-20 13:39:16,304 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A75.docx
+2026-03-20 13:39:16,345 - INFO -   -> A-75: CLEMENTS, Hilary Lorraine
+2026-03-20 13:39:16,345 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A76.docx
+2026-03-20 13:39:16,385 - INFO -   -> A-76: ALLDRED, Patrick and Audrey
+2026-03-20 13:39:16,385 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A77.docx
+2026-03-20 13:39:16,420 - INFO -   -> A-77: AINSWORTH, Scott
+2026-03-20 13:39:16,420 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A78.docx
+2026-03-20 13:39:16,455 - INFO -   -> A-78: ANDREOLI, Carmen
+2026-03-20 13:39:16,455 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A79.docx
+2026-03-20 13:39:16,491 - INFO -   -> A-79: ANDERSON, Greg and Kay
+2026-03-20 13:39:16,491 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A80.docx
+2026-03-20 13:39:16,527 - INFO -   -> A-80: ARMSTRONG, Bill and Irene
+2026-03-20 13:39:16,527 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A81.docx
+2026-03-20 13:39:16,568 - INFO -   -> A-81: AINSWORTH, Hugh
+2026-03-20 13:39:16,568 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A82.docx
+2026-03-20 13:39:16,614 - INFO -   -> A-82: AINSWORTH, Helen
+2026-03-20 13:39:16,614 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A83.docx
+2026-03-20 13:39:16,658 - INFO -   -> A-83: AHMED, Riaz
+2026-03-20 13:39:16,658 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A84.docx
+2026-03-20 13:39:16,713 - INFO -   -> A-84: split into 2 contacts
+2026-03-20 13:39:16,713 - INFO -   -> A-84: ARAUJO, David Anthony
+2026-03-20 13:39:16,714 - INFO -   -> A-84: ARAUJO, Karen Ann
+2026-03-20 13:39:16,714 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A85.docx
+2026-03-20 13:39:16,758 - INFO -   -> A-85: ARDRON, Trevor Kenneth
+2026-03-20 13:39:16,758 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A86.docx
+2026-03-20 13:39:16,804 - INFO -   -> A-86: split into 2 contacts
+2026-03-20 13:39:16,804 - INFO -   -> A-86: JONCKHEERE, Mitchell
+2026-03-20 13:39:16,804 - INFO -   -> A-86: AFFONSO, Nanda
+2026-03-20 13:39:16,805 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A87.docx
+2026-03-20 13:39:16,847 - INFO -   -> A-87: split into 2 contacts
+2026-03-20 13:39:16,847 - INFO -   -> A-87: AYVAR, Martin Christian Asurza
+2026-03-20 13:39:16,847 - INFO -   -> A-87: CUMPA, Mila
+2026-03-20 13:39:16,847 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A88.docx
+2026-03-20 13:39:16,891 - INFO -   -> A-88: split into 2 contacts
+2026-03-20 13:39:16,891 - INFO -   -> A-88: ALDOM, David Edward
+2026-03-20 13:39:16,891 - INFO -   -> A-88: ALDOM, Sandra Ruth
+2026-03-20 13:39:16,891 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A89.docx
+2026-03-20 13:39:16,939 - INFO -   -> A-89: AINSWORTH, Robert John
+2026-03-20 13:39:16,939 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A90.docx
+2026-03-20 13:39:16,978 - INFO -   -> A-90: ARENDS, Bert
+2026-03-20 13:39:16,978 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A91.docx
+2026-03-20 13:39:17,020 - INFO -   -> A-91: ATKINSON, Noemi Basinga
+2026-03-20 13:39:17,020 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A92.docx
+2026-03-20 13:39:17,070 - INFO -   -> A-92: split into 2 contacts
+2026-03-20 13:39:17,070 - INFO -   -> A-92: ANDERSON, Joshua Douglas
+2026-03-20 13:39:17,070 - INFO -   -> A-92: ANDERSON, Lori Anne
+2026-03-20 13:39:17,070 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A93.docx
+2026-03-20 13:39:17,110 - INFO -   -> A-93: ARMSTRONG, Donna Joan
+2026-03-20 13:39:17,111 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A94.docx
+2026-03-20 13:39:17,155 - INFO -   -> A-94: split into 2 contacts
+2026-03-20 13:39:17,155 - INFO -   -> A-94: ANDERSON, Doug
+2026-03-20 13:39:17,155 - INFO -   -> A-94: McLEAN, Bob
+2026-03-20 13:39:17,155 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A95.docx
+2026-03-20 13:39:17,195 - INFO -   -> A-95: ALVES, Henri Augusto
+2026-03-20 13:39:17,195 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A96.docx
+2026-03-20 13:39:17,236 - INFO -   -> A-96: AXCELL, Kathleen Ann
+2026-03-20 13:39:17,236 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A97.docx
+2026-03-20 13:39:17,279 - INFO -   -> A-97: split into 2 contacts
+2026-03-20 13:39:17,279 - INFO -   -> A-97: GRINHAM, Sebastian Azuolas
+2026-03-20 13:39:17,279 - INFO -   -> A-97: ANTUNES, Sylvia Santos
+2026-03-20 13:39:17,279 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A98.docx
+2026-03-20 13:39:17,329 - INFO -   -> A-98: AUGUST, Karen Dawn
+2026-03-20 13:39:17,329 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A99.docx
+2026-03-20 13:39:17,404 - INFO -   -> A-99: ANDREWS, Jacqueline
+2026-03-20 13:39:17,404 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.100.docx
+2026-03-20 13:39:17,454 - INFO -   -> A-100: AWITI, Chrismagi Adhiambo d.o.b. August 2, 1990
+2026-03-20 13:39:17,454 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.101.docx
+2026-03-20 13:39:17,499 - INFO -   -> A-101: AFANASYEVA, Violetta
+2026-03-20 13:39:17,499 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.102.docx
+2026-03-20 13:39:17,580 - INFO -   -> A-102: split into 2 contacts
+2026-03-20 13:39:17,580 - INFO -   -> A-102: ADEY, Sean
+2026-03-20 13:39:17,580 - INFO -   -> A-102: LACKIE, Heather
+2026-03-20 13:39:17,580 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.103.docx
+2026-03-20 13:39:17,633 - INFO -   -> A-103: split into 2 contacts
+2026-03-20 13:39:17,633 - INFO -   -> A-103: ANDREW, Kirk Robert
+2026-03-20 13:39:17,633 - INFO -   -> A-103: ANDREW, Cara Elizabeth
+2026-03-20 13:39:17,633 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.104.docx
+2026-03-20 13:39:17,674 - INFO -   -> A-104: Anderson, Laura
+2026-03-20 13:39:17,674 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.105.docx
+2026-03-20 13:39:17,721 - INFO -   -> A-105: Anderson, Joseph Leigh
+2026-03-20 13:39:17,721 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.106.docx
+2026-03-20 13:39:17,771 - INFO -   -> A-106: Afara, Rima Mamiche
+2026-03-20 13:39:17,771 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.107.docx
+2026-03-20 13:39:17,816 - INFO -   -> A-107: AGAR, Robert and Tania
+2026-03-20 13:39:17,817 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.108.docx
+2026-03-20 13:39:17,858 - INFO -   -> A-108: ANNIS, Beverley
+2026-03-20 13:39:17,858 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.109.docx
+2026-03-20 13:39:17,900 - INFO -   -> A-109: split into 2 contacts
+2026-03-20 13:39:17,900 - INFO -   -> A-109: AKHTAR, Sobia
+2026-03-20 13:39:17,900 - INFO -   -> A-109: HASSAN, Syed Zaki
+2026-03-20 13:39:17,900 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.110.docx
+2026-03-20 13:39:17,948 - INFO -   -> A-110: split into 2 contacts
+2026-03-20 13:39:17,948 - INFO -   -> A-110: ALLEN, John Edward
+2026-03-20 13:39:17,948 - INFO -   -> A-110: ALLEN, Brenda Mary
+2026-03-20 13:39:17,948 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.111.docx
+2026-03-20 13:39:17,995 - INFO -   -> A-111: split into 2 contacts
+2026-03-20 13:39:17,995 - INFO -   -> A-111: AHN, Suryul
+2026-03-20 13:39:17,995 - INFO -   -> A-111: AHAN, Joyce Yoonhwa
+2026-03-20 13:39:17,995 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.112.docx
+2026-03-20 13:39:18,042 - INFO -   -> A-112: ARDERN, David
+2026-03-20 13:39:18,042 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.113.docx
+2026-03-20 13:39:18,087 - INFO -   -> A-113: ADELASOYE, Oluremi and Aarinola
+2026-03-20 13:39:18,089 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.114.docx
+2026-03-20 13:39:18,131 - INFO -   -> A-114: AVIS, Bernice Candice
+2026-03-20 13:39:18,131 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.115.docx
+2026-03-20 13:39:18,175 - INFO -   -> A-115: AKIYAMA, Kiley and Jaime
+2026-03-20 13:39:18,176 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.116.docx
+2026-03-20 13:39:18,223 - INFO -   -> A-116: split into 2 contacts
+2026-03-20 13:39:18,224 - INFO -   -> A-116: AIKEN, Thomas Walter
+2026-03-20 13:39:18,224 - INFO -   -> A-116: WRIGHT-AIKEN, Olive Lottie
+2026-03-20 13:39:18,224 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.117.docx
+2026-03-20 13:39:18,273 - INFO -   -> A-117: ARMSTRONG, Richard
+2026-03-20 13:39:18,274 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.118.docx
+2026-03-20 13:39:18,322 - INFO -   -> A-118: split into 2 contacts
+2026-03-20 13:39:18,322 - INFO -   -> A-118: ANDERSON, Kristan Nicole
+2026-03-20 13:39:18,323 - INFO -   -> A-118: WILMS, Brian Thomas
+2026-03-20 13:39:18,323 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.119.docx
+2026-03-20 13:39:18,373 - INFO -   -> A-119: ARBOUR, Karen Louise
+2026-03-20 13:39:18,373 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.120.docx
+2026-03-20 13:39:18,418 - INFO -   -> A-120: ABBOTT, Jessie Elaine
+2026-03-20 13:39:18,418 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.121.docx
+2026-03-20 13:39:18,467 - INFO -   -> A-121: ARMITAGE, Laverne Joseph
+2026-03-20 13:39:18,467 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.122.docx
+2026-03-20 13:39:18,511 - INFO -   -> A-122: ATKINS, Lois Patricia
+2026-03-20 13:39:18,511 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.123.docx
+2026-03-20 13:39:18,558 - INFO -   -> A-123: ASHDOWN, John
+2026-03-20 13:39:18,559 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.124.docx
+2026-03-20 13:39:18,614 - INFO -   -> A-124: , 
+2026-03-20 13:39:18,614 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.125.docx
+2026-03-20 13:39:18,668 - INFO -   -> A-125: split into 2 contacts
+2026-03-20 13:39:18,668 - INFO -   -> A-125: ARMOUR, Peter Haynes
+2026-03-20 13:39:18,668 - INFO -   -> A-125: ARMOUR, Karen Elizabeth
+2026-03-20 13:39:18,668 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.126.docx
+2026-03-20 13:39:18,715 - INFO -   -> A-126: ARMITAGE, Beverly Lynn
+2026-03-20 13:39:18,716 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.127.docx
+2026-03-20 13:39:18,763 - INFO -   -> A-127: AYLWARD, Paul
+2026-03-20 13:39:18,763 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.128.docx
+2026-03-20 13:39:18,812 - INFO -   -> A-128: Adams, Shirley Barbara
+2026-03-20 13:39:18,812 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.129.docx
+2026-03-20 13:39:18,863 - INFO -   -> A-129: AUDIA, Sam and Monica
+2026-03-20 13:39:18,863 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.130.docx
+2026-03-20 13:39:18,909 - INFO -   -> A-130: split into 2 contacts
+2026-03-20 13:39:18,909 - INFO -   -> A-130: ANTONOPULOS, Shane Tyler
+2026-03-20 13:39:18,909 - INFO -   -> A-130: MURRAY, Stacey Anne
+2026-03-20 13:39:18,909 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.131.docx
+2026-03-20 13:39:18,950 - INFO -   -> A-131: ALZNER, Regina
+2026-03-20 13:39:18,950 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.132.docx
+2026-03-20 13:39:18,993 - INFO -   -> A-132: ANTHONY, Mel
+2026-03-20 13:39:18,993 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.133.docx
+2026-03-20 13:39:19,041 - INFO -   -> A-133: split into 2 contacts
+2026-03-20 13:39:19,042 - INFO -   -> A-133: ADLAM, Rodger Leonard
+2026-03-20 13:39:19,042 - INFO -   -> A-133: ADLAM, Wendy Louise
+2026-03-20 13:39:19,042 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.134.docx
+2026-03-20 13:39:19,084 - INFO -   -> A-134: ALLEN, Brian and Helen
+2026-03-20 13:39:19,084 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.135.docx
+2026-03-20 13:39:19,127 - INFO -   -> A-135: ALLEN, Wendy
+2026-03-20 13:39:19,127 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.136.docx
+2026-03-20 13:39:19,168 - INFO -   -> A-136: ARTHUR, Katherine Anne
+2026-03-20 13:39:19,168 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.137.docx
+2026-03-20 13:39:19,212 - INFO -   -> : AHEE, Julie
+2026-03-20 13:39:19,212 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.138.docx
+2026-03-20 13:39:19,261 - INFO -   -> A-138: ASHTON, Joan
+2026-03-20 13:39:19,261 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.139.docx
+2026-03-20 13:39:19,309 - INFO -   -> : split into 2 contacts
+2026-03-20 13:39:19,309 - INFO -   -> : ABBOTT, Marshall Rodger
+2026-03-20 13:39:19,309 - INFO -   -> : HUNTER, Lara Alanna
+2026-03-20 13:39:19,309 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.140.docx
+2026-03-20 13:39:19,349 - INFO -   -> : ASH, Stephen
+2026-03-20 13:39:19,349 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.141.docx
+2026-03-20 13:39:19,392 - INFO -   -> A-141: AHERN, Patrick Robert David
+2026-03-20 13:39:19,392 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.142.docx
+2026-03-20 13:39:19,439 - INFO -   -> A-142: ALLEMANO, Linda Marie Judith
+2026-03-20 13:39:19,439 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.143.docx
+2026-03-20 13:39:19,491 - INFO -   -> A-143: split into 2 contacts
+2026-03-20 13:39:19,491 - INFO -   -> A-143: ARBOUR, William Joseph
+2026-03-20 13:39:19,491 - INFO -   -> A-143: ARBOUR, Mary Leona (Mary Lea)
+2026-03-20 13:39:19,491 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.144.docx
+2026-03-20 13:39:19,533 - INFO -   -> A-144: split into 2 contacts
+2026-03-20 13:39:19,534 - INFO -   -> A-144: ANDERSON, Warren Karl
+2026-03-20 13:39:19,534 - INFO -   -> A-144: ANDERSON, Dianne Eleanor
+2026-03-20 13:39:19,534 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.145.docx
+2026-03-20 13:39:19,575 - INFO -   -> A-145: split into 2 contacts
+2026-03-20 13:39:19,575 - INFO -   -> A-145: ALLEN, Ryan Kurtis
+2026-03-20 13:39:19,575 - INFO -   -> A-145: ALLEN, Hayden Kerry
+2026-03-20 13:39:19,575 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.146.docx
+2026-03-20 13:39:19,636 - INFO -   -> A-146: ANCHOR, Todd and Alexandria
+2026-03-20 13:39:19,636 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.147.docx
+2026-03-20 13:39:19,685 - INFO -   -> A-147: split into 2 contacts
+2026-03-20 13:39:19,685 - INFO -   -> A-147: ALLEN, Michael MacDonald
+2026-03-20 13:39:19,685 - INFO -   -> A-147: ALLEN, Kimberly Ann
+2026-03-20 13:39:19,686 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.148.docx
+2026-03-20 13:39:19,733 - INFO -   -> A-148: ADAM, Maureen
+2026-03-20 13:39:19,733 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.149.docx
+2026-03-20 13:39:19,784 - INFO -   -> A-149: ABANTAO, Margarito and Marilou
+2026-03-20 13:39:19,784 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.150.docx
+2026-03-20 13:39:19,847 - INFO -   -> A-150: AMUNDSEN, Harry and Elsie Anne
+2026-03-20 13:39:19,848 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.151.docx
+2026-03-20 13:39:19,893 - INFO -   -> A-151: , 
+2026-03-20 13:39:19,894 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.152.docx
+2026-03-20 13:39:19,942 - INFO -   -> A-152: split into 2 contacts
+2026-03-20 13:39:19,942 - INFO -   -> A-152: ADAMS, Matthew
+2026-03-20 13:39:19,942 - INFO -   -> A-152: LAINE, Alyson
+2026-03-20 13:39:19,942 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.153.docx
+2026-03-20 13:39:19,991 - INFO -   -> A-153: split into 2 contacts
+2026-03-20 13:39:19,992 - INFO -   -> A-153: ARNOTT, Joanne Elizabeth
+2026-03-20 13:39:19,992 - INFO -   -> A-153: WHITE, David Bruce
+2026-03-20 13:39:19,992 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.154.docx
+2026-03-20 13:39:20,042 - INFO -   -> A-154: AINSWORTH, Heather Ann
+2026-03-20 13:39:20,042 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.155.docx
+2026-03-20 13:39:20,091 - INFO -   -> A-155: ACCARDI, Marco
+2026-03-20 13:39:20,091 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.156.docx
+2026-03-20 13:39:20,138 - INFO -   -> A-156: ANDERSON, Aaron Russell Barclay
+2026-03-20 13:39:20,138 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.157.docx
+2026-03-20 13:39:20,185 - INFO -   -> A-157: AUCHTERLONIE, Jessica
+2026-03-20 13:39:20,185 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.158.docx
+2026-03-20 13:39:20,230 - INFO -   -> A-158: ALLEYNE, John and Jacqueline
+2026-03-20 13:39:20,230 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.159.docx
+2026-03-20 13:39:20,276 - INFO -   -> A-159: ASHIE, Jerry and Cathy
+2026-03-20 13:39:20,276 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.160.docx
+2026-03-20 13:39:20,316 - INFO -   -> A-160: AHUJA, Vaishali
+2026-03-20 13:39:20,317 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.161.docx
+2026-03-20 13:39:20,360 - INFO -   -> A-161: ARMSTRONG, David and Wendy
+2026-03-20 13:39:20,361 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.162.docx
+2026-03-20 13:39:20,407 - INFO -   -> A-162: AINSWORTH, Phil and Joan
+2026-03-20 13:39:20,407 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.163.docx
+2026-03-20 13:39:20,454 - INFO -   -> A-163: ALLEN, Fran
+2026-03-20 13:39:20,454 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.164.docx
+2026-03-20 13:39:20,498 - INFO -   -> A-164: ADAMS, Michael and Caitlin
+2026-03-20 13:39:20,499 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.165.docx
+2026-03-20 13:39:20,540 - INFO -   -> A-165: ARBOUR, Monica
+2026-03-20 13:39:20,541 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.166.docx
+2026-03-20 13:39:20,580 - INFO -   -> A-166: ARBOUR, John
+2026-03-20 13:39:20,581 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.167.docx
+2026-03-20 13:39:20,623 - INFO -   -> A-167: AMANKWAH, Donna
+2026-03-20 13:39:20,624 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.168.docx
+2026-03-20 13:39:20,669 - INFO -   -> A-168: ALLEN, Helen
+2026-03-20 13:39:20,669 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.169.docx
+2026-03-20 13:39:20,720 - INFO -   -> A-169: ALLEN, Helen
+2026-03-20 13:39:20,720 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.170.docx
+2026-03-20 13:39:20,777 - INFO -   -> A-170: ALDERSON, Christopher and Angela
+2026-03-20 13:39:20,777 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.171.docx
+2026-03-20 13:39:20,822 - INFO -   -> A-171: ABBADASARI, Robert & Mary
+2026-03-20 13:39:20,823 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.172.docx
+2026-03-20 13:39:20,873 - INFO -   -> A-172: ALGUIRE, Gerald
+2026-03-20 13:39:20,874 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.173.docx
+2026-03-20 13:39:20,925 - INFO -   -> A-173: , 
+2026-03-20 13:39:20,925 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.174.docx
+2026-03-20 13:39:20,977 - INFO -   -> A-174: split into 2 contacts
+2026-03-20 13:39:20,977 - INFO -   -> A-174: ARDRON, Michelle
+2026-03-20 13:39:20,978 - INFO -   -> A-174: McCALLUM, Jordan
+2026-03-20 13:39:20,978 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.175.docx
+2026-03-20 13:39:21,025 - INFO -   -> A-175: split into 2 contacts
+2026-03-20 13:39:21,025 - INFO -   -> A-175: RAVESTEIN, Everett
+2026-03-20 13:39:21,025 - INFO -   -> A-175: ALLEN, Sandra
+2026-03-20 13:39:21,025 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.176.docx
+2026-03-20 13:39:21,076 - INFO -   -> A-176: ALGUIRE, Michael
+2026-03-20 13:39:21,077 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.177.docx
+2026-03-20 13:39:21,131 - INFO -   -> A-177: ALGUIRE, Gerald
+2026-03-20 13:39:21,131 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.178.docx
+2026-03-20 13:39:21,179 - INFO -   -> A-178: ARDELEAN, Corneliu
+2026-03-20 13:39:21,206 - INFO - Done. 208 contacts, 566 matters, 0 errors.
+2026-03-20 13:53:30,405 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/A
+2026-03-20 13:53:30,412 - INFO - Found 169 files.
+2026-03-20 13:53:30,412 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A01.docx
+2026-03-20 13:53:30,469 - INFO -   -> A-1: split into 2 contacts
+2026-03-20 13:53:30,469 - INFO -   -> A-1: AINSWORTH, Gary Edison
+2026-03-20 13:53:30,469 - INFO -   -> A-1: AINSWORTH, Anne Patricia
+2026-03-20 13:53:30,469 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A02.docx
+2026-03-20 13:53:30,529 - INFO -   -> A-2: split into 2 contacts
+2026-03-20 13:53:30,529 - INFO -   -> A-2: AINSWORTH, Richard Paul
+2026-03-20 13:53:30,529 - INFO -   -> A-2: AINSWORTH, Linda Ann
+2026-03-20 13:53:30,529 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A12.docx
+2026-03-20 13:53:30,579 - INFO -   -> A-12: ARMSTRONG, Jeffery
+2026-03-20 13:53:30,579 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A13.docx
+2026-03-20 13:53:30,631 - INFO -   -> A-13: ANDERSON, Dorothy & Stewart
+2026-03-20 13:53:30,631 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A14.docx
+2026-03-20 13:53:30,682 - INFO -   -> A-14: ADLAM, Richard
+2026-03-20 13:53:30,682 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A15.docx
+2026-03-20 13:53:30,734 - INFO -   -> A-15: AINSWORTH James & RADBURN, Ann
+2026-03-20 13:53:30,734 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A16.docx
+2026-03-20 13:53:30,800 - INFO -   -> A-16: ATYEO, Murle
+2026-03-20 13:53:30,800 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A17.docx
+2026-03-20 13:53:30,859 - INFO -   -> A-17: split into 2 contacts
+2026-03-20 13:53:30,859 - INFO -   -> A-17: Solomon, Rudy
+2026-03-20 13:53:30,859 - INFO -   -> A-17: ADAIR, Stephen
+2026-03-20 13:53:30,859 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A18.docx
+2026-03-20 13:53:30,906 - INFO -   -> A-18: ANDREWS, Deborah Lynn
+2026-03-20 13:53:30,906 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A19.docx
+2026-03-20 13:53:30,959 - INFO -   -> A-19: ALLAN, Lloyd
+2026-03-20 13:53:30,960 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A20.docx
+2026-03-20 13:53:31,008 - INFO -   -> A-20: ALLAN, Daniel
+2026-03-20 13:53:31,008 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A21.docx
+2026-03-20 13:53:31,054 - INFO -   -> A-21: , 
+2026-03-20 13:53:31,054 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A22.docx
+2026-03-20 13:53:31,106 - INFO -   -> A-22: AINSWORTH, Paul & Margaret
+2026-03-20 13:53:31,106 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A23.docx
+2026-03-20 13:53:31,157 - INFO -   -> A-23: split into 2 contacts
+2026-03-20 13:53:31,157 - INFO -   -> A-23: ANDERSON, Douglas Paul
+2026-03-20 13:53:31,157 - INFO -   -> A-23: ANDERSON, Brenda Jean
+2026-03-20 13:53:31,157 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A24.docx
+2026-03-20 13:53:31,202 - INFO -   -> A-24: split into 2 contacts
+2026-03-20 13:53:31,202 - INFO -   -> A-24: ATWOOD, Peter Arnold
+2026-03-20 13:53:31,203 - INFO -   -> A-24: WHYTE, Debra Lee
+2026-03-20 13:53:31,203 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A25.docx
+2026-03-20 13:53:31,250 - INFO -   -> A-25: ANDERSON, Janice & Peter
+2026-03-20 13:53:31,250 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A26.docx
+2026-03-20 13:53:31,295 - INFO -   -> A-26: ALLEN, Daniel & Elizabeth Ann Marguerite
+2026-03-20 13:53:31,295 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A27.docx
+2026-03-20 13:53:31,380 - INFO -   -> A-27: AVIS, William
+2026-03-20 13:53:31,380 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A28.docx
+2026-03-20 13:53:31,472 - INFO -   -> A-28: AINSWORTH, Eric
+2026-03-20 13:53:31,472 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A29.docx
+2026-03-20 13:53:31,525 - INFO -   -> A-29: AINSWORTH, Ivan
+2026-03-20 13:53:31,526 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A30.docx
+2026-03-20 13:53:31,575 - INFO -   -> A-30: AINSWORTH, John William & Bonnie Lou
+2026-03-20 13:53:31,575 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A31.docx
+2026-03-20 13:53:31,623 - INFO -   -> A-31: , 
+2026-03-20 13:53:31,624 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A32.docx
+2026-03-20 13:53:31,670 - INFO -   -> A-32: ARMSTRONG, Eileen Dawn
+2026-03-20 13:53:31,670 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A33.docx
+2026-03-20 13:53:31,719 - INFO -   -> A-33: ARDRON, Stanley -
+2026-03-20 13:53:31,719 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A34.docx
+2026-03-20 13:53:31,775 - INFO -   -> A-34: ARDRON, MARY - ESTATE OF
+2026-03-20 13:53:31,776 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A35.docx
+2026-03-20 13:53:31,824 - INFO -   -> A-35: ANDERSON, Christopher Ernest –
+2026-03-20 13:53:31,824 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A36.docx
+2026-03-20 13:53:31,877 - INFO -   -> A-36: ABRAM, Micheal & Irene
+2026-03-20 13:53:31,877 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A37.docx
+2026-03-20 13:53:31,927 - INFO -   -> A-37: Anderson, Sharron Bell
+2026-03-20 13:53:31,927 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A38.docx
+2026-03-20 13:53:31,976 - INFO -   -> A-38: split into 2 contacts
+2026-03-20 13:53:31,976 - INFO -   -> A-38: AINSWORTH, Gary Alan
+2026-03-20 13:53:31,976 - INFO -   -> A-38: AINSWORTH, Glenda Pearl
+2026-03-20 13:53:31,976 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A39.docx
+2026-03-20 13:53:32,027 - INFO -   -> A-39: AYRES, John Wayne
+2026-03-20 13:53:32,027 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A40.docx
+2026-03-20 13:53:32,075 - INFO -   -> : split into 2 contacts
+2026-03-20 13:53:32,075 - INFO -   -> : AIKIN, Ralph Willard
+2026-03-20 13:53:32,076 - INFO -   -> : AIKEN, Margaret Ann
+2026-03-20 13:53:32,076 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A41.docx
+2026-03-20 13:53:32,125 - INFO -   -> A-41: ARCHER, W. Alex and Marjorie Gertrude – BOTH
+2026-03-20 13:53:32,126 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A42.docx
+2026-03-20 13:53:32,173 - INFO -   -> A-42: ANDERSON, Margaret -
+2026-03-20 13:53:32,173 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A43.docx
+2026-03-20 13:53:32,227 - INFO -   -> A-43: split into 2 contacts
+2026-03-20 13:53:32,227 - INFO -   -> A-43: ACCHIONE, Danny C\O ACCHIONE, Linda
+2026-03-20 13:53:32,228 - INFO -   -> A-43: Sandy, 
+2026-03-20 13:53:32,228 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A44.docx
+2026-03-20 13:53:32,283 - INFO -   -> A-44: ALLEN, William G.
+2026-03-20 13:53:32,283 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A45.docx
+2026-03-20 13:53:32,333 - INFO -   -> A-45: split into 2 contacts
+2026-03-20 13:53:32,333 - INFO -   -> A-45: NORTHEY, William
+2026-03-20 13:53:32,333 - INFO -   -> A-45: AIKIN, Ralph and Ann (A-40
+2026-03-20 13:53:32,333 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A46.docx
+2026-03-20 13:53:32,387 - INFO -   -> A-46: ANTHONY, PATRICIA
+2026-03-20 13:53:32,387 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A47.docx
+2026-03-20 13:53:32,435 - INFO -   -> A-47: ABRAMS, Sheila Marie
+2026-03-20 13:53:32,435 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A48.docx
+2026-03-20 13:53:32,480 - INFO -   -> A-48: ALDERTON, Keith and Edna [C.A.W]
+2026-03-20 13:53:32,480 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A49.docx
+2026-03-20 13:53:32,527 - INFO -   -> A-49: ATKINSON, Albert Sydney & Constance Gloria
+2026-03-20 13:53:32,527 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A50.docx
+2026-03-20 13:53:32,569 - INFO -   -> A-50: ANDERSON, John & Doreen
+2026-03-20 13:53:32,569 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A51.docx
+2026-03-20 13:53:32,614 - INFO -   -> A-51: AITKENHEAD, Ronald Archibald & Iris Elene
+2026-03-20 13:53:32,614 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A52.docx
+2026-03-20 13:53:32,657 - INFO -   -> A-52: ADAMSON, Curtis & Laura
+2026-03-20 13:53:32,657 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A53.docx
+2026-03-20 13:53:32,702 - INFO -   -> A-53: AINSWORTH, Betty Anne
+2026-03-20 13:53:32,702 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A54.docx
+2026-03-20 13:53:32,756 - INFO -   -> A-54: ARBOGAST, Vera
+2026-03-20 13:53:32,756 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A55.docx
+2026-03-20 13:53:32,808 - INFO -   -> A-55: ADAMSON, Martin and Sue
+2026-03-20 13:53:32,808 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A56.docx
+2026-03-20 13:53:32,856 - INFO -   -> A-56: ARBUTHNOT, Anne-Louise
+2026-03-20 13:53:32,856 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A57.docx
+2026-03-20 13:53:32,906 - INFO -   -> A-57: AINSWORTH, Erica Renata
+2026-03-20 13:53:32,906 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A58.docx
+2026-03-20 13:53:32,957 - INFO -   -> A-58: Anderson, Eric & Susan Dale
+2026-03-20 13:53:32,958 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A59.docx
+2026-03-20 13:53:33,005 - INFO -   -> A-59: split into 2 contacts
+2026-03-20 13:53:33,005 - INFO -   -> A-59: ALLEN, James Raymond
+2026-03-20 13:53:33,005 - INFO -   -> A-59: USHER, Karen
+2026-03-20 13:53:33,005 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A60.docx
+2026-03-20 13:53:33,055 - INFO -   -> A-60: split into 2 contacts
+2026-03-20 13:53:33,055 - INFO -   -> A-60: ANDERSON, Gerald Maurice
+2026-03-20 13:53:33,055 - INFO -   -> A-60: ANDERSON, Annette Mae (d)
+2026-03-20 13:53:33,055 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A61.docx
+2026-03-20 13:53:33,096 - INFO -   -> A-61: ABRAHAM, Kim and Steve
+2026-03-20 13:53:33,097 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A62.docx
+2026-03-20 13:53:33,137 - INFO -   -> A-62: ALLEN, Audrice Gertrude
+2026-03-20 13:53:33,138 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A63.docx
+2026-03-20 13:53:33,177 - INFO -   -> A-63: ANDREWS, Christopher and Linda
+2026-03-20 13:53:33,177 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A64.docx
+2026-03-20 13:53:33,224 - INFO -   -> A-64: ARCHER, Aldona and Robert
+2026-03-20 13:53:33,224 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A65.docx
+2026-03-20 13:53:33,267 - INFO -   -> A-65: ARMSTRONG, Ann
+2026-03-20 13:53:33,267 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A66.docx
+2026-03-20 13:53:33,308 - INFO -   -> A-66: ARMSTRONG, Gerald
+2026-03-20 13:53:33,308 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A67.docx
+2026-03-20 13:53:33,348 - INFO -   -> A-67: ALLISON, Margaret
+2026-03-20 13:53:33,348 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A68.docx
+2026-03-20 13:53:33,390 - INFO -   -> : ACKERMAN, Lois
+2026-03-20 13:53:33,390 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A69.docx
+2026-03-20 13:53:33,431 - INFO -   -> A-69: ARMSTRONG, Wayne and Cheryl
+2026-03-20 13:53:33,431 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A70.docx
+2026-03-20 13:53:33,472 - INFO -   -> A-70: AUDENAERT, Jennifer
+2026-03-20 13:53:33,472 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A71.docx
+2026-03-20 13:53:33,512 - INFO -   -> A-71: ALLEN, David and Kate
+2026-03-20 13:53:33,512 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A72.docx
+2026-03-20 13:53:33,550 - INFO -   -> A-72: AYOTTE, John and Linda
+2026-03-20 13:53:33,550 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A73.docx
+2026-03-20 13:53:33,598 - INFO -   -> A-73: split into 2 contacts
+2026-03-20 13:53:33,598 - INFO -   -> A-73: ANDREWS, Mark William
+2026-03-20 13:53:33,598 - INFO -   -> A-73: SANGWINE, Geoffrey Nigel
+2026-03-20 13:53:33,598 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A74.docx
+2026-03-20 13:53:33,638 - INFO -   -> A-74: split into 2 contacts
+2026-03-20 13:53:33,638 - INFO -   -> A-74: ADAMS, Michael and Karen
+2026-03-20 13:53:33,639 - INFO -   -> A-74: Adams, Patricia
+2026-03-20 13:53:33,639 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A75.docx
+2026-03-20 13:53:33,683 - INFO -   -> A-75: CLEMENTS, Hilary Lorraine
+2026-03-20 13:53:33,683 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A76.docx
+2026-03-20 13:53:33,724 - INFO -   -> A-76: ALLDRED, Patrick and Audrey
+2026-03-20 13:53:33,724 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A77.docx
+2026-03-20 13:53:33,763 - INFO -   -> A-77: AINSWORTH, Scott
+2026-03-20 13:53:33,763 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A78.docx
+2026-03-20 13:53:33,807 - INFO -   -> A-78: ANDREOLI, Carmen
+2026-03-20 13:53:33,807 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A79.docx
+2026-03-20 13:53:33,846 - INFO -   -> A-79: ANDERSON, Greg and Kay
+2026-03-20 13:53:33,846 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A80.docx
+2026-03-20 13:53:33,887 - INFO -   -> A-80: ARMSTRONG, Bill and Irene
+2026-03-20 13:53:33,887 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A81.docx
+2026-03-20 13:53:33,927 - INFO -   -> A-81: AINSWORTH, Hugh
+2026-03-20 13:53:33,927 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A82.docx
+2026-03-20 13:53:33,967 - INFO -   -> A-82: AINSWORTH, Helen
+2026-03-20 13:53:33,967 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A83.docx
+2026-03-20 13:53:34,007 - INFO -   -> A-83: AHMED, Riaz
+2026-03-20 13:53:34,009 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A84.docx
+2026-03-20 13:53:34,053 - INFO -   -> A-84: split into 2 contacts
+2026-03-20 13:53:34,053 - INFO -   -> A-84: ARAUJO, David Anthony
+2026-03-20 13:53:34,053 - INFO -   -> A-84: ARAUJO, Karen Ann
+2026-03-20 13:53:34,053 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A85.docx
+2026-03-20 13:53:34,095 - INFO -   -> A-85: ARDRON, Trevor Kenneth
+2026-03-20 13:53:34,096 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A86.docx
+2026-03-20 13:53:34,135 - INFO -   -> A-86: split into 2 contacts
+2026-03-20 13:53:34,135 - INFO -   -> A-86: JONCKHEERE, Mitchell
+2026-03-20 13:53:34,136 - INFO -   -> A-86: AFFONSO, Nanda
+2026-03-20 13:53:34,136 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A87.docx
+2026-03-20 13:53:34,175 - INFO -   -> A-87: split into 2 contacts
+2026-03-20 13:53:34,175 - INFO -   -> A-87: AYVAR, Martin Christian Asurza
+2026-03-20 13:53:34,175 - INFO -   -> A-87: CUMPA, Mila
+2026-03-20 13:53:34,175 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A88.docx
+2026-03-20 13:53:34,219 - INFO -   -> A-88: split into 2 contacts
+2026-03-20 13:53:34,219 - INFO -   -> A-88: ALDOM, David Edward
+2026-03-20 13:53:34,219 - INFO -   -> A-88: ALDOM, Sandra Ruth
+2026-03-20 13:53:34,219 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A89.docx
+2026-03-20 13:53:34,260 - INFO -   -> A-89: AINSWORTH, Robert John
+2026-03-20 13:53:34,260 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A90.docx
+2026-03-20 13:53:34,301 - INFO -   -> A-90: ARENDS, Bert
+2026-03-20 13:53:34,301 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A91.docx
+2026-03-20 13:53:34,343 - INFO -   -> A-91: ATKINSON, Noemi Basinga
+2026-03-20 13:53:34,343 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A92.docx
+2026-03-20 13:53:34,384 - INFO -   -> A-92: split into 2 contacts
+2026-03-20 13:53:34,384 - INFO -   -> A-92: ANDERSON, Joshua Douglas
+2026-03-20 13:53:34,384 - INFO -   -> A-92: ANDERSON, Lori Anne
+2026-03-20 13:53:34,384 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A93.docx
+2026-03-20 13:53:34,431 - INFO -   -> A-93: ARMSTRONG, Donna Joan
+2026-03-20 13:53:34,432 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A94.docx
+2026-03-20 13:53:34,468 - INFO -   -> A-94: split into 2 contacts
+2026-03-20 13:53:34,468 - INFO -   -> A-94: ANDERSON, Doug
+2026-03-20 13:53:34,468 - INFO -   -> A-94: McLEAN, Bob
+2026-03-20 13:53:34,469 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A95.docx
+2026-03-20 13:53:34,507 - INFO -   -> A-95: ALVES, Henri Augusto
+2026-03-20 13:53:34,507 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A96.docx
+2026-03-20 13:53:34,549 - INFO -   -> A-96: AXCELL, Kathleen Ann
+2026-03-20 13:53:34,549 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A97.docx
+2026-03-20 13:53:34,590 - INFO -   -> A-97: split into 2 contacts
+2026-03-20 13:53:34,590 - INFO -   -> A-97: GRINHAM, Sebastian Azuolas
+2026-03-20 13:53:34,590 - INFO -   -> A-97: ANTUNES, Sylvia Santos
+2026-03-20 13:53:34,590 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A98.docx
+2026-03-20 13:53:34,628 - INFO -   -> A-98: AUGUST, Karen Dawn
+2026-03-20 13:53:34,628 - INFO - Parsing: /Volumes/server/ADDR/A/ADDR.A99.docx
+2026-03-20 13:53:34,670 - INFO -   -> A-99: ANDREWS, Jacqueline
+2026-03-20 13:53:34,670 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.100.docx
+2026-03-20 13:53:34,712 - INFO -   -> A-100: AWITI, Chrismagi Adhiambo d.o.b. August 2, 1990
+2026-03-20 13:53:34,712 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.101.docx
+2026-03-20 13:53:34,754 - INFO -   -> A-101: AFANASYEVA, Violetta
+2026-03-20 13:53:34,755 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.102.docx
+2026-03-20 13:53:34,796 - INFO -   -> A-102: split into 2 contacts
+2026-03-20 13:53:34,796 - INFO -   -> A-102: ADEY, Sean
+2026-03-20 13:53:34,796 - INFO -   -> A-102: LACKIE, Heather
+2026-03-20 13:53:34,796 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.103.docx
+2026-03-20 13:53:34,844 - INFO -   -> A-103: split into 2 contacts
+2026-03-20 13:53:34,844 - INFO -   -> A-103: ANDREW, Kirk Robert
+2026-03-20 13:53:34,844 - INFO -   -> A-103: ANDREW, Cara Elizabeth
+2026-03-20 13:53:34,845 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.104.docx
+2026-03-20 13:53:34,896 - INFO -   -> A-104: Anderson, Laura
+2026-03-20 13:53:34,896 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.105.docx
+2026-03-20 13:53:34,946 - INFO -   -> A-105: Anderson, Joseph Leigh
+2026-03-20 13:53:34,946 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.106.docx
+2026-03-20 13:53:34,998 - INFO -   -> A-106: Afara, Rima Mamiche
+2026-03-20 13:53:34,998 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.107.docx
+2026-03-20 13:53:35,045 - INFO -   -> A-107: AGAR, Robert and Tania
+2026-03-20 13:53:35,045 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.108.docx
+2026-03-20 13:53:35,088 - INFO -   -> A-108: ANNIS, Beverley
+2026-03-20 13:53:35,088 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.109.docx
+2026-03-20 13:53:35,140 - INFO -   -> A-109: split into 2 contacts
+2026-03-20 13:53:35,140 - INFO -   -> A-109: AKHTAR, Sobia
+2026-03-20 13:53:35,140 - INFO -   -> A-109: HASSAN, Syed Zaki
+2026-03-20 13:53:35,140 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.110.docx
+2026-03-20 13:53:35,192 - INFO -   -> A-110: split into 2 contacts
+2026-03-20 13:53:35,192 - INFO -   -> A-110: ALLEN, John Edward
+2026-03-20 13:53:35,192 - INFO -   -> A-110: ALLEN, Brenda Mary
+2026-03-20 13:53:35,192 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.111.docx
+2026-03-20 13:53:35,243 - INFO -   -> A-111: split into 2 contacts
+2026-03-20 13:53:35,243 - INFO -   -> A-111: AHN, Suryul
+2026-03-20 13:53:35,243 - INFO -   -> A-111: AHAN, Joyce Yoonhwa
+2026-03-20 13:53:35,243 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.112.docx
+2026-03-20 13:53:35,297 - INFO -   -> A-112: ARDERN, David
+2026-03-20 13:53:35,297 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.113.docx
+2026-03-20 13:53:35,350 - INFO -   -> A-113: ADELASOYE, Oluremi and Aarinola
+2026-03-20 13:53:35,350 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.114.docx
+2026-03-20 13:53:35,400 - INFO -   -> A-114: AVIS, Bernice Candice
+2026-03-20 13:53:35,400 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.115.docx
+2026-03-20 13:53:35,449 - INFO -   -> A-115: AKIYAMA, Kiley and Jaime
+2026-03-20 13:53:35,449 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.116.docx
+2026-03-20 13:53:35,499 - INFO -   -> A-116: split into 2 contacts
+2026-03-20 13:53:35,499 - INFO -   -> A-116: AIKEN, Thomas Walter
+2026-03-20 13:53:35,499 - INFO -   -> A-116: WRIGHT-AIKEN, Olive Lottie
+2026-03-20 13:53:35,499 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.117.docx
+2026-03-20 13:53:35,548 - INFO -   -> A-117: ARMSTRONG, Richard
+2026-03-20 13:53:35,548 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.118.docx
+2026-03-20 13:53:35,601 - INFO -   -> A-118: split into 2 contacts
+2026-03-20 13:53:35,601 - INFO -   -> A-118: ANDERSON, Kristan Nicole
+2026-03-20 13:53:35,601 - INFO -   -> A-118: WILMS, Brian Thomas
+2026-03-20 13:53:35,601 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.119.docx
+2026-03-20 13:53:35,649 - INFO -   -> A-119: ARBOUR, Karen Louise
+2026-03-20 13:53:35,649 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.120.docx
+2026-03-20 13:53:35,706 - INFO -   -> A-120: ABBOTT, Jessie Elaine
+2026-03-20 13:53:35,706 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.121.docx
+2026-03-20 13:53:35,755 - INFO -   -> A-121: ARMITAGE, Laverne Joseph
+2026-03-20 13:53:35,755 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.122.docx
+2026-03-20 13:53:35,804 - INFO -   -> A-122: ATKINS, Lois Patricia
+2026-03-20 13:53:35,804 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.123.docx
+2026-03-20 13:53:35,852 - INFO -   -> A-123: ASHDOWN, John
+2026-03-20 13:53:35,852 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.124.docx
+2026-03-20 13:53:35,902 - INFO -   -> A-124: , 
+2026-03-20 13:53:35,903 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.125.docx
+2026-03-20 13:53:35,950 - INFO -   -> A-125: split into 2 contacts
+2026-03-20 13:53:35,950 - INFO -   -> A-125: ARMOUR, Peter Haynes
+2026-03-20 13:53:35,950 - INFO -   -> A-125: ARMOUR, Karen Elizabeth
+2026-03-20 13:53:35,950 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.126.docx
+2026-03-20 13:53:36,005 - INFO -   -> A-126: ARMITAGE, Beverly Lynn
+2026-03-20 13:53:36,005 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.127.docx
+2026-03-20 13:53:36,063 - INFO -   -> A-127: AYLWARD, Paul
+2026-03-20 13:53:36,063 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.128.docx
+2026-03-20 13:53:36,149 - INFO -   -> A-128: Adams, Shirley Barbara
+2026-03-20 13:53:36,149 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.129.docx
+2026-03-20 13:53:36,205 - INFO -   -> A-129: AUDIA, Sam and Monica
+2026-03-20 13:53:36,205 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.130.docx
+2026-03-20 13:53:36,255 - INFO -   -> A-130: split into 2 contacts
+2026-03-20 13:53:36,255 - INFO -   -> A-130: ANTONOPULOS, Shane Tyler
+2026-03-20 13:53:36,255 - INFO -   -> A-130: MURRAY, Stacey Anne
+2026-03-20 13:53:36,255 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.131.docx
+2026-03-20 13:53:36,306 - INFO -   -> A-131: ALZNER, Regina
+2026-03-20 13:53:36,306 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.132.docx
+2026-03-20 13:53:36,357 - INFO -   -> A-132: ANTHONY, Mel
+2026-03-20 13:53:36,357 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.133.docx
+2026-03-20 13:53:36,408 - INFO -   -> A-133: split into 2 contacts
+2026-03-20 13:53:36,409 - INFO -   -> A-133: ADLAM, Rodger Leonard
+2026-03-20 13:53:36,409 - INFO -   -> A-133: ADLAM, Wendy Louise
+2026-03-20 13:53:36,409 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.134.docx
+2026-03-20 13:53:36,461 - INFO -   -> A-134: ALLEN, Brian and Helen
+2026-03-20 13:53:36,461 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.135.docx
+2026-03-20 13:53:36,511 - INFO -   -> A-135: ALLEN, Wendy
+2026-03-20 13:53:36,511 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.136.docx
+2026-03-20 13:53:36,563 - INFO -   -> A-136: ARTHUR, Katherine Anne
+2026-03-20 13:53:36,563 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.137.docx
+2026-03-20 13:53:36,615 - INFO -   -> : AHEE, Julie
+2026-03-20 13:53:36,615 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.138.docx
+2026-03-20 13:53:36,673 - INFO -   -> A-138: ASHTON, Joan
+2026-03-20 13:53:36,673 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.139.docx
+2026-03-20 13:53:36,731 - INFO -   -> : split into 2 contacts
+2026-03-20 13:53:36,731 - INFO -   -> : ABBOTT, Marshall Rodger
+2026-03-20 13:53:36,731 - INFO -   -> : HUNTER, Lara Alanna
+2026-03-20 13:53:36,731 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.140.docx
+2026-03-20 13:53:36,782 - INFO -   -> : ASH, Stephen
+2026-03-20 13:53:36,782 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.141.docx
+2026-03-20 13:53:36,834 - INFO -   -> A-141: AHERN, Patrick Robert David
+2026-03-20 13:53:36,835 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.142.docx
+2026-03-20 13:53:36,883 - INFO -   -> A-142: ALLEMANO, Linda Marie Judith
+2026-03-20 13:53:36,884 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.143.docx
+2026-03-20 13:53:36,936 - INFO -   -> A-143: split into 2 contacts
+2026-03-20 13:53:36,936 - INFO -   -> A-143: ARBOUR, William Joseph
+2026-03-20 13:53:36,936 - INFO -   -> A-143: ARBOUR, Mary Leona (Mary Lea)
+2026-03-20 13:53:36,936 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.144.docx
+2026-03-20 13:53:36,988 - INFO -   -> A-144: split into 2 contacts
+2026-03-20 13:53:36,988 - INFO -   -> A-144: ANDERSON, Warren Karl
+2026-03-20 13:53:36,988 - INFO -   -> A-144: ANDERSON, Dianne Eleanor
+2026-03-20 13:53:36,988 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.145.docx
+2026-03-20 13:53:37,040 - INFO -   -> A-145: split into 2 contacts
+2026-03-20 13:53:37,040 - INFO -   -> A-145: ALLEN, Ryan Kurtis
+2026-03-20 13:53:37,041 - INFO -   -> A-145: ALLEN, Hayden Kerry
+2026-03-20 13:53:37,041 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.146.docx
+2026-03-20 13:53:37,087 - INFO -   -> A-146: ANCHOR, Todd and Alexandria
+2026-03-20 13:53:37,087 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.147.docx
+2026-03-20 13:53:37,139 - INFO -   -> A-147: split into 2 contacts
+2026-03-20 13:53:37,140 - INFO -   -> A-147: ALLEN, Michael MacDonald
+2026-03-20 13:53:37,140 - INFO -   -> A-147: ALLEN, Kimberly Ann
+2026-03-20 13:53:37,140 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.148.docx
+2026-03-20 13:53:37,190 - INFO -   -> A-148: ADAM, Maureen
+2026-03-20 13:53:37,190 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.149.docx
+2026-03-20 13:53:37,238 - INFO -   -> A-149: ABANTAO, Margarito and Marilou
+2026-03-20 13:53:37,239 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.150.docx
+2026-03-20 13:53:37,287 - INFO -   -> A-150: AMUNDSEN, Harry and Elsie Anne
+2026-03-20 13:53:37,287 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.151.docx
+2026-03-20 13:53:37,337 - INFO -   -> A-151: , 
+2026-03-20 13:53:37,337 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.152.docx
+2026-03-20 13:53:37,389 - INFO -   -> A-152: split into 2 contacts
+2026-03-20 13:53:37,389 - INFO -   -> A-152: ADAMS, Matthew
+2026-03-20 13:53:37,389 - INFO -   -> A-152: LAINE, Alyson
+2026-03-20 13:53:37,389 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.153.docx
+2026-03-20 13:53:37,438 - INFO -   -> A-153: split into 2 contacts
+2026-03-20 13:53:37,438 - INFO -   -> A-153: ARNOTT, Joanne Elizabeth
+2026-03-20 13:53:37,438 - INFO -   -> A-153: WHITE, David Bruce
+2026-03-20 13:53:37,438 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.154.docx
+2026-03-20 13:53:37,485 - INFO -   -> A-154: AINSWORTH, Heather Ann
+2026-03-20 13:53:37,485 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.155.docx
+2026-03-20 13:53:37,534 - INFO -   -> A-155: ACCARDI, Marco
+2026-03-20 13:53:37,534 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.156.docx
+2026-03-20 13:53:37,578 - INFO -   -> A-156: ANDERSON, Aaron Russell Barclay
+2026-03-20 13:53:37,579 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.157.docx
+2026-03-20 13:53:37,630 - INFO -   -> A-157: AUCHTERLONIE, Jessica
+2026-03-20 13:53:37,630 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.158.docx
+2026-03-20 13:53:37,687 - INFO -   -> A-158: ALLEYNE, John and Jacqueline
+2026-03-20 13:53:37,688 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.159.docx
+2026-03-20 13:53:37,739 - INFO -   -> A-159: ASHIE, Jerry and Cathy
+2026-03-20 13:53:37,739 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.160.docx
+2026-03-20 13:53:37,788 - INFO -   -> A-160: AHUJA, Vaishali
+2026-03-20 13:53:37,788 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.161.docx
+2026-03-20 13:53:37,842 - INFO -   -> A-161: ARMSTRONG, David and Wendy
+2026-03-20 13:53:37,842 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.162.docx
+2026-03-20 13:53:37,894 - INFO -   -> A-162: AINSWORTH, Phil and Joan
+2026-03-20 13:53:37,894 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.163.docx
+2026-03-20 13:53:37,949 - INFO -   -> A-163: ALLEN, Fran
+2026-03-20 13:53:37,949 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.164.docx
+2026-03-20 13:53:38,004 - INFO -   -> A-164: ADAMS, Michael and Caitlin
+2026-03-20 13:53:38,004 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.165.docx
+2026-03-20 13:53:38,087 - INFO -   -> A-165: ARBOUR, Monica
+2026-03-20 13:53:38,087 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.166.docx
+2026-03-20 13:53:38,139 - INFO -   -> A-166: ARBOUR, John
+2026-03-20 13:53:38,139 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.167.docx
+2026-03-20 13:53:38,189 - INFO -   -> A-167: AMANKWAH, Donna
+2026-03-20 13:53:38,190 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.168.docx
+2026-03-20 13:53:38,242 - INFO -   -> A-168: ALLEN, Helen
+2026-03-20 13:53:38,242 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.169.docx
+2026-03-20 13:53:38,292 - INFO -   -> A-169: ALLEN, Helen
+2026-03-20 13:53:38,292 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.170.docx
+2026-03-20 13:53:38,354 - INFO -   -> A-170: ALDERSON, Christopher and Angela
+2026-03-20 13:53:38,354 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.171.docx
+2026-03-20 13:53:38,406 - INFO -   -> A-171: ABBADASARI, Robert & Mary
+2026-03-20 13:53:38,406 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.172.docx
+2026-03-20 13:53:38,456 - INFO -   -> A-172: ALGUIRE, Gerald
+2026-03-20 13:53:38,456 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.173.docx
+2026-03-20 13:53:38,510 - INFO -   -> A-173: , 
+2026-03-20 13:53:38,510 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.174.docx
+2026-03-20 13:53:38,566 - INFO -   -> A-174: split into 2 contacts
+2026-03-20 13:53:38,566 - INFO -   -> A-174: ARDRON, Michelle
+2026-03-20 13:53:38,566 - INFO -   -> A-174: McCALLUM, Jordan
+2026-03-20 13:53:38,566 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.175.docx
+2026-03-20 13:53:38,610 - INFO -   -> A-175: split into 2 contacts
+2026-03-20 13:53:38,611 - INFO -   -> A-175: RAVESTEIN, Everett
+2026-03-20 13:53:38,611 - INFO -   -> A-175: ALLEN, Sandra
+2026-03-20 13:53:38,611 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.176.docx
+2026-03-20 13:53:38,660 - INFO -   -> A-176: ALGUIRE, Michael
+2026-03-20 13:53:38,661 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.177.docx
+2026-03-20 13:53:38,714 - INFO -   -> A-177: ALGUIRE, Gerald
+2026-03-20 13:53:38,715 - INFO - Parsing: /Volumes/server/ADDR/A/ADDRA.178.docx
+2026-03-20 13:53:38,761 - INFO -   -> A-178: ARDELEAN, Corneliu
+2026-03-20 13:53:38,786 - INFO - Done. 208 contacts, 566 matters, 0 errors.
+2026-03-20 14:30:51,192 - INFO - Starting ADDR scrape of: /Volumes/server/ADDR/Z
+2026-03-20 14:30:51,203 - INFO - Found 12 files.
+2026-03-20 14:30:51,203 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z01.docx
+2026-03-20 14:30:51,242 - INFO -   -> Z-1: ZAGRODNEY-ENGLISH, Kathryn
+2026-03-20 14:30:51,242 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z02.docx
+2026-03-20 14:30:51,278 - INFO -   -> Z-2: split into 2 contacts
+2026-03-20 14:30:51,278 - INFO -   -> Z-2: NEWTON, Robert
+2026-03-20 14:30:51,278 - INFO -   -> Z-2: ZMOZYNSKI, Barbara
+2026-03-20 14:30:51,278 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z03.docx
+2026-03-20 14:30:51,317 - INFO -   -> Z-3: ZIMNICKI, Susan and Mark
+2026-03-20 14:30:51,317 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z04.docx
+2026-03-20 14:30:51,356 - INFO -   -> Z-4: ZATORSKI, Mary Alexandra
+2026-03-20 14:30:51,356 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z05.docx
+2026-03-20 14:30:51,397 - INFO -   -> Z-5: split into 2 contacts
+2026-03-20 14:30:51,397 - INFO -   -> Z-5: ZANG, Feng
+2026-03-20 14:30:51,397 - INFO -   -> Z-5: SU, Changyu
+2026-03-20 14:30:51,397 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z10.docx
+2026-03-20 14:30:51,439 - INFO -   -> Z-10: ZIMMER, Kristen
+2026-03-20 14:30:51,440 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z11.docx
+2026-03-20 14:30:51,483 - INFO -   -> Z-11: , 
+2026-03-20 14:30:51,483 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z12.docx
+2026-03-20 14:30:51,523 - INFO -   -> Z-12: ZADOW, Margaret Jeanette
+2026-03-20 14:30:51,523 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z6.docx
+2026-03-20 14:30:51,565 - INFO -   -> Z-6: ZEITOUN, Andrew
+2026-03-20 14:30:51,565 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z7.docx
+2026-03-20 14:30:51,606 - INFO -   -> Z-7: ZMOZYNSKI, Carl Chester
+2026-03-20 14:30:51,607 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z8.docx
+2026-03-20 14:30:51,648 - INFO -   -> Z-8: ZUBIS, Vivian
+2026-03-20 14:30:51,648 - INFO - Parsing: /Volumes/server/ADDR/Z/ADDR.Z9.docx
+2026-03-20 14:30:51,689 - INFO -   -> Z-9: split into 2 contacts
+2026-03-20 14:30:51,690 - INFO -   -> Z-9: ZAMORA, Mariana
+2026-03-20 14:30:51,690 - INFO -   -> Z-9: REYES, Ricardo
+2026-03-20 14:30:51,694 - INFO - Done. 15 contacts, 20 matters, 0 errors.

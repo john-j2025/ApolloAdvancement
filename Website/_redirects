@@ -3,7 +3,6 @@
 # Trailing-slash cleanup: strip trailing slashes on core pages
 /about/         /about      301
 /services/      /services   301
-/results/       /results    301
 /resources/     /resources  301
 /contact/       /contact    301
 
@@ -56,3 +55,7 @@
 /services/board-staff-training/                /services/board-staff-training                301
 /services/content-communications-strategy/     /services/content-communications-strategy     301
 /services/website-strategy-seo/                /services/website-strategy-seo                301
+
+# Results/case studies: trailing-slash cleanup
+/results/wayside-academy/          /results/wayside-academy          301
+/results/peterborough-singers/     /results/peterborough-singers     301

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Apollo Advancement">
+    <meta property="og:title" content="Case Study: Peterborough Singers Legacy Fund | Apollo Advancement">
+    <meta property="og:description" content="How a community choir launched a $250K legacy campaign, raising over $100K in five weeks and growing donors from 80 to 325.">
+    <meta property="og:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://apolloadvancement.com/results/peterborough-singers">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Case Study: Peterborough Singers Legacy Fund | Apollo Advancement">
+    <meta name="twitter:description" content="How a community choir launched a $250K legacy campaign, raising over $100K in five weeks and growing donors from 80 to 325.">
+    <meta name="twitter:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
+    <meta name="description" content="How a community choir launched a $250K legacy campaign, raising over $100K in five weeks and growing donors from 80 to 325.">
+    <title>Case Study: Peterborough Singers Legacy Fund | Apollo Advancement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet"></noscript>
+    <style>
+        :root {
+            --color-bg: #FFFAF5;
+            --color-bg-warm: #F5EBE0;
+            --color-bg-dark: #1A1410;
+            --color-text: #1A1410;
+            --color-text-soft: #5C514A;
+            --color-accent: #C8461C;
+            --color-accent-hover: #A83610;
+            --color-accent-glow: #E86E3A;
+            --color-rule: #DDD2C6;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body: 'DM Sans', -apple-system, sans-serif;
+            --max-width: 1280px;
+            --content-width: 760px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 18px; scroll-behavior: smooth; }
+        body { font-family: var(--font-body); background-color: var(--color-bg); color: var(--color-text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+        /* NAV */
+        nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,250,245,0.95); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--color-rule); box-shadow: 0 1px 20px rgba(26,20,16,0.04); }
+        .nav-inner { max-width: var(--max-width); margin: 0 auto; padding: 1.1rem 2.5rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-brand { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: var(--color-text); text-decoration: none; }
+        .nav-brand span { color: var(--color-accent); }
+        .nav-links { display: flex; gap: 2.5rem; align-items: center; list-style: none; }
+        .nav-links a { font-size: 0.78rem; font-weight: 600; color: var(--color-text-soft); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+        .nav-links a:hover, .nav-links a.active { color: var(--color-text); }
+        .nav-links .nav-cta { color: #fff; background: var(--color-accent); padding: 0.6rem 1.4rem; border-radius: 3px; transition: background 0.2s; }
+        .nav-links .nav-cta:hover { background: var(--color-accent-hover); color: #fff; }
+        .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; }
+        .nav-toggle span { display: block; width: 26px; height: 2px; background: var(--color-text); margin: 6px 0; transition: all 0.3s; }
+
+        /* HERO */
+        .case-hero {
+            background: var(--color-bg-warm);
+            padding: 10rem 2.5rem 5rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .case-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 120% 80% at 30% 20%, rgba(200,70,28,0.06) 0%, transparent 60%),
+                radial-gradient(ellipse 80% 100% at 80% 70%, rgba(168,54,16,0.04) 0%, transparent 55%);
+            z-index: 0;
+        }
+        .case-hero-inner { max-width: 820px; margin: 0 auto; position: relative; z-index: 1; }
+        .case-hero .section-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 1.2rem; opacity: 0; animation: fadeUp 0.6s ease 0.1s forwards; }
+        .case-hero h1 { font-family: var(--font-display); font-size: clamp(2.4rem, 5.5vw, 3.6rem); font-weight: 900; line-height: 1.08; letter-spacing: -0.02em; color: var(--color-bg-dark); margin-bottom: 1.8rem; opacity: 0; animation: fadeUp 0.7s ease 0.2s forwards; }
+        .case-hero .hero-sub { font-size: 1.15rem; color: rgba(26,18,16,0.7); line-height: 1.7; max-width: 640px; margin-bottom: 0; opacity: 0; animation: fadeUp 0.7s ease 0.35s forwards; }
+        .stats-row { display: flex; gap: 3.5rem; margin-top: 2.5rem; padding-top: 2.5rem; border-top: 1px solid rgba(26,18,16,0.12); flex-wrap: wrap; opacity: 0; animation: fadeUp 0.7s ease 0.5s forwards; }
+        .stat-item { text-align: left; }
+        .stat-num { font-family: var(--font-display); font-size: 2.2rem; font-weight: 800; color: var(--color-accent); display: block; line-height: 1.2; }
+        .stat-label { font-size: 0.78rem; color: rgba(26,18,16,0.5); margin-top: 0.3rem; letter-spacing: 0.02em; }
+
+        /* BACK LINK */
+        .back-bar { padding: 1.5rem 2.5rem; border-bottom: 1px solid var(--color-rule); }
+        .back-bar-inner { max-width: var(--max-width); margin: 0 auto; }
+        .back-link { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--color-text-soft); text-decoration: none; }
+        .back-link:hover { color: var(--color-accent); }
+
+        /* CONTENT SECTIONS */
+        .content-section { padding: 5rem 2.5rem; }
+        .content-inner { max-width: var(--content-width); margin: 0 auto; }
+        .section-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 1.2rem; }
+        .content-section h2 { font-family: var(--font-display); font-size: clamp(1.6rem, 3.5vw, 2.2rem); font-weight: 800; color: var(--color-text); margin-bottom: 1.5rem; line-height: 1.2; }
+        .content-section p { font-size: 1.05rem; line-height: 1.8; color: var(--color-text-soft); margin-bottom: 1.4rem; max-width: var(--content-width); }
+        .content-section p:last-child { margin-bottom: 0; }
+        .content-section p strong { color: var(--color-text); font-weight: 600; }
+        .content-section a { color: var(--color-accent); text-decoration: none; border-bottom: 1px solid var(--color-accent); font-weight: 600; }
+        .content-section a:hover { color: var(--color-accent-hover); border-color: var(--color-accent-hover); }
+        .section-warm { background: var(--color-bg-warm); }
+
+        /* CASE PHOTO */
+        .case-photo { margin: 2.5rem 0; text-align: center; }
+        .case-photo img { max-width: 100%; width: 700px; border-radius: 6px; box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
+        .case-photo-caption { font-size: 0.82rem; color: var(--color-text-soft); margin-top: 0.8rem; font-style: italic; }
+
+        /* TESTIMONIAL */
+        .testimonial-section { padding: 5rem 2.5rem; background: var(--color-bg-dark); }
+        .testimonial-inner { max-width: var(--content-width); margin: 0 auto; }
+        .testimonial-quote { font-family: var(--font-display); font-size: clamp(1.1rem, 2.2vw, 1.35rem); font-style: italic; font-weight: 400; line-height: 1.6; color: rgba(255,255,255,0.92); margin-bottom: 1.5rem; padding-left: 2rem; border-left: 3px solid var(--color-accent); }
+        .testimonial-quote p { margin-bottom: 1.2rem; }
+        .testimonial-quote p:last-child { margin-bottom: 0; }
+        .testimonial-attr { font-size: 0.9rem; font-weight: 600; color: var(--color-accent-glow); padding-left: 2rem; }
+        .testimonial-attr span { display: block; font-weight: 400; color: rgba(255,255,255,0.45); margin-top: 0.2rem; }
+
+        /* NEXT CASE STUDY */
+        .next-study { padding: 4rem 2.5rem; border-top: 1px solid var(--color-rule); }
+        .next-study-inner { max-width: var(--content-width); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+        .next-study-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-text-soft); margin-bottom: 0.4rem; }
+        .next-study-title { font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; color: var(--color-text); }
+        .next-study-title a { color: var(--color-text); text-decoration: none; transition: color 0.2s; }
+        .next-study-title a:hover { color: var(--color-accent); }
+        .next-study-arrow { font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent); text-decoration: none; padding-bottom: 3px; border-bottom: 2px solid var(--color-accent); transition: color 0.2s, border-color 0.2s; }
+        .next-study-arrow:hover { color: var(--color-accent-hover); border-color: var(--color-accent-hover); }
+
+        /* CLOSING CTA */
+        .closing { padding: 8rem 2.5rem; text-align: center; }
+        .closing-inner { max-width: 750px; margin: 0 auto; }
+        .closing-headline { font-family: var(--font-display); font-size: clamp(2.4rem, 5vw, 3.8rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; color: var(--color-text); margin-bottom: 1.5rem; }
+        .closing-body { font-size: 1.1rem; color: var(--color-text-soft); line-height: 1.8; margin-bottom: 2.8rem; }
+        .cta-btn { display: inline-block; font-size: 0.88rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--color-accent); padding: 1.1rem 2.8rem; text-decoration: none; border-radius: 3px; transition: background 0.25s, transform 0.2s, box-shadow 0.25s; }
+        .cta-btn:hover { background: var(--color-accent-hover); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(200,70,28,0.28); }
+
+        /* FOOTER */
+        footer { background: var(--color-bg-dark); padding: 3rem 2.5rem; }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+        .footer-brand { font-family: var(--font-display); font-size: 1rem; font-weight: 900; color: #fff; }
+        .footer-links { list-style: none; display: flex; gap: 2rem; flex-wrap: wrap; }
+        .footer-links a { font-size: 0.78rem; font-weight: 600; color: rgba(255,255,255,0.55); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+        .footer-links a:hover { color: #fff; }
+        .footer-copy { font-size: 0.78rem; color: rgba(255,255,255,0.35); width: 100%; margin-top: 0.5rem; }
+
+        /* ANIMATIONS */
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+        .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            html { font-size: 16px; }
+            .nav-inner { padding: 1rem 1.5rem; }
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--color-bg); border-bottom: 1px solid var(--color-rule); flex-direction: column; padding: 1.5rem; gap: 1.2rem; }
+            .nav-links.open { display: flex; }
+            .nav-toggle { display: block; }
+            .nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 6px); }
+            .nav-toggle.open span:nth-child(2) { opacity: 0; }
+            .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
+            .case-hero { padding: 7rem 1.5rem 3.5rem; }
+            .content-section { padding: 3.5rem 1.5rem; }
+            .back-bar { padding: 1.2rem 1.5rem; }
+            .closing { padding: 5rem 1.5rem; }
+            .testimonial-section { padding: 3.5rem 1.5rem; }
+            .stats-row { gap: 2rem; }
+            .next-study { padding: 3rem 1.5rem; }
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DS2DG3WFX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6DS2DG3WFX');
+    </script>
+    <link rel="canonical" href="https://apolloadvancement.com/results/peterborough-singers">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+</head>
+<body>
+
+<nav id="nav">
+    <div class="nav-inner">
+        <a href="../" class="nav-brand">Apollo <span>Advancement</span></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="../services">Services</a></li>
+            <li><a href="../about">About</a></li>
+            <li><a href="./" class="active">Results</a></li>
+            <li><a href="../blog/">Blog</a></li>
+            <li><a href="../resources">Resources</a></li>
+            <li><a href="../contact" class="nav-cta">Start a Conversation</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header class="case-hero">
+    <div class="case-hero-inner">
+        <p class="section-label">Case Study</p>
+        <h1>A campaign built on honouring a community's story.</h1>
+        <p class="hero-sub">How the Peterborough Singers launched a $250K legacy fund, raising over $100K in five weeks and growing their donor base from 80 to 325.</p>
+        <div class="stats-row">
+            <div class="stat-item">
+                <span class="stat-num">$100K+</span>
+                <span class="stat-label">raised in 5 weeks</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">325</span>
+                <span class="stat-label">donors (from 80)</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">$250K</span>
+                <span class="stat-label">campaign goal</span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- BACK LINK -->
+<div class="back-bar">
+    <div class="back-bar-inner">
+        <a href="./" class="back-link">&larr; All Case Studies</a>
+    </div>
+</div>
+
+<!-- THE STORY -->
+<section class="content-section reveal">
+<div class="content-inner">
+    <p class="section-label">The Organization</p>
+    <h2>One of Ontario's most beloved community choirs.</h2>
+    <p>The Peterborough Singers are one of Ontario's most beloved community choral organizations. The choir was founded 35 years ago by Syd Birrell, a local organist and choir director.</p>
+    <p>When the organization decided to launch the Syd Birrell Legacy Fund to mark Syd's retirement, they needed someone who could handle both the strategic demands of an ambitious campaign and the deeply personal nature of what it represented.</p>
+</div>
+</section>
+
+<section class="content-section section-warm reveal">
+<div class="content-inner">
+    <p class="section-label">The Heart</p>
+    <h2>More than a choir. A place of healing.</h2>
+    <p>This was not a standard fundraising project. The choir Syd Birrell founded 35 years ago is not just one of the best community choirs in Canada; it has also been transformational in the lives of countless people, including Syd.</p>
+    <p>The deep heart in the choir can in part be traced to the role it played in helping Syd and his family navigate the cancer diagnosis and death of his son, James, in 2001. Syd conducted Handel's Messiah for the Singers on the very eve of his son's death. In the decades since, hundreds of people have found hope and healing as either choir or audience members.</p>
+    <p>This campaign needed a deep sensitivity to the unique heart and history of this choir.</p>
+
+    <div class="case-photo">
+        <img src="../syd-birrell-family.webp" alt="Syd Birrell with family" loading="lazy" width="700">
+        <p class="case-photo-caption">Syd Birrell (centre) with his sister Diana (left), wife Pam (right), and daughter Rebecca and son Ben.</p>
+    </div>
+</div>
+</section>
+
+<section class="content-section reveal">
+<div class="content-inner">
+    <p class="section-label">The Work</p>
+    <h2>Storytelling first. Strategy second.</h2>
+    <p>The work began not with spreadsheets, but with stories: conversations with Syd and his family, with long-time choir members, with supporters who had been part of the Singers' journey for decades.</p>
+    <p>I developed the campaign strategy, crafted the donor communications, and managed the engagement. But the heart of the work was storytelling: finding the language that honoured what the Peterborough Singers meant to the people who built it, and who have benefitted from it, and making that story compelling enough to inspire a new generation of supporters.</p>
+    <p>You can view the campaign materials here: <a href="../peterborough-singers-case-for-support.pdf" target="_blank">Case for Support</a> and <a href="../peterborough-singers-magazine.pdf" target="_blank">Campaign Magazine</a>.</p>
+</div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial-section reveal">
+    <div class="testimonial-inner">
+        <div class="testimonial-quote">
+            <p>"For 35 years I served as Artistic Director of the Peterborough Singers, a choir of 130 members that I founded. When I retired, it was suggested that a fund be established and money raised as a legacy to help the Choir with both transition and in moving forward once a new Artistic Director was chosen.</p>
+            <p>John Jalsevac was engaged by the board to run this campaign, which became known as the Syd Birrell Legacy Fund. In five short weeks, under John's guidance, we raised over $100,000, more than double any campaign total we had run in the previous 35 years. The campaign is still ongoing, and that number continues to grow.</p>
+            <p>John is smart, compassionate, intuitive, hard-working, and extremely knowledgeable when it comes to the art of fundraising. He is well connected and diligent. He is a leader. His writing is extraordinary. He has the ability to find stories that matter in the lives of both audience members and choir members as they relate to the Peterborough Singers, and to write extraordinary articles which are then shared in newsletters before the real asking for money even happens. This establishes great interest and arouses the desire to help financially.</p>
+            <p>John knows the databases and other tools of the trade that are necessary to track donations. He knows how to research and identify donors of high net worth. He speaks very well to our audiences during concerts.</p>
+            <p>I can wholeheartedly recommend John as the person an organization wants to run a campaign and handle every facet of that project. I am happy to take questions from prospective organizations."</p>
+        </div>
+        <p class="testimonial-attr">Syd Birrell<span>Founder &amp; Artistic Director (retired), The Peterborough Singers</span></p>
+    </div>
+</section>
+
+<section class="content-section reveal">
+<div class="content-inner">
+    <div class="case-photo">
+        <img src="../syd-birrell-portrait.webp" alt="Syd Birrell" loading="lazy" width="700">
+        <p class="case-photo-caption">Syd Birrell, founder of the Peterborough Singers.</p>
+    </div>
+</div>
+</section>
+
+<!-- NEXT CASE STUDY -->
+<div class="next-study">
+    <div class="next-study-inner">
+        <div>
+            <p class="next-study-label">Next Case Study</p>
+            <p class="next-study-title"><a href="wayside-academy">Wayside Academy: Building from Nothing &rarr;</a></p>
+        </div>
+        <a href="wayside-academy" class="next-study-arrow">Read Case Study &rarr;</a>
+    </div>
+</div>
+
+<!-- CLOSING CTA -->
+<section class="closing">
+    <div class="closing-inner reveal">
+        <h2 class="closing-headline">Ready to build something like this?</h2>
+        <p class="closing-body">Every engagement starts with a conversation. No pitch. No pressure. Just an honest discussion about where you are and where you want to be.</p>
+        <a href="../contact" class="cta-btn">Start a Conversation &rarr;</a>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand">Apollo Advancement</div>
+        <ul class="footer-links">
+            <li><a href="../services">Services</a></li>
+            <li><a href="../about">About</a></li>
+            <li><a href="./">Results</a></li>
+            <li><a href="../blog/">Blog</a></li>
+            <li><a href="../contact">Contact</a></li>
+        </ul>
+        <p class="footer-copy">&copy; 2026 Apollo Advancement. Kawartha Lakes, Ontario. Serving non-profits across Canada and the United States.</p>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('navToggle').addEventListener('click', function() {
+        document.getElementById('navLinks').classList.toggle('open');
+        this.classList.toggle('open');
+    });
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

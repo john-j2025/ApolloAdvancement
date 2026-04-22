@@ -6,7 +6,6 @@
 /results/       /results    301
 /resources/     /resources  301
 /contact/       /contact    301
-/blog/          /blog       301
 
 # Canonical redirects: .html → pretty URLs
 /about.html        /about      301

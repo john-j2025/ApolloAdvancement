@@ -155,6 +155,9 @@
             .nav-links a { color: var(--color-text-soft); }
             .nav-toggle { display: block; }
         }
+        @media (max-width: 700px) {
+            .pricing-grid { grid-template-columns: 1fr !important; }
+        }
         @media (max-width: 600px) {
             .page-header { padding: 7rem 1.5rem 3.5rem; }
             .content-section { padding: 3.5rem 1.5rem; }
@@ -279,29 +282,73 @@
 <div class="content-inner">
     <p class="section-label">What It Is</p>
     <h2>Start with the truth.</h2>
-    <p>Before you can build a better fundraising program, you need an honest picture of the one you have. The Fundraising Audit is a comprehensive review of your donor base, your communications, your systems, your board engagement, and your untapped potential - followed by a written strategic plan with clear priorities and a roadmap your team can actually follow.</p>
-        <p>This isn't a report full of generic best practices. It's a frank, specific assessment of your organization - what's working, what isn't, and what to do next. Every recommendation is grounded in your actual situation, your actual donors, and your actual capacity.</p>
+    <p>Before you can build a better fundraising program, you need an honest picture of the one you have. The Fundraising Audit is a comprehensive, 6-to-8-week diagnostic that examines your fundraising from the inside out. It covers seven dimensions of your development program, benchmarks your performance against sector standards, and identifies the underlying beliefs that are quietly shaping your results.</p>
+    <p>This isn't a report full of generic best practices. It's a frank, specific assessment of your organization: what's working, what isn't, and what to do next. Every finding is grounded in your actual data, your actual donors, and your actual capacity.</p>
 </div>
 </section>
 
 <section class="content-section reveal" style="background:var(--color-bg-warm);">
 <div class="content-inner">
-    <p class="section-label">What We Review</p>
+    <p class="section-label">The Seven Areas of the Audit</p>
     <h2>A comprehensive look at every dimension of your program.</h2>
-    <p>The audit covers: your donor database (size, health, segmentation, lapse rate), giving history and trends, current communications and their effectiveness, annual fund structure and results, board and volunteer engagement in fundraising, major gift activity and pipeline, campaign history, and your overall case for support.</p>
-        <p>We also look at what's missing entirely - the elements of a healthy fundraising program that your organization hasn't yet built. Most organizations are surprised by what they find when they look at their program this way.</p>
+    <p><strong>1. Organizational culture and leadership alignment.</strong> Is fundraising treated as central to the mission, or as a necessary evil? Does the executive director participate in donor cultivation? Is the development function positioned for success within the organization?</p>
+    <p><strong>2. Board engagement and giving.</strong> What percentage of your board gives financially? Do board members open doors to potential donors, participate in solicitations, and take ownership of fundraising as part of their role? We survey board members anonymously to understand their comfort level, beliefs, and willingness to engage.</p>
+    <p><strong>3. Donor data analysis.</strong> Retention rates, acquisition and attrition trends, revenue by source, giving level distribution, revenue concentration, upgrade potential, and lapsed donor profiles. We benchmark your numbers against the AFP Fundraising Effectiveness Project and peer organizations through CRA or IRS filings.</p>
+    <p><strong>4. Fundraising programs.</strong> A channel-by-channel review of your annual fund, major gifts, events, grants, and planned giving. For each, we assess structure, results, cost-per-dollar-raised, and strategic rationale. We identify which programs are earning their keep and which are consuming resources without proportional return.</p>
+    <p><strong>5. Communications and stewardship.</strong> How quickly are gifts acknowledged? How often do you communicate with donors between asks? Are your appeal letters donor-centered or organization-centered? Is your case for support current and compelling? We review every donor touchpoint from the first thank-you letter to the annual report.</p>
+    <p><strong>6. Prospect pipeline.</strong> Do you have a formal prospect list or pipeline? How are new potential donors identified? Is anyone actively cultivating major gift prospects? How many face-to-face donor meetings happen each month? For most organizations, this is where the largest untapped opportunity lives.</p>
+    <p><strong>7. Belief diagnostic.</strong> This is what makes the Apollo Advancement audit different. We map what we find in the data back to the underlying organizational beliefs that are producing those results. Beliefs like "fundraising is embarrassing" or "if we do good work, the money will come" shape behavior in ways that no amount of tactical advice will fix. Naming them is the first step toward changing them.</p>
+</div>
+</section>
+
+<!-- PRICING -->
+<section class="content-section reveal">
+<div class="content-inner">
+    <p class="section-label">Pricing</p>
+    <h2>Two options, depending on where you are.</h2>
+
+    <div class="pricing-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:2rem; margin-top:1.5rem;">
+        <div style="background:#fff; border:1px solid var(--color-rule); border-radius:6px; padding:2rem;">
+            <p style="font-size:0.72rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:var(--color-accent); margin-bottom:0.8rem;">Option 1</p>
+            <h3 style="font-family:var(--font-display); font-size:1.3rem; font-weight:800; margin-bottom:0.4rem;">Fundraising Audit</h3>
+            <p style="font-family:var(--font-display); font-size:2.2rem; font-weight:800; color:var(--color-text); margin-bottom:0.3rem;">$7,500</p>
+            <p style="font-size:0.85rem; color:var(--color-text-soft); margin-bottom:1.2rem;">+ HST where applicable</p>
+            <p style="font-size:0.95rem; color:var(--color-text-soft); line-height:1.7; margin-bottom:0;">The full diagnostic across all seven areas, with a written report of findings, benchmarking against sector standards, a belief diagnostic, a board and leadership presentation, and a 30-day follow-up call. Gives you a clear, honest picture of where you stand.</p>
+        </div>
+        <div style="background:#fff; border:2px solid var(--color-accent); border-radius:6px; padding:2rem;">
+            <p style="font-size:0.72rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:var(--color-accent); margin-bottom:0.8rem;">Option 2</p>
+            <h3 style="font-family:var(--font-display); font-size:1.3rem; font-weight:800; margin-bottom:0.4rem;">Audit + Strategic Plan</h3>
+            <p style="font-family:var(--font-display); font-size:2.2rem; font-weight:800; color:var(--color-text); margin-bottom:0.3rem;">$10,000</p>
+            <p style="font-size:0.85rem; color:var(--color-text-soft); margin-bottom:1.2rem;">+ HST where applicable</p>
+            <p style="font-size:0.95rem; color:var(--color-text-soft); line-height:1.7; margin-bottom:0;">Everything in the audit, plus a written twelve-month strategic development plan with prioritized recommendations, a phased implementation roadmap, revenue projections, and specific guidance on what to do first, second, and third.</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="content-section reveal" style="background:var(--color-bg-warm);">
+<div class="content-inner">
+    <p class="section-label">The Strategic Plan</p>
+    <h2>A roadmap your team can actually follow.</h2>
+    <p>The strategic plan translates the audit findings into a concrete, twelve-month action plan. It is organized into three tiers:</p>
+    <p><strong>Immediate priorities (months 1-3):</strong> High-impact changes your team can make right away. This typically includes fixing the acknowledgment process, establishing 100% board giving, launching a regular donor communication cadence, cleaning your CRM data, and identifying upgrade candidates from your existing donor base.</p>
+    <p><strong>Near-term priorities (months 3-6):</strong> The structural work that builds a durable program. Developing a written case for support, launching a structured annual fund with multiple touchpoints, beginning major gift cultivation with your top 20-50 donors, conducting board fundraising training, and building a stewardship plan by donor level.</p>
+    <p><strong>Medium-term investments (months 6-12):</strong> Longer-horizon work that compounds over time. Diversifying revenue streams, developing planned giving marketing, building a formal prospect research process, evaluating event ROI, and upgrading systems where needed.</p>
+    <p>The plan includes revenue projections tied to each recommendation, so your board can see not just what to do but what the expected return looks like. It is designed to be achievable with your current team and resources.</p>
 </div>
 </section>
 
 <section class="content-section reveal">
 <div class="content-inner">
-    <p class="section-label">What You Get</p>
-    <h2>A written plan with honest priorities.</h2>
-    <p>At the end of the engagement, you receive a written strategic development plan covering a twelve-to-twenty-four month horizon. It includes a candid assessment of your current program, specific recommendations organized by priority, a realistic implementation timeline, and revenue projections tied to the recommended changes.</p>
-        <p>The audit is often the starting point for a longer engagement. But even as a standalone project, it gives your leadership team the clarity and direction to move forward with confidence - whether you work with me or build the program yourselves.</p>
+    <p class="section-label">What You Receive</p>
+    <h2>Deliverables.</h2>
+    <p><strong>A written audit report</strong> with prioritized findings and recommendations, connecting each finding to the organizational belief behind it.</p>
+    <p><strong>A board and leadership presentation</strong> (in person or virtual) designed to build alignment and momentum. 45-60 minutes, followed by discussion.</p>
+    <p><strong>A 30-day follow-up call</strong> to answer questions and support your team as implementation begins.</p>
+    <p><strong>With Option 2:</strong> A written twelve-month strategic development plan with phased implementation roadmap and revenue projections.</p>
+    <p>The audit is often the starting point for a longer engagement. But even as a standalone project, it gives your leadership team the clarity and direction to move forward with confidence, whether you work with me or build the program yourselves.</p>
 </div>
 </section>
-
 
 <!-- MID-PAGE CTA BAR -->
 <div class="cta-bar">

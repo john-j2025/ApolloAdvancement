@@ -239,7 +239,6 @@
 <!-- THE CLIENT -->
 <section class="content-section reveal">
 <div class="content-inner">
-    <img src="../logo-bussey-ainsworth.png" alt="Bussey Ainsworth LLP logo" class="client-logo">
     <p class="section-label">The Client</p>
     <h2>A respected firm with an invisible online presence.</h2>
     <p>Bussey Ainsworth LLP is a full-service law firm in Peterborough, Ontario, offering legal services in real estate, wills and estates, civil litigation, business law, and charity and nonprofit law. The firm had strong professional credentials and a loyal client base, but their digital footprint told a different story.</p>
@@ -266,21 +265,72 @@
     <h2>From invisible to unavoidable.</h2>
     <p>The impact on Google search visibility was immediate and sustained. Weekly impressions grew from approximately 740 before the engagement to over 3,850, a <strong>420% increase</strong>.</p>
 
-    <table class="data-table">
-        <thead>
-            <tr>
-                <th>Month</th>
-                <th>Impressions</th>
-                <th>Clicks</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr><td>January 2026</td><td class="num">488</td><td class="num">31</td></tr>
-            <tr><td>February 2026</td><td class="num">3,211</td><td class="num">116</td></tr>
-            <tr><td>March 2026</td><td class="num">10,850</td><td class="num">236</td></tr>
-            <tr><td>April 2026 (partial)</td><td class="num">11,312</td><td class="num">165</td></tr>
-        </tbody>
-    </table>
+    <div class="search-chart" style="margin:2.5rem 0 1.5rem;">
+        <svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; font-family:var(--font-body);">
+            <!-- Impressions chart (primary, left axis) -->
+            <!-- Grid lines -->
+            <line x1="80" y1="30" x2="530" y2="30" stroke="#DDD2C6" stroke-width="0.5"/>
+            <line x1="80" y1="80" x2="530" y2="80" stroke="#DDD2C6" stroke-width="0.5"/>
+            <line x1="80" y1="130" x2="530" y2="130" stroke="#DDD2C6" stroke-width="0.5"/>
+            <line x1="80" y1="180" x2="530" y2="180" stroke="#DDD2C6" stroke-width="0.5"/>
+            <line x1="80" y1="230" x2="530" y2="230" stroke="#DDD2C6" stroke-width="0.5"/>
+
+            <!-- Left Y-axis label -->
+            <text x="10" y="140" fill="#C8461C" font-size="10" font-weight="600" text-anchor="middle" transform="rotate(-90,10,140)" letter-spacing="0.08em">IMPRESSIONS</text>
+
+            <!-- Left Y-axis values: 0 at y=230, 12000 at y=30. Range=200px for 12000. 1 unit = 0.01667px -->
+            <text x="70" y="34" text-anchor="end" fill="#5C514A" font-size="11">12,000</text>
+            <text x="70" y="84" text-anchor="end" fill="#5C514A" font-size="11">9,000</text>
+            <text x="70" y="134" text-anchor="end" fill="#5C514A" font-size="11">6,000</text>
+            <text x="70" y="184" text-anchor="end" fill="#5C514A" font-size="11">3,000</text>
+            <text x="70" y="234" text-anchor="end" fill="#5C514A" font-size="11">0</text>
+
+            <!-- Right Y-axis label -->
+            <text x="590" y="140" fill="#1A1410" font-size="10" font-weight="600" text-anchor="middle" transform="rotate(90,590,140)" letter-spacing="0.08em">CLICKS</text>
+
+            <!-- Right Y-axis values: 0 at y=230, 250 at y=30. Range=200px for 250. 1 unit = 0.8px -->
+            <text x="540" y="34" text-anchor="start" fill="#5C514A" font-size="11">250</text>
+            <text x="540" y="134" text-anchor="start" fill="#5C514A" font-size="11">125</text>
+            <text x="540" y="234" text-anchor="start" fill="#5C514A" font-size="11">0</text>
+
+            <!-- X-axis labels -->
+            <text x="155" y="252" text-anchor="middle" fill="#5C514A" font-size="11">Jan 2026</text>
+            <text x="305" y="252" text-anchor="middle" fill="#5C514A" font-size="11">Feb 2026</text>
+            <text x="455" y="252" text-anchor="middle" fill="#5C514A" font-size="11">Mar 2026</text>
+
+            <!-- Impressions area fill -->
+            <!-- Jan: 488 -> 230-(488*200/12000)=230-8.1=221.9 -->
+            <!-- Feb: 3211 -> 230-(3211*200/12000)=230-53.5=176.5 -->
+            <!-- Mar: 10850 -> 230-(10850*200/12000)=230-180.8=49.2 -->
+            <polygon points="155,222 305,177 455,49 455,230 305,230 155,230" fill="#C8461C" fill-opacity="0.1"/>
+            <polyline points="155,222 305,177 455,49" fill="none" stroke="#C8461C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <circle cx="155" cy="222" r="5" fill="#C8461C"/>
+            <circle cx="305" cy="177" r="5" fill="#C8461C"/>
+            <circle cx="455" cy="49" r="6" fill="#C8461C"/>
+            <text x="155" y="216" text-anchor="middle" fill="#C8461C" font-size="11" font-weight="700">488</text>
+            <text x="305" y="170" text-anchor="middle" fill="#C8461C" font-size="11" font-weight="700">3,211</text>
+            <text x="455" y="42" text-anchor="middle" fill="#C8461C" font-size="12" font-weight="700">10,850</text>
+
+            <!-- Clicks line -->
+            <!-- Jan: 31 -> 230-(31*200/250)=230-24.8=205.2 -->
+            <!-- Feb: 116 -> 230-(116*200/250)=230-92.8=137.2 -->
+            <!-- Mar: 236 -> 230-(236*200/250)=230-188.8=41.2 -->
+            <polyline points="155,205 305,137 455,41" fill="none" stroke="#1A1410" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6,4"/>
+            <circle cx="155" cy="205" r="4" fill="#1A1410"/>
+            <circle cx="305" cy="137" r="4" fill="#1A1410"/>
+            <circle cx="455" cy="41" r="5" fill="#1A1410"/>
+            <text x="443" y="35" text-anchor="end" fill="#1A1410" font-size="11" font-weight="700">236</text>
+
+            <!-- Legend -->
+            <line x1="130" y1="280" x2="150" y2="280" stroke="#C8461C" stroke-width="2.5"/>
+            <circle cx="140" cy="280" r="3" fill="#C8461C"/>
+            <text x="156" y="284" fill="#5C514A" font-size="11">Impressions</text>
+            <line x1="270" y1="280" x2="290" y2="280" stroke="#1A1410" stroke-width="2.5" stroke-dasharray="6,4"/>
+            <circle cx="280" cy="280" r="3" fill="#1A1410"/>
+            <text x="296" y="284" fill="#5C514A" font-size="11">Clicks</text>
+        </svg>
+    </div>
+    <p style="font-size:0.85rem; color:var(--color-text-soft); font-style:italic; margin-top:0.5rem;">Source: Google Search Console, January through March 2026.</p>
 
     <p>The firm's top-performing content piece, a blog post on closing day procedures in Ontario, generated over 5,200 impressions in three months alone. Practice area pages and team profiles consistently rank on the first two pages of Google results for local legal search queries.</p>
 </div>
@@ -291,28 +341,62 @@
 <div class="content-inner">
     <p class="section-label">Google Business Profile</p>
     <h2>Real interactions from real potential clients.</h2>
-    <p>The optimized Google Business Profile became the firm's most consistent source of new client interactions. These are not vanity metrics. Every call, every directions request, every website click represents a potential client actively considering Bussey Ainsworth.</p>
+    <p>The optimized Google Business Profile became the firm's most consistent source of new client interactions. Every call and every website click represents a potential client actively considering Bussey Ainsworth.</p>
 
-    <table class="data-table">
-        <thead>
-            <tr>
-                <th>Month</th>
-                <th>Calls</th>
-                <th>Directions</th>
-                <th>Website Clicks</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr><td>November 2025</td><td class="num">14</td><td class="num">30</td><td class="num">20</td></tr>
-            <tr><td>December 2025</td><td class="num">11</td><td class="num">57</td><td class="num">22</td></tr>
-            <tr><td>January 2026</td><td class="num">15</td><td class="num">48</td><td class="num">23</td></tr>
-            <tr><td>February 2026</td><td class="num">12</td><td class="num">22</td><td class="num">25</td></tr>
-            <tr><td>March 2026</td><td class="num">23</td><td class="num">55</td><td class="num">62</td></tr>
-            <tr><td>April 2026 (partial)</td><td class="num">15</td><td class="num">32</td><td class="num">33</td></tr>
-            <tr class="total-row"><td>Total</td><td class="num">90</td><td class="num">244</td><td class="num">185</td></tr>
-        </tbody>
-    </table>
-    <p style="font-size:0.85rem; color:var(--color-text-soft); font-style:italic; margin-top:0.5rem;">Source: Google Business Profile performance data, November 2025 through April 2026.</p>
+    <div class="gbp-chart" style="margin:2.5rem 0 1.5rem;">
+        <svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; font-family:var(--font-body);">
+            <!-- Grid lines -->
+            <line x1="70" y1="40" x2="570" y2="40" stroke="#DDD2C6" stroke-width="0.5"/>
+            <line x1="70" y1="96" x2="570" y2="96" stroke="#DDD2C6" stroke-width="0.5"/>
+            <line x1="70" y1="152" x2="570" y2="152" stroke="#DDD2C6" stroke-width="0.5"/>
+            <line x1="70" y1="208" x2="570" y2="208" stroke="#DDD2C6" stroke-width="0.5"/>
+            <line x1="70" y1="264" x2="570" y2="264" stroke="#DDD2C6" stroke-width="0.5"/>
+
+            <!-- Y-axis labels -->
+            <text x="60" y="44" text-anchor="end" fill="#5C514A" font-size="11">140</text>
+            <text x="60" y="100" text-anchor="end" fill="#5C514A" font-size="11">112</text>
+            <text x="60" y="156" text-anchor="end" fill="#5C514A" font-size="11">84</text>
+            <text x="60" y="212" text-anchor="end" fill="#5C514A" font-size="11">56</text>
+            <text x="60" y="268" text-anchor="end" fill="#5C514A" font-size="11">28</text>
+
+            <!-- X-axis labels -->
+            <text x="120" y="290" text-anchor="middle" fill="#5C514A" font-size="11">Nov</text>
+            <text x="245" y="290" text-anchor="middle" fill="#5C514A" font-size="11">Dec</text>
+            <text x="370" y="290" text-anchor="middle" fill="#5C514A" font-size="11">Jan</text>
+            <text x="495" y="290" text-anchor="middle" fill="#5C514A" font-size="11">Feb</text>
+            <text x="570" y="290" text-anchor="middle" fill="#5C514A" font-size="11">Mar</text>
+
+            <!-- Total interactions line: Nov 70, Dec 90, Jan 86, Feb 59, Mar 140 -->
+            <!-- Y scale: 0 at y=264, 140 at y=40. Range=224px for 140 units. 1 unit = 1.6px -->
+            <!-- Nov: 264-(70*1.6)=152, Dec: 264-(90*1.6)=120, Jan: 264-(86*1.6)=126.4, Feb: 264-(59*1.6)=169.6, Mar: 264-(140*1.6)=40 -->
+            <polyline points="120,152 245,120 370,126 495,170 570,40" fill="none" stroke="#C8461C" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+            <circle cx="120" cy="152" r="4" fill="#C8461C"/>
+            <circle cx="245" cy="120" r="4" fill="#C8461C"/>
+            <circle cx="370" cy="126" r="4" fill="#C8461C"/>
+            <circle cx="495" cy="170" r="4" fill="#C8461C"/>
+            <circle cx="570" cy="40" r="5" fill="#C8461C"/>
+            <text x="570" y="32" text-anchor="middle" fill="#C8461C" font-size="12" font-weight="700">140</text>
+
+            <!-- Calls line: Nov 14, Dec 11, Jan 15, Feb 12, Mar 23 -->
+            <!-- Nov: 264-(14*1.6)=241.6, Dec: 264-(11*1.6)=246.4, Jan: 264-(15*1.6)=240, Feb: 264-(12*1.6)=244.8, Mar: 264-(23*1.6)=227.2 -->
+            <polyline points="120,242 245,246 370,240 495,245 570,227" fill="none" stroke="#1A1410" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+            <circle cx="120" cy="242" r="4" fill="#1A1410"/>
+            <circle cx="245" cy="246" r="4" fill="#1A1410"/>
+            <circle cx="370" cy="240" r="4" fill="#1A1410"/>
+            <circle cx="495" cy="245" r="4" fill="#1A1410"/>
+            <circle cx="570" cy="227" r="5" fill="#1A1410"/>
+            <text x="570" y="222" text-anchor="middle" fill="#1A1410" font-size="12" font-weight="700">23</text>
+
+            <!-- Legend -->
+            <line x1="120" y1="310" x2="140" y2="310" stroke="#C8461C" stroke-width="2.5"/>
+            <circle cx="130" cy="310" r="3" fill="#C8461C"/>
+            <text x="146" y="314" fill="#5C514A" font-size="11">Total interactions</text>
+            <line x1="290" y1="310" x2="310" y2="310" stroke="#1A1410" stroke-width="2.5"/>
+            <circle cx="300" cy="310" r="3" fill="#1A1410"/>
+            <text x="316" y="314" fill="#5C514A" font-size="11">Calls</text>
+        </svg>
+    </div>
+    <p style="font-size:0.85rem; color:var(--color-text-soft); font-style:italic; margin-top:0.5rem;">Source: Google Business Profile performance data, November 2025 through March 2026.</p>
 </div>
 </section>
 

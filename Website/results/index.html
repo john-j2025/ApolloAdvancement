@@ -196,6 +196,9 @@
         .case-card-quote { font-style: italic; font-size: 1rem; line-height: 1.7; color: var(--color-text-soft); padding: 1.5rem; background: var(--color-bg-warm); border-left: 3px solid var(--color-accent); border-radius: 4px; margin-bottom: 1.5rem; }
         .case-card-quote-attr { font-size: 0.85rem; font-weight: 600; color: var(--color-text); margin-top: 0.8rem; }
         .case-card-quote-attr span { font-weight: 400; color: var(--color-text-soft); }
+        .case-card-number { font-family: var(--font-display); font-size: 4rem; font-weight: 900; color: var(--color-rule); line-height: 1; margin-bottom: 1rem; transition: color 0.3s; }
+        .case-card:hover .case-card-number { color: var(--color-accent); }
+        .case-card-photo { width: 100%; border-radius: 4px; margin-bottom: 1.8rem; aspect-ratio: 16/9; object-fit: cover; }
 
         /* ADDITIONAL EXPERTISE */
         .addl-expertise { padding: 4.5rem 2.5rem; }
@@ -339,6 +342,8 @@
 <div class="case-studies-grid-inner">
 
     <a href="wayside-academy" class="case-card reveal">
+        <p class="case-card-number">01</p>
+        <img src="../polar-plunge.webp" alt="John taking the Polar Plunge after hitting the Wayside Academy campaign goal" class="case-card-photo" loading="lazy">
         <p class="case-card-label">Case Study: Independent School</p>
         <h2>Building a fundraising program from nothing.</h2>
         <p class="case-card-body">Wayside Academy was a small independent school with a powerful educational mission and almost no fundraising infrastructure. I wrote the case for support, created the donor communications, developed the pipeline, and professionalized every aspect of how the school engaged its supporters.</p>
@@ -355,6 +360,8 @@
     </a>
 
     <a href="peterborough-singers" class="case-card reveal">
+        <p class="case-card-number">02</p>
+        <img src="../john-speaking.jpg" alt="John Jalsevac speaking at a Peterborough Singers concert" class="case-card-photo" loading="lazy">
         <p class="case-card-label">Case Study: Community Arts Organization</p>
         <h2>A campaign built on honouring a community's story.</h2>
         <p class="case-card-body">The Peterborough Singers launched the Syd Birrell Legacy Fund to mark the retirement of their founder after 35 years. This campaign needed deep sensitivity to the unique heart and history of the choir. The work began not with spreadsheets, but with stories.</p>
@@ -370,16 +377,22 @@
         <span class="case-card-cta">Read the Full Case Study &rarr;</span>
     </a>
 
-</div>
-</div>
+    <a href="bussey-ainsworth" class="case-card reveal">
+        <p class="case-card-number">03</p>
+        <img src="../logo-bussey-ainsworth.png" alt="Bussey Ainsworth LLP logo" class="case-card-photo" loading="lazy" style="object-fit:contain; background:#fff; padding:1.5rem;">
+        <p class="case-card-label">Case Study: Law Firm Digital Marketing</p>
+        <h2>Putting a law firm on the map.</h2>
+        <p class="case-card-body">Bussey Ainsworth LLP is a full-service law firm in Peterborough, Ontario. A comprehensive SEO and digital marketing engagement transformed their online presence through content strategy, Google Business Profile optimization, and systematic reputation management.</p>
+        <div class="case-card-stats">
+            <div class="case-card-stat"><span class="case-card-stat-num">420%</span><span class="case-card-stat-label">search impression growth</span></div>
+            <div class="case-card-stat"><span class="case-card-stat-num">13 &rarr; 64</span><span class="case-card-stat-label">Google reviews (5-star)</span></div>
+            <div class="case-card-stat"><span class="case-card-stat-num">63</span><span class="case-card-stat-label">new pages indexed</span></div>
+        </div>
+        <span class="case-card-cta">Read the Full Case Study &rarr;</span>
+    </a>
 
-<!-- ADDITIONAL EXPERTISE -->
-<div class="addl-expertise reveal">
-<div class="addl-expertise-inner">
-    <h2>Additional Expertise</h2>
-    <h3>Digital Marketing &amp; Content Strategy</h3>
-    <p>Apollo Advancement also provides strategic digital marketing, SEO, and content strategy services for professional organizations. This work includes the development and execution of comprehensive marketing plans, website optimization, and content programs designed to build visibility and credibility. Current and past clients include Bussey Ainsworth Barristers, a Peterborough-based law firm.</p>
-</div></div>
+</div>
+</div>
 
 <section class="closing">
 <div class="closing-inner reveal">

@@ -75,14 +75,22 @@ nav.site.scrolled .nav-cta{color:#fff !important}
 .hero::after{content:'';position:absolute;inset:0;background-image:
   radial-gradient(circle at 1px 1px, rgba(255,250,245,.06) 1px, transparent 0);
   background-size:28px 28px;z-index:0;opacity:.6}
-.hero-inner{position:relative;z-index:1;max-width:var(--mw);margin:0 auto;width:100%;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:4rem;align-items:center}
+.hero-inner{position:relative;z-index:1;max-width:var(--mw);margin:0 auto;width:100%;display:flex;flex-direction:column;gap:3rem}
+.hero-headline{grid-column:1 / -1}
+.hero-lower{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:4rem;align-items:center;width:100%}
+@media (max-width:960px){.hero-lower{grid-template-columns:1fr}}
 
 .hero-eyebrow{display:inline-flex;align-items:center;gap:.8rem;font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-sand);margin-bottom:2rem}
 .hero-eyebrow::before{content:'';width:2rem;height:1px;background:var(--accent-sand)}
-.hero-headline{font-family:var(--f-display);font-weight:500;font-size:clamp(2.8rem,5.8vw,5.4rem);line-height:1.02;letter-spacing:-.025em;color:#fff;margin-bottom:2rem}
+.hero-headline{font-family:var(--f-display);font-weight:700;font-size:clamp(3rem,8vw,7rem);line-height:1;letter-spacing:-.035em;color:#fff;margin-bottom:0;width:100%;text-wrap:balance;white-space:normal}
+.hero-headline .it{display:block;font-weight:500;color:var(--accent-glow);font-style:italic}
+.swoosh-wrap{position:relative;display:inline-block;white-space:nowrap}
+.swoosh{position:absolute;left:-4%;right:-4%;bottom:-.35em;width:108%;height:.55em;overflow:visible;pointer-events:none}
+.swoosh path{stroke-dasharray:700;stroke-dashoffset:700;animation:swoosh-draw 1.4s cubic-bezier(.5,.05,.2,1) .6s forwards}
+@keyframes swoosh-draw{to{stroke-dashoffset:0}}
 .hero-headline .it{font-style:italic;font-weight:400;color:var(--accent-glow)}
 .hero-headline .emphasis{font-weight:800}
-.hero-sub{font-size:clamp(1.05rem,1.6vw,1.25rem);line-height:1.65;color:rgba(255,250,245,.78);max-width:540px;margin-bottom:2.6rem}
+.hero-sub{font-size:clamp(1.05rem,1.6vw,1.25rem);line-height:1.65;color:rgba(255,250,245,.78);max-width:760px;margin-bottom:2.6rem}
 .hero-sub strong{color:#fff;font-weight:500}
 .hero-ctas{display:flex;flex-wrap:wrap;gap:1.2rem;align-items:center}
 .btn{display:inline-flex;align-items:center;gap:.6rem;font-size:.85rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:1.05rem 2.3rem;border-radius:3px;text-decoration:none;transition:all .25s;border:none;cursor:pointer;font-family:inherit}
@@ -100,9 +108,46 @@ nav.site.scrolled .nav-cta{color:#fff !important}
 
 /* Compass SVG art (right side) */
 .hero-art{position:relative;height:460px;display:flex;align-items:center;justify-content:center}
-.hero-art svg{width:100%;height:100%;max-width:520px;filter:drop-shadow(0 20px 60px rgba(0,0,0,.5))}
+.hero-visual{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.hero-visual[hidden]{display:none}
+.hero-visual svg{width:100%;height:100%;max-width:500px;filter:drop-shadow(0 20px 60px rgba(0,0,0,.5))}
+
+/* Variant C: grid */
+.hg-wrap{display:grid;grid-template-columns:repeat(3,110px);grid-template-rows:repeat(3,110px);gap:6px;filter:drop-shadow(0 20px 60px rgba(0,0,0,.5))}
+.hg-cell{background:rgba(255,250,245,.04);border:1px solid rgba(255,250,245,.1);display:flex;flex-direction:column;justify-content:space-between;padding:.8rem .9rem;position:relative;transition:all .3s}
+.hg-cell .hg-n{font-family:var(--f-display);font-style:italic;font-weight:500;font-size:1.3rem;color:rgba(255,250,245,.5)}
+.hg-cell .hg-t{font-family:var(--f-body);font-size:.7rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,250,245,.85)}
+.hg-cell.hg-special{background:rgba(200,70,28,.18);border-color:var(--accent-glow)}
+.hg-cell.hg-special .hg-n{color:var(--accent-glow)}
+.hg-cell.hg-special .hg-t{color:#fff}
+.hg-cell.hg-center{background:var(--accent);border-color:var(--accent-glow);align-items:center;justify-content:center;padding:1rem}
+.hg-c-e{font-family:var(--f-display);font-style:italic;font-size:1.25rem;color:#fff;line-height:1;margin-bottom:.4rem}
+.hg-c-s{font-family:var(--f-body);font-size:.64rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,250,245,.85)}
+.hg-t-arrow{font-family:var(--f-display);font-size:2.2rem;color:var(--accent-glow);align-self:center;margin-top:.4rem}
+
+/* Variant D: chart animation */
+.chart-line{stroke-dasharray:600;stroke-dashoffset:600;animation:chart-draw 2s ease-out .4s forwards}
+@keyframes chart-draw{to{stroke-dashoffset:0}}
+
+/* Tweak panel */
+#tweak-panel{position:fixed;right:1.5rem;bottom:1.5rem;background:#1A1410;color:#FFFAF5;border:1px solid rgba(255,250,245,.15);border-radius:10px;padding:1.1rem 1.3rem;box-shadow:0 20px 50px rgba(0,0,0,.4);z-index:9999;display:none;font-family:var(--f-body);min-width:220px}
+#tweak-panel.open{display:block}
+#tweak-panel .tp-title{font-family:var(--f-display);font-style:italic;font-weight:500;font-size:1.15rem;margin-bottom:.9rem;color:var(--accent-glow)}
+#tweak-panel .tp-label{font-size:.68rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--accent-sand);margin-bottom:.7rem}
+#tweak-panel .tp-opts{display:flex;flex-direction:column;gap:.4rem}
+#tweak-panel button{background:rgba(255,250,245,.04);border:1px solid rgba(255,250,245,.12);color:rgba(255,250,245,.85);font-family:inherit;font-size:.82rem;padding:.55rem .8rem;border-radius:4px;text-align:left;cursor:pointer;transition:all .15s}
+#tweak-panel button:hover{border-color:var(--accent-glow);color:#fff}
+#tweak-panel button.active{background:var(--accent);border-color:var(--accent);color:#fff}
 .compass-ring{animation:spin 80s linear infinite;transform-origin:center}
 .compass-ring-rev{animation:spin 120s linear infinite reverse;transform-origin:center}
+.compass-needle{animation:needle-wobble 7s ease-in-out infinite;transform-origin:260px 260px}
+@keyframes needle-wobble{
+  0%,100%{transform:rotate(-8deg)}
+  22%{transform:rotate(14deg)}
+  40%{transform:rotate(-5deg)}
+  58%{transform:rotate(22deg)}
+  78%{transform:rotate(2deg)}
+}
 @keyframes spin{to{transform:rotate(360deg)}}
 .compass-dot{animation:pulse 2.6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
@@ -136,20 +181,22 @@ section{position:relative;padding:7rem 2.5rem}
 .rule-short{display:block;width:48px;height:3px;background:var(--accent);margin-bottom:2rem}
 
 /* ============ PROBLEM SECTION (Sound Familiar) ============ */
-.problem{background:var(--bg-warm);padding:7rem 2.5rem 8rem;position:relative;overflow:hidden}
+.problem{background:var(--bg-warm);padding:7rem 2.5rem 0;position:relative;overflow:hidden}
 .problem::before{content:'';position:absolute;top:-2px;left:0;right:0;height:50px;background:linear-gradient(to bottom, var(--bg-dark), transparent);opacity:.08;pointer-events:none}
 .problem-inner{max-width:var(--cw);margin:0 auto}
+.problem-intro .eyebrow{font-size:1rem;letter-spacing:.26em;gap:1rem;margin-bottom:2rem}
+.problem-intro .eyebrow::before{width:3rem}
 .problem-intro{margin-bottom:3.5rem}
 .problem-headline{font-family:var(--f-display);font-weight:500;font-size:clamp(2rem,4vw,3.4rem);line-height:1.1;letter-spacing:-.015em;margin-bottom:2rem;text-wrap:pretty}
 .problem-headline .it{font-style:italic;font-weight:400}
 .problem-body p{font-size:1.08rem;color:var(--ink-soft);line-height:1.8;margin-bottom:1.2rem;max-width:700px}
 
 /* Spinning marquee of questions */
-.qs-wrap{margin:3rem -2.5rem;padding:2.5rem 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);position:relative;background:var(--bg-warmer)}
+.qs-wrap{margin:3rem -2.5rem 0;padding:2.5rem 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);position:relative;background:var(--bg-warmer)}
 .qs-track{display:flex;gap:3rem;white-space:nowrap;animation:qs-scroll 80s linear infinite}
 .qs-wrap:hover .qs-track{animation-play-state:paused}
 @keyframes qs-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.qs-track{animation-duration:38s !important}
+.qs-track{animation-duration:var(--qs-duration,22s) !important}
 .qs-item{font-family:var(--f-display);font-style:italic;font-weight:500;font-size:clamp(1.4rem,2.5vw,2.1rem);color:var(--ink);display:inline-flex;align-items:center;gap:3rem}
 .qs-item::after{content:'●';color:var(--accent);font-size:.5em;font-style:normal}
 
@@ -183,22 +230,21 @@ section{position:relative;padding:7rem 2.5rem}
 
 /* ============ SEVEN AREAS ============ */
 .seven{padding:8rem 2.5rem;background:var(--bg-warm);position:relative;overflow:hidden}
-.seven::before{content:'VII';position:absolute;top:2rem;right:3rem;font-family:var(--f-display);font-style:italic;font-weight:400;font-size:clamp(10rem,22vw,20rem);color:rgba(26,20,16,.03);line-height:1;letter-spacing:-.05em;pointer-events:none;user-select:none}
-.seven-head{max-width:var(--mw);margin:0 auto 5rem;display:grid;grid-template-columns:auto 1fr;gap:3.5rem;align-items:end}
-.seven-head-right{max-width:640px;justify-self:end}
-.seven-head-right p{font-size:1.05rem;color:var(--ink-soft);line-height:1.75;margin-top:1rem}
-.seven-list{max-width:var(--mw);margin:0 auto;display:flex;flex-direction:column;gap:0}
-.seven-item{display:grid;grid-template-columns:minmax(0,.18fr) minmax(0,.38fr) minmax(0,.44fr);gap:3rem;padding:3.2rem 0;border-top:2px solid var(--ink);position:relative;transition:background .3s}
+.seven-head{max-width:min(1040px,75%);margin:0 auto 4rem;display:block}
+.seven-head-sub{max-width:680px;font-size:1rem;color:var(--ink-soft);line-height:1.7;margin-top:1.4rem}
+.seven-list{max-width:min(1040px,75%);margin:0 auto;display:flex;flex-direction:column;gap:0}
+.seven-item{display:grid;grid-template-columns:minmax(0,.12fr) minmax(0,1fr);gap:1rem 1.5rem;padding:1.5rem 0;border-top:2px solid var(--ink);position:relative;transition:background .3s;align-items:start}
+.seven-content{display:block}
+.seven-title{font-family:var(--f-display);font-weight:700;font-size:clamp(1.45rem,2.2vw,1.9rem);line-height:1.22;color:var(--ink);letter-spacing:-.01em;margin:0 0 1.75rem}
+.seven-title .accent-word{font-style:italic;color:var(--accent);font-weight:400}
+.seven-desc{font-size:1rem;color:var(--ink-soft);line-height:1.55;margin:0}
+.seven-desc strong{color:var(--ink);font-weight:600}
 .seven-item:last-child{border-bottom:2px solid var(--ink)}
 .seven-item:hover{background:linear-gradient(90deg, transparent 0%, rgba(200,70,28,.03) 50%, transparent 100%)}
 .seven-item:hover .seven-num{color:var(--accent)}
 .seven-item:hover .seven-num .dot{background:var(--accent)}
-.seven-num{font-family:var(--f-display);font-weight:800;font-style:normal;font-size:clamp(4rem,8vw,6.5rem);line-height:.9;color:var(--ink);letter-spacing:-.03em;display:flex;align-items:baseline;gap:.7rem;transition:color .3s}
-.seven-num .dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--accent);transition:background .3s;transform:translateY(-8px)}
-.seven-title{font-family:var(--f-display);font-weight:700;font-size:clamp(1.45rem,2.2vw,1.9rem);line-height:1.22;color:var(--ink);align-self:center;padding-right:1rem;letter-spacing:-.01em}
-.seven-title .accent-word{font-style:italic;color:var(--accent);font-weight:400}
-.seven-desc{font-size:1.02rem;color:var(--ink-soft);line-height:1.75;align-self:center}
-.seven-desc strong{color:var(--ink);font-weight:600}
+.seven-num{font-family:var(--f-display);font-weight:800;font-size:clamp(3.2rem,5.5vw,4.8rem);line-height:1;color:var(--ink);letter-spacing:-.03em;display:flex;align-items:baseline;gap:.5rem;transition:color .3s;padding-top:.1rem}
+.seven-num .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);transition:background .3s;transform:translateY(-6px)}
 
 /* Belief-diagnostic special highlight on item 07 */
 .seven-item.special{background:linear-gradient(90deg, rgba(200,70,28,.05) 0%, transparent 80%)}
@@ -222,44 +268,63 @@ section{position:relative;padding:7rem 2.5rem}
 .cost-ctas{display:flex;flex-wrap:wrap;gap:1.2rem;justify-content:center;align-items:center}
 
 /* ============ STRATEGIC PLAN — TIMELINE ============ */
-.plan{padding:8rem 2.5rem;background:var(--bg)}
-.plan-head{max-width:var(--mw);margin:0 auto 4.5rem;text-align:center}
+.plan{padding:8rem 2.5rem;background:var(--bg);position:relative;overflow:hidden}
+.plan-head{max-width:var(--mw);margin:0 auto 5.5rem;text-align:center}
 .plan-head .eyebrow{justify-content:center}
 .plan-head .eyebrow::before{display:none}
 .plan-head .h-display{max-width:720px;margin:0 auto 1.2rem}
 .plan-head p{color:var(--ink-soft);max-width:620px;margin:0 auto;font-size:1.05rem;line-height:1.75}
-.timeline{max-width:var(--mw);margin:0 auto;position:relative}
-.timeline-track{position:absolute;top:calc(2rem + 10px);left:8%;right:8%;height:2px;background:var(--rule);z-index:0}
-.timeline-fill{position:absolute;top:0;left:0;bottom:0;background:linear-gradient(90deg, var(--accent), var(--accent-sand));width:0%;transition:width 1.8s cubic-bezier(.2,.6,.2,1)}
-.timeline.visible .timeline-fill{width:100%}
-.timeline-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
-.phase{background:transparent;padding:0 1rem}
-.phase-top{display:flex;flex-direction:column;align-items:center;margin-bottom:2rem}
-.phase-dot{width:22px;height:22px;border-radius:50%;background:var(--bg);border:3px solid var(--accent);margin-bottom:1.2rem;position:relative;z-index:2}
-.phase-dot::after{content:'';position:absolute;inset:-8px;border-radius:50%;border:1px solid var(--accent);opacity:.25}
-.phase-dot.sand{border-color:var(--accent-sand)}
-.phase-dot.sand::after{border-color:var(--accent-sand)}
-.phase-dot.moss{border-color:var(--accent-moss)}
-.phase-dot.moss::after{border-color:var(--accent-moss)}
-.phase-label{font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:.4rem}
-.phase .phase-label.sand{color:#B88954}
-.phase .phase-label.moss{color:var(--accent-moss)}
-.phase-months{font-family:var(--f-display);font-weight:500;font-style:italic;font-size:1.05rem;color:var(--ink-mute)}
-.phase-card{background:var(--bg-warm);border-radius:8px;padding:1.6rem 1.6rem;border:1px solid var(--rule-soft);height:100%}
-.phase-card h3{font-family:var(--f-display);font-weight:600;font-size:1.3rem;line-height:1.2;margin-bottom:.6rem}
-.phase-card h3 .it{font-style:italic;color:var(--accent);font-weight:400}
-.phase-card h3.moss .it{color:var(--accent-moss)}
-.phase-card h3.sand .it{color:#B88954}
-.phase-card p{font-size:.93rem;color:var(--ink-soft);line-height:1.55;margin-bottom:.9rem}
-.phase-tasks{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.4rem}
-.phase-tasks li{font-size:.85rem;color:var(--ink);line-height:1.45;padding-left:1.1rem;position:relative}
-.phase-tasks li::before{content:'';position:absolute;left:0;top:.48rem;width:7px;height:2px;background:var(--accent)}
-.phase-tasks.sand li::before{background:#B88954}
-.phase-tasks.moss li::before{background:var(--accent-moss)}
 
-.plan-outcome{max-width:720px;margin:5.5rem auto 0;text-align:center;padding:2.5rem 2rem 0;border-top:1px solid var(--rule);clear:both;position:relative}
+/* Journey redesign */
+.journey{position:relative;max-width:860px;margin:0 auto;padding:1rem 0}
+.journey-stations{position:relative}
+.journey-path{position:absolute;left:50%;top:0;bottom:0;width:180px;height:100%;transform:translateX(-50%);z-index:0;pointer-events:none;overflow:visible}
+.journey-path path{fill:none;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:4 8}
+.station{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:3rem;align-items:center;padding:2.5rem 0;min-height:220px}
+.station.alt{direction:rtl}
+.station.alt > *{direction:ltr}
+.station-meta{text-align:right}
+.station.alt .station-meta{text-align:left}
+.station-months{font-family:var(--f-display);font-weight:700;font-style:italic;font-size:clamp(2.2rem,3.6vw,3.2rem);line-height:1;color:var(--ink);letter-spacing:-.02em;margin-bottom:.4rem}
+.station-months .mo{font-size:.5em;font-style:normal;font-weight:400;color:var(--ink-mute);letter-spacing:.18em;text-transform:uppercase;display:block;margin-top:.4rem}
+.station-tier{font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-top:1rem}
+.station.s2 .station-tier{color:#B88954}
+.station.s3 .station-tier{color:var(--accent-moss)}
+
+.station-pin{position:relative;width:80px;height:80px;display:flex;align-items:center;justify-content:center}
+.station-pin .ring{position:absolute;inset:0;border-radius:50%;border:2px solid var(--accent);opacity:.2}
+.station-pin .ring.r2{inset:-14px;border-color:var(--accent);opacity:.12;border-style:dashed}
+.station-pin .core{width:56px;height:56px;border-radius:50%;background:var(--accent);color:#fff;font-family:var(--f-display);font-weight:700;font-size:1.6rem;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(200,70,28,.35);position:relative;z-index:1}
+.station.s2 .station-pin .ring,.station.s2 .station-pin .ring.r2{border-color:#B88954}
+.station.s2 .station-pin .core{background:#B88954;box-shadow:0 8px 24px rgba(184,137,84,.4)}
+.station.s3 .station-pin .ring,.station.s3 .station-pin .ring.r2{border-color:var(--accent-moss)}
+.station.s3 .station-pin .core{background:var(--accent-moss);box-shadow:0 8px 24px rgba(92,110,78,.4)}
+
+.station-card{background:var(--bg-warm);border-radius:10px;padding:1.8rem 2rem;border:1px solid var(--rule-soft);box-shadow:0 2px 0 var(--rule-soft)}
+.station-card h3{font-family:var(--f-display);font-weight:600;font-size:1.4rem;line-height:1.2;margin-bottom:.5rem;color:var(--ink)}
+.station-card h3 .it{font-style:italic;color:var(--accent);font-weight:400}
+.station.s2 .station-card h3 .it{color:#B88954}
+.station.s3 .station-card h3 .it{color:var(--accent-moss)}
+.station-card > p{font-size:.95rem;color:var(--ink-soft);line-height:1.55;margin-bottom:1rem}
+.station-card > p.station-eg{font-family:var(--f-display);font-style:italic;font-size:1rem;color:var(--accent);margin-top:-.4rem;margin-bottom:.7rem}
+.station-card > p.station-eg em{font-style:italic}
+.station-card ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.45rem}
+.station-card ul li{font-size:.88rem;color:var(--ink);line-height:1.45;padding-left:1.2rem;position:relative}
+.station-card ul li::before{content:'';position:absolute;left:0;top:.48rem;width:8px;height:2px;background:var(--accent)}
+.station.s2 .station-card ul li::before{background:#B88954}
+.station.s3 .station-card ul li::before{background:var(--accent-moss)}
+
+.plan-outcome{max-width:720px;margin:5rem auto 0;text-align:center;padding:2.5rem 2rem 0;border-top:1px solid var(--rule)}
 .plan-outcome p{font-family:var(--f-display);font-style:italic;font-weight:500;font-size:1.25rem;line-height:1.5;color:var(--ink)}
 .plan-outcome p strong{color:var(--accent);font-weight:600;font-style:normal}
+
+@media (max-width:820px){
+  .journey-path{display:none}
+  .station,.station.alt{grid-template-columns:1fr;direction:ltr;text-align:left;gap:1.2rem;padding:1.5rem 0;min-height:0}
+  .station-meta,.station.alt .station-meta{text-align:left}
+  .station-pin{width:60px;height:60px}
+  .station-pin .core{width:44px;height:44px;font-size:1.2rem}
+}
 
 /* ============ PRICING ============ */
 .pricing{padding:8rem 2.5rem;background:var(--bg-warm);position:relative}
@@ -382,8 +447,30 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
 .footer-copy{width:100%;text-align:center;font-size:.72rem;color:rgba(255,250,245,.3);margin-top:1.2rem}
 
 /* ============ REVEAL ============ */
-.reveal{opacity:0;transform:translateY(30px);transition:opacity .75s ease,transform .75s ease}
-.reveal.visible{opacity:1;transform:translateY(0)}
+/* Reveal on scroll — mixed variants */
+.reveal{opacity:0;transition:opacity .85s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),clip-path .9s cubic-bezier(.2,.7,.2,1)}
+.reveal[data-reveal="up"]{transform:translateY(40px)}
+.reveal[data-reveal="down"]{transform:translateY(-28px)}
+.reveal[data-reveal="left"]{transform:translateX(-50px)}
+.reveal[data-reveal="right"]{transform:translateX(50px)}
+.reveal[data-reveal="scale"]{transform:scale(.92);transform-origin:center bottom}
+.reveal[data-reveal="tilt"]{transform:translateY(24px) rotate(-1.5deg)}
+.reveal[data-reveal="clip"]{clip-path:inset(0 0 100% 0)}
+.reveal[data-reveal="clip-r"]{clip-path:inset(0 100% 0 0)}
+.reveal[data-reveal="blur"]{filter:blur(14px);transform:translateY(20px)}
+.reveal.visible{opacity:1;transform:none;clip-path:inset(0 0 0 0);filter:none}
+
+/* Stagger children of a .reveal-stagger */
+.reveal-stagger > *{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.reveal-stagger.visible > *{opacity:1;transform:none}
+.reveal-stagger.visible > *:nth-child(1){transition-delay:.05s}
+.reveal-stagger.visible > *:nth-child(2){transition-delay:.15s}
+.reveal-stagger.visible > *:nth-child(3){transition-delay:.25s}
+.reveal-stagger.visible > *:nth-child(4){transition-delay:.35s}
+.reveal-stagger.visible > *:nth-child(5){transition-delay:.45s}
+.reveal-stagger.visible > *:nth-child(6){transition-delay:.55s}
+.reveal-stagger.visible > *:nth-child(7){transition-delay:.65s}
+@media (prefers-reduced-motion:reduce){.reveal,.reveal-stagger > *{transition:none;transform:none;opacity:1;clip-path:none;filter:none}}
 
 /* ============ RESPONSIVE ============ */
 @media (max-width:1100px){
@@ -404,7 +491,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
   html{font-size:16.5px}
   .hero{padding:7rem 1.5rem 4rem;min-height:auto}
   .hero-inner{grid-template-columns:1fr;gap:3rem}
-  .hero-art{height:280px;order:2}
+  .hero-art{height:380px;order:2}
   .hero-chip,.hero-back,.hero-scroll{display:none}
   .whatis-inner{grid-template-columns:1fr;gap:2rem}
   .timeline-grid{grid-template-columns:1fr;gap:2.5rem}
@@ -433,6 +520,24 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
   .footer-links{justify-content:center}
 }
 </style>
+<template id="__bundler_thumbnail" data-bg-color="#1A1410">
+  <svg viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg">
+    <rect width="520" height="520" fill="#1A1410"></rect>
+    <circle cx="260" cy="260" r="240" fill="none" stroke="rgba(255,250,245,0.18)" stroke-width="3"></circle>
+    <circle cx="260" cy="260" r="178" fill="none" stroke="rgba(255,250,245,0.22)" stroke-width="1.2" stroke-dasharray="1 8"></circle>
+    <circle cx="260" cy="260" r="96" fill="rgba(26,20,16,.55)" stroke="rgba(255,250,245,.35)" stroke-width="2"></circle>
+    <g font-family="serif" font-weight="700" font-style="italic" text-anchor="middle">
+      <text x="260" y="78" font-size="34" fill="#E86E3A" dominant-baseline="middle">N</text>
+      <text x="442" y="260" font-size="24" fill="#FFFAF5" opacity=".75" dominant-baseline="middle">E</text>
+      <text x="260" y="442" font-size="24" fill="#FFFAF5" opacity=".75" dominant-baseline="middle">S</text>
+      <text x="78" y="260" font-size="24" fill="#FFFAF5" opacity=".75" dominant-baseline="middle">W</text>
+    </g>
+    <polygon points="260,170 250,260 270,260" fill="#E86E3A"></polygon>
+    <polygon points="260,350 250,260 270,260" fill="rgba(255,250,245,0.6)"></polygon>
+    <circle cx="260" cy="260" r="10" fill="#1A1410" stroke="#E86E3A" stroke-width="2"></circle>
+    <circle cx="260" cy="260" r="3" fill="#E86E3A"></circle>
+  </svg>
+</template>
 
 <script type="application/ld+json">
 {
@@ -459,7 +564,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
           "name": "What does a nonprofit fundraising audit include?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fundraising audit reviews every dimension of your development program: donor database health and segmentation, giving trends and lapse rates, current communications and their effectiveness, annual fund structure, board and volunteer engagement, major gift activity and pipeline, campaign history, and your overall case for support. The goal is to identify what's working, what isn't, and what's missing entirely."
+            "text": "A fundraising audit reviews every dimension of your development program: donor database health and segmentation, giving trends and lapse rates, current communications and their effectiveness, annual fund structure, board and volunteer engagement, major gift activity and pipeline, campaign history, and your overall case for support."
           }
         },
         {
@@ -472,7 +577,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
         },
         {
           "@type": "Question",
-          "name": "What's the difference between a fundraising audit and a strategic plan?",
+          "name": "What is the difference between a fundraising audit and a strategic plan?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "The audit is the diagnostic: examining what you have and assessing its health. The strategic plan is the prescription: what to do next, in what order, and why. Together they give you an honest picture of your current program and a realistic roadmap for improving it."
@@ -533,15 +638,13 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
 
 <!-- ============ HERO ============ -->
 <header class="hero">
-  <a href="../services" class="hero-back">← All Services</a>
-  <div class="hero-chip">Service <em style="font-style:italic">02</em></div>
   <div class="hero-inner">
+    <h1 class="hero-headline">
+      You're eager to get to work.
+      <span class="it">You just need <span class="swoosh-wrap">clarity<svg class="swoosh" viewBox="0 0 300 40" aria-hidden="true" preserveAspectRatio="none"><path d="M6,28 C60,8 140,4 220,14 C250,18 280,24 294,30" fill="none" stroke="#E86E3A" stroke-width="5" stroke-linecap="round"></path></svg></span>.</span>
+    </h1>
+    <div class="hero-lower">
     <div>
-      <div class="hero-eyebrow">Fundraising Audit &amp; Strategic Plan</div>
-      <h1 class="hero-headline">
-        Your mission <span class="emphasis">deserves funding.</span><br>
-        <span class="it">You just need clarity.</span>
-      </h1>
       <p class="hero-sub">A fundraising audit tells you exactly <strong>what's working</strong>, what isn't, and what to do next. No guesswork. No generic advice. Just the truth about your program, and a plan you can actually follow.</p>
       <p class="hero-sub" style="margin-top:-1.2rem">A strategic plan gives you a roadmap that shows you, month by month, <strong>exactly what you can do, now,</strong> to raise more money.</p>
       <div class="hero-ctas">
@@ -549,65 +652,197 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
         <span class="hero-phone">Or call: <a href="tel:+17053131588">(705) 313-1588</a></span>
       </div>
     </div>
-    <div class="hero-art" aria-hidden="true">
-      <!-- Compass / constellation diagram -->
+    <div class="hero-art" aria-hidden="true" id="heroArt">
+      <!-- === Variant A: Compass (current default) === -->
+      <div class="hero-visual visual-compass" data-variant="compass">
       <svg viewBox="0 0 520 520">
         <defs>
           <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#C8461C" stop-opacity="0.55"></stop>
-            <stop offset="70%" stop-color="#C8461C" stop-opacity="0.05"></stop>
+            <stop offset="0%" stop-color="#E86E3A" stop-opacity="0.6"></stop>
+            <stop offset="60%" stop-color="#C8461C" stop-opacity="0.08"></stop>
             <stop offset="100%" stop-color="#C8461C" stop-opacity="0"></stop>
           </radialGradient>
+          <linearGradient id="needleN" x1="0" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#E86E3A" stop-opacity=".4"></stop>
+            <stop offset="100%" stop-color="#E86E3A"></stop>
+          </linearGradient>
+          <linearGradient id="needleS" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FFFAF5" stop-opacity=".25"></stop>
+            <stop offset="100%" stop-color="#FFFAF5" stop-opacity=".85"></stop>
+          </linearGradient>
         </defs>
-        <!-- outer ring (slow clockwise) -->
+
+        <!-- faint glow backing -->
+        <circle cx="260" cy="260" r="240" fill="url(#centerGlow)" opacity=".7"></circle>
+
+        <!-- OUTER BEZEL: thick ring -->
         <g class="compass-ring">
-          <circle cx="260" cy="260" r="240" fill="none" stroke="rgba(255,250,245,0.08)" stroke-width="1"></circle>
-          <!-- tick marks -->
-          <g stroke="rgba(255,250,245,0.18)" stroke-width="1">
-            <line x1="260" y1="20" x2="260" y2="38"></line>
-            <line x1="260" y1="482" x2="260" y2="500"></line>
-            <line x1="20" y1="260" x2="38" y2="260"></line>
-            <line x1="482" y1="260" x2="500" y2="260"></line>
+          <circle cx="260" cy="260" r="244" fill="none" stroke="rgba(255,250,245,0.18)" stroke-width="3"></circle>
+          <circle cx="260" cy="260" r="232" fill="none" stroke="rgba(255,250,245,0.1)" stroke-width="1"></circle>
+
+          <!-- degree tick marks all around (every 15deg, major every 45) -->
+          <g stroke="rgba(255,250,245,.35)" stroke-linecap="round">
+            <g>
+              <line x1="260" y1="16" x2="260" y2="46" stroke-width="3"></line>
+              <line x1="260" y1="474" x2="260" y2="504" stroke-width="3"></line>
+              <line x1="16" y1="260" x2="46" y2="260" stroke-width="3"></line>
+              <line x1="474" y1="260" x2="504" y2="260" stroke-width="3"></line>
+            </g>
+            <g stroke-width="2" opacity=".8">
+              <line x1="432.7" y1="87.3" x2="414.4" y2="105.6"></line>
+              <line x1="432.7" y1="432.7" x2="414.4" y2="414.4"></line>
+              <line x1="87.3" y1="432.7" x2="105.6" y2="414.4"></line>
+              <line x1="87.3" y1="87.3" x2="105.6" y2="105.6"></line>
+            </g>
+            <g stroke-width="1.2" opacity=".5">
+              <line x1="370" y1="27.9" x2="365" y2="42.1"></line>
+              <line x1="150" y1="27.9" x2="155" y2="42.1"></line>
+              <line x1="492.1" y1="370" x2="477.9" y2="365"></line>
+              <line x1="492.1" y1="150" x2="477.9" y2="155"></line>
+              <line x1="370" y1="492.1" x2="365" y2="477.9"></line>
+              <line x1="150" y1="492.1" x2="155" y2="477.9"></line>
+              <line x1="27.9" y1="370" x2="42.1" y2="365"></line>
+              <line x1="27.9" y1="150" x2="42.1" y2="155"></line>
+            </g>
           </g>
-          <!-- 7 area dots around the ring -->
-          <g>
-            <circle cx="260" cy="30" r="6" fill="#E86E3A" class="compass-dot"></circle>
-            <circle cx="461" cy="157" r="5" fill="#D4A574" class="compass-dot" style="animation-delay:.3s"></circle>
-            <circle cx="461" cy="362" r="5" fill="#D4A574" class="compass-dot" style="animation-delay:.6s"></circle>
-            <circle cx="260" cy="490" r="5" fill="#D4A574" class="compass-dot" style="animation-delay:.9s"></circle>
-            <circle cx="60" cy="362" r="5" fill="#D4A574" class="compass-dot" style="animation-delay:1.2s"></circle>
-            <circle cx="60" cy="157" r="5" fill="#D4A574" class="compass-dot" style="animation-delay:1.5s"></circle>
-            <circle cx="160" cy="60" r="5" fill="#D4A574" class="compass-dot" style="animation-delay:1.8s"></circle>
-          </g>
         </g>
-        <!-- middle ring (counter-clockwise) -->
-        <g class="compass-ring-rev">
-          <circle cx="260" cy="260" r="170" fill="none" stroke="rgba(255,250,245,0.12)" stroke-width="1" stroke-dasharray="2 6"></circle>
+
+        <!-- Cardinal letters N E S W -->
+        <g font-family="Playfair Display, serif" font-weight="700" font-style="italic" text-anchor="middle">
+          <text x="260" y="78" font-size="34" fill="#E86E3A" dominant-baseline="middle">N</text>
+          <text x="442" y="260" font-size="24" fill="#FFFAF5" opacity=".75" dominant-baseline="middle">E</text>
+          <text x="260" y="442" font-size="24" fill="#FFFAF5" opacity=".75" dominant-baseline="middle">S</text>
+          <text x="78" y="260" font-size="24" fill="#FFFAF5" opacity=".75" dominant-baseline="middle">W</text>
         </g>
-        <!-- inner ring -->
-        <circle cx="260" cy="260" r="110" fill="none" stroke="rgba(255,250,245,0.18)" stroke-width="1"></circle>
-        <!-- center glow + mark -->
-        <circle cx="260" cy="260" r="100" fill="url(#centerGlow)"></circle>
-        <circle cx="260" cy="260" r="4" fill="#E86E3A"></circle>
-        <!-- crosshair -->
-        <g stroke="rgba(255,250,245,0.25)" stroke-width="1">
-          <line x1="260" y1="150" x2="260" y2="370"></line>
-          <line x1="150" y1="260" x2="370" y2="260"></line>
+
+        <!-- Inner dashed ring -->
+        <circle cx="260" cy="260" r="178" fill="none" stroke="rgba(255,250,245,0.22)" stroke-width="1.2" stroke-dasharray="1 8"></circle>
+
+        <!-- 7-area dots on that ring -->
+        <g>
+          <circle cx="260" cy="82" r="7" fill="#E86E3A" class="compass-dot"></circle>
+          <circle cx="415" cy="172" r="5.5" fill="#D4A574" class="compass-dot" style="animation-delay:.3s"></circle>
+          <circle cx="415" cy="348" r="5.5" fill="#D4A574" class="compass-dot" style="animation-delay:.6s"></circle>
+          <circle cx="260" cy="438" r="5.5" fill="#D4A574" class="compass-dot" style="animation-delay:.9s"></circle>
+          <circle cx="105" cy="348" r="5.5" fill="#D4A574" class="compass-dot" style="animation-delay:1.2s"></circle>
+          <circle cx="105" cy="172" r="5.5" fill="#D4A574" class="compass-dot" style="animation-delay:1.5s"></circle>
+          <circle cx="176" cy="100" r="5.5" fill="#D4A574" class="compass-dot" style="animation-delay:1.8s"></circle>
         </g>
-        <!-- numerals -->
-        <g font-family="Playfair Display, serif" font-style="italic" font-size="14" fill="rgba(255,250,245,0.35)">
-          <text x="260" y="20" text-anchor="middle">I</text>
-          <text x="478" y="162" text-anchor="middle">II</text>
-          <text x="478" y="368" text-anchor="middle">III</text>
-          <text x="260" y="510" text-anchor="middle">IV</text>
-          <text x="42" y="368" text-anchor="middle">V</text>
-          <text x="42" y="162" text-anchor="middle">VI</text>
-          <text x="160" y="48" text-anchor="middle">VII</text>
+
+        <!-- Compass rose diamonds (cardinals) -->
+        <g opacity=".2">
+          <polygon points="260,120 275,260 260,400 245,260" fill="#FFFAF5"></polygon>
+          <polygon points="120,260 260,245 400,260 260,275" fill="#FFFAF5"></polygon>
         </g>
-        <!-- center label -->
-        <text x="260" y="264" text-anchor="middle" font-family="Playfair Display, serif" font-style="italic" font-size="22" fill="#fff" opacity="0.85">the audit</text>
-        <text x="260" y="288" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="9" letter-spacing="3" fill="#D4A574" font-weight="700">SEVEN AREAS</text>
+
+        <!-- Inner medallion -->
+        <circle cx="260" cy="260" r="96" fill="rgba(26,20,16,.55)" stroke="rgba(255,250,245,.35)" stroke-width="2"></circle>
+        <circle cx="260" cy="260" r="82" fill="none" stroke="rgba(232,110,58,.35)" stroke-width="1"></circle>
+
+        <!-- NEEDLE (spinning) -->
+        <g class="compass-needle" style="transform-origin:260px 260px">
+          <!-- north arrow -->
+          <polygon points="260,170 250,260 270,260" fill="url(#needleN)"></polygon>
+          <polygon points="260,170 252,260 260,258" fill="#E86E3A"></polygon>
+          <!-- south arrow -->
+          <polygon points="260,350 250,260 270,260" fill="url(#needleS)" opacity=".7"></polygon>
+          <!-- center hub -->
+          <circle cx="260" cy="260" r="10" fill="#1A1410" stroke="#E86E3A" stroke-width="2"></circle>
+          <circle cx="260" cy="260" r="3" fill="#E86E3A"></circle>
+        </g>
+
+        <!-- Center label (fixed, above needle) -->
+        <g>
+          <text x="260" y="228" text-anchor="middle" font-family="Playfair Display, serif" font-style="italic" font-size="20" fill="#fff" opacity="0.9">the audit</text>
+          <line x1="238" y1="238" x2="282" y2="238" stroke="#E86E3A" stroke-width="1" opacity=".5"></line>
+          <text x="260" y="298" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="9" letter-spacing="3" fill="#D4A574" font-weight="700">SEVEN AREAS</text>
+        </g>
       </svg>
+      </div>
+
+      <!-- === Variant B: Spotlight stack === -->
+      <div class="hero-visual visual-spotlight" data-variant="spotlight" hidden="">
+        <svg viewBox="0 0 520 520">
+          <defs>
+            <linearGradient id="slGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E86E3A" stop-opacity=".55"></stop><stop offset="100%" stop-color="#E86E3A" stop-opacity="0"></stop></linearGradient>
+            <radialGradient id="slSpot" cx="50%" cy="42%" r="38%"><stop offset="0%" stop-color="#FFE9D2" stop-opacity=".9"></stop><stop offset="45%" stop-color="#E86E3A" stop-opacity=".25"></stop><stop offset="100%" stop-color="#E86E3A" stop-opacity="0"></stop></radialGradient>
+          </defs>
+          <polygon points="220,60 300,60 460,470 60,470" fill="url(#slGrad)" opacity=".55"></polygon>
+          <circle cx="260" cy="215" r="135" fill="url(#slSpot)"></circle>
+          <g class="sl-stack">
+            <rect x="150" y="430" width="220" height="14" rx="2" fill="#D4A574" opacity=".35"></rect>
+            <rect x="135" y="410" width="250" height="14" rx="2" fill="#D4A574" opacity=".5"></rect>
+            <rect x="120" y="388" width="280" height="16" rx="2" fill="#E86E3A" opacity=".7"></rect>
+            <rect x="105" y="364" width="310" height="18" rx="2" fill="#E86E3A"></rect>
+            <rect x="105" y="364" width="170" height="18" rx="2" fill="#FFFAF5"></rect>
+          </g>
+          <g font-family="Playfair Display, serif" font-style="italic" fill="#FFFAF5">
+            <text x="260" y="180" text-anchor="middle" font-size="46" opacity=".95">clarity,</text>
+            <text x="260" y="230" text-anchor="middle" font-size="28" opacity=".65">then a plan.</text>
+          </g>
+          <g stroke="#E86E3A" stroke-width="1.5" opacity=".5">
+            <line x1="220" y1="60" x2="60" y2="470"></line>
+            <line x1="300" y1="60" x2="460" y2="470"></line>
+          </g>
+          <circle cx="260" cy="60" r="5" fill="#E86E3A"></circle>
+        </svg>
+      </div>
+
+      <!-- === Variant C: Numbered grid === -->
+      <div class="hero-visual visual-grid" data-variant="grid" hidden="">
+        <div class="hg-wrap">
+          <div class="hg-cell"><span class="hg-n">I</span><span class="hg-t">Culture</span></div>
+          <div class="hg-cell"><span class="hg-n">II</span><span class="hg-t">Board</span></div>
+          <div class="hg-cell"><span class="hg-n">III</span><span class="hg-t">Data</span></div>
+          <div class="hg-cell"><span class="hg-n">IV</span><span class="hg-t">Programs</span></div>
+          <div class="hg-cell hg-center"><span class="hg-c-e">The Audit</span><span class="hg-c-s">7 areas</span></div>
+          <div class="hg-cell"><span class="hg-n">V</span><span class="hg-t">Comms</span></div>
+          <div class="hg-cell"><span class="hg-n">VI</span><span class="hg-t">Pipeline</span></div>
+          <div class="hg-cell hg-special"><span class="hg-n">VII</span><span class="hg-t">Belief</span></div>
+          <div class="hg-cell"><span class="hg-t-arrow">→</span></div>
+        </div>
+      </div>
+
+      <!-- === Variant D: Growth chart === -->
+      <div class="hero-visual visual-chart" data-variant="chart" hidden="">
+        <svg viewBox="0 0 520 520">
+          <g stroke="rgba(255,250,245,.08)" stroke-width="1">
+            <line x1="60" y1="100" x2="460" y2="100"></line>
+            <line x1="60" y1="200" x2="460" y2="200"></line>
+            <line x1="60" y1="300" x2="460" y2="300"></line>
+            <line x1="60" y1="400" x2="460" y2="400"></line>
+          </g>
+          <g font-family="DM Sans, sans-serif" font-size="10" fill="rgba(255,250,245,.4)" font-weight="600" letter-spacing="1.5">
+            <text x="50" y="104" text-anchor="end">$1M</text>
+            <text x="50" y="204" text-anchor="end">$750K</text>
+            <text x="50" y="304" text-anchor="end">$500K</text>
+            <text x="50" y="404" text-anchor="end">$250K</text>
+          </g>
+          <!-- flat before -->
+          <path d="M60,380 L180,375 L240,378" fill="none" stroke="rgba(255,250,245,.35)" stroke-width="2" stroke-dasharray="4 4"></path>
+          <!-- audit marker -->
+          <line x1="240" y1="80" x2="240" y2="440" stroke="#E86E3A" stroke-width="1" stroke-dasharray="2 5" opacity=".5"></line>
+          <text x="240" y="70" text-anchor="middle" font-family="Playfair Display, serif" font-style="italic" font-size="16" fill="#E86E3A">the audit</text>
+          <!-- growth curve -->
+          <path d="M240,378 C290,370 320,330 360,270 C400,220 430,160 460,110" fill="none" stroke="#E86E3A" stroke-width="3.5" stroke-linecap="round" class="chart-line"></path>
+          <!-- area fill -->
+          <path d="M240,378 C290,370 320,330 360,270 C400,220 430,160 460,110 L460,440 L240,440 Z" fill="url(#chartFill)" opacity=".3"></path>
+          <defs>
+            <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E86E3A" stop-opacity=".6"></stop><stop offset="100%" stop-color="#E86E3A" stop-opacity="0"></stop></linearGradient>
+          </defs>
+          <!-- endpoint -->
+          <circle cx="460" cy="110" r="7" fill="#E86E3A"></circle>
+          <circle cx="460" cy="110" r="14" fill="none" stroke="#E86E3A" opacity=".4"></circle>
+          <!-- start point -->
+          <circle cx="240" cy="378" r="5" fill="#FFFAF5"></circle>
+          <g font-family="DM Sans, sans-serif" font-size="10" fill="rgba(255,250,245,.6)" font-weight="700" letter-spacing="1.5">
+            <text x="60" y="470">BEFORE</text>
+            <text x="240" y="470" text-anchor="middle">MONTH 0</text>
+            <text x="460" y="470" text-anchor="end">12 MONTHS</text>
+          </g>
+        </svg>
+      </div>
+    </div>
     </div>
   </div>
   <div class="hero-scroll"><span>Read on</span><span class="hero-scroll-line"></span></div>
@@ -621,10 +856,10 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
       <h2 class="problem-headline">You know your organization could raise more. <span class="it">You're just not sure where to start.</span></h2>
       <div class="problem-body">
         <p>Maybe you're an executive director who's been handling fundraising on top of everything else. You're overwhelmed, exhausted, and stressed out. You know there's low-hanging fundraising fruit all around you, but you barely have time to thank your top donors.</p>
-        <p>Or maybe you're a board member who knows the organization needs to be doing more, but every conversation about money ends in perplexed silence, or an overwhelming sense of deflation.</p>
-        <p>Or perhaps you're a motivated volunteer, willing to put your nose to the grindstone. But there's so much that can be done, that you're seized by decision fatigue.</p>
+        <p>Or maybe you're a board member who knows the organization needs to be doing more on fundraising. But you also need to do more on governance and strategic planning, and somehow fundraising keeps getting pushed off to another day.</p>
+        <p>Or perhaps you're a motivated volunteer, willing to put your nose to the grindstone. But there's just so much that can be done, that when you set out to begin, you're seized by decision fatigue.</p>
       </div>
-      <p class="problem-pivot"><span class="a">The problem isn't <span class="hl">effort</span>.</span> <span class="b">It's clarity.</span></p>
+      <p class="problem-pivot"><span class="a">The problem isn't <span class="hl">effort</span>.</span> <span class="b">You need direction.</span></p>
     </div>
   </div>
     
@@ -649,16 +884,6 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
       <span class="qs-item">Are events draining us?</span>
       <span class="qs-item">Is our donor base growing or shrinking?</span>
       <span class="qs-item">Too much on the gala, not enough on thank-you calls?</span>
-    </div>
-  </div>
-
-  <div class="problem-inner reveal">
-    <div class="problem-body" style="margin-top:2.5rem">
-      <p>You're tired of piecing together advice from webinars, blog posts, and conferences. You need someone to look at your <strong>actual data</strong>, talk to your <strong>actual people</strong>, and tell you what's really going on.</p>
-    </div>
-    <div class="problem-resolve">
-      <div class="tag">The Answer</div>
-      <p class="problem-resolve-text">That's what a <em>fundraising audit</em> does.</p>
     </div>
   </div>
 </section>
@@ -693,18 +918,6 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
       <p><strong style="color:var(--accent);font-weight:700">The Fundraising Audit</strong> is a comprehensive, <strong>six-to-eight-week diagnostic</strong> that examines your fundraising program from the inside out. I review your donor data, interview your leadership, survey your board, assess your communications, and benchmark your results against sector standards.</p>
       <p>This isn't a report full of generic best practices.</p>
       <p class="grounded-call">Every finding is grounded in <em>your actual data,</em> your actual donors, and <em>your actual capacity.</em></p>
-      <p>I've done this work from the inside: as a headmaster who grew a school's revenue from <strong>$280K to $600K</strong>, and as a campaign director who built a donor base from <strong>80 to 325</strong> and raised <strong>$100K in a few short weeks</strong>.</p>
-
-      <div class="whatis-stats">
-        <div class="whatis-stat">
-          <div class="num">$280K <span class="arrow">→</span> $600K</div>
-          <div class="lbl">Annual revenue grown, from the inside, at a school I led as headmaster.</div>
-        </div>
-        <div class="whatis-stat">
-          <div class="num">80 <span class="arrow">→</span> 325</div>
-          <div class="lbl">Donor base built, as campaign director. I've been the one who had to find the untapped potential.</div>
-        </div>
-      </div>
 
       <p>The audit gives you the honest picture.</p>
       <p><strong style="color:var(--accent);font-weight:700">The Strategic Plan:</strong> gives you the roadmap. Together, they tell you exactly where to focus your limited time and resources <strong>for the greatest return</strong>.</p>
@@ -718,48 +931,25 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
     <div>
       <div class="eyebrow">The Seven Areas of the Audit</div>
       <h2 class="h-display" style="max-width:680px">We look at everything. <span class="it">Then we tell you what matters most.</span></h2>
-    </div>
-    <div class="seven-head-right">
-      <p>Each dimension is reviewed against your actual data — then benchmarked against sector standards and peer organizations. No generic scorecards. Just a clear-eyed read of where you stand.</p>
+      <p class="seven-head-sub">Each dimension is reviewed against your actual data — then benchmarked against sector standards and peer organizations. No generic scorecards. Just a clear-eyed read of where you stand.</p>
     </div>
   </div>
 
   <div class="seven-list">
     <div class="seven-item reveal">
-      <div class="seven-num">01<span class="dot"></span></div>
-      <h3 class="seven-title">Organizational culture &amp; <span class="accent-word">leadership alignment</span>.</h3>
-      <p class="seven-desc">Is fundraising treated as central to the mission, or as a necessary evil? Does leadership participate in donor cultivation? Is the development function set up to succeed, or set up to struggle alone?</p>
-    </div>
+      <div class="seven-num">01<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Organizational culture &amp; <span class="accent-word">leadership alignment</span>.</h3><p class="seven-desc">Is fundraising treated as central to the mission, or as a necessary evil? Does leadership participate in donor cultivation? Is the development function set up to succeed, or set up to struggle alone?</p></div></div>
     <div class="seven-item reveal">
-      <div class="seven-num">02<span class="dot"></span></div>
-      <h3 class="seven-title">Board engagement <span class="accent-word">and giving</span>.</h3>
-      <p class="seven-desc">What percentage of your board gives? Do board members open doors to potential donors? We survey your board anonymously to understand their comfort level, beliefs, and willingness to engage.</p>
-    </div>
+      <div class="seven-num">02<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Board engagement <span class="accent-word">and giving</span>.</h3><p class="seven-desc">What percentage of your board gives? Do board members open doors to potential donors? We survey your board anonymously to understand their comfort level, beliefs, and willingness to engage.</p></div></div>
     <div class="seven-item reveal">
-      <div class="seven-num">03<span class="dot"></span></div>
-      <h3 class="seven-title">Donor data <span class="accent-word">analysis</span>.</h3>
-      <p class="seven-desc">Retention rates, acquisition and attrition trends, revenue by source, giving-level distribution, upgrade potential, and lapsed donor profiles. We benchmark against the AFP Fundraising Effectiveness Project and peer organizations through CRA or IRS filings.</p>
-    </div>
+      <div class="seven-num">03<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Donor data <span class="accent-word">analysis</span>.</h3><p class="seven-desc">Retention rates, acquisition and attrition trends, revenue by source, giving-level distribution, upgrade potential, and lapsed donor profiles. We benchmark against the AFP Fundraising Effectiveness Project and peer organizations through CRA or IRS filings.</p></div></div>
     <div class="seven-item reveal">
-      <div class="seven-num">04<span class="dot"></span></div>
-      <h3 class="seven-title">Fundraising <span class="accent-word">programs</span>.</h3>
-      <p class="seven-desc">A channel-by-channel review of your annual fund, major gifts, events, grants, and planned giving. For each: structure, results, cost-per-dollar-raised, and strategic rationale. Which programs are earning their keep, and which are consuming resources without proportional return?</p>
-    </div>
+      <div class="seven-num">04<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Fundraising <span class="accent-word">programs</span>.</h3><p class="seven-desc">A channel-by-channel review of your annual fund, major gifts, events, grants, and planned giving. For each: structure, results, cost-per-dollar-raised, and strategic rationale. Which programs are earning their keep, and which are consuming resources without proportional return?</p></div></div>
     <div class="seven-item reveal">
-      <div class="seven-num">05<span class="dot"></span></div>
-      <h3 class="seven-title">Communications <span class="accent-word">&amp; stewardship</span>.</h3>
-      <p class="seven-desc">How quickly are gifts acknowledged? How often do you communicate with donors between asks? Are your appeals donor-centered or organization-centered? We review every touchpoint from the first thank-you letter to the annual report.</p>
-    </div>
+      <div class="seven-num">05<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Communications <span class="accent-word">&amp; stewardship</span>.</h3><p class="seven-desc">How quickly are gifts acknowledged? How often do you communicate with donors between asks? Are your appeals donor-centered or organization-centered? We review every touchpoint from the first thank-you letter to the annual report.</p></div></div>
     <div class="seven-item reveal">
-      <div class="seven-num">06<span class="dot"></span></div>
-      <h3 class="seven-title">Prospect <span class="accent-word">pipeline</span>.</h3>
-      <p class="seven-desc">Do you have a formal prospect list? How are new potential donors identified? How many face-to-face donor meetings happen each month? For most organizations, this is where the <strong>largest untapped opportunity</strong> lives.</p>
-    </div>
+      <div class="seven-num">06<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Prospect <span class="accent-word">pipeline</span>.</h3><p class="seven-desc">Do you have a formal prospect list? How are new potential donors identified? How many face-to-face donor meetings happen each month? For most organizations, this is where the <strong>largest untapped opportunity</strong> lives.</p></div></div>
     <div class="seven-item special reveal">
-      <div class="seven-num">07<span class="dot"></span></div>
-      <h3 class="seven-title">Belief <span class="accent-word">diagnostic</span>.</h3>
-      <p class="seven-desc">We map what we find in the data back to the underlying beliefs producing those results. Beliefs like "fundraising is embarrassing" or "if we do good work, the money will come" shape behavior in ways that no amount of tactical advice will fix. <strong>Naming them is the first step toward changing them.</strong></p>
-    </div>
+      <div class="seven-num">07<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Belief <span class="accent-word">diagnostic</span>.</h3><p class="seven-desc">We map what we find in the data back to the underlying beliefs producing those results. Beliefs like "fundraising is embarrassing" or "if we do good work, the money will come" shape behavior in ways that no amount of tactical advice will fix. <strong>Naming them is the first step toward changing them.</strong></p></div></div>
   </div>
 </section>
 
@@ -781,68 +971,82 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
   <div class="plan-head reveal">
     <div class="eyebrow">The Strategic Plan</div>
     <h2 class="h-display">A roadmap <span class="it">your team can actually follow.</span></h2>
-    <p>The strategic plan translates audit findings into a concrete, twelve-month action plan — organized into three tiers, each tied to revenue projections your board can see.</p>
+    <p>The strategic plan translates audit findings into a concrete, twelve-month action plan - organized into three tiers, each tied to revenue projections your board can see.</p>
   </div>
 
-  <div class="timeline reveal" id="timeline">
-    <div class="timeline-track"><div class="timeline-fill"></div></div>
-    <div class="timeline-grid">
-      <div class="phase">
-        <div class="phase-top">
-          <div class="phase-dot"></div>
-          <div class="phase-label">Tier 01 — Immediate</div>
-          <div class="phase-months">Months 1–3</div>
-        </div>
-        <div class="phase-card">
-          <h3>Immediate <span class="it">priorities.</span></h3>
-          <p>High-impact changes your team can make <strong style="color:var(--accent);font-weight:700;background:linear-gradient(transparent 60%, rgba(200,70,28,.18) 60%);padding:0 .15em">right away.</strong></p>
-          <ul class="phase-tasks">
-            <li>Fix the acknowledgment process</li>
-            <li>Establish 100% board giving</li>
-            <li>Launch a regular donor communication cadence</li>
-            <li>Clean your CRM data</li>
-            <li>Identify upgrade candidates from existing donors</li>
-          </ul>
-        </div>
-      </div>
+  <div class="journey reveal" id="timeline">
+    <div class="journey-stations">
+    <svg class="journey-path" viewBox="0 0 180 1000" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <linearGradient id="jgrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#C8461C"></stop>
+          <stop offset="50%" stop-color="#B88954"></stop>
+          <stop offset="100%" stop-color="#5C6E4E"></stop>
+        </linearGradient>
+      </defs>
+      <path d="M90,0 C40,140 140,260 90,400 C40,540 140,680 90,820 C60,900 120,960 90,1000" stroke="url(#jgrad)" vector-effect="non-scaling-stroke"></path>
+    </svg>
 
-      <div class="phase">
-        <div class="phase-top">
-          <div class="phase-dot sand"></div>
-          <div class="phase-label sand">Tier 02 — Near-term</div>
-          <div class="phase-months">Months 3–6</div>
-        </div>
-        <div class="phase-card">
-          <h3 class="sand">Near-term <span class="it">priorities.</span></h3>
-          <p>Structural work that builds a durable program.</p>
-          <ul class="phase-tasks sand">
-            <li>A written case for support</li>
-            <li>Structured annual fund with multiple touchpoints</li>
-            <li>Major gift cultivation with your top 20–50 donors</li>
-            <li>Board fundraising training</li>
-            <li>A stewardship plan by donor level</li>
-          </ul>
-        </div>
+    <div class="station s1">
+      <div class="station-meta">
+        <div class="station-months">Months 1–3<span class="mo">The first leg</span></div>
+        <div class="station-tier">Tier 01 — Immediate</div>
       </div>
+      <div class="station-pin"><div class="ring r2"></div><div class="ring"></div><div class="core">I</div></div>
+      <div class="station-card">
+        <h3>Immediate <span class="it">priorities.</span></h3>
+        <p>High-impact changes your team can make <strong style="color:var(--accent);font-weight:700;background:linear-gradient(transparent 60%, rgba(200,70,28,.18) 60%);padding:0 .15em">right away.</strong></p>
+        <p class="station-eg"><em>For example:</em></p>
+        <ul>
+          <li>Fix the acknowledgment process</li>
+          <li>Establish 100% board giving</li>
+          <li>Launch a regular donor communication cadence</li>
+          <li>Clean your CRM data</li>
+          <li>Identify upgrade candidates from existing donors</li>
+        </ul>
+      </div>
+    </div>
 
-      <div class="phase">
-        <div class="phase-top">
-          <div class="phase-dot moss"></div>
-          <div class="phase-label moss">Tier 03 — Medium-term</div>
-          <div class="phase-months">Months 6–12</div>
-        </div>
-        <div class="phase-card">
-          <h3 class="moss">Medium-term <span class="it">investments.</span></h3>
-          <p>Longer-horizon work that compounds over time.</p>
-          <ul class="phase-tasks moss">
-            <li>Diversify revenue streams</li>
-            <li>Develop planned giving marketing</li>
-            <li>Build a formal prospect research process</li>
-            <li>Evaluate event ROI</li>
-            <li>Upgrade systems where needed</li>
-          </ul>
-        </div>
+    <div class="station s2 alt">
+      <div class="station-meta">
+        <div class="station-months">Months 3–6<span class="mo">Mid-journey</span></div>
+        <div class="station-tier">Tier 02 — Near-term</div>
       </div>
+      <div class="station-pin"><div class="ring r2"></div><div class="ring"></div><div class="core">II</div></div>
+      <div class="station-card">
+        <h3>Near-term <span class="it">priorities.</span></h3>
+        <p>Structural work that builds a durable program.</p>
+        <p class="station-eg"><em>For example:</em></p>
+        <ul>
+          <li>A written case for support</li>
+          <li>Structured annual fund with multiple touchpoints</li>
+          <li>Major gift cultivation with your top 20–50 donors</li>
+          <li>Board fundraising training</li>
+          <li>A stewardship plan by donor level</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="station s3">
+      <div class="station-meta">
+        <div class="station-months">Months 6–12<span class="mo">The horizon</span></div>
+        <div class="station-tier">Tier 03 — Medium-term</div>
+      </div>
+      <div class="station-pin"><div class="ring r2"></div><div class="ring"></div><div class="core">III</div></div>
+      <div class="station-card">
+        <h3>Medium-term <span class="it">investments.</span></h3>
+        <p>Longer-horizon work that compounds over time.</p>
+        <p class="station-eg"><em>For example:</em></p>
+        <ul>
+          <li>Diversify revenue streams</li>
+          <li>Develop planned giving marketing</li>
+          <li>Build a formal prospect research process</li>
+          <li>Evaluate event ROI</li>
+          <li>Upgrade systems where needed</li>
+        </ul>
+      </div>
+    </div>
+
     </div>
 
     <div class="plan-outcome">
@@ -980,16 +1184,16 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
         <input type="hidden" name="subject" value="Fundraising Audit Inquiry">
         <div class="form-honey"><label>Don't fill this out:<input name="bot-field" tabindex="-1" autocomplete="off"></label></div>
         <div class="form-row cols">
-          <div><label class="form-label" for="f-name">Your Name</label><input class="form-input" id="f-name" name="name" type="text" required placeholder="Jane Donor"></div>
+          <div><label class="form-label" for="f-name">Your Name</label><input class="form-input" id="f-name" name="name" type="text" required="" placeholder="Jane Donor"></div>
           <div><label class="form-label" for="f-org">Organization</label><input class="form-input" id="f-org" name="organization" type="text" placeholder="Nonprofit Co."></div>
         </div>
         <div class="form-row">
           <label class="form-label" for="f-email">Email</label>
-          <input class="form-input" id="f-email" name="email" type="email" required placeholder="you@organization.org">
+          <input class="form-input" id="f-email" name="email" type="email" required="" placeholder="you@organization.org">
         </div>
         <div class="form-row">
           <label class="form-label" for="f-msg">How can I help?</label>
-          <textarea class="form-textarea" id="f-msg" name="message" placeholder="Tell me a little about your organization and what you're hoping to understand." required></textarea>
+          <textarea class="form-textarea" id="f-msg" name="message" placeholder="Tell me a little about your organization and what you're hoping to understand." required=""></textarea>
         </div>
         <button class="btn btn-primary form-submit" type="submit">Send Message →</button>
         <p class="form-note">I'll get back to you within one business day.</p>
@@ -1014,6 +1218,51 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
 </footer>
 
 <script>
+// === Tweaks: hero visual switcher ===
+const TWEAKS = /*EDITMODE-BEGIN*/{
+  "heroVisual": "compass"
+}/*EDITMODE-END*/;
+function applyHeroVariant(v){
+  document.querySelectorAll('.hero-visual').forEach(el=>{
+    el.hidden = (el.dataset.variant !== v);
+  });
+}
+applyHeroVariant(TWEAKS.heroVisual || 'compass');
+
+// Tweak panel
+let tweakPanel;
+function buildTweakPanel(){
+  if (tweakPanel) return tweakPanel;
+  tweakPanel = document.createElement('div');
+  tweakPanel.id = 'tweak-panel';
+  tweakPanel.innerHTML = `
+    <div class="tp-title">Tweaks</div>
+    <div class="tp-label">Hero visual</div>
+    <div class="tp-opts">
+      <button data-v="compass">Compass</button>
+      <button data-v="spotlight">Spotlight</button>
+      <button data-v="grid">Grid</button>
+      <button data-v="chart">Growth curve</button>
+    </div>`;
+  document.body.appendChild(tweakPanel);
+  tweakPanel.querySelectorAll('button').forEach(b=>{
+    b.addEventListener('click',()=>{
+      const v = b.dataset.v;
+      applyHeroVariant(v);
+      tweakPanel.querySelectorAll('button').forEach(x=>x.classList.toggle('active', x.dataset.v===v));
+      try { window.parent.postMessage({type:'__edit_mode_set_keys', edits:{heroVisual:v}}, '*'); } catch(e){}
+    });
+  });
+  tweakPanel.querySelectorAll('button').forEach(x=>x.classList.toggle('active', x.dataset.v===(TWEAKS.heroVisual||'compass')));
+  return tweakPanel;
+}
+window.addEventListener('message',(e)=>{
+  const d=e.data||{};
+  if (d.type==='__activate_edit_mode'){ buildTweakPanel().classList.add('open'); }
+  if (d.type==='__deactivate_edit_mode'){ if(tweakPanel) tweakPanel.classList.remove('open'); }
+});
+try { window.parent.postMessage({type:'__edit_mode_available'}, '*'); } catch(e){}
+
 // nav scroll
 const nav = document.getElementById('nav');
 window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 50));
@@ -1023,12 +1272,24 @@ const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
 navToggle.addEventListener('click', () => { navLinks.classList.toggle('open'); });
 
-// reveal on scroll
+// reveal on scroll — with mixed motion variants
+const REVEAL_VARIANTS = ['up','left','right','scale','clip','tilt','blur','clip-r','down'];
 const reveals = document.querySelectorAll('.reveal');
+reveals.forEach((el, i) => {
+  if (!el.dataset.reveal) {
+    // deterministic variety by index
+    el.dataset.reveal = REVEAL_VARIANTS[i % REVEAL_VARIANTS.length];
+  }
+});
+// mark certain parents as stagger containers
+document.querySelectorAll('.seven-list, .problem-questions, .pricing-grid, .deliverables-grid, .faq-list, .journey-stations').forEach(el=>{
+  el.classList.add('reveal','reveal-stagger');
+  if(!el.dataset.reveal) el.dataset.reveal='up';
+});
 const io = new IntersectionObserver((entries) => {
-  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
 }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
-reveals.forEach(el => io.observe(el));
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
 // timeline fill
 const tl = document.getElementById('timeline');

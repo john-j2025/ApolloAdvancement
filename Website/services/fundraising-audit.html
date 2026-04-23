@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Apollo Advancement">
-    <meta property="og:title" content="Fundraising Audit & Strategic Plan | Apollo Advancement">
-    <meta property="og:description" content="A clear-eyed assessment of your nonprofit's fundraising program - followed by an honest strategic plan your team can actually follow. Apollo Advancement serves Canada and the US.">
+    <meta property="og:title" content="Nonprofit Fundraising Audit & Strategic Plan | Apollo Advancement">
+    <meta property="og:description" content="Not sure what's working in your fundraising program? A fundraising audit examines your donor data, board engagement, communications, and more, then gives you a plan your team can follow.">
     <meta property="og:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:url" content="https://apolloadvancement.com/services/fundraising-audit">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Fundraising Audit & Strategic Plan | Apollo Advancement">
-    <meta name="twitter:description" content="A clear-eyed assessment of your nonprofit's fundraising program - followed by an honest strategic plan your team can actually follow. Apollo Advancement serves Canada and the US.">
+    <meta name="twitter:title" content="Nonprofit Fundraising Audit & Strategic Plan | Apollo Advancement">
+    <meta name="twitter:description" content="Not sure what's working in your fundraising program? A fundraising audit examines your donor data, board engagement, communications, and more, then gives you a plan your team can follow.">
     <meta name="twitter:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
-    <meta name="description" content="A clear-eyed assessment of your nonprofit's fundraising program - followed by an honest strategic plan your team can actually follow. Apollo Advancement serves Canada and the US.">
-    <title>Fundraising Audit & Strategic Plan | Apollo Advancement</title>
+    <meta name="description" content="Not sure what's working in your fundraising program? A fundraising audit examines your donor data, board engagement, communications, and more, then gives you a strategic plan your team can follow. Serving nonprofits across Canada and the US.">
+    <title>Nonprofit Fundraising Audit & Strategic Plan | Apollo Advancement</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -54,26 +54,68 @@
         .nav-links a:hover, .nav-links a.active { color: var(--color-text); }
         .nav-cta { background: var(--color-accent) !important; color: #fff !important; padding: 0.55rem 1.4rem !important; border-radius: 3px; transition: background 0.2s !important; }
         .nav-cta:hover { background: var(--color-accent-hover) !important; }
-        nav.scrolled .nav-brand { color: var(--color-text); }
         nav.scrolled .nav-brand span { color: var(--color-accent); }
-        nav.scrolled .nav-links a { color: var(--color-text-soft); }
         nav.scrolled .nav-links a:hover, nav.scrolled .nav-links a.active { color: var(--color-text); }
         .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 4px; }
         .nav-toggle span { display: block; width: 24px; height: 2px; background: var(--color-text); margin: 5px 0; transition: all 0.3s; }
         nav.scrolled .nav-toggle span { background: var(--color-text); }
 
-        /* PAGE HEADER */
-        .page-header { background: var(--color-bg-warm); padding: 9rem 2.5rem 5rem; text-align: left; border-bottom: 1px solid var(--color-rule); }
-        .page-header-inner { max-width: var(--content-width); margin: 0 auto; }
-        .page-header .service-num { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 1.2rem; opacity: 0; animation: fadeUp 0.5s ease 0.1s forwards; }
-        .page-header h1 { font-family: var(--font-display); font-size: clamp(2.6rem, 6vw, 4rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; color: var(--color-text); margin-bottom: 1.4rem; opacity: 0; animation: fadeUp 0.6s ease 0.2s forwards; }
-        .page-header .hero-sub { font-size: 1.15rem; color: var(--color-text-soft); line-height: 1.6; max-width: 600px; margin-bottom: 2.2rem; opacity: 0; animation: fadeUp 0.6s ease 0.35s forwards; }
-        .hero-cta-row { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; opacity: 0; animation: fadeUp 0.6s ease 0.45s forwards; }
+        /* HERO - StoryBrand: Character + Problem */
+        .hero {
+            background: var(--color-bg-dark);
+            padding: 11rem 2.5rem 6rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 100% 70% at 20% 30%, rgba(200,70,28,0.12) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 80% at 85% 80%, rgba(232,110,58,0.06) 0%, transparent 50%);
+        }
+        .hero-inner { max-width: 820px; margin: 0 auto; position: relative; z-index: 1; }
+        .hero .service-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-accent-glow); margin-bottom: 2rem; opacity: 0; animation: fadeUp 0.5s ease 0.1s forwards; }
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.8rem, 7vw, 4.5rem);
+            font-weight: 900;
+            line-height: 1.05;
+            letter-spacing: -0.02em;
+            color: #fff;
+            margin-bottom: 2rem;
+            opacity: 0;
+            animation: fadeUp 0.7s ease 0.2s forwards;
+        }
+        .hero h1 .highlight {
+            display: inline;
+            background: var(--color-accent);
+            color: #fff;
+            padding: 0.05em 0.25em;
+            margin-left: 0.05em;
+        }
+        .hero-sub {
+            font-size: 1.2rem;
+            color: rgba(255,255,255,0.7);
+            line-height: 1.7;
+            max-width: 600px;
+            margin-bottom: 2.5rem;
+            opacity: 0;
+            animation: fadeUp 0.6s ease 0.4s forwards;
+        }
+        .hero-cta-row { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; opacity: 0; animation: fadeUp 0.6s ease 0.55s forwards; }
         .cta-btn { display: inline-block; font-size: 0.88rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--color-accent); padding: 1.1rem 2.8rem; text-decoration: none; border-radius: 3px; transition: background 0.25s, transform 0.2s, box-shadow 0.25s; }
         .cta-btn:hover { background: var(--color-accent-hover); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(200,70,28,0.28); }
-        .hero-phone { font-size: 0.9rem; color: var(--color-text-soft); }
-        .hero-phone a { color: var(--color-text); text-decoration: none; font-weight: 600; }
-        .hero-phone a:hover { color: var(--color-accent); }
+        .hero-phone { font-size: 0.9rem; color: rgba(255,255,255,0.5); }
+        .hero-phone a { color: rgba(255,255,255,0.85); text-decoration: none; font-weight: 600; }
+        .hero-phone a:hover { color: #fff; }
+
+        /* BACK LINK */
+        .back-bar { padding: 1.5rem 2.5rem; border-bottom: 1px solid var(--color-rule); }
+        .back-bar-inner { max-width: var(--max-width); margin: 0 auto; }
+        .back-link { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--color-text-soft); text-decoration: none; }
+        .back-link:hover { color: var(--color-accent); }
 
         /* CONTENT SECTIONS */
         .content-section { padding: 5rem 2.5rem; }
@@ -84,6 +126,156 @@
         .content-section p:last-child { margin-bottom: 0; }
         .content-section p strong { color: var(--color-text); font-weight: 600; }
 
+        /* REFRAME STATEMENT - big bold standalone line */
+        .reframe {
+            font-family: var(--font-display);
+            font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+            font-weight: 900;
+            line-height: 1.2;
+            color: var(--color-text);
+            padding: 2.5rem 0;
+            margin: 1rem 0;
+            border-top: 3px solid var(--color-accent);
+            border-bottom: 3px solid var(--color-accent);
+        }
+
+        /* QUESTIONS BLOCK - rapid-fire internal monologue */
+        .questions-block {
+            font-family: var(--font-display);
+            font-size: clamp(1.05rem, 2vw, 1.25rem);
+            font-style: italic;
+            font-weight: 700;
+            color: var(--color-text);
+            line-height: 1.8;
+            padding: 2rem 0 2rem 2rem;
+            border-left: 4px solid var(--color-accent);
+            margin: 2rem 0;
+        }
+
+        /* FATIGUE LINE - the "tired of..." statement */
+        .fatigue {
+            font-size: 1.1rem;
+            color: var(--color-text-soft);
+            line-height: 1.8;
+            padding: 1.5rem 2rem;
+            background: var(--color-bg-warm);
+            border-radius: 4px;
+            margin: 2rem 0;
+        }
+
+        /* COMPASS SUBHEAD */
+        .compass-head {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            font-weight: 900;
+            font-style: italic;
+            color: var(--color-accent);
+            margin-bottom: 2rem;
+            line-height: 1.15;
+        }
+
+        /* AUDIT AREAS - numbered items with accent numbers */
+        .audit-area { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-rule); }
+        .audit-area:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .audit-area-header { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 0.6rem; }
+        .audit-area-num {
+            font-family: var(--font-display);
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--color-rule);
+            line-height: 1;
+            flex-shrink: 0;
+            min-width: 2.5rem;
+            transition: color 0.3s;
+        }
+        .audit-area:hover .audit-area-num { color: var(--color-accent); }
+        .audit-area-title { font-family: var(--font-display); font-size: 1.15rem; font-weight: 800; color: var(--color-text); line-height: 1.3; }
+        .audit-area-body { font-size: 1rem; line-height: 1.8; color: var(--color-text-soft); padding-left: 3.5rem; }
+
+        /* BELIEF CALLOUT - special treatment for #7 */
+        .belief-callout {
+            background: var(--color-bg-dark);
+            color: #fff;
+            padding: 2.5rem;
+            border-radius: 6px;
+            margin: 2rem 0;
+        }
+        .belief-callout .audit-area-num { color: var(--color-accent-glow); }
+        .belief-callout .audit-area-title { color: #fff; }
+        .belief-callout .audit-area-body { color: rgba(255,255,255,0.75); }
+
+        /* TIERS */
+        .tier { margin-bottom: 2rem; }
+        .tier-header {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: var(--color-text);
+            margin-bottom: 0.5rem;
+        }
+        .tier-header span {
+            font-family: var(--font-body);
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--color-accent);
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        /* PRICING */
+        .pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem; }
+        .pricing-card { background: #fff; border: 1px solid var(--color-rule); border-radius: 6px; padding: 2.5rem; transition: border-color 0.3s, box-shadow 0.3s; }
+        .pricing-card:hover { border-color: var(--color-accent); box-shadow: 0 4px 20px rgba(200,70,28,0.08); }
+        .pricing-card.featured { border: 2px solid var(--color-accent); }
+        .pricing-card-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.8rem; }
+        .pricing-card h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 800; margin-bottom: 0.4rem; }
+        .price { font-family: var(--font-display); font-size: 2.4rem; font-weight: 900; color: var(--color-text); margin-bottom: 0.3rem; }
+        .price-note { font-size: 0.85rem; color: var(--color-text-soft); margin-bottom: 1.2rem; }
+        .pricing-card p:last-child { font-size: 0.95rem; color: var(--color-text-soft); line-height: 1.7; margin-bottom: 0; }
+
+        /* DELIVERABLES */
+        .deliverable { display: flex; gap: 1rem; margin-bottom: 1.5rem; align-items: baseline; }
+        .deliverable-icon {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 900;
+            color: var(--color-accent);
+            flex-shrink: 0;
+        }
+        .deliverable-text strong { color: var(--color-text); display: block; font-size: 1.05rem; margin-bottom: 0.2rem; }
+        .deliverable-text { font-size: 0.95rem; color: var(--color-text-soft); line-height: 1.7; }
+
+        /* FAILURE CTA BAR */
+        .failure-bar {
+            background: var(--color-bg-dark);
+            padding: 5rem 2.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .failure-bar::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse 80% 80% at 50% 50%, rgba(200,70,28,0.08) 0%, transparent 70%);
+        }
+        .failure-bar-inner { max-width: 650px; margin: 0 auto; position: relative; z-index: 1; }
+        .failure-bar h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+            font-weight: 900;
+            color: #fff;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+        .failure-bar p { font-size: 1.05rem; color: rgba(255,255,255,0.65); line-height: 1.8; margin-bottom: 2rem; }
+        .failure-bar .cta-btn { background: var(--color-accent); }
+        .failure-bar-actions { display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; }
+        .failure-bar-phone { font-size: 1rem; color: rgba(255,255,255,0.5); }
+        .failure-bar-phone a { color: rgba(255,255,255,0.85); text-decoration: none; font-weight: 700; }
+
         /* MID-PAGE CTA BAR */
         .cta-bar { background: var(--color-accent); padding: 3.5rem 2.5rem; text-align: center; }
         .cta-bar h2 { font-family: var(--font-display); font-size: clamp(1.4rem, 3vw, 1.9rem); font-weight: 800; color: #fff; margin-bottom: 1.2rem; }
@@ -92,13 +284,29 @@
         .cta-bar .cta-btn:hover { background: rgba(255,255,255,0.9); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.15); }
         .cta-bar-phone { font-size: 1rem; color: rgba(255,255,255,0.85); }
         .cta-bar-phone a { color: #fff; text-decoration: none; font-weight: 700; font-size: 1.1rem; }
-        .cta-bar-phone a:hover { text-decoration: underline; }
 
         /* QUOTE PULLOUT */
-        .quote-section { padding: 5rem 2.5rem; background: var(--color-bg-dark); }
+        .quote-section { padding: 5rem 2.5rem; background: var(--color-bg-warm); }
         .quote-inner { max-width: var(--content-width); margin: 0 auto; }
-        .quote-section blockquote { font-family: var(--font-display); font-size: clamp(1.2rem, 2.5vw, 1.6rem); font-style: italic; font-weight: 700; color: #fff; line-height: 1.5; margin-bottom: 1.2rem; }
-        .quote-section cite { font-size: 0.85rem; color: var(--color-accent-glow); font-style: normal; font-weight: 600; letter-spacing: 0.04em; }
+        .quote-section blockquote {
+            font-family: var(--font-display);
+            font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+            font-style: italic;
+            font-weight: 700;
+            color: var(--color-text);
+            line-height: 1.5;
+            margin-bottom: 1.2rem;
+            padding-left: 2rem;
+            border-left: 4px solid var(--color-accent);
+        }
+        .quote-section cite { font-size: 0.9rem; color: var(--color-accent); font-style: normal; font-weight: 600; letter-spacing: 0.04em; padding-left: 2rem; }
+        .quote-section cite span { color: var(--color-text-soft); font-weight: 400; }
+
+        /* FAQ */
+        .faq-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-rule); }
+        .faq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .faq-q { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; color: var(--color-text); margin-bottom: 0.6rem; line-height: 1.3; }
+        .faq-a { font-size: 1rem; line-height: 1.8; color: var(--color-text-soft); margin: 0; }
 
         /* CONTACT FORM SECTION */
         .form-section { padding: 5rem 2.5rem; }
@@ -120,12 +328,6 @@
         .form-submit:hover { background: var(--color-accent-hover); }
         .form-note { font-size: 0.82rem; color: var(--color-text-soft); margin-top: 0.8rem; }
 
-        /* BACK LINK */
-        .back-bar { padding: 1.5rem 2.5rem; border-bottom: 1px solid var(--color-rule); }
-        .back-bar-inner { max-width: var(--max-width); margin: 0 auto; }
-        .back-link { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--color-text-soft); text-decoration: none; }
-        .back-link:hover { color: var(--color-accent); }
-
         /* FOOTER */
         footer { background: var(--color-bg-dark); padding: 3rem 2.5rem; }
         .footer-inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
@@ -135,13 +337,6 @@
         .footer-links a:hover { color: #fff; }
         .footer-copy { font-size: 0.78rem; color: rgba(255,255,255,0.35); width: 100%; margin-top: 0.5rem; }
 
-
-        /* FAQ */
-        .faq-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-rule); }
-        .faq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-        .faq-q { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; color: var(--color-text); margin-bottom: 0.6rem; line-height: 1.3; }
-        .faq-a { font-size: 1rem; line-height: 1.8; color: var(--color-text-soft); margin: 0; }
-
         /* ANIMATIONS */
         @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
         .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
@@ -150,22 +345,24 @@
         /* RESPONSIVE */
         @media (max-width: 900px) {
             .form-section-inner { grid-template-columns: 1fr; gap: 3rem; }
+            .pricing-grid { grid-template-columns: 1fr; }
             .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: var(--color-bg); padding: 1.5rem 2.5rem; border-bottom: 1px solid var(--color-rule); gap: 1.2rem; }
             .nav-links.open { display: flex; }
             .nav-links a { color: var(--color-text-soft); }
             .nav-toggle { display: block; }
         }
-        @media (max-width: 700px) {
-            .pricing-grid { grid-template-columns: 1fr !important; }
-        }
         @media (max-width: 600px) {
-            .page-header { padding: 7rem 1.5rem 3.5rem; }
+            .hero { padding: 8rem 1.5rem 4rem; }
             .content-section { padding: 3.5rem 1.5rem; }
+            .failure-bar { padding: 3.5rem 1.5rem; }
             .cta-bar { padding: 2.5rem 1.5rem; }
             .form-section { padding: 3.5rem 1.5rem; }
             .back-bar { padding: 1.2rem 1.5rem; }
             .hero-cta-row { flex-direction: column; align-items: flex-start; gap: 1rem; }
-            .cta-bar-actions { flex-direction: column; gap: 1rem; }
+            .cta-bar-actions, .failure-bar-actions { flex-direction: column; gap: 1rem; }
+            .questions-block { padding-left: 1.2rem; font-size: 1rem; }
+            .audit-area-body { padding-left: 0; }
+            .audit-area-header { flex-direction: column; gap: 0.3rem; }
         }
     </style>
     <!-- Google tag (gtag.js) -->
@@ -194,9 +391,9 @@
         "url": "https://apolloadvancement.com/"
       },
       "serviceType": "Fundraising Consulting",
-      "description": "A comprehensive review of your nonprofit's fundraising program - donor base, communications, systems, and untapped potential - followed by a written strategic plan with clear priorities.",
+      "description": "A comprehensive review of your nonprofit's fundraising program followed by a written strategic plan with clear priorities.",
       "areaServed": ["Canada", "United States"],
-      "url": "https://apolloadvancement.com/services/fundraising-audit/"
+      "url": "https://apolloadvancement.com/services/fundraising-audit"
     },
     {
       "@type": "FAQPage",
@@ -222,7 +419,7 @@
           "name": "What's the difference between a fundraising audit and a strategic plan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fundraising audit is the diagnostic process: examining what you have and assessing its health. A strategic development plan is the prescription: what to do next, in what order, and why. Together, they give you both an honest picture of your current program and a realistic roadmap for improving it. The audit informs the plan - you can't build a good strategy without first understanding the foundation you're building on."
+            "text": "A fundraising audit is the diagnostic process: examining what you have and assessing its health. A strategic development plan is the prescription: what to do next, in what order, and why. Together, they give you both an honest picture of your current program and a realistic roadmap for improving it."
           }
         },
         {
@@ -230,7 +427,15 @@
           "name": "When should a nonprofit do a fundraising audit?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The most common triggers for a fundraising audit are: fundraising revenue that has plateaued or declined, an executive director transition, a board that wants to professionalize the development function, or an organization preparing for a major campaign. It's also valuable when leadership suspects there's untapped potential in the donor base but isn't sure where to find it."
+            "text": "The most common triggers are fundraising revenue that has plateaued or declined, an executive director transition, a board that wants to professionalize the development function, or preparation for a major campaign."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to be local to work with Apollo Advancement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Apollo Advancement is based in Kawartha Lakes, Ontario, but serves nonprofits across Canada and the United States. Interviews and presentations can be conducted in person or by video."
           }
         }
       ]
@@ -244,7 +449,7 @@
 <nav id="nav">
     <div class="nav-inner">
         <a href="../" class="nav-brand">Apollo <span>Advancement</span></a>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span></button>
         <ul class="nav-links" id="navLinks">
             <li><a href="../services" class="active">Services</a></li>
             <li><a href="../about">About</a></li>
@@ -256,14 +461,14 @@
     </div>
 </nav>
 
-<!-- PAGE HEADER -->
-<header class="page-header">
-    <div class="page-header-inner">
-        <p class="service-num">Service 02</p>
-        <h1>Fundraising Audit &amp; Strategic Plan</h1>
-        <p class="hero-sub">An honest picture of where you stand - and a clear roadmap to where you want to go.</p>
+<!-- HERO: Character + Problem -->
+<header class="hero">
+    <div class="hero-inner">
+        <p class="service-label">Service 02</p>
+        <h1>Your mission deserves funding. You just need <span class="highlight">clarity.</span></h1>
+        <p class="hero-sub">A fundraising audit tells you exactly what's working, what isn't, and what to do next. No guesswork. No generic advice. Just the truth about your program, and a plan you can actually follow.</p>
         <div class="hero-cta-row">
-            <a href="#contact-form" class="cta-btn">Book an Audit →</a>
+            <a href="#contact-form" class="cta-btn">Book an Audit &rarr;</a>
             <span class="hero-phone">Or call directly: <a href="tel:+17053131588">(705) 313-1588</a></span>
         </div>
     </div>
@@ -272,32 +477,141 @@
 <!-- BACK LINK -->
 <div class="back-bar">
     <div class="back-bar-inner">
-        <a href="../services" class="back-link">← All Services</a>
+        <a href="../services" class="back-link">&larr; All Services</a>
     </div>
 </div>
 
-<!-- CONTENT SECTIONS -->
-
+<!-- SOUND FAMILIAR? - Problem (Internal) -->
 <section class="content-section reveal">
 <div class="content-inner">
-    <p class="section-label">What It Is</p>
-    <h2>Start with the truth.</h2>
-    <p>Before you can build a better fundraising program, you need an honest picture of the one you have. The Fundraising Audit is a comprehensive, 6-to-8-week diagnostic that examines your fundraising from the inside out. It covers seven dimensions of your development program, benchmarks your performance against sector standards, and identifies the underlying beliefs that are quietly shaping your results.</p>
-    <p>This isn't a report full of generic best practices. It's a frank, specific assessment of your organization: what's working, what isn't, and what to do next. Every finding is grounded in your actual data, your actual donors, and your actual capacity.</p>
+    <p class="section-label">Sound Familiar?</p>
+    <h2>You know your organization could raise more. You're just not sure where to start.</h2>
+    <p>Maybe you're an executive director who's been handling fundraising on top of everything else. Maybe you're a board member who knows the organization needs to be doing more, but every conversation about money ends in silence. Maybe you inherited a donor list from a predecessor and you're not even sure what's in it.</p>
+
+    <p class="reframe">The problem isn't effort. It's clarity.</p>
+
+    <div class="questions-block">
+        Are we leaving money on the table? Why do donors give once and never come back? Is our board supposed to be doing more? Should we be running another event, or are events draining us? Is our donor base growing or shrinking? Are we spending too much on the gala and not enough on thank-you calls?
+    </div>
+
+    <div class="fatigue">
+        You're tired of piecing together advice from webinars, blog posts, and conferences. You need someone to look at your actual data, talk to your actual people, and tell you what's really going on.
+    </div>
+
+    <p><strong>That's what a fundraising audit does.</strong></p>
 </div>
 </section>
 
+<!-- WHAT IT IS - The Guide -->
 <section class="content-section reveal" style="background:var(--color-bg-warm);">
 <div class="content-inner">
+    <p class="section-label">What It Is</p>
+    <p class="compass-head">My audit. Your roadmap.</p>
+    <p>The Fundraising Audit is a comprehensive, six-to-eight-week diagnostic that examines your fundraising program from the inside out. I review your donor data, interview your leadership, survey your board, assess your communications, and benchmark your results against sector standards.</p>
+    <p>This isn't a report full of generic best practices. Every finding is grounded in your actual data, your actual donors, and your actual capacity. I've done this work from the inside: as a headmaster who grew a school's revenue from $280K to $600K, and as a campaign director who built a donor base from 80 to 325. I know what it looks like when an organization is sitting on untapped potential, because I've been the one who had to find it.</p>
+    <p>The audit gives you the honest picture. The strategic plan gives you the roadmap. Together, they tell you exactly where to focus your limited time and resources for the greatest return.</p>
+</div>
+</section>
+
+<!-- SEVEN AREAS - The Plan -->
+<section class="content-section reveal">
+<div class="content-inner">
     <p class="section-label">The Seven Areas of the Audit</p>
-    <h2>A comprehensive look at every dimension of your program.</h2>
-    <p><strong>1. Organizational culture and leadership alignment.</strong> Is fundraising treated as central to the mission, or as a necessary evil? Does the executive director participate in donor cultivation? Is the development function positioned for success within the organization?</p>
-    <p><strong>2. Board engagement and giving.</strong> What percentage of your board gives financially? Do board members open doors to potential donors, participate in solicitations, and take ownership of fundraising as part of their role? We survey board members anonymously to understand their comfort level, beliefs, and willingness to engage.</p>
-    <p><strong>3. Donor data analysis.</strong> Retention rates, acquisition and attrition trends, revenue by source, giving level distribution, revenue concentration, upgrade potential, and lapsed donor profiles. We benchmark your numbers against the AFP Fundraising Effectiveness Project and peer organizations through CRA or IRS filings.</p>
-    <p><strong>4. Fundraising programs.</strong> A channel-by-channel review of your annual fund, major gifts, events, grants, and planned giving. For each, we assess structure, results, cost-per-dollar-raised, and strategic rationale. We identify which programs are earning their keep and which are consuming resources without proportional return.</p>
-    <p><strong>5. Communications and stewardship.</strong> How quickly are gifts acknowledged? How often do you communicate with donors between asks? Are your appeal letters donor-centered or organization-centered? Is your case for support current and compelling? We review every donor touchpoint from the first thank-you letter to the annual report.</p>
-    <p><strong>6. Prospect pipeline.</strong> Do you have a formal prospect list or pipeline? How are new potential donors identified? Is anyone actively cultivating major gift prospects? How many face-to-face donor meetings happen each month? For most organizations, this is where the largest untapped opportunity lives.</p>
-    <p><strong>7. Belief diagnostic.</strong> This is what makes the Apollo Advancement audit different. We map what we find in the data back to the underlying organizational beliefs that are producing those results. Beliefs like "fundraising is embarrassing" or "if we do good work, the money will come" shape behavior in ways that no amount of tactical advice will fix. Naming them is the first step toward changing them.</p>
+    <h2>We look at everything. Then we tell you what matters most.</h2>
+
+    <div class="audit-area">
+        <div class="audit-area-header">
+            <span class="audit-area-num">01</span>
+            <span class="audit-area-title">Organizational culture and leadership alignment.</span>
+        </div>
+        <p class="audit-area-body">Is fundraising treated as central to the mission, or as a necessary evil? Does leadership participate in donor cultivation? Is the development function set up to succeed, or set up to struggle alone?</p>
+    </div>
+
+    <div class="audit-area">
+        <div class="audit-area-header">
+            <span class="audit-area-num">02</span>
+            <span class="audit-area-title">Board engagement and giving.</span>
+        </div>
+        <p class="audit-area-body">What percentage of your board gives? Do board members open doors to potential donors? We survey your board anonymously to understand their comfort level, beliefs, and willingness to engage.</p>
+    </div>
+
+    <div class="audit-area">
+        <div class="audit-area-header">
+            <span class="audit-area-num">03</span>
+            <span class="audit-area-title">Donor data analysis.</span>
+        </div>
+        <p class="audit-area-body">Retention rates, acquisition and attrition trends, revenue by source, giving-level distribution, upgrade potential, and lapsed donor profiles. We benchmark against the AFP Fundraising Effectiveness Project and peer organizations through CRA or IRS filings.</p>
+    </div>
+
+    <div class="audit-area">
+        <div class="audit-area-header">
+            <span class="audit-area-num">04</span>
+            <span class="audit-area-title">Fundraising programs.</span>
+        </div>
+        <p class="audit-area-body">A channel-by-channel review of your annual fund, major gifts, events, grants, and planned giving. For each: structure, results, cost-per-dollar-raised, and strategic rationale. Which programs are earning their keep, and which are consuming resources without proportional return?</p>
+    </div>
+
+    <div class="audit-area">
+        <div class="audit-area-header">
+            <span class="audit-area-num">05</span>
+            <span class="audit-area-title">Communications and stewardship.</span>
+        </div>
+        <p class="audit-area-body">How quickly are gifts acknowledged? How often do you communicate with donors between asks? Are your appeals donor-centered or organization-centered? We review every touchpoint from the first thank-you letter to the annual report.</p>
+    </div>
+
+    <div class="audit-area">
+        <div class="audit-area-header">
+            <span class="audit-area-num">06</span>
+            <span class="audit-area-title">Prospect pipeline.</span>
+        </div>
+        <p class="audit-area-body">Do you have a formal prospect list? How are new potential donors identified? How many face-to-face donor meetings happen each month? For most organizations, this is where the largest untapped opportunity lives.</p>
+    </div>
+
+    <div class="belief-callout">
+        <div class="audit-area-header">
+            <span class="audit-area-num">07</span>
+            <span class="audit-area-title">Belief diagnostic.</span>
+        </div>
+        <p class="audit-area-body">This is what makes an Apollo Advancement audit different. We map what we find in the data back to the underlying beliefs producing those results. Beliefs like "fundraising is embarrassing" or "if we do good work, the money will come" shape behavior in ways that no amount of tactical advice will fix. Naming them is the first step toward changing them.</p>
+    </div>
+</div>
+</section>
+
+<!-- FAILURE CTA - What's at Stake -->
+<div class="failure-bar">
+    <div class="failure-bar-inner">
+        <h2>The cost of not knowing is another year of guessing.</h2>
+        <p>Without a clear picture of your fundraising program, every decision is a gamble. You invest in events that may not be paying for themselves. You lose donors you could have kept. You leave major gift conversations on the table because nobody is sure whose job it is to have them. Another year passes, and the board asks the same questions they asked last year.</p>
+        <div class="failure-bar-actions">
+            <a href="#contact-form" class="cta-btn">Book an Audit &rarr;</a>
+            <span class="failure-bar-phone">Or call: <a href="tel:+17053131588">(705) 313-1588</a></span>
+        </div>
+    </div>
+</div>
+
+<!-- STRATEGIC PLAN - Success -->
+<section class="content-section reveal" style="background:var(--color-bg-warm);">
+<div class="content-inner">
+    <p class="section-label">The Strategic Plan</p>
+    <h2>A roadmap your team can actually follow.</h2>
+    <p>The strategic plan translates the audit findings into a concrete, twelve-month action plan organized into three tiers:</p>
+
+    <div class="tier">
+        <p class="tier-header"><span>Months 1-3</span>Immediate priorities.</p>
+        <p>High-impact changes your team can make right away. Fixing the acknowledgment process, establishing 100% board giving, launching a regular donor communication cadence, cleaning your CRM data, and identifying upgrade candidates from your existing donor base.</p>
+    </div>
+
+    <div class="tier">
+        <p class="tier-header"><span>Months 3-6</span>Near-term priorities.</p>
+        <p>Structural work that builds a durable program. A written case for support, a structured annual fund with multiple touchpoints, major gift cultivation with your top 20-50 donors, board fundraising training, and a stewardship plan by donor level.</p>
+    </div>
+
+    <div class="tier">
+        <p class="tier-header"><span>Months 6-12</span>Medium-term investments.</p>
+        <p>Longer-horizon work that compounds over time. Diversifying revenue streams, developing planned giving marketing, building a formal prospect research process, evaluating event ROI, and upgrading systems where needed.</p>
+    </div>
+
+    <p>The plan includes revenue projections tied to each recommendation, so your board can see not just what to do but what the expected return looks like. It is designed to be achievable with your current team and resources.</p>
 </div>
 </section>
 
@@ -307,68 +621,76 @@
     <p class="section-label">Pricing</p>
     <h2>Two options, depending on where you are.</h2>
 
-    <div class="pricing-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:2rem; margin-top:1.5rem;">
-        <div style="background:#fff; border:1px solid var(--color-rule); border-radius:6px; padding:2rem;">
-            <p style="font-size:0.72rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:var(--color-accent); margin-bottom:0.8rem;">Option 1</p>
-            <h3 style="font-family:var(--font-display); font-size:1.3rem; font-weight:800; margin-bottom:0.4rem;">Fundraising Audit</h3>
-            <p style="font-family:var(--font-display); font-size:2.2rem; font-weight:800; color:var(--color-text); margin-bottom:0.3rem;">$7,500</p>
-            <p style="font-size:0.85rem; color:var(--color-text-soft); margin-bottom:1.2rem;">+ HST where applicable</p>
-            <p style="font-size:0.95rem; color:var(--color-text-soft); line-height:1.7; margin-bottom:0;">The full diagnostic across all seven areas, with a written report of findings, benchmarking against sector standards, a belief diagnostic, a board and leadership presentation, and a 30-day follow-up call. Gives you a clear, honest picture of where you stand.</p>
+    <div class="pricing-grid">
+        <div class="pricing-card">
+            <p class="pricing-card-label">Option 1</p>
+            <h3>Fundraising Audit</h3>
+            <p class="price">$7,500</p>
+            <p class="price-note">+ HST where applicable</p>
+            <p>The full diagnostic across all seven areas, with a written report of findings, benchmarking against sector standards, a belief diagnostic, a board and leadership presentation, and a 30-day follow-up call.</p>
         </div>
-        <div style="background:#fff; border:2px solid var(--color-accent); border-radius:6px; padding:2rem;">
-            <p style="font-size:0.72rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:var(--color-accent); margin-bottom:0.8rem;">Option 2</p>
-            <h3 style="font-family:var(--font-display); font-size:1.3rem; font-weight:800; margin-bottom:0.4rem;">Audit + Strategic Plan</h3>
-            <p style="font-family:var(--font-display); font-size:2.2rem; font-weight:800; color:var(--color-text); margin-bottom:0.3rem;">$10,000</p>
-            <p style="font-size:0.85rem; color:var(--color-text-soft); margin-bottom:1.2rem;">+ HST where applicable</p>
-            <p style="font-size:0.95rem; color:var(--color-text-soft); line-height:1.7; margin-bottom:0;">Everything in the audit, plus a written twelve-month strategic development plan with prioritized recommendations, a phased implementation roadmap, revenue projections, and specific guidance on what to do first, second, and third.</p>
+        <div class="pricing-card featured">
+            <p class="pricing-card-label">Option 2</p>
+            <h3>Audit + Strategic Plan</h3>
+            <p class="price">$10,000</p>
+            <p class="price-note">+ HST where applicable</p>
+            <p>Everything in the audit, plus a written twelve-month strategic development plan with prioritized recommendations, a phased implementation roadmap, revenue projections, and specific guidance on what to do first, second, and third.</p>
         </div>
     </div>
 </div>
 </section>
 
+<!-- DELIVERABLES -->
 <section class="content-section reveal" style="background:var(--color-bg-warm);">
-<div class="content-inner">
-    <p class="section-label">The Strategic Plan</p>
-    <h2>A roadmap your team can actually follow.</h2>
-    <p>The strategic plan translates the audit findings into a concrete, twelve-month action plan. It is organized into three tiers:</p>
-    <p><strong>Immediate priorities (months 1-3):</strong> High-impact changes your team can make right away. This typically includes fixing the acknowledgment process, establishing 100% board giving, launching a regular donor communication cadence, cleaning your CRM data, and identifying upgrade candidates from your existing donor base.</p>
-    <p><strong>Near-term priorities (months 3-6):</strong> The structural work that builds a durable program. Developing a written case for support, launching a structured annual fund with multiple touchpoints, beginning major gift cultivation with your top 20-50 donors, conducting board fundraising training, and building a stewardship plan by donor level.</p>
-    <p><strong>Medium-term investments (months 6-12):</strong> Longer-horizon work that compounds over time. Diversifying revenue streams, developing planned giving marketing, building a formal prospect research process, evaluating event ROI, and upgrading systems where needed.</p>
-    <p>The plan includes revenue projections tied to each recommendation, so your board can see not just what to do but what the expected return looks like. It is designed to be achievable with your current team and resources.</p>
-</div>
-</section>
-
-<section class="content-section reveal">
 <div class="content-inner">
     <p class="section-label">What You Receive</p>
     <h2>Deliverables.</h2>
-    <p><strong>A written audit report</strong> with prioritized findings and recommendations, connecting each finding to the organizational belief behind it.</p>
-    <p><strong>A board and leadership presentation</strong> (in person or virtual) designed to build alignment and momentum. 45-60 minutes, followed by discussion.</p>
-    <p><strong>A 30-day follow-up call</strong> to answer questions and support your team as implementation begins.</p>
-    <p><strong>With Option 2:</strong> A written twelve-month strategic development plan with phased implementation roadmap and revenue projections.</p>
-    <p>The audit is often the starting point for a longer engagement. But even as a standalone project, it gives your leadership team the clarity and direction to move forward with confidence, whether you work with me or build the program yourselves.</p>
+
+    <div class="deliverable">
+        <span class="deliverable-icon">&rarr;</span>
+        <div class="deliverable-text">
+            <strong>A written audit report</strong>
+            with prioritized findings and recommendations, connecting each finding to the organizational belief behind it.
+        </div>
+    </div>
+
+    <div class="deliverable">
+        <span class="deliverable-icon">&rarr;</span>
+        <div class="deliverable-text">
+            <strong>A board and leadership presentation</strong>
+            (in person or virtual) designed to build alignment and momentum. 45-60 minutes, followed by discussion.
+        </div>
+    </div>
+
+    <div class="deliverable">
+        <span class="deliverable-icon">&rarr;</span>
+        <div class="deliverable-text">
+            <strong>A 30-day follow-up call</strong>
+            to answer questions and support your team as implementation begins.
+        </div>
+    </div>
+
+    <div class="deliverable">
+        <span class="deliverable-icon">&rarr;</span>
+        <div class="deliverable-text">
+            <strong>With Option 2: A written twelve-month strategic development plan</strong>
+            with phased implementation roadmap and revenue projections.
+        </div>
+    </div>
+
+    <p style="margin-top:1.5rem;">The audit is often the starting point for a longer engagement. But even as a standalone project, it gives your leadership team the clarity and direction to move forward with confidence, whether you work with me or build the program yourselves.</p>
 </div>
 </section>
 
-<!-- MID-PAGE CTA BAR -->
-<div class="cta-bar">
-    <h2>Ready to talk about your organization?</h2>
-    <div class="cta-bar-actions">
-        <a href="#contact-form" class="cta-btn">Send a Message →</a>
-        <span class="cta-bar-phone">Or call: <a href="tel:+17053131588">(705) 313-1588</a></span>
-    </div>
-</div>
-
-<!-- QUOTE -->
-<section class="quote-section">
+<!-- TESTIMONIAL -->
+<section class="quote-section reveal">
     <div class="quote-inner">
         <blockquote>"For a small organization with limited resources, having someone who could think strategically and also execute was invaluable."</blockquote>
-        <cite>- Frank Callaghan, Former Board Chair, Wayside Academy</cite>
+        <cite>Frank Callaghan <span>- Former Board Chair, Wayside Academy</span></cite>
     </div>
 </section>
 
-
-<!-- FAQ SECTION -->
+<!-- FAQ -->
 <section class="content-section reveal">
 <div class="content-inner">
     <p class="section-label">Common Questions</p>
@@ -381,7 +703,7 @@
 
     <div class="faq-item">
         <h3 class="faq-q">How long does a fundraising audit take?</h3>
-        <p class="faq-a">A typical audit takes four to eight weeks from initial data gathering to delivery of the final strategic plan - depending on the size and complexity of your program and how quickly stakeholders can participate in interviews and review sessions.</p>
+        <p class="faq-a">A typical audit takes four to eight weeks from initial data gathering to delivery of the final report, depending on the size and complexity of your program and how quickly stakeholders can participate in interviews and review sessions.</p>
     </div>
 
     <div class="faq-item">
@@ -392,6 +714,11 @@
     <div class="faq-item">
         <h3 class="faq-q">When should a nonprofit do a fundraising audit?</h3>
         <p class="faq-a">The most common triggers are: fundraising revenue that has plateaued or declined, an executive director transition, a board that wants to professionalize the development function, or preparation for a major campaign. It's also valuable when leadership suspects there's untapped potential in the donor base but isn't sure where to find it.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3 class="faq-q">Do I need to be local to work with you?</h3>
+        <p class="faq-a">No. I'm based in Kawartha Lakes, Ontario, but I serve nonprofits across Canada and the United States. Interviews and presentations can be conducted in person or by video, depending on your preference and location.</p>
     </div>
 </div>
 </section>

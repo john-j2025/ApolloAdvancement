@@ -196,7 +196,7 @@ section{position:relative;padding:7rem 2.5rem}
 .qs-track{display:flex;gap:3rem;white-space:nowrap;animation:qs-scroll 80s linear infinite}
 .qs-wrap:hover .qs-track{animation-play-state:paused}
 @keyframes qs-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.qs-track{animation-duration:var(--qs-duration,22s) !important}
+.qs-track{animation-duration:var(--qs-duration,14.5s) !important}
 .qs-item{font-family:var(--f-display);font-style:italic;font-weight:500;font-size:clamp(1.4rem,2.5vw,2.1rem);color:var(--ink);display:inline-flex;align-items:center;gap:3rem}
 .qs-item::after{content:'●';color:var(--accent);font-size:.5em;font-style:normal}
 
@@ -495,6 +495,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
   .hero-art{height:380px;order:2}
   .hero-chip,.hero-back,.hero-scroll{display:none}
   .whatis-inner{grid-template-columns:1fr;gap:2rem}
+  .whatis-left .roadmap-svg{max-width:100% !important}
   .timeline-grid{grid-template-columns:1fr;gap:2.5rem}
   .timeline-track{display:none}
   .phase{padding:0}
@@ -836,10 +837,10 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
     </div>
     <div class="whatis-right">
       <p><strong style="color:var(--accent);font-weight:700">The Fundraising Audit</strong> is a comprehensive, <strong>six-to-eight-week diagnostic</strong> that examines your fundraising program from the inside out. I review your donor data, interview your leadership, survey your board, assess your communications, and benchmark your results against sector standards.</p>
-      <p>This isn't a report full of generic best practices.</p>
+
       <p class="grounded-call">Every finding is grounded in <em>your actual data,</em> your actual donors, and <em>your actual capacity.</em></p>
 
-      <p>The audit gives you the honest picture.</p>
+
       <p><strong style="color:var(--accent);font-weight:700">The Strategic Plan:</strong> gives you the roadmap. Together, they tell you exactly where to focus your limited time and resources <strong>for the greatest return</strong>.</p>
     </div>
   </div>
@@ -849,7 +850,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
 <section class="seven">
   <div class="seven-head reveal">
     <div>
-      <div class="eyebrow">The Seven Areas of the Audit</div>
+      <div class="eyebrow" style="font-size:.95rem;letter-spacing:.18em">The Seven Areas of the Audit</div>
       <h2 class="h-display" style="max-width:680px">We look at everything. <span class="it">Then we tell you what matters most.</span></h2>
       <p class="seven-head-sub">Each dimension is reviewed against your actual data — then benchmarked against sector standards and peer organizations. No generic scorecards. Just a clear-eyed read of where you stand.</p>
     </div>

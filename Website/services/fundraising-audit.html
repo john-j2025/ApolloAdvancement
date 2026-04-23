@@ -244,7 +244,7 @@ section{position:relative;padding:7rem 2.5rem}
 .seven-item:hover .seven-num{color:var(--accent)}
 .seven-item:hover .seven-num .dot{background:var(--accent)}
 .seven-num{font-family:var(--f-display);font-weight:800;font-size:clamp(3.2rem,5.5vw,4.8rem);line-height:1;color:var(--ink);letter-spacing:-.03em;display:flex;align-items:baseline;gap:.5rem;transition:color .3s;padding-top:.1rem}
-.seven-num .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);transition:background .3s;transform:translateY(-6px)}
+.seven-num .dot{display:none}
 
 /* Belief-diagnostic special highlight on item 07 */
 .seven-item.special{background:linear-gradient(90deg, rgba(200,70,28,.05) 0%, transparent 80%)}
@@ -268,7 +268,7 @@ section{position:relative;padding:7rem 2.5rem}
 .cost-ctas{display:flex;flex-wrap:wrap;gap:1.2rem;justify-content:center;align-items:center}
 
 /* ============ STRATEGIC PLAN — TIMELINE ============ */
-.plan{padding:8rem 2.5rem;background:var(--bg);position:relative;overflow:hidden}
+.plan{padding:8rem 2.5rem 4rem;background:var(--bg);position:relative;overflow:hidden}
 .plan-head{max-width:var(--mw);margin:0 auto 5.5rem;text-align:center}
 .plan-head .eyebrow{justify-content:center}
 .plan-head .eyebrow::before{display:none}
@@ -277,10 +277,12 @@ section{position:relative;padding:7rem 2.5rem}
 
 /* Journey redesign */
 .journey{position:relative;max-width:860px;margin:0 auto;padding:1rem 0}
-.journey-stations{position:relative}
-.journey-path{position:absolute;left:50%;top:0;bottom:0;width:180px;height:100%;transform:translateX(-50%);z-index:0;pointer-events:none;overflow:visible}
+.journey-stations{position:relative;isolation:isolate}
+.journey-path{position:absolute;left:calc(50% - 120px);top:0;bottom:0;width:240px;height:100%;z-index:1;pointer-events:none;overflow:visible}
 .journey-path path{fill:none;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:4 8}
-.station{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:3rem;align-items:center;padding:2.5rem 0;min-height:220px}
+.station{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:3rem;align-items:center;padding:2.5rem 0;min-height:220px}
+.station-card,.station-meta{position:relative;z-index:2}
+.station-pin{position:relative;z-index:0;width:80px;height:80px;display:flex;align-items:center;justify-content:center}
 .station.alt{direction:rtl}
 .station.alt > *{direction:ltr}
 .station-meta{text-align:right}
@@ -291,9 +293,9 @@ section{position:relative;padding:7rem 2.5rem}
 .station.s2 .station-tier{color:#B88954}
 .station.s3 .station-tier{color:var(--accent-moss)}
 
-.station-pin{position:relative;width:80px;height:80px;display:flex;align-items:center;justify-content:center}
-.station-pin .ring{position:absolute;inset:0;border-radius:50%;border:2px solid var(--accent);opacity:.2}
-.station-pin .ring.r2{inset:-14px;border-color:var(--accent);opacity:.12;border-style:dashed}
+.station-pin{position:relative;z-index:3;width:80px;height:80px;display:flex;align-items:center;justify-content:center}
+.station-pin .ring{position:absolute;inset:0;border-radius:50%;border:2px solid var(--accent);opacity:.2;background:var(--bg)}
+.station-pin .ring.r2{inset:-14px;border-color:var(--accent);opacity:.12;border-style:dashed;background:transparent}
 .station-pin .core{width:56px;height:56px;border-radius:50%;background:var(--accent);color:#fff;font-family:var(--f-display);font-weight:700;font-size:1.6rem;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(200,70,28,.35);position:relative;z-index:1}
 .station.s2 .station-pin .ring,.station.s2 .station-pin .ring.r2{border-color:#B88954}
 .station.s2 .station-pin .core{background:#B88954;box-shadow:0 8px 24px rgba(184,137,84,.4)}
@@ -314,7 +316,7 @@ section{position:relative;padding:7rem 2.5rem}
 .station.s2 .station-card ul li::before{background:#B88954}
 .station.s3 .station-card ul li::before{background:var(--accent-moss)}
 
-.plan-outcome{max-width:720px;margin:5rem auto 0;text-align:center;padding:2.5rem 2rem 0;border-top:1px solid var(--rule)}
+.plan-outcome{max-width:720px;margin:3rem auto 0;text-align:center;padding:2.5rem 2rem 0;border-top:1px solid var(--rule)}
 .plan-outcome p{font-family:var(--f-display);font-style:italic;font-weight:500;font-size:1.25rem;line-height:1.5;color:var(--ink)}
 .plan-outcome p strong{color:var(--accent);font-weight:600;font-style:normal}
 
@@ -322,12 +324,12 @@ section{position:relative;padding:7rem 2.5rem}
   .journey-path{display:none}
   .station,.station.alt{grid-template-columns:1fr;direction:ltr;text-align:left;gap:1.2rem;padding:1.5rem 0;min-height:0}
   .station-meta,.station.alt .station-meta{text-align:left}
-  .station-pin{width:60px;height:60px}
+  .station-pin{position:relative;width:60px;height:60px}
   .station-pin .core{width:44px;height:44px;font-size:1.2rem}
 }
 
 /* ============ PRICING ============ */
-.pricing{padding:8rem 2.5rem;background:var(--bg-warm);position:relative}
+.pricing{padding:5rem 2.5rem 8rem;background:var(--bg-warm);position:relative}
 .pricing-head{max-width:var(--mw);margin:0 auto 4rem;text-align:center}
 .pricing-head .eyebrow{justify-content:center}
 .pricing-head .eyebrow::before{display:none}
@@ -476,8 +478,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
 @media (max-width:1100px){
   .nav-links{gap:1.5rem}
   .nav-links a{font-size:.72rem;letter-spacing:.04em}
-  .seven-item{grid-template-columns:minmax(0,.2fr) 1fr;gap:2rem}
-  .seven-desc{grid-column:2}
+  .seven-item{grid-template-columns:minmax(0,.2fr) 1fr;gap:1.2rem}
   .seven-title{padding-right:0}
   .seven-item.special .seven-title::before{display:block}
 }
@@ -512,7 +513,6 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
   .nav-links{display:none}
   .deliver-grid{grid-template-columns:1fr}
   .seven-item{grid-template-columns:1fr;gap:1rem;padding:2rem 0}
-  .seven-desc{grid-column:1}
   .qs-wrap{margin-left:-1.2rem;margin-right:-1.2rem}
   .faq-a-inner{padding-left:0}
   .faq-q{grid-template-columns:auto 1fr auto;gap:1rem}
@@ -520,89 +520,9 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
   .footer-links{justify-content:center}
 }
 </style>
-<template id="__bundler_thumbnail" data-bg-color="#1A1410">
-  <svg viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg">
-    <rect width="520" height="520" fill="#1A1410"></rect>
-    <circle cx="260" cy="260" r="240" fill="none" stroke="rgba(255,250,245,0.18)" stroke-width="3"></circle>
-    <circle cx="260" cy="260" r="178" fill="none" stroke="rgba(255,250,245,0.22)" stroke-width="1.2" stroke-dasharray="1 8"></circle>
-    <circle cx="260" cy="260" r="96" fill="rgba(26,20,16,.55)" stroke="rgba(255,250,245,.35)" stroke-width="2"></circle>
-    <g font-family="serif" font-weight="700" font-style="italic" text-anchor="middle">
-      <text x="260" y="78" font-size="34" fill="#E86E3A" dominant-baseline="middle">N</text>
-      <text x="442" y="260" font-size="24" fill="#FFFAF5" opacity=".75" dominant-baseline="middle">E</text>
-      <text x="260" y="442" font-size="24" fill="#FFFAF5" opacity=".75" dominant-baseline="middle">S</text>
-      <text x="78" y="260" font-size="24" fill="#FFFAF5" opacity=".75" dominant-baseline="middle">W</text>
-    </g>
-    <polygon points="260,170 250,260 270,260" fill="#E86E3A"></polygon>
-    <polygon points="260,350 250,260 270,260" fill="rgba(255,250,245,0.6)"></polygon>
-    <circle cx="260" cy="260" r="10" fill="#1A1410" stroke="#E86E3A" stroke-width="2"></circle>
-    <circle cx="260" cy="260" r="3" fill="#E86E3A"></circle>
-  </svg>
-</template>
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Fundraising Audit & Strategic Plan",
-      "provider": {
-        "@type": "Person",
-        "name": "John Jalsevac",
-        "url": "https://apolloadvancement.com/"
-      },
-      "serviceType": "Fundraising Consulting",
-      "description": "A comprehensive review of your nonprofit's fundraising program followed by a written strategic plan with clear priorities.",
-      "areaServed": ["Canada", "United States"],
-      "url": "https://apolloadvancement.com/services/fundraising-audit"
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does a nonprofit fundraising audit include?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A fundraising audit reviews every dimension of your development program: donor database health and segmentation, giving trends and lapse rates, current communications and their effectiveness, annual fund structure, board and volunteer engagement, major gift activity and pipeline, campaign history, and your overall case for support."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a fundraising audit take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A typical audit takes four to eight weeks from initial data gathering to delivery of the final report, depending on the size and complexity of your program and how quickly stakeholders can participate in interviews and review sessions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between a fundraising audit and a strategic plan?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The audit is the diagnostic: examining what you have and assessing its health. The strategic plan is the prescription: what to do next, in what order, and why. Together they give you an honest picture of your current program and a realistic roadmap for improving it."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When should a nonprofit do a fundraising audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The most common triggers are: fundraising revenue that has plateaued or declined, an executive director transition, a board that wants to professionalize the development function, or preparation for a major campaign."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to be local to work with you?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Apollo Advancement is based in Kawartha Lakes, Ontario, but serves nonprofits across Canada and the United States. Interviews and presentations can be conducted in person or by video."
-          }
-        }
-      ]
-    }
-  ]
-}
+{"@context":"https://schema.org","@graph":[{"@type":"Service","name":"Fundraising Audit & Strategic Plan","provider":{"@type":"Person","name":"John Jalsevac","url":"https://apolloadvancement.com/"},"serviceType":"Fundraising Consulting","description":"A comprehensive review of your nonprofit's fundraising program followed by a written strategic plan with clear priorities.","areaServed":["Canada","United States"],"url":"https://apolloadvancement.com/services/fundraising-audit"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does a nonprofit fundraising audit include?","acceptedAnswer":{"@type":"Answer","text":"A fundraising audit reviews every dimension of your development program: donor database health and segmentation, giving trends and lapse rates, current communications and their effectiveness, annual fund structure, board and volunteer engagement, major gift activity and pipeline, campaign history, and your overall case for support."}},{"@type":"Question","name":"How long does a fundraising audit take?","acceptedAnswer":{"@type":"Answer","text":"A typical audit takes four to eight weeks from initial data gathering to delivery of the final report, depending on the size and complexity of your program and how quickly stakeholders can participate in interviews and review sessions."}},{"@type":"Question","name":"What is the difference between a fundraising audit and a strategic plan?","acceptedAnswer":{"@type":"Answer","text":"The audit is the diagnostic: examining what you have and assessing its health. The strategic plan is the prescription: what to do next, in what order, and why."}},{"@type":"Question","name":"When should a nonprofit do a fundraising audit?","acceptedAnswer":{"@type":"Answer","text":"The most common triggers are: fundraising revenue that has plateaued or declined, an executive director transition, a board that wants to professionalize the development function, or preparation for a major campaign."}},{"@type":"Question","name":"Do I need to be local to work with you?","acceptedAnswer":{"@type":"Answer","text":"No. Apollo Advancement is based in Kawartha Lakes, Ontario, but serves nonprofits across Canada and the United States. Interviews and presentations can be conducted in person or by video."}}]}]}
 </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DS2DG3WFX"></script>
@@ -936,19 +856,19 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
   </div>
 
   <div class="seven-list">
-    <div class="seven-item reveal">
+    <div class="seven-item">
       <div class="seven-num">01<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Organizational culture &amp; <span class="accent-word">leadership alignment</span>.</h3><p class="seven-desc">Is fundraising treated as central to the mission, or as a necessary evil? Does leadership participate in donor cultivation? Is the development function set up to succeed, or set up to struggle alone?</p></div></div>
-    <div class="seven-item reveal">
+    <div class="seven-item">
       <div class="seven-num">02<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Board engagement <span class="accent-word">and giving</span>.</h3><p class="seven-desc">What percentage of your board gives? Do board members open doors to potential donors? We survey your board anonymously to understand their comfort level, beliefs, and willingness to engage.</p></div></div>
-    <div class="seven-item reveal">
+    <div class="seven-item">
       <div class="seven-num">03<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Donor data <span class="accent-word">analysis</span>.</h3><p class="seven-desc">Retention rates, acquisition and attrition trends, revenue by source, giving-level distribution, upgrade potential, and lapsed donor profiles. We benchmark against the AFP Fundraising Effectiveness Project and peer organizations through CRA or IRS filings.</p></div></div>
-    <div class="seven-item reveal">
+    <div class="seven-item">
       <div class="seven-num">04<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Fundraising <span class="accent-word">programs</span>.</h3><p class="seven-desc">A channel-by-channel review of your annual fund, major gifts, events, grants, and planned giving. For each: structure, results, cost-per-dollar-raised, and strategic rationale. Which programs are earning their keep, and which are consuming resources without proportional return?</p></div></div>
-    <div class="seven-item reveal">
+    <div class="seven-item">
       <div class="seven-num">05<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Communications <span class="accent-word">&amp; stewardship</span>.</h3><p class="seven-desc">How quickly are gifts acknowledged? How often do you communicate with donors between asks? Are your appeals donor-centered or organization-centered? We review every touchpoint from the first thank-you letter to the annual report.</p></div></div>
-    <div class="seven-item reveal">
+    <div class="seven-item">
       <div class="seven-num">06<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Prospect <span class="accent-word">pipeline</span>.</h3><p class="seven-desc">Do you have a formal prospect list? How are new potential donors identified? How many face-to-face donor meetings happen each month? For most organizations, this is where the <strong>largest untapped opportunity</strong> lives.</p></div></div>
-    <div class="seven-item special reveal">
+    <div class="seven-item special">
       <div class="seven-num">07<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Belief <span class="accent-word">diagnostic</span>.</h3><p class="seven-desc">We map what we find in the data back to the underlying beliefs producing those results. Beliefs like "fundraising is embarrassing" or "if we do good work, the money will come" shape behavior in ways that no amount of tactical advice will fix. <strong>Naming them is the first step toward changing them.</strong></p></div></div>
   </div>
 </section>
@@ -968,7 +888,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
 
 <!-- ============ STRATEGIC PLAN / TIMELINE ============ -->
 <section class="plan">
-  <div class="plan-head reveal">
+  <div class="plan-head">
     <div class="eyebrow">The Strategic Plan</div>
     <h2 class="h-display">A roadmap <span class="it">your team can actually follow.</span></h2>
     <p>The strategic plan translates audit findings into a concrete, twelve-month action plan - organized into three tiers, each tied to revenue projections your board can see.</p>
@@ -976,7 +896,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
 
   <div class="journey reveal" id="timeline">
     <div class="journey-stations">
-    <svg class="journey-path" viewBox="0 0 180 1000" preserveAspectRatio="none" aria-hidden="true">
+    <svg class="journey-path" viewBox="0 0 240 1000" preserveAspectRatio="none" aria-hidden="true">
       <defs>
         <linearGradient id="jgrad" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stop-color="#C8461C"></stop>
@@ -984,7 +904,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
           <stop offset="100%" stop-color="#5C6E4E"></stop>
         </linearGradient>
       </defs>
-      <path d="M90,0 C40,140 140,260 90,400 C40,540 140,680 90,820 C60,900 120,960 90,1000" stroke="url(#jgrad)" vector-effect="non-scaling-stroke"></path>
+      <path d="M120,0 C40,120 200,220 120,340 C40,460 200,560 120,680 C40,800 200,900 120,1000" stroke="url(#jgrad)" vector-effect="non-scaling-stroke"></path>
     </svg>
 
     <div class="station s1">
@@ -1087,7 +1007,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
     <div class="eyebrow">What You Receive</div>
     <h2 class="h-display" style="max-width:680px">Deliverables <span class="it">you can act on.</span></h2>
   </div>
-  <div class="deliver-grid reveal">
+  <div class="deliver-grid">
     <div class="deliver-card">
       <div class="deliver-arrow">→</div>
       <h3>A written audit report</h3>
@@ -1273,7 +1193,9 @@ const navLinks = document.getElementById('navLinks');
 navToggle.addEventListener('click', () => { navLinks.classList.toggle('open'); });
 
 // reveal on scroll — with mixed motion variants
-const REVEAL_VARIANTS = ['up','left','right','scale','clip','tilt','blur','clip-r','down'];
+const REVEAL_VARIANTS = ['up','left','right','scale','tilt','blur','down'];
+// Defensive: force any elements currently assigned clip variants onto 'up'
+document.querySelectorAll('[data-reveal="clip"],[data-reveal="clip-r"]').forEach(el=>el.dataset.reveal='up');
 const reveals = document.querySelectorAll('.reveal');
 reveals.forEach((el, i) => {
   if (!el.dataset.reveal) {
@@ -1282,7 +1204,7 @@ reveals.forEach((el, i) => {
   }
 });
 // mark certain parents as stagger containers
-document.querySelectorAll('.seven-list, .problem-questions, .pricing-grid, .deliverables-grid, .faq-list, .journey-stations').forEach(el=>{
+document.querySelectorAll('.problem-questions, .pricing-grid, .deliverables-grid, .faq-list, .journey-stations').forEach(el=>{
   el.classList.add('reveal','reveal-stagger');
   if(!el.dataset.reveal) el.dataset.reveal='up';
 });

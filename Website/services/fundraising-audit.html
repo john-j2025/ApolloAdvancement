@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Apollo Advancement">
-<meta property="og:title" content="Nonprofit Fundraising Audit & Strategic Plan | Apollo Advancement">
+<meta property="og:title" content="Nonprofit Fundraising Audit &amp; Strategic Plan | Apollo Advancement">
 <meta property="og:description" content="Not sure what's working in your fundraising program? A fundraising audit examines your donor data, board engagement, communications, and more, then gives you a plan your team can follow.">
 <meta property="og:image" content="https://apolloadvancement.com/og-fundraising-audit.jpg?v=2">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://apolloadvancement.com/services/fundraising-audit">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Nonprofit Fundraising Audit & Strategic Plan | Apollo Advancement">
+<meta name="twitter:title" content="Nonprofit Fundraising Audit &amp; Strategic Plan | Apollo Advancement">
 <meta name="twitter:description" content="Not sure what's working in your fundraising program? A fundraising audit examines your donor data, board engagement, communications, and more, then gives you a plan your team can follow.">
 <meta name="twitter:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
 <meta name="description" content="Not sure what's working in your fundraising program? A fundraising audit examines your donor data, board engagement, communications, and more, then gives you a strategic plan your team can follow. Serving nonprofits across Canada and the US.">
-<title>Nonprofit Fundraising Audit & Strategic Plan | Apollo Advancement</title>
+<title>Nonprofit Fundraising Audit &amp; Strategic Plan | Apollo Advancement</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -205,21 +204,35 @@ section{position:relative;padding:7rem 2.5rem}
 .problem-resolve-text{font-family:var(--f-display);font-weight:500;font-size:clamp(1.25rem,2vw,1.65rem);line-height:1.35;color:var(--ink)}
 .problem-resolve-text em{color:var(--accent);font-style:italic}
 
-/* ============ WHAT IT IS ============ */
+/* ============ WHAT WE DO ============ */
 .whatis{padding:7rem 2.5rem;background:var(--bg)}
-.whatis-inner{max-width:var(--mw);margin:0 auto;display:grid;grid-template-columns:minmax(0,.4fr) minmax(0,.6fr);gap:5rem;align-items:start}
-.whatis-left .sticker{display:inline-block;font-family:var(--f-display);font-style:italic;color:var(--ink-mute);font-size:1rem;margin-bottom:1rem}
-.whatis-left .big{font-family:var(--f-display);font-weight:500;font-size:clamp(2.2rem,4.5vw,3.6rem);line-height:1.04;letter-spacing:-.02em}
-.whatis-left .big .it{font-style:italic;color:var(--accent);font-weight:400}
-.whatis-right p{font-size:1.08rem;color:var(--ink-soft);line-height:1.8;margin-bottom:1.3rem}
-.whatis-right p strong{color:var(--ink);font-weight:600}
-.whatis-stats{display:grid;grid-template-columns:1fr 1fr;gap:1.8rem;margin:2.2rem 0;padding:2rem 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
-.whatis-stat .num{font-family:var(--f-display);font-weight:800;font-size:2.6rem;line-height:1;color:var(--accent);margin-bottom:.4rem}
-.whatis-stat .num .arrow{font-family:var(--f-body);font-size:1.2rem;color:var(--ink-mute);font-weight:400}
-.roadmap-path{stroke-dasharray:500;stroke-dashoffset:500;animation:draw-road 2.4s ease-out .3s forwards}
-@keyframes draw-road{to{stroke-dashoffset:0}}
-.grounded-call{font-family:var(--f-display);font-weight:500;font-size:clamp(1.3rem,2vw,1.7rem);line-height:1.35;color:var(--ink);padding:1.8rem 2rem;margin:1.8rem 0;border-left:4px solid var(--accent);background:var(--bg-warm);border-radius:0 6px 6px 0}
-.grounded-call em{font-style:italic;color:var(--accent)}
+.whatis-inner{max-width:min(1080px,92%);margin:0 auto}
+.whatwedo-head{text-align:center;margin-bottom:5rem}
+.whatwedo-head .eyebrow{justify-content:center}
+.whatwedo-head .eyebrow::before{display:none}
+.whatwedo-head h2{font-family:var(--f-display);font-weight:700;font-size:clamp(3rem,7vw,5.8rem);line-height:1;letter-spacing:-.035em;color:var(--ink)}
+.whatwedo-head h2 .it{font-style:italic;font-weight:500;color:var(--accent)}
+
+.wwd-items{display:flex;flex-direction:column;gap:3rem}
+.wwd-item{display:grid;grid-template-columns:auto minmax(0,1fr);gap:2.2rem;align-items:start;padding:2.2rem 0;border-top:2px solid var(--ink);position:relative}
+.wwd-item:last-child{border-bottom:2px solid var(--ink)}
+.wwd-num{font-family:var(--f-display);font-weight:800;font-style:italic;font-size:clamp(4rem,8vw,7rem);line-height:.85;color:var(--accent);letter-spacing:-.04em;min-width:1.8em}
+.wwd-item:nth-child(2) .wwd-num{color:#B88954}
+.wwd-title{font-family:var(--f-display);font-weight:700;font-size:clamp(1.8rem,3vw,2.4rem);line-height:1.1;margin-bottom:1rem;color:var(--ink);letter-spacing:-.015em}
+.wwd-title .it{font-style:italic;color:var(--accent);font-weight:400}
+.wwd-item:nth-child(2) .wwd-title .it{color:#B88954}
+.wwd-body p{font-size:1.05rem;color:var(--ink-soft);line-height:1.75;margin-bottom:1rem;max-width:720px}
+.wwd-body p:last-child{margin-bottom:0}
+.wwd-body p strong{color:var(--ink);font-weight:600}
+.wwd-body .grounded-call{font-family:var(--f-display);font-weight:500;font-size:clamp(1.2rem,1.8vw,1.5rem);line-height:1.4;color:var(--ink);padding:1.3rem 1.6rem;margin:1.4rem 0;border-left:3px solid var(--accent);background:var(--bg-warm);border-radius:0 6px 6px 0;max-width:720px}
+.wwd-body .grounded-call em{font-style:italic;color:var(--accent)}
+.wwd-item:nth-child(2) .grounded-call{border-left-color:#B88954}
+.wwd-item:nth-child(2) .grounded-call em{color:#B88954}
+@media (max-width:720px){
+  .wwd-item{grid-template-columns:1fr;gap:.4rem;padding:1.8rem 0}
+  .wwd-num{font-size:3.6rem}
+}
+
 .problem-pivot{font-family:var(--f-display);font-weight:500;font-size:clamp(2rem,4.5vw,3.4rem);line-height:1.15;letter-spacing:-.02em;color:var(--ink);margin:3rem 0 1rem;text-align:center;text-wrap:balance}
 .problem-pivot .a{display:inline-block}
 .problem-pivot .b{display:inline-block;font-style:italic;color:var(--accent);position:relative}
@@ -230,7 +243,13 @@ section{position:relative;padding:7rem 2.5rem}
 
 /* ============ SEVEN AREAS ============ */
 .seven{padding:8rem 2.5rem;background:var(--bg-warm);position:relative;overflow:hidden}
-.seven-head{max-width:min(1040px,75%);margin:0 auto 4rem;display:block}
+.seven-head{max-width:min(1040px,75%);margin:0 auto 4rem;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3rem;align-items:center}
+.seven-head-art{width:clamp(180px,22vw,260px);height:clamp(180px,22vw,260px);position:relative;flex-shrink:0}
+.seven-art-svg{width:100%;height:100%;display:block}
+@media (max-width:820px){
+  .seven-head{grid-template-columns:1fr;gap:2rem}
+  .seven-head-art{justify-self:start;width:200px;height:200px}
+}
 .seven-head-sub{max-width:680px;font-size:1rem;color:var(--ink-soft);line-height:1.7;margin-top:1.4rem}
 .seven-list{max-width:min(1040px,75%);margin:0 auto;display:flex;flex-direction:column;gap:0}
 .seven-item{display:grid;grid-template-columns:minmax(0,.12fr) minmax(0,1fr);gap:1rem 1.5rem;padding:1.5rem 0;border-top:2px solid var(--ink);position:relative;transition:background .3s;align-items:start}
@@ -260,7 +279,10 @@ section{position:relative;padding:7rem 2.5rem}
   z-index:0}
 .cost::after{content:'';position:absolute;inset:0;background-image:
   radial-gradient(circle at 1px 1px, rgba(255,250,245,.05) 1px, transparent 0);background-size:32px 32px;z-index:0;opacity:.6}
-.cost-inner{position:relative;z-index:1;max-width:900px;margin:0 auto}
+.cost-inner{position:relative;z-index:1;max-width:900px;margin:0 auto;text-align:center}
+.cost-art-wrap{position:relative;width:clamp(200px,26vw,300px);height:clamp(200px,26vw,300px);margin:0 auto 1.2rem}
+.cost-art-wrap .seven-art-svg{width:100%;height:100%;display:none}
+.cost-art-wrap .seven-art-svg.active{display:block}
 .cost-mark{font-family:var(--f-display);font-style:italic;font-size:clamp(5rem,10vw,8rem);line-height:.7;color:var(--accent-glow);opacity:.7;margin-bottom:-1rem}
 .cost-headline{font-family:var(--f-display);font-weight:500;font-size:clamp(2rem,4.5vw,3.6rem);line-height:1.12;letter-spacing:-.015em;color:#fff;margin-bottom:2rem}
 .cost-headline .it{font-style:italic;color:var(--accent-glow);font-weight:400}
@@ -497,8 +519,6 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
   .hero-inner{grid-template-columns:1fr;gap:3rem}
   .hero-art{height:380px;order:2}
   .hero-chip,.hero-back,.hero-scroll{display:none}
-  .whatis-inner{grid-template-columns:1fr;gap:2rem}
-  .whatis-left .roadmap-svg{max-width:100% !important}
   .timeline-grid{grid-template-columns:1fr;gap:2.5rem}
   .timeline-track{display:none}
   .phase{padding:0}
@@ -812,39 +832,32 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
   </div>
 </section>
 
-<!-- ============ WHAT IT IS ============ -->
+<!-- ============ WHAT WE DO ============ -->
 <section class="whatis">
   <div class="whatis-inner reveal">
-    <div class="whatis-left">
-      <div class="sticker">What it is</div>
-      <h2 class="big"><span class="it">Your roadmap.</span></h2>
-      <svg class="roadmap-svg" viewBox="0 0 280 200" aria-hidden="true" style="width:100%;max-width:280px;margin-top:2rem">
-        <defs>
-          <marker id="pin" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"><circle cx="5" cy="5" r="4" fill="#C8461C"></circle></marker>
-        </defs>
-        <path d="M10,170 C60,170 70,110 110,100 C150,90 170,140 210,140 C240,140 260,70 270,30" fill="none" stroke="#C8461C" stroke-width="2.5" stroke-dasharray="4 6" stroke-linecap="round" class="roadmap-path"></path>
-        <g>
-          <circle cx="10" cy="170" r="6" fill="#1A1410"></circle>
-          <circle cx="110" cy="100" r="5" fill="#D4A574"></circle>
-          <circle cx="210" cy="140" r="5" fill="#5C6E4E"></circle>
-          <circle cx="270" cy="30" r="8" fill="#C8461C"></circle>
-          <circle cx="270" cy="30" r="14" fill="none" stroke="#C8461C" stroke-width="1" opacity="0.35"></circle>
-        </g>
-        <g font-family="DM Sans, sans-serif" font-size="8" font-weight="700" letter-spacing="1.5" fill="#8A7E73">
-          <text x="10" y="190" text-anchor="start">START</text>
-          <text x="110" y="90" text-anchor="middle">M 1–3</text>
-          <text x="210" y="130" text-anchor="middle">M 3–6</text>
-          <text x="270" y="18" text-anchor="end" fill="#C8461C">12 MONTHS</text>
-        </g>
-      </svg>
+    <div class="whatwedo-head">
+      <div class="eyebrow">Our Engagement</div>
+      <h2>What <span class="it">we do.</span></h2>
     </div>
-    <div class="whatis-right">
-      <p><strong style="color:var(--accent);font-weight:700">The Fundraising Audit</strong> is a comprehensive, <strong>six-to-eight-week diagnostic</strong> that examines your fundraising program from the inside out. I review your donor data, interview your leadership, survey your board, assess your communications, and benchmark your results against sector standards.</p>
 
-      <p class="grounded-call">Every finding is grounded in <em>your actual data,</em> your actual donors, and <em>your actual capacity.</em></p>
+    <div class="wwd-items">
+      <div class="wwd-item">
+        <div class="wwd-num">01</div>
+        <div class="wwd-body">
+          <h3 class="wwd-title">The Fundraising <span class="it">Audit.</span></h3>
+          <p>A comprehensive, <strong>six-to-eight-week diagnostic</strong> that examines your fundraising program from the inside out. I review your donor data, interview your leadership, survey your board, assess your communications, and benchmark your results against sector standards.</p>
+          <p class="grounded-call">Every finding is grounded in <em>your actual data,</em> your actual donors, and <em>your actual capacity.</em></p>
+        </div>
+      </div>
 
-
-      <p><strong style="color:var(--accent);font-weight:700">The Strategic Plan:</strong> gives you the roadmap. Together, they tell you exactly where to focus your limited time and resources <strong>for the greatest return</strong>.</p>
+      <div class="wwd-item">
+        <div class="wwd-num">02</div>
+        <div class="wwd-body">
+          <h3 class="wwd-title">The Strategic <span class="it">Plan.</span></h3>
+          <p>The 12-month Strategic Plan gives you the roadmap. Together with the audit, it tells you exactly where to focus your limited time and resources <strong>for the greatest return</strong>.</p>
+          <p class="grounded-call">A detailed, <em>12-month program of action,</em> designed to maximize your revenue, based upon a clear-eyed assessment of your individual programs, resources, donors, history, and strengths.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -856,6 +869,51 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
       <div class="eyebrow" style="font-size:.95rem;letter-spacing:.18em">The Seven Areas of the Audit</div>
       <h2 class="h-display" style="max-width:680px">We look at everything. <span class="it">Then we tell you what matters most.</span></h2>
       <p class="seven-head-sub">Each dimension is reviewed against your actual data, then benchmarked against sector standards and peer organizations. No generic scorecards. Just a clear-eyed read of where you stand.</p>
+    </div>
+    <div class="seven-head-art" id="sevenArt">
+      <!-- Magnifying glass over data grid -->
+      <svg class="seven-art-svg active" data-art="magnify" viewBox="0 0 260 260" aria-hidden="true">
+        <defs>
+          <radialGradient id="mgLens" cx="40%" cy="40%" r="60%">
+            <stop offset="0%" stop-color="#FFFAF5" stop-opacity="1"></stop>
+            <stop offset="60%" stop-color="#FFFAF5" stop-opacity=".82"></stop>
+            <stop offset="100%" stop-color="#F5EBE0" stop-opacity=".9"></stop>
+          </radialGradient>
+          <clipPath id="mgClip"><circle cx="110" cy="110" r="64"></circle></clipPath>
+        </defs>
+        <!-- background data grid -->
+        <g opacity=".35" stroke="#8A7E73" stroke-width="1" fill="none">
+          <path d="M10 60 H250 M10 100 H250 M10 140 H250 M10 180 H250 M10 220 H250"></path>
+          <path d="M40 20 V250 M90 20 V250 M140 20 V250 M190 20 V250 M240 20 V250"></path>
+        </g>
+        <g opacity=".5">
+          <circle cx="40" cy="100" r="3" fill="#1A1410"></circle><circle cx="90" cy="140" r="3" fill="#1A1410"></circle>
+          <circle cx="190" cy="60" r="3" fill="#1A1410"></circle><circle cx="240" cy="180" r="3" fill="#1A1410"></circle>
+          <circle cx="140" cy="220" r="3" fill="#1A1410"></circle>
+        </g>
+        <!-- magnified data under lens -->
+        <g clip-path="url(#mgClip)">
+          <rect x="46" y="46" width="128" height="128" fill="url(#mgLens)"></rect>
+          <g stroke="#C8461C" stroke-width="1.4" fill="none">
+            <path d="M50 90 H170 M50 120 H170 M50 150 H170"></path>
+            <path d="M80 60 V170 M110 60 V170 M140 60 V170"></path>
+          </g>
+          <g>
+            <circle cx="80" cy="120" r="4" fill="#C8461C"></circle>
+            <circle cx="110" cy="90" r="4" fill="#C8461C"></circle>
+            <circle cx="140" cy="150" r="4" fill="#C8461C"></circle>
+            <path d="M80 120 L110 90 L140 150" stroke="#C8461C" stroke-width="1.6" fill="none"></path>
+          </g>
+        </g>
+        <!-- lens rim -->
+        <circle cx="110" cy="110" r="64" fill="none" stroke="#1A1410" stroke-width="6"></circle>
+        <circle cx="110" cy="110" r="60" fill="none" stroke="#FFFAF5" stroke-width="1" opacity=".5"></circle>
+        <!-- highlight -->
+        <path d="M80 80 Q95 65 120 70" stroke="#FFFAF5" stroke-width="4" fill="none" stroke-linecap="round" opacity=".7"></path>
+        <!-- handle -->
+        <path d="M157 157 L210 210" stroke="#1A1410" stroke-width="14" stroke-linecap="round"></path>
+        <path d="M161 161 L214 214" stroke="#C8461C" stroke-width="4" stroke-linecap="round"></path>
+      </svg>
     </div>
   </div>
 
@@ -880,6 +938,48 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
 <!-- ============ COST (dark pull quote) ============ -->
 <section class="cost">
   <div class="cost-inner reveal">
+
+    <div class="cost-art-wrap" id="costArt">
+      <!-- Rolling dice — gambling with decisions -->
+      <svg class="seven-art-svg active" data-art="dice" viewBox="0 0 260 260" aria-hidden="true">
+        <defs>
+          <linearGradient id="dieA" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FFFAF5"></stop>
+            <stop offset="100%" stop-color="#E8DFD4"></stop>
+          </linearGradient>
+          <linearGradient id="dieB" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#E86E3A"></stop>
+            <stop offset="100%" stop-color="#C8461C"></stop>
+          </linearGradient>
+        </defs>
+        <!-- table shadow -->
+        <ellipse cx="130" cy="220" rx="90" ry="10" fill="#000" opacity=".35"></ellipse>
+        <!-- motion arc -->
+        <path d="M40 90 Q130 30 220 90" fill="none" stroke="#FFFAF5" stroke-width="1.3" stroke-dasharray="3 6" opacity=".3"></path>
+        <!-- Die 1 (cream) tumbling left -->
+        <g transform="translate(72,140) rotate(-16)">
+          <rect x="-38" y="-38" width="76" height="76" rx="10" fill="url(#dieA)" stroke="#1A1410" stroke-width="1.5"></rect>
+          <g fill="#1A1410">
+            <circle cx="-18" cy="-18" r="4.5"></circle><circle cx="18" cy="-18" r="4.5"></circle>
+            <circle cx="0" cy="0" r="4.5"></circle>
+            <circle cx="-18" cy="18" r="4.5"></circle><circle cx="18" cy="18" r="4.5"></circle>
+          </g>
+          <path d="M38,-38 L52,-50 L52,26 L38,38 Z" fill="#D4A574" stroke="#1A1410" stroke-width="1.5"></path>
+          <path d="M-38,-38 L-24,-50 L52,-50 L38,-38 Z" fill="#E8DFD4" stroke="#1A1410" stroke-width="1.5"></path>
+        </g>
+        <!-- Die 2 (terracotta) tumbling right, smaller -->
+        <g transform="translate(180,160) rotate(22)">
+          <rect x="-30" y="-30" width="60" height="60" rx="8" fill="url(#dieB)" stroke="#1A1410" stroke-width="1.5"></rect>
+          <g fill="#FFFAF5">
+            <circle cx="-12" cy="-12" r="4"></circle><circle cx="12" cy="12" r="4"></circle>
+          </g>
+          <path d="M30,-30 L42,-40 L42,20 L30,30 Z" fill="#A83610" stroke="#1A1410" stroke-width="1.5"></path>
+          <path d="M-30,-30 L-18,-40 L42,-40 L30,-30 Z" fill="#C8461C" stroke="#1A1410" stroke-width="1.5"></path>
+        </g>
+        <!-- question mark floating behind -->
+        <text x="132" y="92" text-anchor="middle" font-family="Playfair Display, serif" font-style="italic" font-weight="700" font-size="72" fill="#FFFAF5" opacity=".14">?</text>
+      </svg>
+    </div>
 
     <h2 class="cost-headline">The cost of <span class="it">not knowing</span><br>is another year of guessing.</h2>
     <p class="cost-body">Without a clear picture of your fundraising program, every decision is a gamble. You invest in events that may not be paying for themselves. You lose donors you could have kept. You leave major gift conversations on the table because nobody is sure whose job it is to have them. Another year passes, and the board asks the same questions they asked last year.</p>
@@ -1110,16 +1210,16 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
         <input type="hidden" name="subject" value="Fundraising Audit Inquiry">
         <div class="form-honey"><label>Don't fill this out:<input name="bot-field" tabindex="-1" autocomplete="off"></label></div>
         <div class="form-row cols">
-          <div><label class="form-label" for="f-name">Your Name</label><input class="form-input" id="f-name" name="name" type="text" required="" placeholder="Jane Donor"></div>
-          <div><label class="form-label" for="f-org">Organization</label><input class="form-input" id="f-org" name="organization" type="text" placeholder="Nonprofit Co."></div>
+          <div><label class="form-label" for="f-name">Your Name</label><input class="form-input" id="f-name" name="name" name="name" type="text" required="" placeholder="Jane Donor"></div>
+          <div><label class="form-label" for="f-org">Organization</label><input class="form-input" id="f-org" name="organization" name="organization" type="text" placeholder="Nonprofit Co."></div>
         </div>
         <div class="form-row">
           <label class="form-label" for="f-email">Email</label>
-          <input class="form-input" id="f-email" name="email" type="email" required="" placeholder="you@organization.org">
+          <input class="form-input" id="f-email" name="email" name="email" type="email" required="" placeholder="you@organization.org">
         </div>
         <div class="form-row">
           <label class="form-label" for="f-msg">How can I help?</label>
-          <textarea class="form-textarea" id="f-msg" name="message" placeholder="Tell me a little about your organization and what you're hoping to understand." required=""></textarea>
+          <textarea class="form-textarea" id="f-msg" name="message" name="message" placeholder="Tell me a little about your organization and what you're hoping to understand." required=""></textarea>
         </div>
         <button class="btn btn-primary form-submit" type="submit">Send Message →</button>
         <p class="form-note">I'll get back to you within one business day.</p>
@@ -1197,6 +1297,8 @@ window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
 navToggle.addEventListener('click', () => { navLinks.classList.toggle('open'); });
+
+
 
 // reveal on scroll — with mixed motion variants
 const REVEAL_VARIANTS = ['up','left','right','scale','tilt','blur','down'];

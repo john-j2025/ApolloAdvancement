@@ -16,6 +16,7 @@
 <meta name="twitter:image" content="https://apolloadvancement.com/og-image.jpg?v=4">
 <meta name="description" content="Not sure what's working in your fundraising program? A fundraising audit examines your donor data, board engagement, communications, and more, then gives you a strategic plan your team can follow. Serving nonprofits across Canada and the US.">
 <title>Nonprofit Fundraising Audit &amp; Strategic Plan | Apollo Advancement</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -180,6 +181,8 @@ section{position:relative;padding:7rem 2.5rem}
 .rule-short{display:block;width:48px;height:3px;background:var(--accent);margin-bottom:2rem}
 
 /* ============ PROBLEM SECTION (Sound Familiar) ============ */
+.sound-familiar{font-family:var(--f-display)!important;font-style:italic!important;font-weight:600!important;font-size:clamp(1.8rem,3.6vw,2.8rem)!important;letter-spacing:-.01em!important;color:var(--accent)!important;text-transform:none!important;margin-bottom:1.5rem!important}
+.sound-familiar::before{display:none!important}
 .problem{background:var(--bg-warm);padding:7rem 2.5rem 0;position:relative;overflow:hidden}
 .problem::before{content:'';position:absolute;top:-2px;left:0;right:0;height:50px;background:linear-gradient(to bottom, var(--bg-dark), transparent);opacity:.08;pointer-events:none}
 .problem-inner{max-width:var(--cw);margin:0 auto}
@@ -228,6 +231,56 @@ section{position:relative;padding:7rem 2.5rem}
 .wwd-body .grounded-call em{font-style:italic;color:var(--accent)}
 .wwd-item:nth-child(2) .grounded-call{border-left-color:#B88954}
 .wwd-item:nth-child(2) .grounded-call em{color:#B88954}
+
+/* Next Step — implementation / fractional fundraiser callout */
+.wwd-item.wwd-next{
+  margin-top:1.4rem;
+  padding:2.6rem 2rem;
+  background:linear-gradient(135deg, var(--bg-dark) 0%, #2a1f18 100%);
+  color:#fff;
+  border-top:none !important;
+  border-radius:14px;
+  position:relative;
+  overflow:hidden;
+}
+.wwd-item.wwd-next::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:4px;
+  background:linear-gradient(90deg,var(--accent) 0%,var(--accent-glow) 100%);
+}
+.wwd-item.wwd-next .wwd-num{color:var(--accent-glow);font-size:clamp(3.2rem,6vw,5rem);line-height:1;font-style:normal}
+.wwd-item.wwd-next .wwd-next-tag{
+  display:inline-block;
+  font-family:var(--f-body);
+  font-weight:700;
+  font-size:.72rem;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--accent-glow);
+  margin-bottom:.9rem;
+}
+.wwd-item.wwd-next .wwd-title{color:#fff}
+.wwd-item.wwd-next .wwd-title .it{color:var(--accent-glow);font-weight:400}
+.wwd-item.wwd-next .wwd-body p{color:rgba(255,250,245,.82)}
+.wwd-item.wwd-next .wwd-body p strong{color:#fff;font-weight:600}
+.wwd-next-link{
+  display:inline-flex;
+  align-items:center;
+  gap:.5rem;
+  margin-top:1.2rem;
+  font-family:var(--f-body);
+  font-weight:700;
+  font-size:.95rem;
+  letter-spacing:.02em;
+  color:var(--accent-glow);
+  text-decoration:none;
+  border-bottom:2px solid rgba(212,165,116,.3);
+  padding-bottom:3px;
+  transition:color .2s, border-color .2s, transform .2s;
+}
+.wwd-next-link:hover{color:#fff;border-bottom-color:#fff}
+.wwd-next-link:hover span{transform:translateX(4px)}
+.wwd-next-link span{display:inline-block;transition:transform .2s}
+.wwd-item:last-child.wwd-next{border-bottom:none !important}
 @media (max-width:720px){
   .wwd-item{grid-template-columns:1fr;gap:.4rem;padding:1.8rem 0}
   .wwd-num{font-size:3.6rem}
@@ -266,10 +319,61 @@ section{position:relative;padding:7rem 2.5rem}
 .seven-num .dot{display:none}
 
 /* Belief-diagnostic special highlight on item 07 */
-.seven-item.special{background:linear-gradient(90deg, rgba(200,70,28,.05) 0%, transparent 80%)}
-.seven-item.special .seven-num{color:var(--accent)}
+.seven-item.special{
+  position:relative;
+  background:linear-gradient(135deg, rgba(200,70,28,.08) 0%, rgba(232,110,58,.04) 100%);
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  padding:2.6rem 2.2rem 2.6rem 2rem !important;
+  margin-top:2.2rem;
+  box-shadow:0 2px 0 rgba(200,70,28,.08), 0 24px 50px -24px rgba(200,70,28,.22);
+}
+.seven-item.special::before{
+  content:'Our differentiator';
+  position:absolute;
+  top:-14px;
+  left:1.6rem;
+  background:var(--accent);
+  color:#fff;
+  font-family:var(--f-body);
+  font-weight:700;
+  font-size:.68rem;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  padding:.5rem .9rem;
+  border-radius:999px;
+  box-shadow:0 4px 14px rgba(200,70,28,.3);
+}
+.seven-item.special .seven-num{color:var(--accent);font-size:clamp(3.6rem,6.2vw,5rem);opacity:1}
 .seven-item.special .seven-num .dot{background:var(--accent)}
-.seven-item.special .seven-title::before{content:'This is what makes an Apollo audit different.';display:block;font-family:var(--f-body);font-style:normal;font-weight:700;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:.7rem}
+.seven-item.special .seven-title{font-size:clamp(1.8rem,3vw,2.4rem);line-height:1.18;margin-bottom:.9rem}
+.seven-item.special .seven-title .accent-word{color:var(--accent);font-style:italic}
+.seven-item.special .seven-title::before{
+  content:'This is what makes an Apollo audit different.';
+  display:block;
+  font-family:var(--f-body);
+  font-style:normal;
+  font-weight:700;
+  font-size:.7rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin-bottom:.9rem;
+}
+.seven-item.special .seven-desc{font-size:1.08rem;line-height:1.72;color:var(--ink)}
+.seven-item.special .seven-desc strong{color:var(--accent);font-weight:700}
+.seven-link{margin-top:1.1rem !important;font-size:1rem !important}
+.seven-link a{
+  display:inline-flex;align-items:center;gap:.5rem;
+  font-family:var(--f-body);font-weight:700;
+  color:var(--accent);text-decoration:none;
+  border-bottom:2px solid rgba(200,70,28,.28);
+  padding-bottom:2px;
+  transition:color .2s, border-color .2s;
+}
+.seven-link a span{transition:transform .2s}
+.seven-link a:hover{color:var(--accent-hover);border-bottom-color:var(--accent-hover)}
+.seven-link a:hover span{transform:translateX(3px)}
 
 /* ============ COST OF NOT KNOWING (dark pull quote) ============ */
 .cost{background:var(--bg-dark);color:#fff;padding:8rem 2.5rem;position:relative;overflow:hidden;text-align:center}
@@ -352,8 +456,6 @@ section{position:relative;padding:7rem 2.5rem}
 
 /* ============ PRICING ============ */
 .pricing{padding:5rem 2.5rem 8rem;background:var(--bg-warm);position:relative}
-.pricing-head{max-width:var(--mw);margin:0 auto 4rem;text-align:center}
-.pricing-head .eyebrow{justify-content:center}
 .pricing-head .eyebrow::before{display:none}
 .pricing-head .h-display{max-width:640px;margin:0 auto}
 .pricing-grid{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;align-items:stretch;padding-top:16px}
@@ -381,6 +483,111 @@ section{position:relative;padding:7rem 2.5rem}
 .price-btn:hover{background:var(--accent-hover);transform:translateY(-2px)}
 .price-card.featured .price-btn{background:var(--accent-glow);color:var(--bg-dark)}
 .price-card.featured .price-btn:hover{background:#fff}
+
+.pricing-cta{
+  max-width:1200px;margin:0 auto;position:relative;
+  background:linear-gradient(135deg, var(--bg-dark) 0%, #2a1f18 55%, #3a2218 100%);
+  color:#fff;
+  border-radius:20px;
+  padding:clamp(3rem,5vw,5rem) clamp(2rem,4vw,4rem);
+  overflow:hidden;
+  box-shadow:0 40px 80px -30px rgba(26,20,16,.35), 0 8px 24px -12px rgba(26,20,16,.18);
+}
+.pricing-cta::before{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(ellipse at 85% -10%, rgba(232,110,58,.35) 0%, transparent 55%),
+    radial-gradient(ellipse at -10% 110%, rgba(212,165,116,.18) 0%, transparent 50%);
+}
+.pricing-cta::after{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background-image:radial-gradient(circle at 1px 1px, rgba(255,250,245,.06) 1px, transparent 0);
+  background-size:32px 32px;opacity:.5;
+}
+.pricing-cta-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(2.4rem,5vw,5rem);align-items:center}
+.pricing-eyebrow{
+  font-family:var(--f-body);font-weight:700;font-size:.72rem;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--accent-glow);margin-bottom:1.4rem;
+  display:inline-flex;align-items:center;gap:.8rem;
+}
+.pricing-eyebrow::before{content:'';width:36px;height:2px;background:var(--accent-glow)}
+.pricing-headline{
+  font-family:var(--f-display);font-weight:700;
+  font-size:clamp(2.4rem,5vw,4rem);line-height:1.02;letter-spacing:-.022em;
+  color:#fff;margin-bottom:1.8rem;
+}
+.pricing-headline .it{font-style:italic;font-weight:400;color:var(--accent-glow)}
+.pricing-cta-body{
+  font-size:clamp(1rem,1.2vw,1.1rem);line-height:1.7;
+  color:rgba(255,250,245,.78);margin:0 0 1rem;max-width:520px;
+}
+.pricing-cta-body:last-of-type{margin-bottom:0}
+.pricing-cta-body strong{color:#fff;font-weight:600}
+
+.pricing-cta-right{display:flex;flex-direction:column;gap:2rem}
+.pricing-included{
+  background:rgba(255,250,245,.04);
+  border:1px solid rgba(212,165,116,.18);
+  border-radius:12px;padding:1.6rem 1.8rem;
+  backdrop-filter:blur(6px);
+}
+.pricing-included-label{
+  font-family:var(--f-body);font-weight:700;font-size:.7rem;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--accent-glow);
+  margin-bottom:1.2rem;
+}
+.pricing-included-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.9rem}
+.pricing-included-list li{
+  display:flex;align-items:baseline;gap:1rem;
+  font-family:var(--f-display);font-size:1.25rem;font-weight:500;
+  color:#fff;letter-spacing:-.01em;line-height:1.3;
+  padding-bottom:.9rem;border-bottom:1px solid rgba(255,250,245,.08);
+}
+.pricing-included-list li:last-child{border-bottom:none;padding-bottom:0}
+.pricing-included-list .num{
+  font-family:var(--f-display);font-style:italic;font-weight:700;
+  font-size:1.15rem;color:var(--accent);min-width:1.6em;flex-shrink:0;
+}
+.pricing-included-list em{
+  font-family:var(--f-body);font-style:italic;font-weight:400;font-size:.82rem;
+  color:rgba(255,250,245,.5);letter-spacing:0;margin-left:.3rem;
+}
+
+.pricing-cta-actions{display:flex;flex-direction:column;gap:1rem}
+.pricing-btn-primary{
+  display:inline-flex;align-items:center;justify-content:space-between;gap:1rem;
+  background:var(--accent);color:#fff;
+  font-family:var(--f-body);font-weight:700;font-size:.92rem;
+  letter-spacing:.08em;text-transform:uppercase;
+  padding:1.25rem 1.8rem;border-radius:10px;text-decoration:none;
+  transition:background .2s, transform .2s, box-shadow .2s;
+  box-shadow:0 12px 30px -10px rgba(200,70,28,.5);
+}
+.pricing-btn-primary span{font-size:1.3rem;transition:transform .2s}
+.pricing-btn-primary:hover{background:var(--accent-hover);transform:translateY(-2px);box-shadow:0 18px 40px -12px rgba(200,70,28,.65)}
+.pricing-btn-primary:hover span{transform:translateX(4px)}
+.pricing-btn-phone{
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  padding:1rem 1.4rem;border:1px solid rgba(212,165,116,.3);
+  border-radius:10px;text-decoration:none;
+  transition:border-color .2s, background .2s;
+}
+.pricing-btn-phone:hover{border-color:var(--accent-glow);background:rgba(212,165,116,.06)}
+.pricing-btn-phone-label{
+  font-family:var(--f-body);font-weight:600;font-size:.7rem;
+  letter-spacing:.22em;text-transform:uppercase;color:rgba(255,250,245,.55);
+}
+.pricing-btn-phone-number{
+  font-family:var(--f-display);font-weight:600;font-size:1.3rem;
+  color:var(--accent-glow);letter-spacing:-.005em;
+}
+
+@media (max-width:880px){
+  .pricing-cta-grid{grid-template-columns:1fr;gap:2.4rem}
+  .pricing-btn-primary{justify-content:center}
+  .pricing-btn-phone{flex-direction:row;justify-content:space-between}
+}
+.pricing-cta-old-stripped{display:none}
 
 /* ============ DELIVERABLES ============ */
 .deliver{padding:8rem 2.5rem;background:var(--bg)}
@@ -589,8 +796,8 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
     </h1>
     <div class="hero-lower">
     <div>
-      <p class="hero-sub"><strong>A fundraising audit</strong> tells you exactly what's working, what isn't, and what to do next. No guesswork. A comprehensive, detailed, and action-focused review of the seven main areas of your fundraising program.</p>
-      <p class="hero-sub" style="margin-top:-1.2rem"><strong>A strategic plan</strong> gives you a roadmap that shows you, month by month, <strong>exactly what you can do, <span class="swoosh-wrap">now<svg class="swoosh" viewBox="0 0 300 40" aria-hidden="true" preserveAspectRatio="none"><path d="M6,28 C60,8 140,4 220,14 C250,18 280,24 294,30" fill="none" stroke="#E86E3A" stroke-width="5" stroke-linecap="round"></path></svg></span>,</strong> to raise more money.</p>
+      <p class="hero-sub"><strong>The fundraising audit</strong> tells you exactly what's working, what isn't. No guesswork. A comprehensive, detailed, and action-focused diagnostic of the seven main areas of your fundraising program.</p>
+      <p class="hero-sub" style="margin-top:-1.2rem"><strong>The strategic plan</strong> gives you a detailed, actionable roadmap that shows you <strong>exactly what you can do, <span class="swoosh-wrap">now<svg class="swoosh" viewBox="0 0 300 40" aria-hidden="true" preserveAspectRatio="none"><path d="M6,28 C60,8 140,4 220,14 C250,18 280,24 294,30" fill="none" stroke="#E86E3A" stroke-width="5" stroke-linecap="round"></path></svg></span>,</strong> to transform your fundraising program and raise more money.</p>
       <div class="hero-ctas">
         <a href="#contact-form" class="btn btn-primary">Book an Audit →</a>
         <span class="hero-phone">Or call: <a href="tel:+17053131588">(705) 313-1588</a></span>
@@ -796,12 +1003,12 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
 <section class="problem">
   <div class="problem-inner reveal">
     <div class="problem-intro">
-      <div class="eyebrow">Sound Familiar?</div>
+      <div class="eyebrow sound-familiar">Sound Familiar?</div>
       <h2 class="problem-headline">You know your organization could raise more. <span class="it">You're just not sure where to start.</span></h2>
       <div class="problem-body">
-        <p>Maybe you're an executive director who's been handling fundraising on top of everything else. You're overwhelmed, exhausted, and stressed out. You know there's low-hanging fundraising fruit all around you, but you barely have time to thank your top donors.</p>
-        <p>Or maybe you're a board member who knows the organization needs to be doing more on fundraising. But you also need to do more on governance and strategic planning, and somehow fundraising keeps getting pushed off to another day.</p>
-        <p>Or perhaps you're a motivated volunteer, willing to put your nose to the grindstone. But there's just so much that can be done, that when you set out to begin, you're seized by decision fatigue.</p>
+        <p>Maybe you're an executive director who's been handling fundraising on top of everything else. You're overwhelmed and stressed out. You know there's low-hanging fundraising fruit all around you, but you barely have time to thank your top donors let along launch a major new program. </p>
+        <p>Or maybe you're a board member who knows the organization needs to be doing more on fundraising. But there are also major gaps on governance and staffing, your attention is divided, and somehow fundraising keeps getting pushed off to another day.</p>
+        <p>Or perhaps you're a motivated volunteer, willing to put your nose to the grindstone. But there's just so much that needs to be done that when you do begin you're seized by decision fatigue.</p>
       </div>
       <p class="problem-pivot"><span class="a">The problem isn't <span class="hl">effort</span>.</span> <span class="b">You need direction.</span></p>
     </div>
@@ -836,7 +1043,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
 <section class="whatis">
   <div class="whatis-inner reveal">
     <div class="whatwedo-head">
-      <div class="eyebrow">Our Engagement</div>
+      <div class="eyebrow">The Audit and Strategic Plan Engagement</div>
       <h2>What <span class="it">we do.</span></h2>
     </div>
 
@@ -845,7 +1052,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
         <div class="wwd-num">01</div>
         <div class="wwd-body">
           <h3 class="wwd-title">The Fundraising <span class="it">Audit.</span></h3>
-          <p>A comprehensive, <strong>six-to-eight-week diagnostic</strong> that examines your fundraising program from the inside out. I review your donor data, interview your leadership, survey your board, assess your communications, and benchmark your results against sector standards.</p>
+          <p>A comprehensive, <strong>four-to-six-week diagnostic</strong> that examines your fundraising program from the inside out. I review your donor data, interview your leadership, survey your board, assess your communications, and benchmark your results against sector standards.</p>
           <p class="grounded-call">Every finding is grounded in <em>your actual data,</em> your actual donors, and <em>your actual capacity.</em></p>
         </div>
       </div>
@@ -858,17 +1065,24 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
           <p class="grounded-call">A detailed, <em>12-month program of action,</em> designed to maximize your revenue, based upon a clear-eyed assessment of your individual programs, resources, donors, history, and strengths.</p>
         </div>
       </div>
+      <div class="wwd-item wwd-next">
+        <div class="wwd-num">→</div>
+        <div class="wwd-body">
+          <div class="wwd-next-tag">Next Step</div>
+          <h3 class="wwd-title">Implement, <span class="it">with us.</span></h3>
+          <p>At the conclusion of the audit and strategic plan, you have two options: <strong>implement the plan with your own team,</strong> or <strong>hire Apollo Advancement as your fractional fundraiser.</strong> We embed with your team, and actually do the work of putting the action plan into motion. We hit the ground running from day one, handling everything from donor stewardship to campaign execution to board enablement. By the time we leave, your team is empowered to take on and continue the work with renewed confidence.</p>
+          <a href="https://apolloadvancement.com/services/fractional-fundraising" class="wwd-next-link">Learn about fractional fundraising <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-
-<!-- ============ SEVEN AREAS ============ -->
 <section class="seven">
   <div class="seven-head reveal">
     <div>
       <div class="eyebrow" style="font-size:.95rem;letter-spacing:.18em">The Seven Areas of the Audit</div>
       <h2 class="h-display" style="max-width:680px">We look at everything. <span class="it">Then we tell you what matters most.</span></h2>
-      <p class="seven-head-sub">Each dimension is reviewed against your actual data, then benchmarked against sector standards and peer organizations. No generic scorecards. Just a clear-eyed read of where you stand.</p>
+      <p class="seven-head-sub">Each dimension is reviewed against your actual data, then benchmarked against sector standards and peer organizations. We cut through the fog, and provide a clear-eyed view of exactly where you stand: the good, the bad, the ugly. Because we believe knowledge is power. </p>
     </div>
     <div class="seven-head-art" id="sevenArt">
       <!-- Magnifying glass over data grid -->
@@ -931,7 +1145,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
     <div class="seven-item">
       <div class="seven-num">06<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Prospect <span class="accent-word">pipeline</span>.</h3><p class="seven-desc">Do you have a formal prospect list? How are new potential donors identified? How many face-to-face donor meetings happen each month? For most organizations, this is where the <strong>largest untapped opportunity</strong> lives.</p></div></div>
     <div class="seven-item special">
-      <div class="seven-num">07<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Belief <span class="accent-word">diagnostic</span>.</h3><p class="seven-desc">We map what we find in the data back to the underlying beliefs producing those results. Beliefs like "fundraising is embarrassing" or "if we do good work, the money will come" shape behavior in ways that no amount of tactical advice will fix. <strong>Naming them is the first step toward changing them.</strong></p></div></div>
+      <div class="seven-num">07<span class="dot"></span></div><div class="seven-content"><h3 class="seven-title">Belief <span class="accent-word">diagnostic</span>.</h3><p class="seven-desc">We map what we find in the data back to the underlying beliefs producing those results. Beliefs like "fundraising is embarrassing" or "we need to give people something in return" shape behaviour in ways that no amount of tactical advice will fix. <strong>Naming them is the first step toward changing them.</strong></p><p class="seven-link"><a href="https://apolloadvancement.com/blog/everything-you-believe-about-fundraising-is-wrong" target="_blank" rel="noopener">Read our series on the ten fundraising fallacies that may be killing your results <span aria-hidden="true">→</span></a></p></div></div>
   </div>
 </section>
 
@@ -995,7 +1209,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
   <div class="plan-head">
     <div class="eyebrow">The Strategic Plan</div>
     <h2 class="h-display">A roadmap <span class="it">your team can actually follow.</span></h2>
-    <p>The strategic plan translates audit findings into a concrete, twelve-month action plan - organized into three tiers, each tied to revenue projections your board can see.</p>
+    <p>The strategic plan translates audit findings into a concrete, twelve-month action plan - organized into three tiers.</p>
   </div>
 
   <div class="journey reveal" id="timeline">
@@ -1038,7 +1252,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
       </div>
       <div class="station-pin"><div class="ring r2"></div><div class="ring"></div><div class="core">II</div></div>
       <div class="station-card">
-        <h3>Near-term <span class="it">priorities.</span></h3>
+        <h3>Short-term <span class="it">investments.</span></h3>
         <p>Structural work that builds a durable program.</p>
         <p class="station-eg"><em>For example:</em></p>
         <ul>
@@ -1059,7 +1273,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
       <div class="station-pin"><div class="ring r2"></div><div class="ring"></div><div class="core">III</div></div>
       <div class="station-card">
         <h3>Medium-term <span class="it">investments.</span></h3>
-        <p>Longer-horizon work that compounds over time.</p>
+        <p>Longer-horizon work that transforms your fundraising program, and achieves long-term sustainability.</p>
         <p class="station-eg"><em>For example:</em></p>
         <ul>
           <li>Diversify revenue streams</li>
@@ -1075,6 +1289,37 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
 
     <div class="plan-outcome">
       <p>Each recommendation is paired with revenue projections. <strong>Achievable with your current team and resources.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="pricing">
+  <div class="pricing-cta reveal">
+    <div class="pricing-cta-grid">
+      <div class="pricing-cta-left">
+        <div class="pricing-eyebrow">Pricing</div>
+        <h2 class="pricing-headline">Every engagement<br><span class="it">scoped to fit.</span></h2>
+        <p class="pricing-cta-body">Fees depend on the <strong>size and complexity of your organization</strong> - from a focused audit for a small shop, to a full audit plus twelve-month strategic plan for a multi-channel program.</p>
+        <p class="pricing-cta-body">Let's talk about what you need. We'll put together a scope and fee that fits, and you'll know exactly what you're paying for before you sign anything.</p>
+      </div>
+      <div class="pricing-cta-right">
+        <div class="pricing-included">
+          <div class="pricing-included-label">Engagement include</div>
+          <ul class="pricing-included-list">
+            <li><span class="num">01</span><span>The fundraising audit</span></li>
+            <li><span class="num">02</span><span>The strategic plan</span></li>
+            <li><span class="num">→</span><span>Fractional implementation <em>(optional)</em></span></li>
+          </ul>
+        </div>
+        <div class="pricing-cta-actions">
+          <a href="#contact-form" class="pricing-btn-primary">Contact us for pricing <span aria-hidden="true">→</span></a>
+          <a href="tel:+17053131588" class="pricing-btn-phone">
+            <span class="pricing-btn-phone-label">Or call</span>
+            <span class="pricing-btn-phone-number">(705) 313-1588</span>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -1103,7 +1348,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
     </div>
     <div class="deliver-card">
       <div class="deliver-arrow">→</div>
-      <h3>A 12-month strategic plan <em style="font-size:.75em;opacity:.6">(Option 2)</em></h3>
+      <h3>A 12-month strategic plan</h3>
       <p>With phased implementation roadmap and revenue projections. The roadmap your team can actually follow.</p>
     </div>
   </div>
@@ -1156,7 +1401,7 @@ footer{background:#13100D;padding:3rem 2.5rem;color:rgba(255,250,245,.5)}
     <div class="contact-left reveal">
       <div class="eyebrow">Start a Conversation</div>
       <h2 class="h-display">Let's have <span class="it">an honest conversation.</span></h2>
-      <p class="lead">Every engagement begins the same way: with an honest discussion about your organization, your mission, and where you want to go. <strong>No pitch. No obligation.</strong></p>
+      <p class="lead">Every engagement begins the same way: with an honest discussion about your organization, your mission, and where you want to go. <strong></strong></p>
 
       <div class="contact-info">
         <div class="contact-info-item">

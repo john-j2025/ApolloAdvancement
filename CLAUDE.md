@@ -107,8 +107,11 @@ Apollo Advancement/
 → Details: memory/context/strategic-priorities.md
 
 ## Business Structure
-- Sole proprietorship registered in Ontario
-- HST-registered
+- Sole proprietorship (NOT YET registered as a business name)
+- HST registered with effective date Feb 1, 2026 (per John's intent); CRA does NOT yet have this on file. John has been collecting HST on invoices since February and needs to call CRA Business Enquiries (1-800-959-5525) to formally backdate the registration to Feb 1, 2026
+- Once CRA backdate is confirmed: charge 13% HST on all invoices to Ontario clients, claim ITCs on business expenses; standard re-billing treatment is to strip HST out of expense receipts and re-add HST on the invoice line
+- HST/GST number (BN + RT0001) needs to be added to Wave invoice template once received
+- Business name registration is still pending
 - Google Workspace for professional email
 - Phone: (705) 313-1588
 - Email: jjalsevac@gmail.com

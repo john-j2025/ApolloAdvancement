@@ -1,0 +1,1 @@
+But what of those in Canada who have been euthanized for partial blindness? For mental health struggles? Because they can’t access the care they need? Because of their disabilities? To claim that these Canadians died due to these conditions amounts to a cover-up, and an Official Lie.

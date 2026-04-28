@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEO Audit: apolloadvancement.com | April 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #FFFAF5;
+  --bg-warm: #F5EBE0;
+  --bg-dark: #1A1410;
+  --text: #1A1410;
+  --text-soft: #5C514A;
+  --accent: #C8461C;
+  --accent-hover: #A83610;
+  --green: #2D6A4F;
+  --green-bg: #D8F3DC;
+  --yellow: #B08900;
+  --yellow-bg: #FFF3CD;
+  --red: #9B2226;
+  --red-bg: #F8D7DA;
+  --rule: #DDD2C6;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'DM Sans', -apple-system, sans-serif;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 17px; scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--bg); color: var(--text); line-height: 1.7; }
+
+.report { max-width: 900px; margin: 0 auto; padding: 3rem 2rem 5rem; }
+
+/* Header */
+.report-header { border-bottom: 3px solid var(--accent); padding-bottom: 2rem; margin-bottom: 3rem; }
+.report-header h1 { font-family: var(--font-display); font-size: 2.4rem; font-weight: 800; color: var(--bg-dark); margin-bottom: 0.3rem; }
+.report-header .subtitle { font-size: 1.1rem; color: var(--text-soft); }
+.report-header .date { font-size: 0.85rem; color: var(--text-soft); margin-top: 0.5rem; }
+
+/* Sections */
+h2 { font-family: var(--font-display); font-size: 1.6rem; font-weight: 800; color: var(--bg-dark); margin: 2.5rem 0 1rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+h2:first-of-type { border-top: none; padding-top: 0; }
+h3 { font-size: 1.05rem; font-weight: 700; color: var(--bg-dark); margin: 1.5rem 0 0.5rem; }
+p { margin-bottom: 1rem; }
+strong { font-weight: 600; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size: 0.9rem; }
+th { background: var(--bg-warm); font-weight: 700; text-align: left; padding: 0.6rem 0.8rem; border-bottom: 2px solid var(--rule); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
+td { padding: 0.55rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+
+/* Status badges */
+.badge { display: inline-block; padding: 0.15rem 0.55rem; border-radius: 3px; font-size: 0.78rem; font-weight: 600; }
+.badge-pass { background: var(--green-bg); color: var(--green); }
+.badge-warn { background: var(--yellow-bg); color: var(--yellow); }
+.badge-fail { background: var(--red-bg); color: var(--red); }
+.badge-critical { background: var(--red); color: #fff; }
+.badge-high { background: var(--red-bg); color: var(--red); }
+.badge-medium { background: var(--yellow-bg); color: var(--yellow); }
+.badge-low { background: var(--bg-warm); color: var(--text-soft); }
+
+/* Severity in text */
+.sev-critical { color: var(--red); font-weight: 700; }
+.sev-high { color: var(--red); font-weight: 600; }
+.sev-medium { color: var(--yellow); font-weight: 600; }
+
+/* Score card */
+.score-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem; }
+.score-card { background: #fff; border: 1px solid var(--rule); border-radius: 6px; padding: 1.2rem; text-align: center; }
+.score-card .number { font-family: var(--font-display); font-size: 2.2rem; font-weight: 800; }
+.score-card .label { font-size: 0.8rem; color: var(--text-soft); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 0.3rem; }
+.score-card.red .number { color: var(--red); }
+.score-card.yellow .number { color: var(--yellow); }
+.score-card.green .number { color: var(--green); }
+.score-card.accent .number { color: var(--accent); }
+
+/* Action items */
+.action-list { margin: 1rem 0 2rem; }
+.action-item { background: #fff; border: 1px solid var(--rule); border-radius: 6px; padding: 1rem 1.2rem; margin-bottom: 0.75rem; }
+.action-item .action-title { font-weight: 700; margin-bottom: 0.25rem; }
+.action-item .action-meta { font-size: 0.82rem; color: var(--text-soft); }
+.action-item .action-meta span { margin-right: 1rem; }
+
+/* Executive summary box */
+.exec-summary { background: var(--bg-warm); border-left: 4px solid var(--accent); padding: 1.5rem; border-radius: 0 6px 6px 0; margin: 1.5rem 0 2rem; }
+.exec-summary p { margin-bottom: 0.8rem; }
+.exec-summary p:last-child { margin-bottom: 0; }
+
+/* TOC */
+.toc { margin: 1.5rem 0 2.5rem; }
+.toc a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.toc a:hover { text-decoration: underline; }
+.toc ol { padding-left: 1.5rem; }
+.toc li { margin-bottom: 0.3rem; }
+</style>
+</head>
+<body>
+<div class="report">
+
+<div class="report-header">
+  <h1>SEO Audit: apolloadvancement.com</h1>
+  <div class="subtitle">Comprehensive search performance, technical, and content analysis</div>
+  <div class="date">April 21, 2026 | Prepared for Apollo Advancement</div>
+</div>
+
+<nav class="toc">
+  <ol>
+    <li><a href="#exec">Executive Summary</a></li>
+    <li><a href="#gsc">Search Console Performance</a></li>
+    <li><a href="#technical">Technical SEO</a></li>
+    <li><a href="#onpage">On-Page SEO</a></li>
+    <li><a href="#content">Content Gap Analysis</a></li>
+    <li><a href="#keywords">Keyword Opportunities</a></li>
+    <li><a href="#competitors">Competitor Comparison</a></li>
+    <li><a href="#actions">Prioritized Action Plan</a></li>
+  </ol>
+</nav>
+
+<!-- ============ EXECUTIVE SUMMARY ============ -->
+<h2 id="exec">Executive Summary</h2>
+
+<div class="exec-summary">
+  <p><strong>Bottom line:</strong> apolloadvancement.com has a solid technical foundation, well-crafted meta tags, structured data on every page, and genuinely excellent blog content. But the site is functionally invisible to search engines right now. Over the past 3 months, the entire site has received only <strong>9 clicks</strong> and <strong>60 impressions</strong> from Google. That is not a technical problem. It is a volume, authority, and keyword-targeting problem.</p>
+  <p><strong>Biggest strength:</strong> The blog series ("Everything You Believe About Fundraising is Wrong") is high-quality, opinionated, long-form content with strong potential to rank for fundraising-related queries. The site's technical SEO (structured data, canonical tags, meta descriptions, sitemap) is unusually clean for a solo practitioner's site.</p>
+  <p><strong>Top 3 priorities:</strong> (1) Fix the 8 redirect errors and 1 "crawled but not indexed" page that are wasting your crawl budget. (2) Rewrite title tags and H1s to target actual search queries people type, not brand-first phrasing. (3) Dramatically increase the volume of indexed content by publishing more blog posts targeting specific long-tail keywords your ideal clients are searching for.</p>
+</div>
+
+<div class="score-grid">
+  <div class="score-card red">
+    <div class="number">9</div>
+    <div class="label">Clicks (3 months)</div>
+  </div>
+  <div class="score-card red">
+    <div class="number">60</div>
+    <div class="label">Impressions (3 months)</div>
+  </div>
+  <div class="score-card yellow">
+    <div class="number">12</div>
+    <div class="label">Pages Indexed</div>
+  </div>
+  <div class="score-card red">
+    <div class="number">11</div>
+    <div class="label">Pages Not Indexed</div>
+  </div>
+  <div class="score-card accent">
+    <div class="number">1</div>
+    <div class="label">Ranking Query</div>
+  </div>
+  <div class="score-card green">
+    <div class="number">19</div>
+    <div class="label">Pages with Meta Desc</div>
+  </div>
+</div>
+
+<!-- ============ GSC PERFORMANCE ============ -->
+<h2 id="gsc">Search Console Performance</h2>
+
+<h3>Overview (Feb 24 - Apr 19, 2026)</h3>
+<p>The site registered only <strong>1 ranking query</strong> in the entire 3-month window: "the way we think about charity is dead wrong" (a reference to Dan Pallotta's TED talk). It received 2 impressions, 0 clicks, and ranked at position 83. This query is not a business-relevant keyword for Apollo Advancement.</p>
+
+<p>The homepage drove the most clicks (7 of 9 total), with an average position of 2.24, suggesting most clicks came from branded searches ("Apollo Advancement"). The blog post "We Need a Big Event" generated 1 click at position 4.25, showing some organic traction for that topic.</p>
+
+<h3>Pages Performance</h3>
+<table>
+  <tr><th>Page</th><th>Clicks</th><th>Impressions</th><th>CTR</th><th>Avg Position</th></tr>
+  <tr><td>Homepage</td><td>7</td><td>34</td><td>20.6%</td><td>2.2</td></tr>
+  <tr><td>/contact</td><td>1</td><td>11</td><td>9.1%</td><td>57.7</td></tr>
+  <tr><td>/blog/we-need-a-big-event</td><td>1</td><td>8</td><td>12.5%</td><td>4.3</td></tr>
+  <tr><td>/about</td><td>0</td><td>13</td><td>0%</td><td>3.7</td></tr>
+  <tr><td>/blog</td><td>0</td><td>9</td><td>0%</td><td>3.0</td></tr>
+  <tr><td>/everything-you-believe... (old URL)</td><td>0</td><td>6</td><td>0%</td><td>2.0</td></tr>
+  <tr><td>www.apolloadvancement.com (non-canonical)</td><td>0</td><td>6</td><td>0%</td><td>12.5</td></tr>
+  <tr><td>/blog/if-we-build-it</td><td>0</td><td>5</td><td>0%</td><td>5.2</td></tr>
+  <tr><td>/blog/everything-you-believe...</td><td>0</td><td>5</td><td>0%</td><td>44.6</td></tr>
+</table>
+
+<h3>Device Split</h3>
+<table>
+  <tr><th>Device</th><th>Clicks</th><th>Impressions</th><th>CTR</th></tr>
+  <tr><td>Desktop</td><td>6</td><td>55</td><td>10.9%</td></tr>
+  <tr><td>Mobile</td><td>3</td><td>5</td><td>60%</td></tr>
+</table>
+<p>Desktop dominates impressions (92%), which is normal for B2B consulting searches. Mobile traffic is negligible but has high CTR, likely branded.</p>
+
+<h3>Geography</h3>
+<table>
+  <tr><th>Country</th><th>Clicks</th><th>Impressions</th></tr>
+  <tr><td>United States</td><td>5</td><td>27</td></tr>
+  <tr><td>Canada</td><td>4</td><td>26</td></tr>
+  <tr><td>India</td><td>0</td><td>4</td></tr>
+</table>
+<p>US and Canada are nearly equal. Given your target market is Canada first, this is worth noting: you have slightly better traction in the US. This may reflect the stronger search volume for nonprofit fundraising terms south of the border.</p>
+
+<h3>Indexation Trend</h3>
+<p>Coverage data shows the site went from <strong>2 indexed pages</strong> on March 2 to <strong>12 indexed pages</strong> by late March, then dropped back to <strong>11 indexed</strong> by mid-April. Meanwhile, 11-12 pages remain "not indexed." The critical issues from the coverage report are:</p>
+<table>
+  <tr><th>Issue</th><th>Pages</th><th>Severity</th></tr>
+  <tr><td>Redirect error</td><td>8</td><td><span class="badge badge-fail">Critical</span></td></tr>
+  <tr><td>Page with redirect</td><td>2</td><td><span class="badge badge-warn">Warning</span></td></tr>
+  <tr><td>Alternate page with proper canonical tag</td><td>1</td><td><span class="badge badge-low">Low</span></td></tr>
+  <tr><td>Crawled, currently not indexed</td><td>1</td><td><span class="badge badge-warn">Warning</span></td></tr>
+</table>
+<p><strong>The 8 redirect errors are the single most urgent issue.</strong> These are likely old URLs from before you restructured paths into /blog/ and /services/ subdirectories. Google is trying to follow these URLs, hitting a redirect, and failing. This wastes crawl budget and prevents those pages from being indexed.</p>
+
+<!-- ============ TECHNICAL SEO ============ -->
+<h2 id="technical">Technical SEO</h2>
+
+<table>
+  <tr><th>Check</th><th>Status</th><th>Details</th></tr>
+  <tr>
+    <td>HTTPS</td>
+    <td><span class="badge badge-pass">Pass</span></td>
+    <td>Site is served via Cloudflare Pages with HTTPS enforced.</td>
+  </tr>
+  <tr>
+    <td>robots.txt</td>
+    <td><span class="badge badge-pass">Pass</span></td>
+    <td>Clean and correct. Allows all crawlers. Includes sitemap reference.</td>
+  </tr>
+  <tr>
+    <td>XML Sitemap</td>
+    <td><span class="badge badge-warn">Warning</span></td>
+    <td>Present with 20 URLs, but missing &lt;lastmod&gt; on the homepage, about, services, resources, contact, and blog index pages. Only blog posts have lastmod dates.</td>
+  </tr>
+  <tr>
+    <td>Canonical tags</td>
+    <td><span class="badge badge-pass">Pass</span></td>
+    <td>Present on all 19 HTML pages checked. Self-referencing canonicals correctly set.</td>
+  </tr>
+  <tr>
+    <td>Meta descriptions</td>
+    <td><span class="badge badge-pass">Pass</span></td>
+    <td>All 19 pages have unique, well-written meta descriptions within recommended length.</td>
+  </tr>
+  <tr>
+    <td>Open Graph / Twitter cards</td>
+    <td><span class="badge badge-pass">Pass</span></td>
+    <td>Full OG and Twitter card markup on all pages. Consistent image, title, description.</td>
+  </tr>
+  <tr>
+    <td>Structured data</td>
+    <td><span class="badge badge-pass">Pass</span></td>
+    <td>Homepage has ProfessionalService + LocalBusiness schema. Blog posts have BlogPosting schema with author, date, image. Well implemented.</td>
+  </tr>
+  <tr>
+    <td>Redirects</td>
+    <td><span class="badge badge-fail">Fail</span></td>
+    <td><strong>8 redirect errors</strong> reported by Google. The _redirects file has 30+ rules covering old URL patterns. Some of these are likely producing chains or errors. Needs investigation.</td>
+  </tr>
+  <tr>
+    <td>Mobile viewport</td>
+    <td><span class="badge badge-pass">Pass</span></td>
+    <td>Viewport meta tag present on all pages. Responsive design with clamp() typography.</td>
+  </tr>
+  <tr>
+    <td>Image optimization</td>
+    <td><span class="badge badge-warn">Warning</span></td>
+    <td>Hero background and portraits use .webp (good). Blog headers are .jpg (acceptable but not optimal). No width/height attributes on blog images, which can cause CLS.</td>
+  </tr>
+  <tr>
+    <td>Alt text</td>
+    <td><span class="badge badge-pass">Pass</span></td>
+    <td>All images have descriptive alt attributes. Blog headers include article title in alt text.</td>
+  </tr>
+  <tr>
+    <td>CSS delivery</td>
+    <td><span class="badge badge-warn">Warning</span></td>
+    <td>All CSS is inline in each HTML file (no external stylesheets to block rendering, which is good for performance). However, the same ~200+ lines of CSS are duplicated across every page, inflating page weight.</td>
+  </tr>
+  <tr>
+    <td>Font loading</td>
+    <td><span class="badge badge-pass">Pass</span></td>
+    <td>Google Fonts loaded via preload with fallback noscript tag. Good progressive enhancement.</td>
+  </tr>
+  <tr>
+    <td>www vs non-www</td>
+    <td><span class="badge badge-warn">Warning</span></td>
+    <td>GSC shows www.apolloadvancement.com getting 6 impressions at position 12.5. This variant should redirect to the non-www canonical. May need a Cloudflare redirect rule.</td>
+  </tr>
+  <tr>
+    <td>Service pages: no images</td>
+    <td><span class="badge badge-warn">Warning</span></td>
+    <td>All 6 service subpages contain zero images. Adding relevant imagery would improve engagement and give Google more signals.</td>
+  </tr>
+</table>
+
+<!-- ============ ON-PAGE SEO ============ -->
+<h2 id="onpage">On-Page SEO</h2>
+
+<h3>Title Tags</h3>
+<table>
+  <tr><th>Page</th><th>Title</th><th>Issue</th></tr>
+  <tr>
+    <td>Homepage</td>
+    <td>Apollo Advancement | Fundraising for Humans</td>
+    <td><span class="badge badge-warn">Medium</span> Brand-first title. No searchable keywords like "fundraising consultant" or "nonprofit."</td>
+  </tr>
+  <tr>
+    <td>About</td>
+    <td>About | Apollo Advancement</td>
+    <td><span class="badge badge-high">High</span> Generic. Should include "fundraising consultant" + location.</td>
+  </tr>
+  <tr>
+    <td>Services</td>
+    <td>Services | Apollo Advancement</td>
+    <td><span class="badge badge-high">High</span> Generic. Missing "nonprofit fundraising consulting services."</td>
+  </tr>
+  <tr>
+    <td>Results</td>
+    <td>Results | Apollo Advancement</td>
+    <td><span class="badge badge-high">High</span> Generic. Could be "Fundraising Results &amp; Case Studies."</td>
+  </tr>
+  <tr>
+    <td>Resources</td>
+    <td>Resources | Apollo Advancement</td>
+    <td><span class="badge badge-medium">Medium</span> Generic. Should include "free fundraising resources."</td>
+  </tr>
+  <tr>
+    <td>Contact</td>
+    <td>Contact | Apollo Advancement</td>
+    <td><span class="badge badge-low">Low</span> Acceptable for a contact page.</td>
+  </tr>
+  <tr>
+    <td>Blog index</td>
+    <td>Blog | Apollo Advancement</td>
+    <td><span class="badge badge-medium">Medium</span> Should include "nonprofit fundraising blog."</td>
+  </tr>
+  <tr>
+    <td>Fractional Fundraising</td>
+    <td>Fractional Fundraising Services for Nonprofits | AA</td>
+    <td><span class="badge badge-pass">Good</span> Strong, keyword-rich title.</td>
+  </tr>
+  <tr>
+    <td>Blog posts</td>
+    <td>Fallacy #1-5 titles</td>
+    <td><span class="badge badge-pass">Good</span> Descriptive, unique, within length limits.</td>
+  </tr>
+</table>
+
+<h3>H1 Tags</h3>
+<p>Every page has exactly one H1, which is correct. However, several H1s prioritize brand voice over searchability:</p>
+<table>
+  <tr><th>Page</th><th>Current H1</th><th>Issue</th></tr>
+  <tr>
+    <td>Homepage</td>
+    <td>Fundraising for humans.</td>
+    <td><span class="badge badge-warn">Medium</span> Tagline, not a searchable phrase. Consider adding a keyword-rich subtitle or adjusting.</td>
+  </tr>
+  <tr>
+    <td>About</td>
+    <td>A philosopher who builds fundraising programs...</td>
+    <td><span class="badge badge-warn">Medium</span> Creative but 134 characters long. H1 should be concise. No keywords Google can parse.</td>
+  </tr>
+  <tr>
+    <td>Services</td>
+    <td>How we work together.</td>
+    <td><span class="badge badge-high">High</span> No keyword signal. "Nonprofit Fundraising Consulting Services" would rank.</td>
+  </tr>
+  <tr>
+    <td>Results</td>
+    <td>The work speaks for itself.</td>
+    <td><span class="badge badge-high">High</span> No keyword signal. "Fundraising Results &amp; Case Studies" would rank.</td>
+  </tr>
+  <tr>
+    <td>Resources</td>
+    <td>Free resources.</td>
+    <td><span class="badge badge-medium">Medium</span> Too generic. "Free Fundraising Tools for Nonprofits" would rank.</td>
+  </tr>
+  <tr>
+    <td>Blog index</td>
+    <td>Blog.</td>
+    <td><span class="badge badge-medium">Medium</span> One word. No signal. "Nonprofit Fundraising Insights" or similar.</td>
+  </tr>
+</table>
+
+<h3>Internal Linking</h3>
+<p>Internal linking is <strong>weak</strong>. The blog posts link to each other within the series (good), but there are almost no links from blog content to service pages. The service pages do not link to blog posts. The homepage links to top-level pages but not to individual blog posts or service subpages. This creates shallow link equity distribution and makes it harder for Google to discover and prioritize your most important pages.</p>
+
+<!-- ============ CONTENT GAP ============ -->
+<h2 id="content">Content Gap Analysis</h2>
+
+<h3>What you have</h3>
+<p>20 pages in the sitemap: 6 core pages (home, about, services, results, resources, contact), 6 service subpages, 1 blog index, and 6 blog posts (the series intro + 5 fallacy posts). The blog content is genuinely excellent, long-form (500-700 lines of HTML each), and opinionated. But it is all variations on one theme: common fundraising beliefs that are wrong.</p>
+
+<h3>What is missing</h3>
+<table>
+  <tr><th>Gap</th><th>Why It Matters</th><th>Recommended Format</th><th>Priority</th><th>Effort</th></tr>
+  <tr>
+    <td>Location-specific landing pages</td>
+    <td>85% of nonprofit searches include location modifiers. You serve Ontario, Canada, and the US but have no pages optimized for "fundraising consultant Ontario," "nonprofit fundraising help Toronto," etc.</td>
+    <td>Landing pages (1-2 for key regions)</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>Half day each</td>
+  </tr>
+  <tr>
+    <td>"How to" and educational content</td>
+    <td>Question-based queries ("how to write a fundraising appeal," "how to increase donor retention," "how to run an annual fund") are high-intent informational queries that build authority and attract your ideal clients.</td>
+    <td>Blog posts, 1,500+ words</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>2-4 hours each</td>
+  </tr>
+  <tr>
+    <td>Case studies as standalone pages</td>
+    <td>Your results page bundles everything together. Individual case study pages ("How Peterborough Singers Grew Their Donor Base 4x") would rank for organization-specific and approach-specific queries.</td>
+    <td>Dedicated case study pages</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>Half day each</td>
+  </tr>
+  <tr>
+    <td>Comparison/alternative content</td>
+    <td>"Fractional fundraiser vs full-time development director," "fundraising consultant vs doing it yourself." These commercial-intent queries catch people actively evaluating options.</td>
+    <td>Blog posts or landing pages</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>2-3 hours each</td>
+  </tr>
+  <tr>
+    <td>Glossary / terminology page</td>
+    <td>Terms like "LYBUNT," "annual fund," "case for support," "development audit" are searched by nonprofit staff trying to learn. A glossary captures long-tail traffic and positions you as an authority.</td>
+    <td>Single reference page</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Half day</td>
+  </tr>
+  <tr>
+    <td>Nonprofit-type-specific pages</td>
+    <td>You serve arts orgs, schools, and community nonprofits. Pages like "Fundraising for Arts Organizations" or "Fundraising for Independent Schools" would capture sector-specific searches.</td>
+    <td>Landing pages under /services/</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Half day each</td>
+  </tr>
+  <tr>
+    <td>Lead magnet content</td>
+    <td>The Annual Fund Checklist PDF exists on the resources page but is not optimized for search. A dedicated landing page with keyword-rich copy would capture "annual fund checklist" and similar queries.</td>
+    <td>Dedicated landing page</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>2 hours</td>
+  </tr>
+  <tr>
+    <td>Google Business Profile</td>
+    <td>No evidence of a Google Business Profile. For a local service business, this is a significant missed opportunity for local pack rankings and Maps visibility.</td>
+    <td>GBP listing</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>1 hour</td>
+  </tr>
+</table>
+
+<!-- ============ KEYWORD OPPORTUNITIES ============ -->
+<h2 id="keywords">Keyword Opportunities</h2>
+
+<p>You currently rank for essentially zero keywords. The table below identifies target keywords based on your services, your market, and what competitors are ranking for. Difficulty is estimated relative to the fundraising consulting niche (not absolute).</p>
+
+<table>
+  <tr><th>Keyword</th><th>Difficulty</th><th>Opportunity</th><th>Intent</th><th>Content Type</th></tr>
+  <tr>
+    <td>fundraising consultant Canada</td>
+    <td>Moderate</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>Commercial</td>
+    <td>Homepage + About optimization</td>
+  </tr>
+  <tr>
+    <td>fractional fundraiser</td>
+    <td>Moderate</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>Commercial</td>
+    <td>Existing service page (already good)</td>
+  </tr>
+  <tr>
+    <td>nonprofit fundraising consultant Ontario</td>
+    <td>Low</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>Commercial</td>
+    <td>New location landing page</td>
+  </tr>
+  <tr>
+    <td>fundraising consultant for small nonprofits</td>
+    <td>Low</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>Commercial</td>
+    <td>Homepage / Services page optimization</td>
+  </tr>
+  <tr>
+    <td>how to start a nonprofit annual fund</td>
+    <td>Low</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>Informational</td>
+    <td>New blog post</td>
+  </tr>
+  <tr>
+    <td>fundraising audit for nonprofits</td>
+    <td>Low</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>Commercial</td>
+    <td>Existing service page optimization</td>
+  </tr>
+  <tr>
+    <td>how to write a fundraising appeal letter</td>
+    <td>Moderate</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>Informational</td>
+    <td>New blog post</td>
+  </tr>
+  <tr>
+    <td>fundraising for arts organizations</td>
+    <td>Low</td>
+    <td><span class="badge badge-high">High</span></td>
+    <td>Commercial</td>
+    <td>New landing page</td>
+  </tr>
+  <tr>
+    <td>donor retention strategies nonprofit</td>
+    <td>Moderate</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Informational</td>
+    <td>New blog post</td>
+  </tr>
+  <tr>
+    <td>fractional development director nonprofit</td>
+    <td>Low</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Commercial</td>
+    <td>Existing fractional page optimization</td>
+  </tr>
+  <tr>
+    <td>board fundraising training nonprofit</td>
+    <td>Low</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Commercial</td>
+    <td>Existing service page optimization</td>
+  </tr>
+  <tr>
+    <td>why donors stop giving</td>
+    <td>Low</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Informational</td>
+    <td>New blog post</td>
+  </tr>
+  <tr>
+    <td>fundraising gala alternatives</td>
+    <td>Low</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Informational</td>
+    <td>Existing blog post (big event) optimization</td>
+  </tr>
+  <tr>
+    <td>how to hire a fundraising consultant</td>
+    <td>Low</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Commercial</td>
+    <td>New blog post</td>
+  </tr>
+  <tr>
+    <td>nonprofit fundraising plan template</td>
+    <td>Moderate</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Informational</td>
+    <td>Lead magnet + landing page</td>
+  </tr>
+  <tr>
+    <td>fundraising consultant vs development director</td>
+    <td>Low</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Commercial</td>
+    <td>New comparison blog post</td>
+  </tr>
+  <tr>
+    <td>case for support template nonprofit</td>
+    <td>Low</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Informational</td>
+    <td>New blog post + downloadable</td>
+  </tr>
+  <tr>
+    <td>fundraising for independent schools Canada</td>
+    <td>Low</td>
+    <td><span class="badge badge-medium">Medium</span></td>
+    <td>Commercial</td>
+    <td>New landing page</td>
+  </tr>
+  <tr>
+    <td>how to thank donors effectively</td>
+    <td>Low</td>
+    <td><span class="badge badge-low">Low</span></td>
+    <td>Informational</td>
+    <td>New blog post</td>
+  </tr>
+  <tr>
+    <td>capital campaign consultant Canada</td>
+    <td>Moderate</td>
+    <td><span class="badge badge-low">Low</span></td>
+    <td>Commercial</td>
+    <td>Existing campaign development page</td>
+  </tr>
+</table>
+
+<!-- ============ COMPETITOR COMPARISON ============ -->
+<h2 id="competitors">Competitor Comparison</h2>
+
+<p>The three most relevant competitors for SEO purposes (similar positioning, overlapping geography and market segment) are:</p>
+
+<table>
+  <tr><th>Dimension</th><th>Apollo Advancement</th><th>Further Together</th><th>Story Point Consulting</th><th>KCI Philanthropy</th></tr>
+  <tr>
+    <td>Indexed content volume</td>
+    <td>~12 pages</td>
+    <td>100+ pages (guides, podcast, blog)</td>
+    <td>30-50 pages</td>
+    <td>200+ pages</td>
+  </tr>
+  <tr>
+    <td>Blog/content hub</td>
+    <td>6 posts (1 series)</td>
+    <td>Extensive guides + podcast library</td>
+    <td>Blog + resources</td>
+    <td>Thought leadership library</td>
+  </tr>
+  <tr>
+    <td>Publishing frequency</td>
+    <td>~2 posts/month (recent burst)</td>
+    <td>Weekly podcast + blog</td>
+    <td>Irregular</td>
+    <td>Regular</td>
+  </tr>
+  <tr>
+    <td>Service page depth</td>
+    <td>6 pages, 7-14 paragraphs each, no images</td>
+    <td>Multiple detailed service pages</td>
+    <td>Service pages with testimonials</td>
+    <td>Comprehensive service descriptions</td>
+  </tr>
+  <tr>
+    <td>Fractional fundraising focus</td>
+    <td>1 dedicated page (strong)</td>
+    <td>Core offering, heavily promoted</td>
+    <td>Not emphasized</td>
+    <td>Not a focus</td>
+  </tr>
+  <tr>
+    <td>Structured data</td>
+    <td>Yes (LocalBusiness + BlogPosting)</td>
+    <td>Likely basic</td>
+    <td>Unknown</td>
+    <td>Likely present</td>
+  </tr>
+  <tr>
+    <td>Location targeting</td>
+    <td>Kawartha Lakes in schema only</td>
+    <td>Toronto + Vancouver prominent</td>
+    <td>Canadian focus</td>
+    <td>National (multiple offices)</td>
+  </tr>
+  <tr>
+    <td>Google Business Profile</td>
+    <td>Not visible</td>
+    <td>Likely yes</td>
+    <td>Likely yes</td>
+    <td>Yes (multiple locations)</td>
+  </tr>
+</table>
+
+<p><strong>Key takeaway:</strong> Your competitors have 5x to 20x the indexed content. Further Together in particular dominates the "fractional fundraising" niche with extensive educational content, a podcast, and strong topical authority. Your content quality is competitive or better, but you are dramatically outgunned on volume. In SEO, volume compounds: more pages mean more keywords, more internal links, more crawl signals, and more chances to earn backlinks.</p>
+
+<!-- ============ PRIORITIZED ACTION PLAN ============ -->
+<h2 id="actions">Prioritized Action Plan</h2>
+
+<h3>Quick Wins (this week)</h3>
+<div class="action-list">
+
+  <div class="action-item">
+    <div class="action-title">1. Fix redirect errors in Google Search Console</div>
+    <p>Open GSC > Pages > Redirect error. Identify the 8 specific URLs failing. Cross-reference with your _redirects file. Most likely cause: old URLs that are not covered by an existing redirect rule, or redirect chains (old URL > redirect > another redirect). Fix by adding missing rules or simplifying chains.</p>
+    <div class="action-meta"><span>Impact: <strong>High</strong></span> <span>Effort: 1-2 hours</span></div>
+  </div>
+
+  <div class="action-item">
+    <div class="action-title">2. Force www-to-non-www redirect</div>
+    <p>Google is seeing www.apolloadvancement.com as a separate site. Add a Cloudflare Page Rule or Redirect Rule that 301-redirects all www traffic to the non-www canonical. Then verify the non-www property is primary in GSC.</p>
+    <div class="action-meta"><span>Impact: <strong>Medium</strong></span> <span>Effort: 15 minutes</span></div>
+  </div>
+
+  <div class="action-item">
+    <div class="action-title">3. Rewrite title tags on core pages</div>
+    <p>Replace generic titles with keyword-targeted ones. Suggested rewrites:</p>
+    <table>
+      <tr><th>Page</th><th>New Title</th></tr>
+      <tr><td>Homepage</td><td>Apollo Advancement | Fundraising Consultant for Nonprofits in Canada</td></tr>
+      <tr><td>About</td><td>About John Jalsevac | Nonprofit Fundraising Consultant, Ontario</td></tr>
+      <tr><td>Services</td><td>Nonprofit Fundraising Consulting Services | Apollo Advancement</td></tr>
+      <tr><td>Results</td><td>Fundraising Results &amp; Case Studies | Apollo Advancement</td></tr>
+      <tr><td>Resources</td><td>Free Fundraising Resources for Nonprofits | Apollo Advancement</td></tr>
+      <tr><td>Blog</td><td>Nonprofit Fundraising Blog | Apollo Advancement</td></tr>
+    </table>
+    <div class="action-meta"><span>Impact: <strong>High</strong></span> <span>Effort: 30 minutes</span></div>
+  </div>
+
+  <div class="action-item">
+    <div class="action-title">4. Add lastmod dates to all sitemap entries</div>
+    <p>Several pages in sitemap.xml are missing &lt;lastmod&gt; tags. Add them to signal freshness to Google.</p>
+    <div class="action-meta"><span>Impact: <strong>Low</strong></span> <span>Effort: 15 minutes</span></div>
+  </div>
+
+  <div class="action-item">
+    <div class="action-title">5. Add width and height attributes to blog header images</div>
+    <p>Blog header &lt;img&gt; tags are missing explicit width/height, which can cause Cumulative Layout Shift. Add dimensions to prevent layout jumps during page load.</p>
+    <div class="action-meta"><span>Impact: <strong>Low</strong></span> <span>Effort: 15 minutes</span></div>
+  </div>
+
+  <div class="action-item">
+    <div class="action-title">6. Create a Google Business Profile</div>
+    <p>Set up a GBP listing for "Apollo Advancement" in Kawartha Lakes, Ontario with your service categories (fundraising consultant, nonprofit consultant). This is free and enables local pack visibility.</p>
+    <div class="action-meta"><span>Impact: <strong>High</strong></span> <span>Effort: 30 minutes</span></div>
+  </div>
+
+</div>
+
+<h3>Strategic Investments (this quarter)</h3>
+<div class="action-list">
+
+  <div class="action-item">
+    <div class="action-title">7. Publish "how-to" blog posts targeting informational keywords</div>
+    <p>Your current blog series is philosophically rich but does not target the queries people actually type into Google. Complement the fallacy series with practical posts like "How to Write a Year-End Fundraising Appeal," "How to Build an Annual Fund From Scratch," "Why Donors Stop Giving (And How to Win Them Back)." Aim for 1,500+ words, include a clear keyword in the H1 and first 100 words, and link to your service pages.</p>
+    <div class="action-meta"><span>Impact: <strong>High</strong></span> <span>Effort: 2-4 hours per post</span> <span>Goal: 2 posts/month</span></div>
+  </div>
+
+  <div class="action-item">
+    <div class="action-title">8. Build internal linking architecture</div>
+    <p>Every blog post should link to at least 1-2 service pages. Every service page should link to relevant blog posts. The homepage should link directly to your 2-3 highest-priority pages (fractional fundraising, blog series). This distributes link equity and tells Google which pages matter most.</p>
+    <div class="action-meta"><span>Impact: <strong>High</strong></span> <span>Effort: 2-3 hours (one-time)</span></div>
+  </div>
+
+  <div class="action-item">
+    <div class="action-title">9. Create standalone case study pages</div>
+    <p>Break out Wayside Academy and Peterborough Singers into dedicated case study pages with detailed narratives, specific metrics, and photos. These rank for organization-specific and approach-specific queries, and they build trust with prospects who find you through search.</p>
+    <div class="action-meta"><span>Impact: <strong>High</strong></span> <span>Effort: Half day each</span></div>
+  </div>
+
+  <div class="action-item">
+    <div class="action-title">10. Add a location-specific landing page</div>
+    <p>Create a page targeting "fundraising consultant Ontario" or "nonprofit fundraising help Kawartha Lakes / Peterborough." Include local context, case studies from the region, and your physical location signals. Consider a second page for US-based clients.</p>
+    <div class="action-meta"><span>Impact: <strong>Medium</strong></span> <span>Effort: Half day</span></div>
+  </div>
+
+  <div class="action-item">
+    <div class="action-title">11. Add images and more depth to service pages</div>
+    <p>Your 6 service subpages have zero images and relatively thin content (7-14 paragraphs). Add relevant imagery, expand each page to 800-1,200 words, include FAQs, and add testimonial quotes. This improves engagement signals and gives Google more content to index.</p>
+    <div class="action-meta"><span>Impact: <strong>Medium</strong></span> <span>Effort: 1-2 hours per page</span></div>
+  </div>
+
+  <div class="action-item">
+    <div class="action-title">12. Pursue backlinks through guest content and directories</div>
+    <p>The site currently has near-zero backlink authority. Target: AFP chapter websites, Imagine Canada's directory, Charity Village, nonprofit-focused publications (Nonprofit Quarterly, Canadian Fundraiser). Your blog content is strong enough to pitch for guest posts or link features. Even 5-10 quality backlinks would significantly move the needle for a site this new.</p>
+    <div class="action-meta"><span>Impact: <strong>High</strong></span> <span>Effort: Ongoing (1-2 hours/week)</span></div>
+  </div>
+
+  <div class="action-item">
+    <div class="action-title">13. Submit to fundraising consultant directories</div>
+    <p>Get listed on Clutch.co, Laridae's nonprofit consultant directory, Consultants4Good, and AFP's consultant finder. These provide both referral traffic and backlinks.</p>
+    <div class="action-meta"><span>Impact: <strong>Medium</strong></span> <span>Effort: 2-3 hours (one-time)</span></div>
+  </div>
+
+</div>
+
+<h3>The honest assessment</h3>
+<p>Your site is 2 months old with 12 indexed pages and zero backlinks. For a brand new site, this is normal. SEO for a consulting practice like yours is a 6-12 month game, not a 6-week sprint. The good news is that your content quality is notably high, your technical foundation is clean, and you are competing in a niche (Canadian fundraising consulting) where many competitors have mediocre content. The biggest lever you can pull right now is publishing volume: more keyword-targeted blog posts, more pages, more reasons for Google to send traffic your way.</p>
+
+<p>The "fallacy" series is excellent brand content, but it is not search-optimized content. You need both. The series builds trust once someone finds you. Practical how-to posts are what will get them to find you in the first place.</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,647 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<title>Letter of Engagement: Maryvale Academy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FFFAF5;
+    --bg-warm:#F5EBE0;
+    --bg-dark:#1A1410;
+    --bg-dark-2:#120D0A;
+    --ink:#1A1410;
+    --ink-soft:#5C514A;
+    --ink-mute:#8A7F75;
+    --accent:#C8461C;
+    --accent-hover:#A83610;
+    --accent-glow:#E86E3A;
+    --rule:#DDD2C6;
+    --rule-soft:#EDE4D9;
+    --font-display:'Playfair Display', Georgia, serif;
+    --font-body:'DM Sans', -apple-system, sans-serif;
+    --font-mono:'JetBrains Mono', monospace;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:#E8DFD2; color:var(--ink);}
+  body{
+    font-family:var(--font-body);
+    font-size:12px;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  .doc{
+    max-width:8.5in;
+    width:8.5in;
+    margin:32px auto;
+    background:var(--bg);
+    box-shadow:0 4px 40px rgba(26,20,16,.12);
+  }
+  .page{
+    position:relative;
+    padding:0.4in 0.45in 0.55in;
+    min-height:11in; max-height:11in; height:11in;
+    background:var(--bg);
+    page-break-after:always;
+    break-after:page;
+    overflow:hidden;
+  }
+  .page.warm{background:var(--bg-warm);}
+
+  /* ========== SHARED TYPE ========== */
+  .eyebrow{
+    font-family:var(--font-body);
+    font-size:10.5px; font-weight:700;
+    letter-spacing:.22em; text-transform:uppercase;
+    color:var(--accent);
+  }
+  h2.section{
+    font-family:var(--font-display); font-weight:900;
+    font-size:36px; line-height:1.02; letter-spacing:-.022em;
+    color:var(--ink);
+  }
+  h2.section em{font-style:italic; color:var(--accent); font-weight:900;}
+  h3{
+    font-family:var(--font-display); font-weight:800;
+    font-size:18px; line-height:1.2; letter-spacing:-.008em;
+    color:var(--ink); margin-bottom:6px;
+  }
+  p{margin-bottom:10px; max-width:none;}
+  p.lede{
+    font-family:var(--font-body);
+    font-size:12px; line-height:1.5; color:var(--ink-soft);
+    max-width:none; font-weight:400;
+  }
+  p.lede strong{color:var(--ink); font-weight:600;}
+
+  /* ========== MASTHEAD / FOOTER ========== */
+  .masthead{
+    display:flex; align-items:center; justify-content:space-between;
+    font-family:var(--font-body); font-size:9px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ink-mute); font-weight:600;
+    padding-bottom:14px; border-bottom:1px solid var(--rule);
+    margin-bottom:36px;
+  }
+  .masthead .brand{
+    font-family:var(--font-display); font-weight:700; font-size:15px;
+    letter-spacing:-.005em; text-transform:none; color:var(--ink);
+  }
+  .masthead .brand span{color:var(--accent);}
+  .masthead .folio{font-family:var(--font-mono); font-size:10px; font-variant-numeric:tabular-nums;}
+
+  .page-footer{
+    position:absolute; left:0.45in; right:0.45in; bottom:0.2in;
+    display:flex; justify-content:space-between; align-items:baseline;
+    font-family:var(--font-body); font-size:9px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ink-mute); font-weight:600;
+    padding-top:12px; border-top:1px solid var(--rule);
+  }
+  .page-footer .cite{color:var(--accent); letter-spacing:.2em;}
+  .page-footer .folio{font-family:var(--font-mono); font-variant-numeric:tabular-nums;}
+
+  /* ========== SECTION HEAD ========== */
+  .section-head{margin-bottom:18px;}
+  .section-head .eyebrow{margin-bottom:10px; display:block;}
+
+  /* ========== LETTER BODY ========== */
+  .letter-meta{
+    margin-bottom:28px;
+  }
+  .letter-meta .date{
+    font-family:var(--font-body); font-size:12px; color:var(--ink-soft);
+    font-weight:500; margin-bottom:18px;
+  }
+  .letter-meta .addr{
+    font-family:var(--font-body); font-size:12px; color:var(--ink);
+    line-height:1.55; font-weight:400;
+  }
+  .salutation{
+    font-family:var(--font-body); font-size:12px; color:var(--ink);
+    font-weight:400; margin-bottom:14px;
+  }
+  .letter-body p{
+    font-family:var(--font-body); font-size:12px; color:var(--ink-soft);
+    line-height:1.55; margin-bottom:11px; max-width:none;
+  }
+  .letter-body p strong{color:var(--ink); font-weight:600;}
+
+  /* ========== CLAUSE SECTIONS ========== */
+  .clause{margin-top:20px;}
+  .clause-head{
+    font-family:var(--font-body); font-size:9.5px; font-weight:700;
+    letter-spacing:.22em; text-transform:uppercase;
+    color:var(--accent);
+    padding-bottom:7px;
+    border-bottom:2px solid var(--ink);
+    margin-bottom:10px;
+  }
+  .clause p{
+    font-family:var(--font-body); font-size:12px; color:var(--ink-soft);
+    line-height:1.5; margin-bottom:7px; max-width:none;
+  }
+  .clause p strong{color:var(--ink); font-weight:600;}
+
+  /* ========== SCOPE LIST (reused from proposal) ========== */
+  .scope-list{
+    margin:16px 0;
+    border-top:2px solid var(--ink);
+  }
+  .scope-row{
+    display:grid; grid-template-columns:44px 170px 1fr;
+    gap:16px;
+    padding:12px 0;
+    border-bottom:1px solid var(--rule);
+    align-items:baseline;
+  }
+  .scope-row:last-child{border-bottom:2px solid var(--ink);}
+  .scope-row .num{
+    font-family:var(--font-mono); font-size:11px; color:var(--accent);
+    font-variant-numeric:tabular-nums; font-weight:500;
+  }
+  .scope-row .name{
+    font-family:var(--font-display); font-size:16px; font-weight:800;
+    letter-spacing:-.012em; color:var(--ink); line-height:1.15;
+  }
+  .scope-row .desc{font-size:12px; color:var(--ink-soft); line-height:1.5; max-width:none;}
+
+  /* ========== INVOICE (reused from proposal) ========== */
+  .invoice{
+    margin:12px 0 10px;
+    border:2px solid var(--ink);
+    background:#fff;
+  }
+  .inv-head{
+    display:grid; grid-template-columns:1fr 140px 140px;
+    padding:10px 20px;
+    background:var(--bg-dark); color:#fff;
+    font-family:var(--font-body); font-size:9px; letter-spacing:.22em; text-transform:uppercase; font-weight:700;
+  }
+  .inv-head .r{text-align:right;}
+  .inv-section-label{
+    padding:8px 20px 5px; background:var(--bg-warm);
+    font-family:var(--font-display); font-style:italic; color:var(--accent);
+    font-size:12px; font-weight:500;
+    border-bottom:1px solid var(--rule-soft);
+  }
+  .inv-row{
+    display:grid; grid-template-columns:1fr 110px 110px;
+    padding:5px 20px;
+    border-bottom:1px solid var(--rule-soft);
+    align-items:baseline;
+    font-size:11px;
+  }
+  .inv-row .desc{color:var(--ink); font-weight:500;}
+  .inv-row .desc small{display:block; color:var(--ink-soft); font-size:9px; margin-top:1px; font-weight:400; line-height:1.4;}
+  .inv-row .qty{color:var(--ink-mute); font-family:var(--font-mono); font-size:10px; text-align:right;}
+  .inv-row .amt{font-family:var(--font-mono); font-size:11px; color:var(--ink); text-align:right; font-variant-numeric:tabular-nums; font-weight:500;}
+  .inv-subtotal{
+    display:grid; grid-template-columns:1fr 110px;
+    padding:5px 20px;
+    border-bottom:1px solid var(--rule);
+    font-size:9.5px; color:var(--ink-soft);
+    font-family:var(--font-body); letter-spacing:.04em; font-weight:600; text-transform:uppercase;
+  }
+  .inv-subtotal .amt{text-align:right; font-family:var(--font-mono); color:var(--ink); font-variant-numeric:tabular-nums; letter-spacing:0; text-transform:none;}
+  .inv-total{
+    display:grid; grid-template-columns:1fr 210px;
+    padding:10px 20px;
+    background:var(--bg-dark); color:#fff;
+    align-items:baseline;
+  }
+  .inv-total .l{
+    font-family:var(--font-display); font-style:italic; font-size:16px;
+    color:#fff; font-weight:400;
+  }
+  .inv-total .l strong{font-style:normal; font-weight:800;}
+  .inv-total .amt{
+    text-align:right;
+    font-family:var(--font-display); font-size:32px; font-weight:900; letter-spacing:-.03em;
+    color:#fff; font-variant-numeric:tabular-nums; line-height:1;
+  }
+  .inv-total .amt em{color:var(--accent-glow); font-style:italic;}
+
+  .terms{
+    display:grid; grid-template-columns:1fr 1fr; gap:18px;
+    margin-top:10px; padding-top:10px; border-top:1px solid var(--rule);
+  }
+  .terms .t .k{
+    font-family:var(--font-body); font-size:9px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--accent); font-weight:700; margin-bottom:5px;
+  }
+  .terms .t p{font-size:11px; line-height:1.5; color:var(--ink-soft); margin:0; max-width:none;}
+
+  /* ========== SIGNATURE BLOCK ========== */
+  .sig-block{margin-top:28px;}
+  .sig-closing{
+    font-family:var(--font-body); font-size:12px; color:var(--ink);
+    margin-bottom:32px;
+  }
+  .sig-line{
+    width:3in;
+    border-bottom:1px solid var(--ink);
+    margin-bottom:4px;
+  }
+  .sig-name{
+    font-family:var(--font-display); font-size:14px; font-weight:800;
+    color:var(--ink); letter-spacing:-.005em;
+  }
+  .sig-role{
+    font-family:var(--font-body); font-size:10px; color:var(--ink-mute);
+    margin-top:2px;
+  }
+
+  /* ========== ACCEPTANCE BLOCK ========== */
+  .accept-title{
+    font-family:var(--font-display); font-weight:900;
+    font-size:28px; line-height:1; letter-spacing:-.02em;
+    color:var(--ink);
+    padding-bottom:12px;
+    border-bottom:2px solid var(--ink);
+    margin-bottom:22px;
+  }
+  .accept-title em{font-style:italic; color:var(--accent); font-weight:900;}
+  .accept-body p{
+    font-family:var(--font-body); font-size:12px; color:var(--ink-soft);
+    line-height:1.5; margin-bottom:12px; max-width:none;
+  }
+  .accept-fields{margin-top:36px;}
+  .accept-field{margin-bottom:28px;}
+  .accept-field .line{
+    width:3.5in;
+    border-bottom:1px solid var(--ink);
+    margin-bottom:4px;
+  }
+  .accept-field .label{
+    font-family:var(--font-body); font-size:9.5px; color:var(--ink-mute);
+    letter-spacing:.12em; text-transform:uppercase; font-weight:600;
+  }
+
+  /* ========== PAYMENT INSTRUCTIONS ========== */
+  .payment-instructions{
+    margin-top:32px;
+    padding-top:14px;
+    border-top:2px solid var(--ink);
+    text-align:center;
+  }
+  .payment-instructions .main{
+    font-family:var(--font-display); font-style:italic; font-size:14px;
+    color:var(--ink); font-weight:500; margin-bottom:6px;
+  }
+  .payment-instructions .detail{
+    font-family:var(--font-body); font-size:10px; color:var(--ink-mute);
+    letter-spacing:.04em;
+  }
+
+  /* ========== EMPHASIS (reused from proposal) ========== */
+  .emphasis{
+    background:var(--bg-dark);
+    color:#fff;
+    padding:18px 22px;
+    margin-top:14px;
+    position:relative;
+  }
+  .emphasis::before{
+    content:""; position:absolute; top:0; left:0; bottom:0;
+    width:4px; background:var(--accent);
+  }
+  .emphasis .k{
+    font-family:var(--font-body); font-size:9.5px; letter-spacing:.26em; text-transform:uppercase;
+    color:var(--accent-glow); font-weight:700; margin-bottom:8px;
+  }
+  .emphasis p{
+    font-family:var(--font-display); font-size:14px; font-style:italic; font-weight:400;
+    line-height:1.4; color:#fff; margin:0; max-width:62ch;
+  }
+
+  /* ========== PRINT ========== */
+  @page{size:8.5in 11in; margin:0;}
+  @media print{
+    *, *::before, *::after {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+      color-adjust: exact !important;
+    }
+    html, body {
+      background: #fff !important;
+      margin: 0 !important; padding: 0 !important;
+    }
+    .doc {
+      margin: 0 !important; max-width: none !important; width: 8.5in !important;
+      box-shadow: none !important;
+    }
+    .page {
+      width: 8.5in !important;
+      min-height: 11in !important;
+      margin: 0 !important;
+      page-break-after: always !important;
+      break-after: page !important;
+      overflow: visible !important;
+    }
+    .page:last-of-type {
+      page-break-after: auto !important;
+      break-after: auto !important;
+    }
+    .clause, .scope-row, .emphasis, .sig-block, .accept-field,
+    .section-head, .invoice {
+      page-break-inside: avoid !important;
+      break-inside: avoid !important;
+    }
+    a { color: inherit !important; text-decoration: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <!-- ===================== PAGE 1: LETTER OPENING ===================== -->
+  <section class="page">
+    <div class="masthead">
+      <span class="brand">Apollo <span>Advancement</span></span>
+      <span>Letter of Engagement &middot; Maryvale Academy</span>
+      <span class="folio">01</span>
+    </div>
+
+    <div class="section-head" style="margin-bottom:28px;">
+      <span class="eyebrow">Letter of Engagement</span>
+      <h2 class="section">Development Audit<br><em>&amp; Strategic Plan.</em></h2>
+    </div>
+
+    <div class="letter-meta">
+      <div class="date">April 28, 2026</div>
+      <div class="addr">
+        Marisa Casagrande<br>
+        Maryvale Academy of Ottawa<br>
+        2191 Benjamin Ave<br>
+        Ottawa, ON &nbsp;K2A 1P6
+      </div>
+    </div>
+
+    <div class="salutation">Dear Marisa,</div>
+
+    <div class="letter-body">
+      <p>Thank you for the opportunity to work with Maryvale Academy. This letter confirms the terms of our engagement for a development audit and strategic plan, as outlined in the proposal dated April 2026. Please review the terms below, sign where indicated, and return one copy with the first installment to initiate the engagement.</p>
+    </div>
+
+    <div class="clause">
+      <div class="clause-head">01 &middot; Scope of Work</div>
+      <p>Apollo Advancement will conduct a comprehensive development audit of Maryvale Academy covering seven areas: organizational culture, board engagement, donor data and systems, communications and storytelling, fundraising programs, donor stewardship, and capital campaign readiness.</p>
+      <p>The audit will be paired with a written 12-month strategic development plan: a month-by-month calendar of every fundraising activity, donor communication, and stewardship rhythm. The strategic plan is delivered as a starting point for discussion and refinement, not a final directive.</p>
+    </div>
+
+    <div class="clause">
+      <div class="clause-head">02 &middot; Deliverables</div>
+    </div>
+
+    <div class="scope-list" style="margin-top:8px;">
+      <div class="scope-row">
+        <span class="num">01</span>
+        <span class="name">Audit report</span>
+        <span class="desc">A comprehensive document presenting findings across all seven audit areas, with specific observations, benchmarks, and prioritized recommendations specific to Maryvale Academy.</span>
+      </div>
+      <div class="scope-row">
+        <span class="num">02</span>
+        <span class="name">Strategic plan</span>
+        <span class="desc">A 12-month development roadmap covering solicitations, communications, stewardship, and role assignments.</span>
+      </div>
+      <div class="scope-row">
+        <span class="num">03</span>
+        <span class="name">Board presentation</span>
+        <span class="desc">A virtual, 60-90 minute presentation of findings and recommendations to the full board or a designated committee.</span>
+      </div>
+      <div class="scope-row">
+        <span class="num">04</span>
+        <span class="name">30-day follow-up</span>
+        <span class="desc">One follow-up call approximately 30 days after the board presentation to answer questions and support early implementation.</span>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <span class="cite">Letter of Engagement</span>
+      <span>Maryvale Academy &middot; April 2026</span>
+      <span class="folio">01</span>
+    </div>
+  </section>
+
+  <!-- ===================== PAGE 2: ON-SITE, TIMELINE, INVESTMENT ===================== -->
+  <section class="page">
+    <div class="masthead">
+      <span class="brand">Apollo <span>Advancement</span></span>
+      <span>Letter of Engagement &middot; Maryvale Academy</span>
+      <span class="folio">02</span>
+    </div>
+
+    <div class="clause" style="margin-top:0;">
+      <div class="clause-head">03 &middot; On-Site Visit</div>
+      <p>The engagement includes a two-day on-site visit to Ottawa for stakeholder interviews with board members, the executive director, and key staff; and a campus tour. Dates will be coordinated with Maryvale and scheduled within the first three weeks of the engagement.</p>
+    </div>
+
+    <div class="clause">
+      <div class="clause-head">04 &middot; Timeline</div>
+      <p><strong>Formal start date: May 19, 2026.</strong> Estimated completion: 6 to 8 weeks from receipt of the initial document package. A detailed document and data request will be issued upon signing of this letter.</p>
+    </div>
+
+    <div class="clause">
+      <div class="clause-head">05 &middot; Investment</div>
+    </div>
+
+    <div class="invoice">
+      <div class="inv-head">
+        <div>Description</div>
+        <div class="r">Detail</div>
+        <div class="r">Amount&nbsp;(CAD)</div>
+      </div>
+
+      <div class="inv-section-label">Professional Fees</div>
+      <div class="inv-row">
+        <div class="desc">Development audit &amp; strategic plan<small>Seven audit areas &middot; written report &middot; strategic development plan</small></div>
+        <div class="qty">fixed fee</div>
+        <div class="amt">$7,500.00</div>
+      </div>
+      <div class="inv-row">
+        <div class="desc">Board presentation<small>In-person or virtual, full board or committee</small></div>
+        <div class="qty">&ndash;</div>
+        <div class="amt" style="color:var(--ink-mute); font-style:italic;">included</div>
+      </div>
+      <div class="inv-row">
+        <div class="desc">30-day follow-up consultation<small>One call, post-presentation</small></div>
+        <div class="qty">&ndash;</div>
+        <div class="amt" style="color:var(--ink-mute); font-style:italic;">included</div>
+      </div>
+      <div class="inv-subtotal"><div>Subtotal, professional fees</div><div class="amt">$7,500.00</div></div>
+
+      <div class="inv-section-label">Travel Expenses: Ottawa, 2 days</div>
+      <div class="inv-row">
+        <div class="desc">Mileage<small>Kawartha Lakes &rarr; Ottawa, return &middot; ~700&nbsp;km at CRA rate</small></div>
+        <div class="qty">700 km</div>
+        <div class="amt">$504.00</div>
+      </div>
+      <div class="inv-row">
+        <div class="desc">Accommodation<small>One night</small></div>
+        <div class="qty">1 night</div>
+        <div class="amt">$200.00</div>
+      </div>
+      <div class="inv-row">
+        <div class="desc">Meals<small>Two days</small></div>
+        <div class="qty">2 days</div>
+        <div class="amt">$100.00</div>
+      </div>
+      <div class="inv-subtotal"><div>Subtotal, travel</div><div class="amt">$804.00</div></div>
+
+      <div class="inv-subtotal" style="background:var(--bg-warm); border-bottom:1px solid var(--rule-soft);"><div>Subtotal before tax</div><div class="amt">$8,304.00</div></div>
+      <div class="inv-row">
+        <div class="desc">HST<small>Ontario &middot; 13%</small></div>
+        <div class="qty">13%</div>
+        <div class="amt">$1,079.52</div>
+      </div>
+
+      <div class="inv-total">
+        <div class="l"><strong>Total investment.</strong><br>All-in, HST included.</div>
+        <div class="amt">$9,383<em>.52</em></div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <span class="cite">Investment</span>
+      <span>Maryvale Academy &middot; April 2026</span>
+      <span class="folio">02</span>
+    </div>
+  </section>
+
+  <!-- ===================== PAGE 3: PAYMENT & TERMS ===================== -->
+  <section class="page warm">
+    <div class="masthead">
+      <span class="brand">Apollo <span>Advancement</span></span>
+      <span>Letter of Engagement &middot; Maryvale Academy</span>
+      <span class="folio">03</span>
+    </div>
+
+    <div class="clause" style="margin-top:0;">
+      <div class="clause-head">06 &middot; Payment Terms</div>
+      <p>Payment is due in two installments:</p>
+      <p><strong>(a) First installment (50%): $4,691.76,</strong> due upon signing of this letter. This installment is non-refundable and compensates Apollo Advancement for reserving the engagement period, beginning document review and analysis, and the opportunity cost of declining other work during this time.</p>
+      <p><strong>(b) Second installment (50%): $4,691.76,</strong> due upon delivery of the final written report.</p>
+      <p>Invoices will be issued by Apollo Advancement. Payment may be made by e-transfer to jjalsevac@gmail.com or by cheque.</p>
+    </div>
+
+    <div class="clause">
+      <div class="clause-head">07 &middot; Cancellation</div>
+      <p>Either party may terminate this engagement with 7 days' written notice. In the event of cancellation by Maryvale, the first installment is non-refundable. If cancellation occurs after the on-site visit has taken place, both installments are due in full.</p>
+      <p>In the event of cancellation by Apollo Advancement, Apollo Advancement will refund any fees not yet earned on a pro-rata basis based on work completed to date.</p>
+    </div>
+
+    <div class="clause">
+      <div class="clause-head">08 &middot; What Is Not Included</div>
+      <p>This engagement does not include implementation of audit recommendations, ongoing fundraising counsel, campaign management, or additional on-site visits beyond the two days specified. These services are available through Apollo Advancement and can be discussed following the audit.</p>
+    </div>
+
+    <div class="clause">
+      <div class="clause-head">09 &middot; Confidentiality</div>
+      <p>All information provided by Maryvale Academy in connection with this engagement will be treated as confidential. Apollo Advancement will not disclose donor data, financial information, board discussions, or any other proprietary information to third parties without written consent from Maryvale. Maryvale's name and general engagement details may be referenced in Apollo Advancement's portfolio and marketing materials unless Maryvale requests otherwise in writing.</p>
+    </div>
+
+    <div class="clause">
+      <div class="clause-head">10 &middot; Independent Contractor</div>
+      <p>Apollo Advancement is engaged as an independent contractor. Nothing in this agreement creates an employer-employee, partnership, or agency relationship between the parties.</p>
+    </div>
+
+    <div class="clause">
+      <div class="clause-head">11 &middot; Limitation of Liability</div>
+      <p>Apollo Advancement's total liability arising out of or related to this engagement shall not exceed the total fees actually paid by Maryvale under this agreement. In no event shall Apollo Advancement be liable for any indirect, incidental, consequential, or lost revenue damages, regardless of whether such damages were foreseeable or whether Apollo Advancement was advised of the possibility of such damages.</p>
+      <p>The audit report and strategic plan represent Apollo Advancement's professional judgment and recommendations based on the information available at the time of the engagement. Apollo Advancement does not guarantee specific fundraising outcomes.</p>
+    </div>
+
+    <div class="page-footer">
+      <span class="cite">Terms</span>
+      <span>Maryvale Academy &middot; April 2026</span>
+      <span class="folio">03</span>
+    </div>
+  </section>
+
+  <!-- ===================== PAGE 4: REMAINING TERMS & CLOSING ===================== -->
+  <section class="page">
+    <div class="masthead">
+      <span class="brand">Apollo <span>Advancement</span></span>
+      <span>Letter of Engagement &middot; Maryvale Academy</span>
+      <span class="folio">04</span>
+    </div>
+
+    <div class="clause" style="margin-top:0;">
+      <div class="clause-head">12 &middot; Client Responsibilities</div>
+      <p>Maryvale agrees to provide timely access to documents, data, staff, and stakeholders necessary to complete the engagement. This includes, but is not limited to, donor records, financial statements, past communications, and scheduling of interviews during the on-site visit. Delays in providing requested materials may affect the timeline and scope of deliverables.</p>
+    </div>
+
+    <div class="clause">
+      <div class="clause-head">13 &middot; Ownership of Deliverables</div>
+      <p>Upon receipt of final payment, Maryvale Academy shall own all deliverables produced under this engagement, including the written audit report and strategic development plan. Apollo Advancement retains the right to reuse its proprietary methodologies, analytical frameworks, templates, and anonymized insights in future engagements and professional development materials.</p>
+    </div>
+
+    <div class="clause">
+      <div class="clause-head">14 &middot; Force Majeure</div>
+      <p>Neither party shall be liable for delays or failure to perform obligations under this agreement due to circumstances beyond reasonable control, including but not limited to illness, family emergency, natural disaster, or travel disruption. The affected party shall notify the other party promptly and the timeline shall be adjusted accordingly.</p>
+    </div>
+
+    <div class="emphasis" style="margin-top:24px;">
+      <div class="k">A note</div>
+      <p>I look forward to working with the Maryvale board to build the foundation for a successful campaign.</p>
+    </div>
+
+    <div class="sig-block">
+      <div class="sig-closing">Sincerely,</div>
+      <img src="signature-transparent.png" alt="John Jalsevac signature" style="display:block; width:2in; height:auto; margin:8px 0 -4px;">
+      <div class="sig-line"></div>
+      <div class="sig-name">John Jalsevac, PhD</div>
+      <div class="sig-role">Apollo Advancement</div>
+    </div>
+
+    <div class="page-footer">
+      <span class="cite">Terms</span>
+      <span>Maryvale Academy &middot; April 2026</span>
+      <span class="folio">04</span>
+    </div>
+  </section>
+
+  <!-- ===================== PAGE 5: ACCEPTANCE ===================== -->
+  <section class="page warm">
+    <div class="masthead">
+      <span class="brand">Apollo <span>Advancement</span></span>
+      <span>Letter of Engagement &middot; Maryvale Academy</span>
+      <span class="folio">05</span>
+    </div>
+
+    <div class="accept-title"><em>Acceptance.</em></div>
+
+    <div class="accept-body">
+      <p>By signing below, the undersigned representative of Maryvale Academy of Ottawa confirms that Maryvale Academy agrees to the terms set out in this letter of engagement dated April 28, 2026, and authorizes the commencement of the engagement on May 19, 2026.</p>
+    </div>
+
+    <div class="accept-fields">
+      <div class="accept-field">
+        <div class="line"></div>
+        <div class="label">Signature</div>
+      </div>
+      <div class="accept-field">
+        <div class="line"></div>
+        <div class="label">Printed Name and Title</div>
+      </div>
+      <div class="accept-field">
+        <div class="line"></div>
+        <div class="label">Date</div>
+      </div>
+    </div>
+
+    <div class="payment-instructions">
+      <div class="main">Please return one signed copy with the first installment of $4,691.76.</div>
+      <div class="detail">E-transfer: jjalsevac@gmail.com &nbsp;&nbsp;|&nbsp;&nbsp; Cheque payable to Apollo Advancement</div>
+    </div>
+
+    <div class="page-footer">
+      <span class="cite">Acceptance</span>
+      <span>jjalsevac@gmail.com &middot; (705) 313-1588</span>
+      <span class="folio">05</span>
+    </div>
+  </section>
+
+</div>
+</body></html>
